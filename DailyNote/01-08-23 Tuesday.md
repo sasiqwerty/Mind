@@ -1,0 +1,56 @@
+---
+aliases: 
+tags: 
+date created: Monday, July 31st 2023, 9:13:43 am
+date modified: Tuesday, August 1st 2023, 7:28:17 am
+---
+
+## Plan for the Day
+
+## Study Topics
+
+## Topics Discussed
+
+Reports in [[CyberArk]] 
+
+## Topics Practiced
+
+## Doubts
+
+## Ideas
+
+## Thoughts
+
+- [ ] Think of a way to name pages and the interface
+	- [ ] every page has a set of features and that has to be documented well for later reference #todo 
+	- [ ] add images when you can more often
+- [ ] buy the krack cream #buy
+- [ ] do the google calander look up features for obsidian
+- [x] teach sri [[Account Discovery and Onboarding|onboarding]]
+- [ ] break down the practice topics and start studying for them
+- [ ] finish the rest of the videos
+	- [x] session 15
+	- [ ] session 16
+	- [ ] session 17
+- [ ] Mock Interview
+	- [ ] Mock interview date - 2023-08-04 7AM-10AM
+	- [ ] August 4th 2023
+	- [ ] video call interview
+		- [ ] good internet
+		- [ ] 
+	- [ ] in new - lab guide
+	- [ ] ![[Pasted image 20230731074328.png]]  
+- [ ] Create Privileged Accounts (10), 5 account in Linux  
+- [ ] 0nboard them in CyberArk Vault
+	- [ ] safe creation, 
+	- [ ] platform duplication
+- [ ] Check the connectivity.  
+- [ ] LDAP Integration.  
+	- [ ] Delete the directory mapping from PVWA..  
+	- [ ] Create some users at AD  
+	- [ ] Add the users to groups.  
+	- [ ] Directory mapping from [[Password Vault Web Access|PVWA]].  
+- [ ] Suspend a [[Lightweight Directory Access Protocol|LDAP]] user and unsuspend with Administrator user.
+- [ ] Suspend Administrator user and Unsuspend with Master User.
+- [ ] Login with Master User.
+- [ ] Create an exception with [[Master Policy]].

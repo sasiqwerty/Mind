@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"type":"file","file":"Cyberark/Core Concepts/Components/Password Vault Web Access/Policies/Master Policy/Dual Access Control.md","id":"8ea065e935de456d","x":-260,"y":-220,"width":740,"height":400},
+		{"type":"text","text":"How to add the approvers?","id":"6e5b595cb3ca12df","x":-260,"y":-360,"width":740,"height":100}
+	],
+	"edges":[]
+}

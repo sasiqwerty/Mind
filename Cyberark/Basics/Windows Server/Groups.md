@@ -1,0 +1,1 @@
+[[Organizational Unit]] are also called [[Groups]] in windows servers.

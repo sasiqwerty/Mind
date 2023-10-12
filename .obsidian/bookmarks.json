@@ -1,0 +1,213 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1695730136802,
+      "path": "What I understand about Cyberark.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1695805864120,
+      "path": "PrivateArk Client Docs.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1696154237763,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1696154423426,
+          "path": "session 22 CPM Manual Hardening.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696154458024,
+          "path": "session 14 PVWA 1.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696154477180,
+          "path": "session 15 PVWA 2.md"
+        }
+      ],
+      "title": "day1 morning"
+    },
+    {
+      "type": "group",
+      "ctime": 1690374128868,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1695730139268,
+          "path": "safes and users created after each install.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1695714139017,
+          "path": "Installation Location of CyberArk Files.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1695417703195,
+          "path": "session 21 CPM03 logfiles.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1694813246966,
+          "path": "event-viewer logs.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1694808100850,
+          "path": "vault-related.md"
+        },
+        {
+          "type": "group",
+          "ctime": 1695118187618,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1695118173792,
+              "path": "pvwa-credfile-creation.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1695118173792,
+              "path": "cpm-credfile-creation.md"
+            },
+            {
+              "type": "file",
+              "ctime": 1695133749828,
+              "path": "credfile creation common process.md"
+            }
+          ],
+          "title": "cred-file-creation"
+        },
+        {
+          "type": "file",
+          "ctime": 1695805351343,
+          "path": "test 1.md"
+        }
+      ],
+      "title": "CurrentWork"
+    },
+    {
+      "type": "file",
+      "ctime": 1696154115071,
+      "path": "study plan for i&c course.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1696244090504,
+      "path": "Skytap CyberArk Labs - Creation.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1695713682249,
+      "path": "work-checklist.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1696436131554,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "index-cyberark-IC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 7 Vault Prerequisites Services.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 9 Vault Configuration Files.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 10 Log Files Debugging Levels.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 11 Vault DB Safes Default Users.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 12 MasterCD Operator CD Other Topics.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 13 Break Glass Procedure.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "session 14 PVWA 1.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "session 15 PVWA 2.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 16 PVWA Credfile Creation.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 17 PVWA Logs Files Configuration Files.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 18 PVWA Manual Hardening.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "session 19 CPM01.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "Session 20 CPM02.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "session 21 CPM03 logfiles.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696436119491,
+          "path": "session 22 CPM Manual Hardening.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1696443910685,
+          "path": "Installations.md"
+        }
+      ],
+      "title": "IC Cyberark"
+    },
+    {
+      "type": "file",
+      "ctime": 1696654240226,
+      "path": "Restructuring CyberArk Notes.md",
+      "title": "Restructuring CyberArk Notes"
+    }
+  ]
+}

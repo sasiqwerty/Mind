@@ -1,0 +1,11 @@
+{
+  "accentColor": "#8197a2",
+  "baseFontSize": 17,
+  "cssTheme": "Atom",
+  "textFontFamily": "Inter",
+  "monospaceFontFamily": "Cascadia Code",
+  "interfaceFontFamily": "Inter",
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "theme": "obsidian"
+}

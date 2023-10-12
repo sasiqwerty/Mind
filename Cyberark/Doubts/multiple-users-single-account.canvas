@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"type":"file","file":"Cyberark/Doubts/Images/Pasted image 20230724134507.png","id":"36f32d662d16489c","x":0,"y":0,"width":400,"height":211},
+		{"type":"text","text":"so is it possible for multiple users can access a single account?","id":"b4ed5cab70311560","x":0,"y":-140,"width":400,"height":104},
+		{"type":"file","file":"Cyberark/Doubts/Images/Pasted image 20230724134550.png","id":"5be2dc23f866179f","x":-420,"y":-140,"width":399,"height":307}
+	],
+	"edges":[]
+}

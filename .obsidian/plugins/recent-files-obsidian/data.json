@@ -1,0 +1,209 @@
+{
+  "recentFiles": [
+    {
+      "basename": "LDAP Integration",
+      "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
+    },
+    {
+      "basename": "09-10-23 Monday",
+      "path": "DailyNote/09-10-23 Monday.md"
+    },
+    {
+      "basename": "dead-cells unlock blueprints",
+      "path": "dead-cells unlock blueprints.md"
+    },
+    {
+      "basename": "linkshelf-token",
+      "path": "linkshelf-token.md"
+    },
+    {
+      "basename": "Components and their Logs-services-config data",
+      "path": "Components and their Logs-services-config data.md"
+    },
+    {
+      "basename": "20 Python Scripts with Code to Automate Your Work",
+      "path": "20 Python Scripts with Code to Automate Your Work.md"
+    },
+    {
+      "basename": "User Management",
+      "path": "User Management.md"
+    },
+    {
+      "basename": "pvwa related images",
+      "path": "pvwa related images.md"
+    },
+    {
+      "basename": "listen-session07",
+      "path": "listen-session07.md"
+    },
+    {
+      "basename": "Session 11 Vault DB Safes Default Users",
+      "path": "Session 11 Vault DB Safes Default Users.md"
+    },
+    {
+      "basename": "index-cyberark-IC",
+      "path": "index-cyberark-IC.md"
+    },
+    {
+      "basename": "Virtual Box Guide",
+      "path": "Virtual Box Guide.md"
+    },
+    {
+      "basename": "conv-file",
+      "path": "conv-file.md"
+    },
+    {
+      "basename": "pc-build",
+      "path": "pc-build.md"
+    },
+    {
+      "basename": "safes and users created after each install",
+      "path": "safes and users created after each install.md"
+    },
+    {
+      "basename": "ldap-session23",
+      "path": "ldap-session23.md"
+    },
+    {
+      "basename": "pvwa-install-vbox",
+      "path": "pvwa-install-vbox.md"
+    },
+    {
+      "basename": "cpm-credfile-creation",
+      "path": "cpm-credfile-creation.md"
+    },
+    {
+      "basename": "pvwa-credfile-creation",
+      "path": "pvwa-credfile-creation.md"
+    },
+    {
+      "basename": "cpm-notes",
+      "path": "cpm-notes.md"
+    },
+    {
+      "basename": "pvwa-install notes",
+      "path": "pvwa-install notes.md"
+    },
+    {
+      "basename": "extract-delete-script",
+      "path": "extract-delete-script.md"
+    },
+    {
+      "basename": "pvwa-manual-hardening",
+      "path": "pvwa-manual-hardening.md"
+    },
+    {
+      "basename": "event-viewer logs",
+      "path": "event-viewer logs.md"
+    },
+    {
+      "basename": "password-string-pikapod",
+      "path": "password-string-pikapod.md"
+    },
+    {
+      "basename": "obs-plugin-create",
+      "path": "PowerShell/script/obs-plugin-create.md"
+    },
+    {
+      "basename": "VM Snapshots",
+      "path": "VM Snapshots.md"
+    },
+    {
+      "basename": "Interview Questions - Everything",
+      "path": "Interview Questions - Everything.md"
+    },
+    {
+      "basename": "temp notes",
+      "path": "temp notes.md"
+    },
+    {
+      "basename": "Plan for GrandMock",
+      "path": "Plan for GrandMock.md"
+    },
+    {
+      "basename": "Linux - Detections and Automatic Remediation-PTA",
+      "path": "Cyberark/Basics/Linux Fundementals/Linux - Detections and Automatic Remediation-PTA.md"
+    },
+    {
+      "basename": "backup and restore dump",
+      "path": "Cyberark/backup and restore dump.md"
+    },
+    {
+      "basename": "Teams in IT Environ",
+      "path": "Applications/Teams in IT Environ.md"
+    },
+    {
+      "basename": "Windows - Detections and Automatic Remediation",
+      "path": "Cyberark/Basics/Windows Server/Windows - Detections and Automatic Remediation.md"
+    },
+    {
+      "basename": "The Problem of Loneliness",
+      "path": "The Problem of Loneliness.md"
+    },
+    {
+      "basename": "08-10-23 Sunday",
+      "path": "DailyNote/08-10-23 Sunday.md"
+    },
+    {
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "Session 20 CPM02",
+      "path": "Session 20 CPM02.md"
+    },
+    {
+      "basename": "session 19 CPM01",
+      "path": "session 19 CPM01.md"
+    },
+    {
+      "basename": "session 21 CPM03 logfiles",
+      "path": "session 21 CPM03 logfiles.md"
+    },
+    {
+      "basename": "session 22 CPM Manual Hardening",
+      "path": "session 22 CPM Manual Hardening.md"
+    },
+    {
+      "basename": "Installations",
+      "path": "Installations.md"
+    },
+    {
+      "basename": "Session 9 Vault Configuration Files",
+      "path": "Session 9 Vault Configuration Files.md"
+    },
+    {
+      "basename": "Session 10 Log Files Debugging Levels",
+      "path": "Session 10 Log Files Debugging Levels.md"
+    },
+    {
+      "basename": "Session 12 MasterCD Operator CD Other Topics",
+      "path": "Session 12 MasterCD Operator CD Other Topics.md"
+    },
+    {
+      "basename": "Session 13 Break Glass Procedure",
+      "path": "Session 13 Break Glass Procedure.md"
+    },
+    {
+      "basename": "session 15 PVWA 2",
+      "path": "session 15 PVWA 2.md"
+    },
+    {
+      "basename": "Session 16 PVWA Credfile Creation",
+      "path": "Session 16 PVWA Credfile Creation.md"
+    },
+    {
+      "basename": "Restructuring CyberArk Notes",
+      "path": "Restructuring CyberArk Notes.md"
+    }
+  ],
+  "omittedPaths": [
+    ""
+  ],
+  "maxLength": null,
+  "openType": "split"
+}

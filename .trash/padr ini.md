@@ -1,0 +1,11 @@
+EnableCheck—Yes
+EnableRep1icate—Yesr
+EnableFai10ver=No I
+EnableDbsync=Yes
+Checklnterva1=6Ø
+CheckRetriesCount—5
+CheckRetriesInterva1=30
+ReplicateInterva1=36ØØ
+ReplicateRetriesInterva1=30Ø
+AccessVau1tForInactivity—Yes
+Failovermode=No

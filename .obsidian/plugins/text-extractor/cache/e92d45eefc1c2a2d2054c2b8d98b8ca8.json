@@ -1,0 +1,1 @@
+{"path":".obsidian/plugins/text-extractor/cache/e92d45eefc1c2a2d2054c2b8d98b8ca8.json","text":"PS C:\\Program F1les (x86)\\PrivateArk\\PADR\\Logs> cd PS C:\\Program Files (x86)\\PrivateArk\\PADR> Get-Content .\\logs\\padr.log -wait \\","libVersion":"0.2.2","langs":"eng"}

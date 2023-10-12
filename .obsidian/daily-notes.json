@@ -1,0 +1,6 @@
+{
+  "folder": "DailyNote",
+  "autorun": true,
+  "format": "DD-MM-YY dddd",
+  "template": "Obsidian/Templates/Daily Note Template"
+}

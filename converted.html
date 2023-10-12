@@ -1,0 +1,85 @@
+<hr />
+<p>aliases: 
+tags: 
+date created: Thursday, August 31st 2023, 1:36:15 pm
+date modified: Thursday, October 5th 2023, 9:05:39 pm</p>
+<hr />
+<h2>Procedure to Apply the Vault License</h2>
+<p>There are two distinct methods to apply the Vault license:</p>
+<h3>1. Application through PrivateArk Client (Before License Expiry)</h3>
+<ul>
+<li>Launch the PrivateArk client with administrative privileges (including permissions to rename and upload files).</li>
+<li>Backup the existing license file by saving it to a preferred location.</li>
+<li>Import the new license into the <strong>system safe</strong> within the PrivateArk client.</li>
+<li>Note: This procedure is applicable only if there is remaining time on the current license. If the license has already expired, this method is infeasible.</li>
+</ul>
+<h3>2. Manual File Replacement (After License Expiry)</h3>
+<ul>
+<li>Navigate to the server directory within the PrivateArk folder.</li>
+<li>Proceed to the 'conf' sub-directory.</li>
+<li>Backup the existing license file.</li>
+<li>Replace the old license file with the new one in the 'conf' directory.</li>
+<li>After updating, restart the PrivateArk service to apply the new license.</li>
+<li>Caution: This approach is a contingency measure, to be employed only if the license has expired and there was no preemptive action taken.</li>
+</ul>
+<h3>Log File Management</h3>
+<h4>Directory</h4>
+<ul>
+<li>The log files can be found in the directory: <code>Program files(x86) &gt; PrivateArk &gt; Server &gt; Logs</code>.</li>
+</ul>
+<h4>Main Vault Log - ITAlog.log</h4>
+<ul>
+<li>This is a comprehensive log file documenting all vault activities.</li>
+<li><strong>Log Structure</strong>: Each log entry has <code>Date | Time | Message</code>.</li>
+<li><strong>Message Tags</strong>:</li>
+<li><strong>I</strong>: Represents informational messages.</li>
+<li><strong>W</strong>: Stands for warning messages.</li>
+<li><strong>S</strong>: Indicates system-related messages.</li>
+<li><strong>E</strong>: Denotes error messages.</li>
+<li><strong>Accessibility Tip</strong>: To view recent logs, users should scroll to the end of the file.</li>
+</ul>
+<h3>Vault Trace Logs</h3>
+<h4>Introduction</h4>
+<ul>
+<li>The vault comprises of internal users. Each vault component has a designated internal user.</li>
+<li>Components communicate with the vault on port 1858. Such communications are logged as transactions in trace logs.</li>
+</ul>
+<h4>Log File Details</h4>
+<ul>
+<li>Each trace log has a maximum size of 200MB.</li>
+<li>Logs progress in order from <code>tracelog0</code> up to <code>tracelog4</code>.</li>
+<li>When a log file reaches its size limit, logging continues in the next log file.</li>
+<li>After <code>tracelog4</code> is filled, it's archived.</li>
+<li>To enable or disable logging, adjust the <code>EnableTrace = Yes</code> setting in the respective ini files, typically used during debugging.</li>
+<li><strong>Note</strong>: The specific circumstances under which trace is enabled needs further clarification.</li>
+</ul>
+<h4>Backing Up Logs</h4>
+<ul>
+<li>While it's ideal to stop the vault to backup logs, it's not always practical. Active log files used by the vault cannot be renamed or altered.</li>
+</ul>
+<h3>Debugging in Vault</h3>
+<h4>Enabling Debug Level</h4>
+<ul>
+<li>Access the administration tab within the server central administration console.</li>
+<li>Turn on the debug level and choose to set it dynamically.</li>
+<li>Refer to CyberArk's documentation to find and enter the relevant debugging codes.</li>
+</ul>
+<h4>Debugging Process</h4>
+<ul>
+<li>The objective of debugging is to reproduce and analyze issues:</li>
+<li><strong>Reproducible Issue</strong>: An issue that can be consistently recreated.</li>
+<li><strong>Non-Reproducible Issue</strong>: An issue that appears irregularly.</li>
+<li>Activating debugging captures detailed log messages, aiding in issue diagnosis.</li>
+<li><strong>Caution</strong>: Extensive debugging might overload the vault due to the volume of log traffic, potentially triggering restarts or failovers. Ensure to turn off debugging after troubleshooting.</li>
+</ul>
+<h4>Methods to Enable Debugging</h4>
+<ol>
+<li><strong>Dynamically through the Administration Tab</strong>: This method is temporary and lasts until the next vault restart.</li>
+<li><strong>Via dbparm.ini File</strong>: Modify this file to include the <code>DebugLevel</code> setting for a more permanent change. However, this method requires a vault restart.</li>
+</ol>
+<h3>CAVaultManager.exe</h3>
+<ul>
+<li>To gather logs, use the application command: <code>CAVaultManager.exe CollectLogs</code>.</li>
+<li>This command compiles all logs relevant to the vault, along with system details.</li>
+<li>The primary log associated with the vault is <code>vaultDB.log</code>, which tracks all vault transactions and messages.</li>
+</ul>

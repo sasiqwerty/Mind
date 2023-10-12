@@ -1,0 +1,2 @@
+What is a Windows Service?
+A Windows service is a long-running executable application that runs in the background of a Windows computer. It is similar in concept to a Unix daemon. Windows services are not visible to the user and do not have a user interface. They are started and managed by the Service Control Manager (SCM), which is a Windows component.

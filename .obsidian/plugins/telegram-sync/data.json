@@ -1,0 +1,38 @@
+{
+  "botToken": "6399417500:AAHBQOhfv7eydv5oQ2-54z1dQpieT2AODY0",
+  "newNotesLocation": "",
+  "appendAllToTelegramMd": true,
+  "templateFileLocation": "",
+  "deleteMessagesFromTelegram": false,
+  "needToSaveFiles": true,
+  "newFilesLocation": "",
+  "allowedChatFromUsernames": [],
+  "allowedChats": [
+    "sarathsasig"
+  ],
+  "mainDeviceId": "6731f645-eda5-4e25-a68b-c11e0e38812d",
+  "pluginVersion": "1.10.0",
+  "telegramSessionType": "bot",
+  "telegramSessionId": 20230731154701896,
+  "betaVersion": "",
+  "connectionStatusIndicatorType": "CONSTANT",
+  "cacheCleanupAtStartup": false,
+  "messageDistributionRules": [
+    {
+      "messageFilterQuery": "{{all}}",
+      "messageFilterConditions": [
+        {
+          "conditionType": "all",
+          "operation": "",
+          "value": ""
+        }
+      ],
+      "templateFilePath": "",
+      "notePathTemplate": "TelegramNotes/Telegram.md",
+      "filePathTemplate": "TelegramNotes/{{file:name}} - {{messageTime:YYYYMMDDHHmmssSSS}}.{{file:extension}}"
+    }
+  ],
+  "topicNames": [],
+  "appId": "17349",
+  "apiHash": "344583e45741c457fe1862106095a5eb"
+}

@@ -1,0 +1,5 @@
+- systeminfo
+- ipconfig /all
+- ping
+- nslookup
+- hostname

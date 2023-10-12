@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "1848637a6aac02cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "786cda7665048ae9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4081b94f5d05ce88",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/NEW_LAB_GUIDE.pdf"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f942a182944d9ad",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f106eac16ca6c494",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "a0e40866887fa348",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "254a6ef01b6b8a64",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "380534c4e72db77b",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "8c8f971ab5e12e3a",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e02b947bc0541de9",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Files/NEW_LAB_GUIDE.pdf",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "52bf9f1ee612e60e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Files/NEW_LAB_GUIDE.pdf",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "3f90ed9d997c4b69",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Files/NEW_LAB_GUIDE.pdf"
+          }
+        }
+      },
+      {
+        "id": "ea36b6bca018db7b",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "4081b94f5d05ce88",
+  "lastOpenFiles": [
+    "Core Concepts/Components/Password Vault Web Access/Administration/Account Onboarding.md"
+  ]
+}

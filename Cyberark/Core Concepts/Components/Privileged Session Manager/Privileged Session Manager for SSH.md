@@ -1,0 +1,1 @@
+The Privileged Session Manager for SSH (PSM for SSH) is a CyberArk component that enables you to secure, control, and monitor privileged access to Linux and Unix systems, network devices, and any other SSH-based devices.

@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"type":"file","file":"Cyberark/Doubts/Images/Pasted image 20230725112056.png","id":"d9c8e4068e2e85e1","x":-320,"y":-200,"width":400,"height":240},
+		{"type":"text","text":"Why does it do this?","id":"5bbceeaaf60ce7af","x":-320,"y":-280,"width":250,"height":60}
+	],
+	"edges":[]
+}
