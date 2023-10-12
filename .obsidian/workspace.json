@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyberark/Basics/Windows Server/LDAP Integration.md",
+                "file": "DailyNote/12-10-23 Thursday.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberark/Basics/Windows Server/LDAP Integration.md",
+                "file": "DailyNote/12-10-23 Thursday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyberark/Basics/Windows Server/LDAP Integration.md",
+                "file": "DailyNote/12-10-23 Thursday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyberark/Basics/Windows Server/LDAP Integration.md"
+                "file": "DailyNote/12-10-23 Thursday.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Cyberark/Basics/Windows Server/LDAP Integration.md"
+                "file": "DailyNote/12-10-23 Thursday.md"
               }
             }
           }
@@ -241,6 +241,8 @@
   },
   "active": "406fcad827feafac",
   "lastOpenFiles": [
+    "Cyberark/Basics/Windows Server/LDAP Integration.md",
+    "DailyNote/12-10-23 Thursday.md",
     "DailyNote/09-10-23 Monday.md",
     "linkshelf-token.md",
     "Components and their Logs-services-config data.md",
@@ -266,8 +268,6 @@
     "pvwa-install-vbox.md",
     "money-math.md",
     "~$m-logfiles-session21.docx",
-    "cpm-credfile-creation.md",
-    "pvwa-credfile-creation.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006222546.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006222533.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006222514.png",

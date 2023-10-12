@@ -2,7 +2,7 @@
 aliases: LDAP authentication
 tags: concept
 date created: Wednesday, July 26th 2023, 3:29:24 pm
-date modified: Monday, August 21st 2023, 1:00:00 pm
+date modified: Thursday, October 12th 2023, 5:45:55 am
 ---
 #todo  
 

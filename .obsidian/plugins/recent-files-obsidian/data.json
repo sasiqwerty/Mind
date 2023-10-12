@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "12-10-23 Thursday",
+      "path": "DailyNote/12-10-23 Thursday.md"
+    },
+    {
       "basename": "LDAP Integration",
       "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Session 16 PVWA Credfile Creation",
       "path": "Session 16 PVWA Credfile Creation.md"
-    },
-    {
-      "basename": "Restructuring CyberArk Notes",
-      "path": "Restructuring CyberArk Notes.md"
     }
   ],
   "omittedPaths": [
