@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TelegramNotes/Telegram.md",
+                "file": "DailyNote/12-10-23 Thursday.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TelegramNotes/Telegram.md",
+                "file": "DailyNote/12-10-23 Thursday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TelegramNotes/Telegram.md",
+                "file": "DailyNote/12-10-23 Thursday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TelegramNotes/Telegram.md"
+                "file": "DailyNote/12-10-23 Thursday.md"
               }
             }
           },
@@ -206,7 +206,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "TelegramNotes/Telegram.md"
+                "file": "DailyNote/12-10-23 Thursday.md"
               }
             }
           }
@@ -241,6 +241,7 @@
   },
   "active": "406fcad827feafac",
   "lastOpenFiles": [
+    "TelegramNotes/Telegram.md",
     "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
     "DailyNote/12-10-23 Thursday.md",
     "Untitled.md",
@@ -283,7 +284,6 @@
     "Cyberark/Files/08WS-PAM-Install-PSM Load Balancing.pdf",
     "Cyberark/Files/07WS-PAM-Install-PSM.pdf",
     "Cyberark/Files/06WS-PAM-Install-Pre-Implementation.pdf",
-    "Cyberark/Files/05WS-PAM-Install-Authentication Methods.pdf",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231004193744.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231004193614.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231004135340.png",
