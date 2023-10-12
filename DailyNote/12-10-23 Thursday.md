@@ -1,8 +1,8 @@
 ---
 aliases: 
 tags: 
-date created: Monday, July 31st 2023, 9:13:43 am
-date modified: Thursday, October 12th 2023, 5:46:05 am
+date created: Thursday, October 12th 2023, 5:45:55 am
+date modified: Thursday, October 12th 2023, 7:25:37 am
 ---
 
 ## Plan for the Day
