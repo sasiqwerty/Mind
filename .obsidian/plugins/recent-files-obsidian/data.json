@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Information about",
+      "path": "Information about.md"
+    },
+    {
       "basename": "12-10-23 Thursday",
       "path": "DailyNote/12-10-23 Thursday.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Session 13 Break Glass Procedure",
       "path": "Session 13 Break Glass Procedure.md"
-    },
-    {
-      "basename": "session 15 PVWA 2",
-      "path": "session 15 PVWA 2.md"
     }
   ],
   "omittedPaths": [
