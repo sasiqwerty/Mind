@@ -1,9 +1,11 @@
 ---
 aliases: 
-tags: 
+tags:
+  - IC-CyberArk
 date created: Friday, October 13th 2023, 3:10:06 pm
-date modified: Friday, October 13th 2023, 11:22:30 pm
+date modified: Saturday, October 14th 2023, 12:47:18 am
 ---
+[Session 30 PSM 1 - YouTube](https://www.youtube.com/watch?v=YYrePkmOxMc)
 
 ## What Are the Functions of PSM?
 
@@ -163,13 +165,18 @@ Files that are transferred during an HTML5 Gateway session are temporarily store
 |CyberArk PSM codec|For viewing high compression session recordings with an external player (for example, Windows Media Player). The PSMCodec.exe is included in the PSM installation package and is required to enable users to view PSM recordings with a regular media player (not PSM Direct Playback).|
 |JRE (Java Runtime Environment)|JRE 1.4, or later (for SSH transparent connections)|
 
-### RDS CAL License
+### RDS CAL License (Windows)
 
-Client Access License  
+Client Access License (CAL) is a legal permit that authorizes a user to access network server services, such as file and print sharing, within an organization. Unlike standalone software products, a CAL is specifically designed to regulate the number of users connecting to a server for the usage of its services.  
+
+- Device CALs : Device CALs are for every device accessing the server, suitable for shared devices across work shifts.  
+- User CALs : User CALs are for every user accessing services on the server, ideal for employees using multiple or unknown devices.  
+Until 2016 per user license was free. 2019 severs have a different style of installation for PSM
+
+#### How to Setup the License for RDS?
+
 1. Install the Remote Desktop Licensing through the server manager
 2. Open RD Licensing manager  
-Device CALs : Device CALs are for every device accessing the server, suitable for shared devices across work shifts.  
-User CALs : User CALs are for every user accessing services on the server, ideal for employees using multiple or unknown devices.
 
 ### Notes
 
@@ -192,6 +199,66 @@ User CALs : User CALs are for every user accessing services on the server, ideal
 | Web-based interfaces & custom apps     |                                                                                                                                 |
 | PSM for Databases                      | - Oracle DBA tools: <br>   - Toad <br>   - SQLPlus <br>   - Toad for Oracle (specific versions) <br>   - Toad Admin Module <br> - Microsoft SQL Server DBA tools: <br>   - SQL Server Management Studio (specific versions)                          |
 | PSM for Virtualization                 | - VMware administration tools: <br>   - vSphere Client for vSphere/ESX hosts <br>   - vSphere Client for vCenter <br> **Notes**: <br>   - vSphere Client isn't supported on certain configurations <br>   - Alternative solutions for Windows 2016 R2 customers.             |
+
+## Connection Flow for PVWA to Target Server via PSM
+
+The connection flow describes the series of steps and interactions that occur from the moment a request is initiated from the Password Vault Web Access (PVWA) to the point where a secure session is established with a target server. This process involves several components, including the Vault, the Privileged Session Manager (PSM), and various users and servers.
+
+### Connection Flow Steps:
+
+1. **Initiate Request**: A request is initiated from the PVWA to the Vault.
+2. **Vault to PSM Message**: The Vault sends a message to the PSM server, informing it to expect an RDP (Remote Desktop Protocol) connection.
+3. **Download RDP File**: An RDP file gets downloaded since the PSM functionality is enabled.
+4. **Open RDP File**: Clicking on the downloaded RDP file initiates the next step.
+5. **Secure Session**: The PSMConnect user establishes a secure session.
+6. **Fetch Credentials**: The PSM server fetches the necessary credentials from the Vault server.
+7. **Temporary Profile**: A temporary profile with user PSMShadowUser is created on the PSM server.
+8. **Target Server Connection**: The PSM establishes a connection to the target server based on the specified connection component (RDP, SSH, SQL).
+9. **Secure Session Establishment**: A secure session is established, allowing work to be performed on the target server.
+10. **Session Recording**: During the ongoing session, activity is recorded and stored locally on the PSM server.
+11. **Transfer Recordings**: After session completion or termination, the recordings are transferred to the Vault server in a designated PSMRecordings safe.
+
+### Flowchart:
+
+```mermaid
+graph LR
+  A[PVWA]
+  B[Vault]
+  C[PSM Server]
+  D[RDP File]
+  E[PSMConnect User]
+  F[Credentials from Vault]
+  G[Temporary Profile]
+  H[Target Server]
+  I[Session Recordings]
+  J[PSMRecordings Safe]
+  
+  A -->|Request| B
+  B -->|Message| C
+  C -->|Download| D
+  D -->|Click| E
+  E -->|Secure Session| F
+  F -->|Fetch| G
+  G -->|Establish Connection| H
+  H -->|Work| I
+  I -->|Transfer| J
+```
+
+
+
+![[mermaid-diagram-2023-10-14-002920.svg]]
+
+## PSM Internal Users and Groups
+
+PSMConnect - Starts the PSM Sessions on the PSM server  
+PSMAdminConnect - Monitors live privileged sessions  
+PSMShadowUser -  
+PSMAppUser  
+PSMGWUser
+
+PSM application users have to be at the domain level when the [[Privileged Session Manager|PSM]] is installed on a Windows 2019 machine and working with a RDS CAL per-user license. (This also extends the sessions beyond one hour.)  
+
+[PSMConnect and PSMAdminConnect Domain Users | CyberArk Docs](https://docs.cyberark.com/PAS/Latest/en/Content/PAS%20INST/Optional-Moving-the-PSMConnec-and-PSMAdminConnect-users-to-your-Domain.htm)
 
 [General settings | CyberArk Docs](https://docs.cyberark.com/PAS/Latest/en/Content/PASIMP/Configuring-the-Privileged-Session-Manager.htm?tocpath=Administrator%7CComponents%7CPrivileged%20Session%20Manager%7CConfiguration%7C_____1)
 
