@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "PSM-PrivateArk Client Connection",
-      "path": "PSM-PrivateArk Client Connection.md"
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
+    },
+    {
+      "basename": "PSM Shadow User",
+      "path": "PSM Shadow User.md"
+    },
+    {
+      "basename": "Install and Config PSM",
+      "path": "Install and Config PSM.md"
+    },
+    {
+      "basename": "Session 32 PSM 3",
+      "path": "Session 32 PSM 3.md"
+    },
+    {
+      "basename": "Session 31 PSM 2",
+      "path": "Session 31 PSM 2.md"
+    },
+    {
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "09-10-23 Monday",
+      "path": "DailyNote/09-10-23 Monday.md"
+    },
+    {
+      "basename": "12-10-23 Thursday",
+      "path": "DailyNote/12-10-23 Thursday.md"
     },
     {
       "basename": "conv-file",
       "path": "conv-file.md"
     },
     {
-      "basename": "12-10-23 Thursday",
-      "path": "DailyNote/12-10-23 Thursday.md"
+      "basename": "13-10-23 Friday",
+      "path": "DailyNote/13-10-23 Friday.md"
+    },
+    {
+      "basename": "PSM-PrivateArk Client Connection",
+      "path": "PSM-PrivateArk Client Connection.md"
     },
     {
       "basename": "Information about",
@@ -23,10 +55,6 @@
     {
       "basename": "LDAP Integration",
       "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
-    },
-    {
-      "basename": "09-10-23 Monday",
-      "path": "DailyNote/09-10-23 Monday.md"
     },
     {
       "basename": "dead-cells unlock blueprints",
@@ -161,10 +189,6 @@
       "path": "DailyNote/08-10-23 Sunday.md"
     },
     {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
-    },
-    {
       "basename": "Session 7 Vault Prerequisites Services",
       "path": "Session 7 Vault Prerequisites Services.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "session 19 CPM01",
       "path": "session 19 CPM01.md"
-    },
-    {
-      "basename": "session 21 CPM03 logfiles",
-      "path": "session 21 CPM03 logfiles.md"
-    },
-    {
-      "basename": "session 22 CPM Manual Hardening",
-      "path": "session 22 CPM Manual Hardening.md"
-    },
-    {
-      "basename": "Installations",
-      "path": "Installations.md"
-    },
-    {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
-    },
-    {
-      "basename": "Session 10 Log Files Debugging Levels",
-      "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "Session 12 MasterCD Operator CD Other Topics",
-      "path": "Session 12 MasterCD Operator CD Other Topics.md"
     }
   ],
   "omittedPaths": [
