@@ -8,14 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d930e849b38a61ab",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "15e11ed982519419",
             "type": "leaf",
             "pinned": true,
@@ -32,17 +24,18 @@
           {
             "id": "e38900c5017b6ea4",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "PSM Shadow User.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,6 +207,17 @@
   "lastOpenFiles": [
     "PSM Shadow User.md",
     "Session 30 PSM 1.md",
+    "Cyberark/Core Concepts/Core Concepts img/RE2uHD0.webp",
+    "Cyberark/Core Concepts/Core Concepts img/RE2ytYV 1.webp",
+    "Cyberark/Core Concepts/Core Concepts img/RE2ytYV.webp",
+    "Cyberark/Core Concepts/Core Concepts img/RE2uKlW.webp",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171744.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171728.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171236.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171004.png",
+    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-13-170931.png",
+    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-13-170753.svg",
+    "DailyNote/13-10-23 Friday.md",
     "Install and Config PSM.md",
     "Session 32 PSM 3.md",
     "Session 31 PSM 2.md",
@@ -221,10 +225,7 @@
     "DailyNote/09-10-23 Monday.md",
     "DailyNote/12-10-23 Thursday.md",
     "conv-file.md",
-    "DailyNote/13-10-23 Friday.md",
     "PSM-PrivateArk Client Connection.md",
-    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-12-203954.svg",
-    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-12-203938.png",
     "Information about.md",
     "TelegramNotes/Telegram.md",
     "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
@@ -240,15 +241,7 @@
     "listen-session07.md",
     "Introduction Slides.md",
     "Skytap CyberArk Labs - Creation.md",
-    "Untitled 2.md",
     "~$m-logfiles-session21.docx",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006222546.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006222533.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006222514.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231006005229.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231005232442.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231005223413.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231005222917.png",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
     "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
     "Cyberark/Files/11WS-PAM-Install-Vault Availability (DR).pdf",
@@ -257,7 +250,6 @@
     "Cyberark/Files/08WS-PAM-Install-PSM Load Balancing.pdf",
     "Cyberark/Files/07WS-PAM-Install-PSM.pdf",
     "Cyberark/Files/06WS-PAM-Install-Pre-Implementation.pdf",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231004193744.png",
     "Untitled.canvas",
     "Cyberark/Doubts/clear expired safe history.canvas",
     "Cyberark/Doubts/doubt related to DAC.canvas",

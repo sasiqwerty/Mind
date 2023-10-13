@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Friday, October 13th 2023, 3:10:06 pm
-date modified: Friday, October 13th 2023, 3:57:54 pm
+date modified: Friday, October 13th 2023, 11:22:30 pm
 ---
 
 ## What Are the Functions of PSM?
@@ -13,13 +13,18 @@ PSM enables users to log on to remote (target) machines or open applications se
 
 ### Overview
 
-Users can connect through the PVWA portal, or alternatively through PSM for Windows, that is, directly from their desktops using any standard RDP client application, such as MSTSC, different Connection Managers or an RDP file.
+PSM (Privileged Session Manager) offers users two primary methods to connect:
 
-By default, the user connects to the PSM machine through port 3389, using the RDP protocol. This is required to facilitate remote access, although this port is not usually opened in the corporate firewall, and in some cases it is not permitted.
+1. **PVWA Portal**: Users can establish a connection via the PVWA portal.
+2. **PSM for Windows**: Direct desktop connection is facilitated using standard RDP client tools like MSTSC, various Connection Managers, or an RDP file.
 
-You can configure PSM to provide secure remote access to a target machine through an HTML5 gateway when connecting with the PVWA portal. The HTML5 gateway tunnels the session between the end user and the PSM machine using a secure WebSocket protocol (port 443). This eliminates the requirements to open an RDP connection from the end-user's machine. Instead, the end user only requires a web browser to establish a connection to a remote machine through PSM.
+A few key points regarding the connection process:
 
-Alternatively, PSM can be configured to work with the Microsoft Remote Desktop Gateway (RDGateway) which tunnels the RDP session between the user and the PSM machine using the HTTPS protocol (port 443). This provides a secure connection without needing to open the firewall. All information that is transferred between the user and the PSM machine is encrypted and protected by the HTTPS protocol, which enables secure cross-network and remote access.
+- **Default RDP Protocol**: Typically, connections to the PSM are initiated using port 3389 with the RDP protocol. However, this port might not always be accessible due to corporate firewall restrictions.
+- **HTML5 Gateway**: For users connecting via the PVWA portal, PSM can leverage an HTML5 gateway. This mode employs a secure WebSocket protocol (port 443), eradicating the need for an RDP connection from the user's end. All that's required from the user is a web browser.
+- **Microsoft Remote Desktop Gateway (RDGateway)**: PSM is also adaptable to work in tandem with RDGateway. This tunnels the RDP session through the HTTPS protocol (port 443), ensuring a secure connection without firewall modifications. The HTTPS protocol ensures that all data exchanged between the user and the PSM machine remains encrypted and safeguarded, facilitating secure remote and cross-network access.
+
+The above mechanisms promote secure, flexible, and convenient access to PSM, catering to diverse user needs and organizational security standards.
 
 ### Connection Flow
 
@@ -36,7 +41,7 @@ Alternatively, PSM can be configured to work with the Microsoft Remote Desktop
 3. PSM fetches account credentials from the Vault and connects to the target.
 4. Session activities are recorded and saved in the Vault for authorized viewing.
 
-## Server Specifications for PSM
+## Server Specifications and Installation Information about PSM
 
 - Windows Server 2016,2019 (Windows 2012 Support is Deprecated and 2022 is yet to be announced)
 - .NET Framework 4.8
@@ -46,14 +51,68 @@ Alternatively, PSM can be configured to work with the Microsoft Remote Desktop
 
 More on this topic - [[PSM Shadow User]] 
 
-### Minimum System Requirements
+### System Requirements and Installation
 
 | Minimum System Requirements  | Details  |
 |---|---|
 |Platform:|8 core processor (Intel compatible)|
 |Disk space:|80GB free disk space for installation, and additional 80GB space for temporary workspace|
 |Minimum memory:|8 GB|
-|Communication:|TCP/IP connection to the Digital Vault Server|      
+|Communication:|TCP/IP connection Port to the Digital Vault Server|      
+
+
+| Specification                                 | Small Implementation (1-10 sessions) | Mid-range Implementation (11-50 sessions) | Large Implementation (51-100 sessions) |
+|-----------------------------------------------|---------------------------------------|-------------------------------------------|----------------------------------------|
+| **Processor**                                 | 8 core (Intel compatible)             | 16 core (Intel compatible)                | 32 core (Intel compatible 2.1-2.6 GHz) |
+| **RAM**                                       | 8GB                                   | 16GB                                     | 32GB                                  |
+| **Storage**                                   | 2X 80GB SATA/SAS (hot-swappable)      | 2X 80GB SATA/SAS (hot-swappable)         | 2X 250GB SAS (hot-swappable, 15K RPM)  |
+| **RAID**                                      | RAID Controller                       | RAID Controller                          | RAID Controller                       |
+| **Network**                                   | Network adapter (1Gb)                 | Network adapter (1Gb)                    | Network adapter (1Gb)                 |
+| **DVD ROM**                                   | DVD ROM                               | DVD ROM                                  | DVD ROM                               |
+| **Maximum Chrome sessions per user**   (RDP)       | 15 concurrent                         | 50 concurrent                            | 100 concurrent                        |
+| **Total Chrome sessions per PSM server**   (RDP)   | 15 concurrent                         | 50 concurrent                            | 100 concurrent                        |
+| **Maximum Chrome sessions per user**       (RDP)   | 15 concurrent          | 50 concurrent          | 100 concurrent          |
+| **Total Chrome sessions per PSM server**   (RDP)   | 15 concurrent          | 50 concurrent          | 100 concurrent          |
+- When adding concurrent sessions per user, make sure to increase the default timeout per session accordingly.
+- When increasing the number of Chrome sessions, regardless of PSM usage, make sure to follow best practices regarding machine CPU and server capabilities.
+
+#### Domain User Installation Step Explained
+
+The PSM, when installed with a domain user, facilitates Remote app features and session collection. Typically, domain users are preferred for application installations due to the benefits of cross-server communication, centralized auditing and logging, and accessing domain resources.
+
+| **Feature/Requirement**         | **Details**                                                                                                      |
+|--------------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Remote App Features**         | Installing PSM with a domain user allows leveraging Remote App capabilities, letting users access specific applications remotely as if they were running locally.      |
+| **Session Collection**          | Supports efficient session collection, enabling the system to capture, store, and manage user session details.                                      |
+| **Cross-Server Communication**  | Enables seamless communication across various servers in the domain, vital for interoperability and data sharing.                          |
+| **Auditing and Logging**        | Centralizes auditing and logging, ensuring all application activities are tracked and logged in a unified location.                            |
+| **Access to Domain Resources**  | Facilitates easy access to other domain resources, including file shares, databases, and domain services, simplifying configurations and permissions. |
+
+#### Hardening
+
+[GPO Parameters for In-Domain Automatic Hardening | CyberArk Docs](https://docs.cyberark.com/PAS/Latest/en/Content/PASREF/PSM-in-domain-GPO.htm)
+
+#### Other Points
+
+1. **Concurrency Limit**: The concurrency of 100 sessions per PSM server should never be surpassed.
+2. **Basis of Session Ranges**: The concurrent session ranges derive from RDP and SSH connections performance evaluations.
+3. **Resource-Intensive Applications**: Operating applications such as Toad, vSphere Client, etc., on the PSM server can lead to diminished concurrency.
+4. **Dedicated Server Assumption**: The mentioned concurrent session ranges presuppose that the PSM operates on a sole server.
+5. **Video Recording Influence**: The session ranges are contingent upon performance metrics while capturing user activities in HD resolution (a single screen). Given that video recording's clarity hinges on the desktop resolution of the client device making the connection, higher resolutions or multiple screens can reduce concurrency.
+6. **Virtual Machine Installation**: When setting up the PSM server on a VM, it's vital to allocate virtual hardware that mirrors the recommended physical specifications. For a more comprehensive overview, see the section on optimal settings for PSM installation on a virtual platform.
+7. **Virtual Machine Impact**: Establishing the PSM server on a virtual machine can cut the peak concurrency by up to 40%. 
+
+### Decommissioning and Upgrade of Servers
+
+1. **Pause**: Wait for 10-15 days post the server shutdown intended for an upgrade.
+2. **Checkup**: Inspect other servers for possible issues in this period.
+3. **Reroute Traffic**: Divert traffic from the server set for decommissioning.
+4. **App Removal**: Delete all software from the designated server.
+5. **Cleanse Users**: Remove users associated with the decommissioned server from the storage.
+6. **Optimal Positioning**: Keep PSM and PVWA servers near to both users and their associated servers to ensure a quick response time.
+7. **Upgrade**: Implement the necessary components on the server.
+
+![[Pasted image 20231013171744.png]]
 
 ### Storage Requirement for PSM Recordings
 
@@ -104,6 +163,14 @@ Files that are transferred during an HTML5 Gateway session are temporarily store
 |CyberArk PSM codec|For viewing high compression session recordings with an external player (for example, Windows Media Player). The PSMCodec.exe is included in the PSM installation package and is required to enable users to view PSM recordings with a regular media player (not PSM Direct Playback).|
 |JRE (Java Runtime Environment)|JRE 1.4, or later (for SSH transparent connections)|
 
+### RDS CAL License
+
+Client Access License  
+1. Install the Remote Desktop Licensing through the server manager
+2. Open RD Licensing manager  
+Device CALs : Device CALs are for every device accessing the server, suitable for shared devices across work shifts.  
+User CALs : User CALs are for every user accessing services on the server, ideal for employees using multiple or unknown devices.
+
 ### Notes
 
 - Due to RDS licensing enforcement in Windows 2019, a per-user license is no longer supported for local users. We recommend using a per-device RDS license. 
@@ -127,3 +194,4 @@ Files that are transferred during an HTML5 Gateway session are temporarily store
 | PSM for Virtualization                 | - VMware administration tools: <br>   - vSphere Client for vSphere/ESX hosts <br>   - vSphere Client for vCenter <br> **Notes**: <br>   - vSphere Client isn't supported on certain configurations <br>   - Alternative solutions for Windows 2016 R2 customers.             |
 
 [General settings | CyberArk Docs](https://docs.cyberark.com/PAS/Latest/en/Content/PASIMP/Configuring-the-Privileged-Session-Manager.htm?tocpath=Administrator%7CComponents%7CPrivileged%20Session%20Manager%7CConfiguration%7C_____1)
+
