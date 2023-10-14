@@ -9,6 +9,10 @@
       "path": "PSM Shadow User.md"
     },
     {
+      "basename": "14-10-23 Saturday",
+      "path": "DailyNote/14-10-23 Saturday.md"
+    },
+    {
       "basename": "13-10-23 Friday",
       "path": "DailyNote/13-10-23 Friday.md"
     },
@@ -191,14 +195,6 @@
     {
       "basename": "Session 7 Vault Prerequisites Services",
       "path": "Session 7 Vault Prerequisites Services.md"
-    },
-    {
-      "basename": "Session 20 CPM02",
-      "path": "Session 20 CPM02.md"
-    },
-    {
-      "basename": "session 19 CPM01",
-      "path": "session 19 CPM01.md"
     }
   ],
   "omittedPaths": [

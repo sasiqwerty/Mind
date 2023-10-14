@@ -3,7 +3,7 @@ aliases:
 tags:
   - IC-CyberArk
 date created: Friday, October 13th 2023, 3:10:06 pm
-date modified: Saturday, October 14th 2023, 12:47:18 am
+date modified: Saturday, October 14th 2023, 3:40:45 am
 ---
 [Session 30 PSM 1 - YouTube](https://www.youtube.com/watch?v=YYrePkmOxMc)
 
@@ -146,7 +146,6 @@ Each PSM version aligns with all versions of these components that have not reac
 **Examples**:
 
 - **PSM 11.6**: Released in August 2020. It's compatible with versions 10.5 and above of these components.
-  
 - **PSM 11.5**: Rolled out in June 2020. This version aligns with versions 10.4 and higher of the said components.
 
 ### HTML5 Gateway Hardware Specifications
@@ -172,6 +171,8 @@ Client Access License (CAL) is a legal permit that authorizes a user to access n
 - Device CALs : Device CALs are for every device accessing the server, suitable for shared devices across work shifts.  
 - User CALs : User CALs are for every user accessing services on the server, ideal for employees using multiple or unknown devices.  
 Until 2016 per user license was free. 2019 severs have a different style of installation for PSM
+
+PSM application users have to be at the domain level when the [[Privileged Session Manager|PSM]] is installed on a Windows 2019 machine and working with a RDS CAL per-user license. (This also extends the sessions beyond one hour.)
 
 #### How to Setup the License for RDS?
 
@@ -200,63 +201,99 @@ Until 2016 per user license was free. 2019 severs have a different style of inst
 | PSM for Databases                      | - Oracle DBA tools: <br>   - Toad <br>   - SQLPlus <br>   - Toad for Oracle (specific versions) <br>   - Toad Admin Module <br> - Microsoft SQL Server DBA tools: <br>   - SQL Server Management Studio (specific versions)                          |
 | PSM for Virtualization                 | - VMware administration tools: <br>   - vSphere Client for vSphere/ESX hosts <br>   - vSphere Client for vCenter <br> **Notes**: <br>   - vSphere Client isn't supported on certain configurations <br>   - Alternative solutions for Windows 2016 R2 customers.             |
 
-## Connection Flow for PVWA to Target Server via PSM
+## Connection Flow of Sessions via PSM
 
 The connection flow describes the series of steps and interactions that occur from the moment a request is initiated from the Password Vault Web Access (PVWA) to the point where a secure session is established with a target server. This process involves several components, including the Vault, the Privileged Session Manager (PSM), and various users and servers.
 
-### Connection Flow Steps:
+### Connection Flow Steps
 
-1. **Initiate Request**: A request is initiated from the PVWA to the Vault.
-2. **Vault to PSM Message**: The Vault sends a message to the PSM server, informing it to expect an RDP (Remote Desktop Protocol) connection.
-3. **Download RDP File**: An RDP file gets downloaded since the PSM functionality is enabled.
-4. **Open RDP File**: Clicking on the downloaded RDP file initiates the next step.
-5. **Secure Session**: The PSMConnect user establishes a secure session.
-6. **Fetch Credentials**: The PSM server fetches the necessary credentials from the Vault server.
-7. **Temporary Profile**: A temporary profile with user PSMShadowUser is created on the PSM server.
-8. **Target Server Connection**: The PSM establishes a connection to the target server based on the specified connection component (RDP, SSH, SQL).
-9. **Secure Session Establishment**: A secure session is established, allowing work to be performed on the target server.
-10. **Session Recording**: During the ongoing session, activity is recorded and stored locally on the PSM server.
-11. **Transfer Recordings**: After session completion or termination, the recordings are transferred to the Vault server in a designated PSMRecordings safe.
+merge these two flows together, they are the same concept
+ 
+1. **Initiate Request & Logon**: IT personnel initiates the process by logging on through the Privileged Web Access (PWWA) using HTTPS. A request is initiated from the PVWA to the Vault.
+2. **Connect via RDP**: The Vault sends a message to the PSM server, informing it to expect an RDP (Remote Desktop Protocol) connection. Once authenticated, the IT personnel connects using RDP encapsulated over HTTPS.
+3. **Download & Open RDP File**: An RDP file gets downloaded since the PSM functionality is enabled. Clicking on this file moves the process to the next step.
+4. **Secure Session Establishment**: The PSMConnect user establishes a secure session, ensuring that the user doesn't need the actual system credentials. The PSM fetches these credentials from the vault.
+5. **Temporary Profile Creation**: A temporary profile with the user PSMShadowUser is established on the PSM server.
+6. **Connect using Native Protocols**: PSM establishes a connection to the desired system (e.g., databases, Windows servers, UNIX servers, etc.) based on the specified connection component like RDP for Windows servers, SSH for UNIX servers, or SQL for databases.
+7. **Work on Target Server**: With the connection in place, a secure session allows work to be performed on the target server.
+8. **Session Recording & Storage**: All actions performed during the privileged session are recorded by the PSM. These recordings are stored locally on the PSM server and are essential for auditing and compliance purposes.
+9. **Transfer Recordings & Log Forwarding**: After the session is completed or terminated, the recordings are transferred to the Vault server in a designated PSMRecordings safe. Simultaneously, log data, inclusive of session activity, is relayed to SIEM systems, SIM systems, or syslog servers for comprehensive monitoring and analysis.
 
-### Flowchart:
+#### Devices/Systems Involved:
 
-```mermaid
-graph LR
-  A[PVWA]
-  B[Vault]
-  C[PSM Server]
-  D[RDP File]
-  E[PSMConnect User]
-  F[Credentials from Vault]
-  G[Temporary Profile]
-  H[Target Server]
-  I[Session Recordings]
-  J[PSMRecordings Safe]
-  
-  A -->|Request| B
-  B -->|Message| C
-  C -->|Download| D
-  D -->|Click| E
-  E -->|Secure Session| F
-  F -->|Fetch| G
-  G -->|Establish Connection| H
-  H -->|Work| I
-  I -->|Transfer| J
-```
-
+- **PWWA**: A web portal for accessing privileged sessions securely.
+- **PSM**: The central component that manages, records, and audits privileged sessions.
+- **Vault**: Securely stores credentials used for accessing systems.
+- **Target Systems**: Includes databases, Windows servers, UNIX servers, VMWare systems, and network devices like routers and switches.
+- **SIEM/SIM/Syslog**: Systems for logging, monitoring, and analyzing security-related events.
 
 
 ![[mermaid-diagram-2023-10-14-002920.svg]]
 
 ## PSM Internal Users and Groups
 
-PSMConnect - Starts the PSM Sessions on the PSM server  
-PSMAdminConnect - Monitors live privileged sessions  
-PSMShadowUser -  
-PSMAppUser  
-PSMGWUser
+In a Privileged Session Management (PSM) environment, various specialized accounts and session types serve different roles. Here's a quick rundown:
 
-PSM application users have to be at the domain level when the [[Privileged Session Manager|PSM]] is installed on a Windows 2019 machine and working with a RDS CAL per-user license. (This also extends the sessions beyond one hour.)  
+- **PSMConnect**: Initiates PSM sessions on the PSM server.
+- **PSMAdminConnect**: Monitors ongoing privileged sessions.
+- **PSMShadowUser**: Auto-created for process isolation during a PSM connection.
+- **PSMGwUser**: Serves as a gateway for user access to the Vault.
+- **PSMAppUser**: Handles internal communication between an application and the vault.
+- **PVWAGWUser**: Another gateway account for user access to the Vault.
+
+### Detailed Breakdown
+
+| Account/Session Type | Description | Purpose |
+| -------------------- | ----------- | ------- |
+| **PSMConnect**       | Initiates sessions on the PSM server. | Starts privileged sessions. |
+| **PSMAdminConnect**  | Monitors live privileged sessions. | Session oversight and auditing. |
+| **PSMShadowUser**    | Automatically created during a PSM connection. | Process isolation for sessions; prevents data leakage between sessions. |
+| **PSMGwUser**        | Gateway account for accessing the Vault. | Impersonates user's access to the Vault. |
+| **PSMAppUser**       | Manages internal processing between an app and the vault. | Internal communication and data exchange. |
+| **PVWAGWUser**       | Another gateway account for Vault access. | Impersonates user's access to the Vault. |
+
+### Additional Information
+
+- **PSMShadowUser**: These users are created by the SYSTEM user and are non-privileged. Their primary purpose is to isolate processes, ensuring programs run under different identities for different vault users.
+- **PSMConnect vs PSMAdminConnect**: While both initiate PSM sessions, PSMAdminConnect has an oversight role, allowing admins to monitor the sessions.
+- **PSMGwUser and PVWAGWUser**: These are gateway accounts, but the context or differentiation between them might be specific to an organization's setup.
+
+### Shadow Users
+
+#### Introduction
+
+- A PSM Shadow user is an account created automatically during a PSM (Privileged Session Manager) connection. 
+- They serve to sandbox, or isolate, the client session, ensuring that programs initiated by different vault users on the same server run under distinct identities. This prevents information leakage between sessions. 
+- These shadow users have no privileges and are created by the SYSTEM user. Their credentials are managed internally by the PSM server, which resets the shadow user's password with each new connection. 
+- The PSM server's hardening procedure, detailed in the PIM Suite Installation Guide, restricts the use of these users and limits their permissions.
+
+#### Purpose
+
+Starting from version 6.0, PSM allowed various clients on the server (e.g., Toad, SQL+). To enhance security and scalability, version 7.0 introduced sandboxed client sessions through PSM Shadow users. A unique shadow user account is generated for each Vault user, existing as a local user on the PSM machine. During a PSM connection, the primary connection is made using the PSMConnect user. However, the client software is executed under the shadow user's context, ensuring full session separation. Each user benefits from distinct permissions, files, and registry entries, which protects against interference with other users' sessions.
+
+#### Management
+
+Shadow user accounts and profiles are deleted based on a configurable parameter named `ClearUserProfilesInterval`. This can be accessed in PVWA via:
+   1. Administration Tab  
+   2. System Configuration - Component Settings - Options  
+   3. PIM Suite Configuration - Privileged Session Management - General Settings - Server Settings  
+By default, this parameter is set to 30 days. If the associated Vault User is no longer present in the vault, the shadow user account and profile are deleted during this interval.
+
+**Q4: What is the recommended method for cleaning up unused accounts/profiles?**  
+
+For shadow users tied to existing vault users, it's advisable to retain their accounts. If the vault user is deleted, the associated shadow user will be automatically cleaned up during the next `ClearUserProfilesInterval` cycle. If there's a need to manually delete a shadow user account without removing the vault user:
+   1. Navigate to Control Panel -> System -> Advanced system settings.
+   2. Under the Advanced tab, within the User Profiles section, click on the Settings button.
+   3. Select the desired user name and click the Delete button.
+
+**Q5: Why do RDP sessions not require or use a PSM Shadow User account to connect through PSM?**  
+
+The PSMRdpClient is unique in that it uses PSMConnect and not a shadow user. Using a shadow user for this purpose would inhibit certain features, like the ability to copy-paste between the client and target machine. There's also no security necessity for using shadow users with RDP sessions, unlike with other connection clients.
+
+**Q6: How does password rotation on PSM Shadow User accounts work?**  
+
+PSM Shadow User accounts do not have an automatic password rotation mechanism. However, it's worth noting that these accounts are considered low-risk. They are weak users, unable to remotely log into the PSM server. For added security, a new password is generated for each session.
+
 
 [PSMConnect and PSMAdminConnect Domain Users | CyberArk Docs](https://docs.cyberark.com/PAS/Latest/en/Content/PAS%20INST/Optional-Moving-the-PSMConnec-and-PSMAdminConnect-users-to-your-Domain.htm)
 

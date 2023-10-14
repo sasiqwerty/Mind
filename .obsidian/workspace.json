@@ -34,6 +34,18 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "d7984d1152219561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/14-10-23 Saturday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -88,13 +100,21 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "8392332b40d19bcf",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
         ],
         "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 330.50499725341797
+    "width": 288.50499725341797
   },
   "right": {
     "id": "e75d658a6f93a05f",
@@ -205,10 +225,12 @@
   },
   "active": "15e11ed982519419",
   "lastOpenFiles": [
-    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-14-002920.svg",
     "PSM Shadow User.md",
-    "DailyNote/13-10-23 Friday.md",
     "Session 30 PSM 1.md",
+    "DailyNote/14-10-23 Saturday.md",
+    "Session-Management-Architecture.png (1233×719).md",
+    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-14-002920.svg",
+    "DailyNote/13-10-23 Friday.md",
     "Cyberark/Core Concepts/Core Concepts img/RE2uHD0.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV 1.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV.webp",
@@ -218,7 +240,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171236.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171004.png",
     "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-13-170931.png",
-    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-13-170753.svg",
     "Install and Config PSM.md",
     "Session 32 PSM 3.md",
     "Session 31 PSM 2.md",
@@ -241,7 +262,6 @@
     "How torrents work.md",
     "listen-session07.md",
     "Introduction Slides.md",
-    "Skytap CyberArk Labs - Creation.md",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
     "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
