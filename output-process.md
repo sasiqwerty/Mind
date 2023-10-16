@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, October 16th 2023, 11:50:21 am
-date modified: Monday, October 16th 2023, 12:43:21 pm
+date modified: Monday, October 16th 2023, 3:05:07 pm
 ---
 IMG-20231015-WA0001.jpg  
 
@@ -274,7 +274,7 @@ IMG-20231015-WA0025.jpg
 
 You are adding a new application in the Remote Access portal. Which authentication methods can you use to authenticate users to the PW/AQ (Choose 2)
 
-Password  
+Password `  
 OpenID  
 Certificate  
 SAML  
@@ -332,373 +332,194 @@ Which master policy settings ensure non-repudiation?
 Require password verification every X days and enforce one-time password access.  
 Enforce check-in/check-out exclusive access and enforce one-time password access.  
 Allow EPV transparent connections ('Click to connect') and enforce check-in/check-out exclusive access.  
-Allow EPV transparent connections ('Click to connect') and enforce one-time password access.
+Allow EPV transparent connections ('Click to connect') and enforce one-time password access.`
 
-#todo #dump
 
 IMG-20231015-WA0031.jpg  
-yberArk Defender - PAM
+You need to identity the most powerful accounts in your organization to prepare for the initial PAM onboarding process. Which tools or features can be used to locate and onboard these accounts? (Choose 2.)
 
-id
-
-EX Comment: i
-
-Reroarding
-
-You need to identity the most powerful accounts in your organization to prep
-
-are for the initial PAM onboarding process  
-Which tools or features can be used to iacate and onboard these accounts? (Choose 2 }
-
-OA Discovery and Audit (DNA}
-
-Os CyberArk’s Command Line Interface (PACLI)
-
-Oc. Onboarding and Secure Account Feed
-
-fF OOD Accounts Discovery
-
-Ok: Privilege Account Matrix (PAM) XLS
-
+Discovery and Audit (DNA)  
+CyberArk's Command Line Interface (PACLI)  
+Onboarding and Secure Account Feed  
+Accounts Discovery  
+Privilege Account Matrix (PAM) XML-based
 
 IMG-20231015-WA0032.jpg  
 CyberArk Defender - PAM -
 
-Which statement ts correct conceming accounts thal are discovered but cannot be added to the Vault by an automated onboarding rule?
+Which statement is correct concerning accounts that are discovered, but cannot be added to the Vault by an automated onboarding rule?
 
-‘OA They are added to the Pending Accounts fist
-
-oO B. They cannot be onboarded to the Password Vault  
-OC. They must be uploaded using third party tools  
-oD.
-
-They are not part of the Discovery Process
-
+They are added to the Pending Accounts list.  
+They cannot be onboarded to the Password Vault.  
+They must be uploaded using third party tools.  
+They are not part of the Discovery Process.
 
 
 IMG-20231015-WA0033.jpg  
-You are onboarding an account that is not supported out of the box  
-~ What should you do first to obtain a platform to import?
+You are onboarding an account that is not supported out of the box. What should you do first to obtain a platform to import?
 
-PORK Create a service ticket in the customer portal explaining the requirements of the custom platform
-
-. ©.B. Search common community portals like stackoverflow. reddit. github for an existing platform
-
-OC. From the platforms page, uncheck the “Hide non-support
-
-ed platforms” checkbox and see if a piatform meeting your needs appears...  
-OD.
-
-Visit the CyberArk marketplace and search for a platform that meets your needs
-
-
+Create a service ticket in the customer portal explaining the requirements of the custom platform.  
+Search common community portals like stackoverflow, reddit, github for an existing platform.  
+From the platforms page, uncheck the "Hide non-supported platforms" checkbox and see if a platform meeting your needs appears.  
+Visit the CyberArk marketplace and search for a platform that meets your needs.
 
 IMG-20231015-WA0034.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
+Which item is an option for PSM recording customization?
 
-A. Windows events text recorder with automatic play-back
-
-Windows events text recorder and universal keystrokes recording simuitaneously  
-Universal keystrokes text recorder with windows events text recorder disabled
-
+Windows events text recorder with automatic play-back  
+Windows events text recorder and universal keystrokes recording simultaneously  
+Universal keystrokes text recorder with windows events text recorder disabled  
 Custom audio recording for windows events
 
 
 IMG-20231015-WA0035.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
 What are the mandatory fields when onboarding from Pending Accounts? (Choose 2.)
 
-CA Address
-
-oo B. Safe
-
-Cc Account Description  
-oD Platform
-
-CE. CPM
+Address  
+Safe  
+Account Description  
+Platform  
+CPM
 
 
 
 IMG-20231015-WA0036.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
-WERE OQ & xu
+Which Vault authorization does a user need to have assigned to able to generate the "Entitlement Report" from the reports page in PVWA? (Choose 2)
 
-eport Tom Tie “eparts page mF
-
-Which Vault authorization does a use need te hive
-
-editable teaengrate the “bitter ice ke
-
-AWA? Choose 2 }  
-A Manage Users
-
-— 8 Audit Users  
-c
-
-Read Actwity
-
-I  
-a
-
-View Entitlements
-
-cE List Accounts
-
+Manage Users  
+Audit Users  
+Read Activity  
+View Entitlements  
+List Accounts
 
 IMG-20231015-WA0037.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
-me HR il I, 1
+What are the minimum permissions to add multiple accounts from a file when using PWIA bulk-uploadQ (Choose 3.)
 
-iA add accounts
-
-OB rename accounts
-
-oc update account content  
-D
-
-update account properties
-
-ao  
-m
-
-view safe members
-
-O
-=
-
+add accounts  
+rename accounts  
+update account content  
+update account properties  
+view safe members  
 add safes
 
-
 IMG-20231015-WA0038.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
-Auser needs to view recorded sessions through the PYWA  
-Without giving auditor access which safes does a user need access ty view PSL recorchriys? (Choose 2
+A user needs to view recorded sessions through the PVWA. Without giving auditor access, which safes does a user need access to view PSM recordings? (Choose 2)
 
-ho
 
-— A Recordings safe
-
-= 8B Safe the accountis
-
-~ C¢ System safe
-
-_ D PYWACanfiguration safe
-
-~~ £E Vaultinterna! safe
+Recordings safe  
+Safe the account is in  
+System safe  
+PYWAConfiguratjon safe  
+Vaultlnternal safe
 
 
 
 IMG-20231015-WA0039.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale  
-: a
+A user requested access to view a password secured by dual control and IS unsure who to contact to expedite the approval process The Vault Admin has been asked to look at the account and identify who can approve their request. What is the correct location to Identify users or groups who can approve?  
 
-Auset requested access to view a password st ured ty ina ra  
-What is the correct location to identity users ol yraups. whe
-
-sabes divest 17e Me ae im MPHIE Din hoes asked! fK al thy acccunt and ently who can approve then request  
-an ary  
-CA PYWA = Administration ~ Plattorn “contyysralic B SA ae Data Sat Ih  
-B PYWA» Pohiies - Access Contiol Satosr se 1 Shia wee Fe aes  
-GC PYWA= Account List: Edit» Shiny Adtvanr ed:  
-oD
-
-PrvateAck = Admin foals. Users and tari.
-
-
+PWVA > Administration > Platform Configuration Edit Platform > Ul & Workflow > Dual Control > Approvers  
+PVWA Policies > Access Control (Safes) Select the safe > Safe Members > Workflow > Authonze Password Requests  
+PVWA> Account List > Edit > Show Advanced Settings Dual Control > Direct Managers  
+PrivateArk > Adrntn Tools > Users and Groups Auditors (Group Membership)
 
 IMG-20231015-WA0040.jpg  
-PYWA, you are allemipting lo play a rerarding nade ta sescont  
-nat could be the cause?
 
-A Recording 1s of a PSM for SSH sessien
+In PVWA you are attempting to play a recording made of a session by user jsmith. but there is no option to "Fast Forward" within the video, It plays and only allows you to skip between commands instead. You are also unable to download the Video What could be the cause?
 
-DB. The browser you are using +
+Recording is of a PSM for SSH sesston.  
+The browser you are using ts out of date and needs an update to be supported  
+You do not have the iView Audit" permtsslon on the sate where the account stored.  
+You need to update the recorder settings in the platform to enable screen capture every ms or lessons
 
-for dale AM Meds ay  
-OC. Youda not have the “View Aut” pamisena
-
-OD. Youneed to update the -e
-
-fer SeTUINGS nA
-
-SISO HEEL But pees
-
-Leste 0
-
-‘cai! You ate also unable to download the video
 
 
 IMG-20231015-WA0041.jpg  
 CyberArk Defender - PAM - Dattatraya B Ingale
 
-You are configuring CyberArk to use HTMLS 1 gateways exclusively for PSM connections  
-In the PVWA. where do you set Def
+You are configuring CyberArk to use TML5 gateways exclusively for PSM connections. In the PVWA, where do you set DefaultConnectionMethod to HTML5?
 
-aultConnectionMethod to HTML5?
-
-A Options = Privileged Session Management UU!  
-“ B Options » Privileged Session Management  
-ae Options » Privileged Session Management Defaults  
-2D
-
-Options = Privileged Session Management Interface
+Options > Privileged Session Management Ul  
+Options > Privileged Session Management  
+Options > Privileged Session Management Defaults  
+Options > Privileged Session Management Interface
 
 
 
 IMG-20231015-WA0042.jpg  
-Match each key to its recommended storage locaien
 
-Recovery Private Key Store in a Physical Safe
+Match each key to its recommended storage location.
 
-Store in a Hardware Security
-
-Recovery Public Key Module
-
-Server Key Store on the Vault Server Disk  
-Drive
-
-SSH Keys Store’ in the Vauit!  
-f
-
-
+| Key                  | Storage Location                       |
+|----------------------|----------------------------------------|
+| Recovery Private Key | Store in a Physical Safe               |
+| Recovery Public Key  | Store in a Hardware Security Module    |
+| Server Key           | Store on the Vault Server Disk Drive   |
+| SSH Keys             | Store in the Vault                     |
 
 IMG-20231015-WA0043.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
-or "  
 Which processes reduce the risk of credential theft? (Choose 2.)
 
-DA tequire dual control password access approval  
-118 require password change every X days
-
-mc enforce check-in'check-out exclusive access  
-OD
-
+require dual control password access approval  
+require password change every X days  
+enforce check-in/check-out exclusive access  
 enforce one-time password access
 
-
-
 IMG-20231015-WA0045.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
-“oA to understand the dentty atlas k coer
+What are common ways that organizations leverage the CyberArk Blueprint for Identity Security Success? (Choose 3.)
 
-mB lo discover ail digital dent ties
-
-ce to describe the explorer of operator :  
-mD. fo aSSess an alqanization’s set undy pis  
-cE to build an identity Security foaditay
-
-oF
-
-to secure their human identities,
-
+to understand the identity attack chain  
+to discover all digital Identities  
+to describe the explicit order of operations for Identity Security  
+to assess an organization's security posture  
+to build an Identity Security roadmap  
+to secure their human identities
 
 IMG-20231015-WA0046.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
 
-Serardug
+You are creating a shared safe for the help desk. What must be considered regarding the naming convention?
 
-You are creating a shared safe for the help desk  
-What must be considered regarding the naming conventian?
-
-QA Ensure the naming convention does not exceed 28 Characters
-
-QB Combine environments owners and platforms to minimize the total number of safes created
-
-Safe owners should determine the safe name to enable them to easily remember it
-
-The word “Safe” cannot be used
-
-
-IMG-20231015-WA0047.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
-
-Candidate: Dattatraya Bharat Ingale  
-Candidate ID: 304429222
-
-Exam: PAM-DEF CyberArk Defender - PAI}  
-Passing Score: 70%
-
-Candidate Score: 78%
-
-Grade: Pass
-
-Please click the End Exam button
-
-li rr bil! iit
-
+Ensure the naming convention does not exceed 28 characters.  
+Combine environments, owners and platforms to minimize the total number of safes created.  
+Safe owners should determine the safe name to enable them to easily remember it.  
+The word "Safe" cannot be used
 
 IMG-20231015-WA0048.jpg  
-reo ot  
-a oa hiya cunt
+You are onboarding 5000 UNIX root accounts for rotation by the CPM. You discover that the CPM is unable to login directly with the root account and will need to use a secondary account. How can this be configured to allow for password management using least privilege?  
 
-You att onbnardingy © ny WN >  
-Mow can the be cuntaaas ts aero t  
-Gontigure e3°*
-
-Contre nag  
-© Cantiqar tree ho ar
-
-Te Fanigare ha hs
-
-
+Configure each CPM to the correct logon account  
+Configure each CPM to use the correct reconcile account  
+Configure the UNIX platform to use the correct logon account  
+Configure the UNIX platform to use the correct reconcile account
 
 IMG-20231015-WA0049.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
-
-ES
-
-Where can you find resources to learn more about the CybeiArk Blueprint? (Choose 2 }
-
-OA CyberArk Blueprint Webpage  
-OB References within the Identity Security Platform  
-oc Product Webinars
-
-ao CyberArk University Course
+Where can you find resources to learn more about the CyberArk Blueprint? (Choose 2)  
+CyberArk Blueprint Webpage  
+References within the Identity Security Platform  
+Product Webinars  
+CyberArk University Course
 
 
 IMG-20231015-WA0050.jpg  
-@ Time Remainirs
+A recently-hired colleague onboarded five new Local Accounts that are used for standalone Windows Servers. After attempting to connect to the servers from PVWA, the colleague noticed that the "Connect" button was greyed out for all five new accounts. What can you do to help your colleague resolve this issue? (Choose 2.)
+- Verify that the address field is populated with an IP or FQDN of each server.
+- Verify that the correct PSM connection component appears within account platform settings.
+- Verify that the address field is blank and that the correct PSM connection component appears within account platform settings.
+- Notify the Windows Team that created the new accounts that the CyberArk PAM solution is not designed to manage local accounts on Windows Servers.
+- Verify that the "Disable automatic management for this account" setting for each account is not enabled.
 
-Aree gnity ned walla  
-Webvat can you tu ter bes year
-
-gtd! Ae
-
-Mpa ts ayes
-
-Sf Fe sew dee clunts,  
-A Monty tig te ates toe  
-Bo Venby Matinee ee
-
-© Vemby mat the artes, +
-
-UW Notily Me viene a
-
-Very thal this
-
-
+#todo #later #dump 
 
 IMG-20231015-WA0051.jpg  
-You receive this error
-
+You receive this error:  
+"Error in changepass to user domain\user on domain (winRc=5) Access is denied"  
+Which could be the cause?  
 “Error in changepass to user domaimuser on domain server(- domain fwinkc=5) Acc  
-. Which could be the cause?
-
-&S5 1§ denied.”
-
-A The account does not have sufficient permissions to change its own password
-> B. The domain coniraller 1s unreachable  
-2 The password has been changed recently and minimum password age is preventing the change  
-= D
-
-The CPM service is disabled and will need to be restarted
-
 Record
 
 

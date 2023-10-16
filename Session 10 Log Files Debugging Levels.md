@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, October 4th 2023, 5:05:52 pm
-date modified: Wednesday, October 4th 2023, 9:34:56 pm
+date modified: Monday, October 16th 2023, 3:19:34 pm
 ---
 Very similar to [[Session 9 Vault Configuration Files]]
 

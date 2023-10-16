@@ -65,26 +65,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "testing-OCR.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d79bee97560578e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1147b3845c134e17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "output-process.md",
                 "mode": "source",
                 "source": false
@@ -102,9 +82,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "276f67be05d58926",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "d22b83e600773f0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "output-till30 testdraft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -167,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -281,13 +281,23 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "1147b3845c134e17",
+  "active": "3026250a5484a5f1",
   "lastOpenFiles": [
-    "credfile creation common process.md",
-    "output-process.md",
-    "Session 30 PSM 1.md",
-    "testing-OCR.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "Session 8 Vault Service Dependencies DBPARM ini file.md",
+    "Session 9 Vault Configuration Files.md",
+    "Session 10 Log Files Debugging Levels.md",
     "DailyNote/16-10-23 Monday.md",
+    "DailyNote/06-09-23 Wednesday.md",
+    "credfile creation common process.md",
+    "output-till30 testdraft.md",
+    "Cyberark/Core Concepts/Components/Vault/dbparm ini file.md",
+    "output-process.md",
+    "testing-OCR.md",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231016131748.png",
+    "~$tput-till30 testdraft.docx",
+    "output-till30 testdraft.docx",
+    "Session 30 PSM 1.md",
     "TelegramNotes/Ready Player One - 20231014130358172.mobi",
     "PSM Shadow User.md",
     "DailyNote/14-10-23 Saturday.md",
@@ -302,11 +312,9 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171728.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171236.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171004.png",
-    "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-13-170931.png",
     "Install and Config PSM.md",
     "Session 32 PSM 3.md",
     "Session 31 PSM 2.md",
-    "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "DailyNote/09-10-23 Monday.md",
     "DailyNote/12-10-23 Thursday.md",
     "conv-file.md",
@@ -315,20 +323,12 @@
     "TelegramNotes/Telegram.md",
     "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
     "OpenAI/api key.md",
-    "Cyberark/Basics/Windows Server/LDAP Integration.md",
-    "linkshelf-token.md",
-    "Components and their Logs-services-config data.md",
-    "20 Python Scripts with Code to Automate Your Work.md",
-    "User Management.md",
-    "ultimate power idea.md",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
     "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
     "Cyberark/Files/11WS-PAM-Install-Vault Availability (DR).pdf",
     "Cyberark/Files/10WS-PAM-Install-Securing CyberArk with CyberArk.pdf",
     "Cyberark/Files/09WS-PAM-Install-PSM for SSH.pdf",
-    "Cyberark/Files/08WS-PAM-Install-PSM Load Balancing.pdf",
-    "Cyberark/Files/07WS-PAM-Install-PSM.pdf",
     "Untitled.canvas",
     "Cyberark/Doubts/clear expired safe history.canvas",
     "Cyberark/Doubts/doubt related to DAC.canvas",
