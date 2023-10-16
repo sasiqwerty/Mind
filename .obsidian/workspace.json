@@ -53,14 +53,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/14-10-23 Saturday.md",
+                "file": "DailyNote/16-10-23 Monday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3026250a5484a5f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "testing-OCR.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5d79bee97560578e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1147b3845c134e17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "output-process.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5cd3dd2f87b80d82",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "credfile creation common process.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -89,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#dump",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -123,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -143,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/14-10-23 Saturday.md",
+                "file": "output-process.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/14-10-23 Saturday.md",
+                "file": "output-process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/14-10-23 Saturday.md"
+                "file": "output-process.md"
               }
             }
           },
@@ -203,7 +247,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/14-10-23 Saturday.md"
+                "file": "output-process.md"
               }
             }
           }
@@ -237,10 +281,14 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "d4ad6b2bae90a23d",
+  "active": "1147b3845c134e17",
   "lastOpenFiles": [
-    "TelegramNotes/Ready Player One - 20231014130358172.mobi",
+    "credfile creation common process.md",
+    "output-process.md",
     "Session 30 PSM 1.md",
+    "testing-OCR.md",
+    "DailyNote/16-10-23 Monday.md",
+    "TelegramNotes/Ready Player One - 20231014130358172.mobi",
     "PSM Shadow User.md",
     "DailyNote/14-10-23 Saturday.md",
     "Session-Management-Architecture.png (1233×719).md",
@@ -273,9 +321,6 @@
     "20 Python Scripts with Code to Automate Your Work.md",
     "User Management.md",
     "ultimate power idea.md",
-    "pvwa related images.md",
-    "How torrents work.md",
-    "listen-session07.md",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
     "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
@@ -284,7 +329,6 @@
     "Cyberark/Files/09WS-PAM-Install-PSM for SSH.pdf",
     "Cyberark/Files/08WS-PAM-Install-PSM Load Balancing.pdf",
     "Cyberark/Files/07WS-PAM-Install-PSM.pdf",
-    "Cyberark/Files/06WS-PAM-Install-Pre-Implementation.pdf",
     "Untitled.canvas",
     "Cyberark/Doubts/clear expired safe history.canvas",
     "Cyberark/Doubts/doubt related to DAC.canvas",
