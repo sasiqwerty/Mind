@@ -71,3 +71,11 @@ hi
 ![[Why We Sleep-1 - 20231012092152890.mobi]]
 
 Why We Sleep-1.mobi
+
+***
+
+**Forwarded from [Sasi Sarath](https://t.me/sarathsasig)**
+
+![[Ready Player One - 20231014130358172.mobi]]
+
+Ready Player One.mobi

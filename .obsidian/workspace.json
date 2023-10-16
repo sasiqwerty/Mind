@@ -46,8 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06b518574535bb0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/14-10-23 Saturday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session 30 PSM 1.md",
+                "file": "DailyNote/14-10-23 Saturday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session 30 PSM 1.md",
+                "file": "DailyNote/14-10-23 Saturday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session 30 PSM 1.md"
+                "file": "DailyNote/14-10-23 Saturday.md"
               }
             }
           },
@@ -190,7 +203,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Session 30 PSM 1.md"
+                "file": "DailyNote/14-10-23 Saturday.md"
               }
             }
           }
@@ -203,6 +216,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "surfing:surfing-bookmark-manager": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "canvas:Create new canvas": true,
@@ -223,10 +237,11 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "15e11ed982519419",
+  "active": "d4ad6b2bae90a23d",
   "lastOpenFiles": [
-    "PSM Shadow User.md",
+    "TelegramNotes/Ready Player One - 20231014130358172.mobi",
     "Session 30 PSM 1.md",
+    "PSM Shadow User.md",
     "DailyNote/14-10-23 Saturday.md",
     "Session-Management-Architecture.png (1233×719).md",
     "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-14-002920.svg",
@@ -261,7 +276,6 @@
     "pvwa related images.md",
     "How torrents work.md",
     "listen-session07.md",
-    "Introduction Slides.md",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
     "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
