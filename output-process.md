@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, October 16th 2023, 11:50:21 am
-date modified: Monday, October 16th 2023, 3:05:07 pm
+date modified: Monday, October 16th 2023, 5:19:21 pm
 ---
 IMG-20231015-WA0001.jpg  
 
@@ -513,692 +513,455 @@ A recently-hired colleague onboarded five new Local Accounts that are used for s
 - Notify the Windows Team that created the new accounts that the CyberArk PAM solution is not designed to manage local accounts on Windows Servers.
 - Verify that the "Disable automatic management for this account" setting for each account is not enabled.
 
-#todo #later #dump 
 
 IMG-20231015-WA0051.jpg  
 You receive this error:  
-"Error in changepass to user domain\user on domain (winRc=5) Access is denied"  
-Which could be the cause?  
-“Error in changepass to user domaimuser on domain server(- domain fwinkc=5) Acc  
-Record
+"Error in changepass to user domainuser on domain server\[domain\].(winRc=5) Access is denied."  
+Which could be the cause?
+
+- **A.** The account does not have sufficient permissions to change its own password.
+- **B.** The domain controller is unreachable.
+- **C.** The password has been changed recently and minimum password age is preventing the change.
+- **D.** The CPM service is disabled and will need to be restarted.
+
 
 
 
 IMG-20231015-WA0052.jpg  
-A  
-B  
-7 Cc  
-D
 
-Which configuration file is used by the CPM scanner when scanning UNIX:Linux devices?
+Which configuration file is used by the CPM scanner when scanning UNIX/Linux devices?  
 
-UnixPrompts.ini  
-plink exe  
-dbparm. ini
-
-UnixScanner int
+UnixPrompts-ini  
+plink-exe  
+dbparm-ini  
+UnixScannerini
 
 
 
 IMG-20231015-WA0053.jpg  
-iad
 
-Which built-in report from the reparts page in PVWA displays the number of days until a
+Which built-in report from the reports page in PVWA displays the number of days until a password is due to expire?
 
-A Priieged Accounts Inventory
-
-"= B Privileged Accounts Compliance Status  
-Cc Activity Log
-
-> D
-
+Privileged Accounts Inventory  
+Pnvileged Accounts Compliance Status  
+Activity Log  
 Privileged Accounts CPM Status
 
 
-
 IMG-20231015-WA0054.jpg  
-What is the easiest way to dupti ate an
+What is the easiest way to duplicate an existing platform?
 
-| RAR Bivatetih Copp gente Ha canter he oer wy  
-Rom te PVA rival ray ten ory : : ' Vite gs on  
-Co Veo Deseteree copy tart tin aieiy are a : im vi :  
-Dumb UME IMS asin gmc Stes
-
-te andl reneme the platform
+- **A.** From PrivateArk, copy/paste the appropriate Policy.ini file, then rename it.
+- **B.** From the PWA, navigate to the platforms page, select an existing platform that is similar to the new target account platform and then click Duplicate, name the new platform.
+- **C.** From PrivateArk, copy/paste the appropriate settings in PVConfiguration.xml, then update the policyName variable.
+- **D.** From the PWA, navigate to the platforms page, select an existing platform that is similar to the new target account platform, manually update the platform settings and click "Save as" INSTEAD of save to duplicate and rename the platform.
 
 
 
 IMG-20231015-WA0055.jpg  
 What are valid ways to invite vendors using the Remote Access portal? (Choose 2.)
 
-Use the vendor invitation form
-
-Call the vendor users and have them scan a QR cade
-
-Use the self-service invitation URL
-
-Add the vendors in PVWA and send them their password.
-
+Use the vendor invitation form.  
+Call the vendor users and have them scan a QR code.  
+Use the self-service invitation URL.  
+Add the vendors in PVWA and send them their password.  
 Contact CyberArk support to help invite the vendors.
 
 
 
 IMG-20231015-WA0056.jpg  
-What are common ways that organizations leverage the CyberAtk Blueprint tor identity Securt y Su
+What are common ways that organizations leverage the CyberArk Blueprint tor identity Security Success? (choose 3)
 
-A
-
-to understand the identity attack chain
-
-to discover all digital identities
-
-to describe the explicit order of aperations for Identity Security  
-io assess an organization's security posture  
-to build an identity Security roadmap
-
+to understand the identity attack chain  
+to discover all digital identities  
+to describe the explicit order of operations for Identity Security  
+to assess an organization's security posture  
+to build an Identity Security roadmap  
 to secure their human identities
 
-CCESS
+IMG-20231015-WA0057.jpg 
 
+Which CyberArk utility allows you to create lists of Master Policy Settings, owners and safes for output to .txt files or MSSQL databases?
 
-
-IMG-20231015-WA0057.jpg  
-Export Vault Data
-
+Export Vault Data  
 Export Vault Information  
-PrivateArk Chent
-
+PrivateArk Client  
 Privileged Threat Analytics
 
 
 
 IMG-20231015-WA0058.jpg  
-CyberArk Defender - PAM - HEMA SURYA PRAKASH YARRAMSETTI  
-% Comment:  
-tn BYWNA, you ate attempting tu pi
 
-AY A Teron Miike  
-What could be the cause?
+**In PWA, you are attempting to play a recording made of a session by user jsmith, but there is no option to fast forward within the video. It plays and only allows you to skip between commands instead. You are also unable to download the video. What could be the cause?**
 
-Recording is uta TSM tnt SSL geo
-
-The browser you ian using os
-
-A
-
-iss
-
-~ CG You da not nave tas Ves  
-D
-
-You nessa tr updates the
-
-fobead You ate
-
-also Unabie to download the video
-
+- **A.** Recording is of a PSM for SSH session.
+- **B.** The browser you are using is out of date and needs an update to be supported.
+- **C.** You do not have the "View Audit" permission on the safe where the account is stored.
+- **D.** You need to update the recorder settings in the platform to enable screen capture every 10000 ms or less.
 
 
 IMG-20231015-WA0059.jpg  
-You need to enable the PSM for all platforms  
-Where do you perform this task?
+You need to enable the PSM for all platforms. Where do you perform this task?
 
-Platform Management > (Platform) = U! & Workflows
-
-A.  
-— B. Master Policy > Session Management
-
-C.
-
-D.
-
-Master Policy = Privileged Access Workflows
-
+Platform Management > (Platform) > Ul & Workflows  
+Master Policy > Session Management  
+Master Policy > Privileged Access  
 Administration > Options > Connection Components
 
-
-
 IMG-20231015-WA0060.jpg  
-en the CPM connects to a database, which interface is most commonly used?
+When the CPM connects to a database, which interface is most commonly used?
 
+Kerberos  
+ODBC  
+VBScript  
+Sybase
 
 
 IMG-20231015-WA0061.jpg  
-A  
-~ B  
-Cc
-
-D
 
 What is the correct process to install a custom platform from the CyberArk Marketplace?
 
-Locate the custom platform in the Marketplace and click Import
-
-Download the platform from the Marketplace and import it using fhe PVWA
-
-Contact CyberArk Suppart for guidance on how to import the platform
-
+Locate the custom platform in the Marketplace and click Import  
+Download the platform from the Marketplace and import it using fhe PVWA  
+Contact CyberArk Suppart for guidance on how to import the platform  
 Duplicate an existing platform and align the setting to match the platform from the Marketplace
 
 
 
 IMG-20231015-WA0062.jpg  
-Access Code
-
-326-212.482
 
 How do you create a cold storage backup?
 
-"OA On the DR Vault, install PARe plate accordina to the Installation quick
-
-eo codfgure Hie logon ini file and detine the Schedule tasks for full and incremental backups.
-
-install the Vault Backup utiity on a different machine from the Enterprise Password Vauit server and trigger the full backup
-
-B  
-CG Configure the backup options 1 the PVWA  
-D
-
-On the DR Vault, configure the cold storage backup path in TSParn ini file
-
-“Hee  
-Wie ae Bg
+On the DR Vault, install PARephcate according to the Installation guide, configure the logon Ini file, and define the Schedule tasks for full and Incremental backups.  
+Install the Vault Backup utility on a different machine from the Enterprise Password Vault server and tngger the full backup  
+Configure the backup options in the PVWA  
+On the DR Vault, configure the cold storage backup path In TSParm.ini file,
 
 
 IMG-20231015-WA0063.jpg  
-To manage automated onboarding rules 4 CyherArk user must be ar
+To manage automated onboarding rules, a CyberArk user must be a member ot which groupl?
 
-UDA Vault Admins  
-2B PasswordManagers  
-~~ C Auditors
-
-“ D Administrators
-
-ember ofwrech group?
-
+Vault Admins  
+PasswordManagers  
+Auditors  
+Administrators
 
 
 IMG-20231015-WA0064.jpg  
-Fann  
-if i
 
-Recortiag  
-, What can you do to ensure each component server is operational?
+What can you do to ensure each component server is operational?
 
-POA Logon to PVWA with v10 UI Navigate to Healthcheck. and validate each component server is connected to the Vauit -  
-oO 8B. Ping each component server to ensure connectivity  
-° Cc. Use the PrivateArk client to connect to the Vault server and validate ail the services are running  
-fp OD.
-
-\nstall the Vault Server interface on a remote machine to avoid interactive logon to the Vault OS and review the [TALog log through the Vault Server niedtace::
+Logon to PWVA with 10th v1O Ul, navigate to Healthcheck, and validate each component server IS connected to the Vault  
+Ping each component server to ensure connectivity.  
+Use the PnvateArk client to connect to the Vault server and validate all the services are running.  
+Install the Vault Server Interface on a remote machine to avoid Interactive logon to the Vault OS and renew the ITALOG.log through the vault server interface.
 
 
 
 IMG-20231015-WA0065.jpg  
-You want to create a new onboarding rule  
-Where do you accomplish this?
+You want to create a new onboarding rule. Where do you accomplish this?
 
-A In PVWA. click Reports = Unmanaged Accounts = Rules  
-8B In PYWA, click Options = Platform Management = Onboarding Rules  
-ae in PrivateArk. click Tools » Onboarding Rules
-
-D.
-
-In PVWA. click Accounts = Onboarding Rules
-
-EP
-
-
+In PVWA, click Reports > Unmanaged Accounts > Rules  
+In PVWA, click Options > Platform Management > Onboarding Rules  
+In PrivateArk, click Tools > Onboarding Rules  
+In PVWA7 click Accounts > Onboarding Rules
 
 IMG-20231015-WA0066.jpg  
-Platform  
-© B. Connection Component  
-oc CPM
+When onboarding multiple accounts from the Pending Accounts list, which associated setting must be the same across the selected accounts?  
 
+Platform  
+Connection Component  
+CPM  
 Vault
 
+IMG-20231015-WA0067.jpg  
+Which tools can you use to identify the machines and accounts that create the highest risk and are exposed to lateral movement?
 
+Accounts Discovery Feed  
+CyberArk DNA Report  
+REST API Scripts  
+CyberArk DNA Map  
+Get-LocalUser Powershell cmdlet
 
 IMG-20231015-WA0068.jpg  
--yberArk Defender - PAM - HEMA SURYA PRAKASH YARRAMSETTI
+**You have been asked to secure a set of shared accounts in CyberArk whose passwords will need to be used by end users. The account owner wants to be able to track who was using an account at any given moment. Which security configuration should you recommend?**
 
-Configure one hme passwords tor the aper
-
-Configure shared account mode nn ihe appro}
-
-Configure bath one line pas
-
-5 anor  
-Conhgure abject level access contre ari fm a
-
-he
-
-You have been asked to secure a set of shared ai count. my Cyber  
-Which secunty configuration should you te: ommend?
-
-sale
-
-ve
-
-wifes
-
-Peake sate
-
-AL tinge ¢
-
-the apprpe
-
-vater 4
-
-ale: Glatte
-
-eer ay OVP eT
-
-UM eg
-
-in Master Ba icy
-
-Tir arr iat oe
-
-
+- **A.** Configure one-time passwords for the appropriate platform in Master Policy.
+- **B.** Configure shared account mode on the appropriate safe.
+- **C.** Configure both one-time passwords and exclusive access for the appropriate platform in Master Policy.
+- **D.** Configure object level access control on the appropriate safe.
 
 IMG-20231015-WA0069.jpg  
-require dual control password access approval
 
-require password change every X days
+Which processes reduce the risk of credential theftO (Choose 2)
 
-enforce check-in/check-out excllisive Aleess
-
+require dual control password access approval  
+require password change every X days  
+enforce check-in/checkout exclusive access  
 enforce one-time password access
 
 
-
 IMG-20231015-WA0070.jpg  
-4
-
-Recording
 
 Which setting in the Master Policy controls whether PSM is enabled and sessions will be recorded?
 
-“OA Require privileged session monitoring and isolation = Inactive Record and save session activity = active  
-OB Require privileged session monitoring and isolation = inactive Record and save session activity = inactive  
-OC. Require privileged session monitoring and isolation = active: Record and save session activity = active
-
-oD. Require privileged session monitoring and isolation = active: Record and save session activity = inactive
+Require privileged session monitoring and isolation = inactive; Record and save session activity = active  
+Require privileged session monitoring and isolation = inactive; Record and save session activity = inactive  
+Require privileged session monitoring and isolation = active; Record and save session activity = active  
+Require privileged session monitoring and isolation = active; Record and save session activity = inactive
 
 
 
 IMG-20231015-WA0071.jpg  
-What does the Minvalidity parameter on a platform polley determine”?
 
-time in minutes befare an empty safe will be automatically deer
+What does the minvalidity parameter on a platform policy determine?
 
-~~ A time between a Password retrieval and the account becorning  
-B timeout for users signed into the PVWA as configured in the pos  
-C minimum amount of tme that Just in Time ACCESS |S valid
-
-- D
-
-ed
+time between a password retrieval and the account becoming eligible for a password change  
+timeout for users signed into the PVWA as configured in the global settings  
+minimum amount of time that Just In Tme access is valid  
+time in minutes before an empty safe will be automatically deleted
 
 
+IMG-20231015-WA0072.jpg 
 
-IMG-20231015-WA0072.jpg  
-“O A SessionRecorderSafe  
-© B. SessionSafe  
-oc. RecordingsPath
+To change the safe where recordings are kept for a specific platform, which setting must you update in the platform configuration?
 
-OD. RecordingLocation
+SessionRecorderSafe  
+SessionSafe  
+RecordingsPath  
+RecordingLocatjon
 
 
+IMG-20231015-WA0073.jpg
 
-IMG-20231015-WA0073.jpg  
-Accompany fas nity Basins ate mente : ; ry, an 7 B athe OTT ayer Fhe nyitatin peneess for thext set of vendors  
-AteC ining the seri Mie Hamat Pees a garta a oa
+**A company has multiple business units that have their own set of vendors. Each business unit has a distinct role to manage vendor access. The business units want to have full control over the invitation process for their set of vendors. After inviting the user to the Remote Access portal, which permissions should be delegated?**
 
-Aatwrs
-
-User
-
-Venter Manian
-
-1 Viewer
+- **A.** Administrator
+- **B.** User
+- **C.** Vendor Manager
+- **D.** Viewer
 
 
 
 IMG-20231015-WA0074.jpg  
 Which usage can be added as a service account platform?
 
-A Kerberos Tokens  
-~ B uS Apphcation Pools
-- Cc PowerShell Libraries  
-~ Oo
-
-Loosely Connected Devices
-
-Ls
+KerberosTokens  
+-IISApplication Pools  
+PowerShell Libraries  
+LooselyConnected Devices
 
 
 
 IMG-20231015-WA0075.jpg  
-yberArk Defender - PAM - HEMA SURYA PRAKASH YARRAMSETTI
+When an account is unable to change its own password, how can you ensure that password reset with the reconcile account is performed each time instead of a change?
 
-OA Set the parameter RCAllowManualReconciation ti Yes  
-B Set the parameter ChangePasswordinResethode to Yes  
-Set the parameter lanoreReconcweAnMssingArc aunt io No
-
-Set the UntockUserOnRecancile io Yes
+Set the parameter RCAllowManualReconciliaüon to Yes.  
+Set the parameter ChangePasswordlnResetMode to Yes.  
+Set the parameter IgnoreReconcileOnMissingAccount to No.  
+Set the UnlockUserOnReconcile to Yes.
 
 
 
 IMG-20231015-WA0076.jpg  
-Which authentication methods can you use to aut
+You are adding a new application in the Remote Access portal. Which authentication methods can you use to authenticate users to the PWIAQ (Choose 2)
 
-UIA Password  
-1B OpeniD  
-oC. Centificate  
-HD. SAML  
-E.
-
+Password  
+OpenID  
+Certificate  
+SAML  
 OTP
 
-You are adding a new application in the Remote A
-
-cCcess portal
-
-henticate users to the PVWA? (Choose 2)
 
 
 
 IMG-20231015-WA0077.jpg  
-OA
 
-8B  
-c  
-D  
-is
+You need to identity the most powerful accounts in your organization to prepare for the Initial PAM onboarding process. Which tools or features can be used to locate and onboard these accounts? (Choose 2)
 
-You need to identity the most powerful accounts i your ordanication th prenare for tie -pitiat £  
-Which tools or features can be used te locate and onboard these accounts? i hence 7
-
-Oiscovery and Audd RNA
-
-CyberArk’s Comm
-
-Onboarding and Secure
-
-Accounts Discovery
-
-Privilege Account Matrix (PAM) XLS
+Discovery and Audit (DNA)  
+CyberArk's Command Line Interface (PACLI)  
+Onboarding and Secure Account Feed  
+Accounts Discovery  
+Pnvllege Account Matnx (PAM) XLS
 
 
 
-IMG-20231015-WA0078.jpg  
-CyberArk Defender - PAM - HEMA PRAKASH YARRAMSETTI
+IMG-20231015-WA0078.jpg 
 
-Access Code
+Which Vault authorizatlon does a user need to have assigned to able to generate the "Entitlement Report". from the reports page in PVWA? (choose 2)  
 
-326-212-48:
-
-A Manage Users
-
-B Audit Users
-
-c Read Activity
-
-Dd View Entitlemenis  
-E
-
+Manage Users  
+Audit Users  
+Read Activity  
+View Entitlements  
 List Accounts
 
 
 
 IMG-20231015-WA0079.jpg  
-You have been given the requirement that certain accounts cannot have their passwords updated dunng business ours  
-How can you set up a configuration to meet this requirement?
+You have been given the requirement that certain accounts cannot have their passwords updated during business hours. How can you set up a configuration to meet this requirement?
 
-oO Change settings on the CPM configuration safe so that access 1s permitted after business hours only.
-
-Update the password change parameters of the platform to match the permitted tme frame
-
-ie)
-
-A  
-OB.  
-c Disable automatic CPM management for all accounts that are assigned to this platform  
-D.
-
-oa Add an exception to the Master Policy to allow the action for this platform during the permitted time
+Change settings on the CPM configuration safe so that access is permitted after business hours only.  
+Update the password change parameters of the platform to match the permitted time frame.  
+Disable automatic CPM management for all accounts that are assigned to this plafform.  
+Add an exception to the Master Policy to allow the action for this platform during the permitted time.
 
 
 
 IMG-20231015-WA0080.jpg  
-Cyberfrk Defender - PAM - HEMA SURYA PRAKASH YARRAMSETTI
 
-UME e =
+In addition to add accounts and update account contents which additional permission on the safe is required to add a single account?
 
-Werebosrd
-
-\n addition to add accounts and update account contents which additional permission on the safe 1§ required
-
-Oa Upload Accounts Properties  
-Os Rename Accounts
-
-one Update Account Properties
-
-fF OD Manage Safe
+Upload Accounts Properties  
+Rename Accounts  
+Update Account Properties  
+Manage Safe
 
 
 
-IMG-20231015-WA0081.jpg  
+IMG-20231015-WA0081.jpg
+
 When should vault keys be rotated?
 
-A when it !s copied to file systems outside the vault  
-~ &B annually  
-~ Cc whenever a CyberArk user leaves the organization  
-2D
-
+when it is copied to file systems outside the vault  
+whenever a CyberArk user leaves the organization  
 when migrating to a new data center
 
 
 
-IMG-20231015-WA0082.jpg  
-CyberArk Defender - PAM - HEMA SURYA PRAKASH YARRAMSETTI  
-~ Ea
+IMG-20231015-WA0082.jpg
 
-Toe tin Pay
+**Which statement about the Master Policy best describes the differences between one-time password and exclusive access functionality?**
 
-between one tite
-
-Winch statement about the Master Pobpy best ost mbes fie dlrs fies
-
-Utero d thea Couns daveicd font fite wate automatically
-
-"GOA Laclusive access moans That onty speech aeungp obras tery re tia ae ner el yor been  
-OB Exctusive access Jocks the ancunat -adediiutess bat bi gers de Der t red pag phaueee f  
-oc Lirdusive access is enablod by defanibis the Master bhegg fer tere jae et Puen gt uy i} He ens  
-Exclusive access allows ony ann petsot lo dies ko ibati ae Gen) at kine nega " or es) pee Debates after the Ria vaielityPengud pened OxpNes
-
-ubiali Hh ids ea
-
-L Fy ull  
-“ dekacithit alee
+- **A.** Exclusive access means that only a specific group of users may use the account. After an account on a one-time password platform is used, the account is deleted from the safe automatically.
+- **B.** Exclusive access locks the account indefinitely. One-time password can be used replace invalid account passwords.
+- **C.** Exclusive access is enabled by default in the Master Policy. One-time password should only be enabled for emergencies.
+- **D.** Exclusive access allows only one person to check-out an account at a time. One-time password schedules an account for a password change after the MinValidityPeriod period expires.
 
 
 
-IMG-20231015-WA0084.jpg  
-CyberArk Defender -
+IMG-20231015-WA0084.jpg
 
-A Member of Domain Admin Group  
-B Member of LDAP Admin Group  
-Cc Read and Write Permissions  
-D
+The Active Directory User configured for Windows Discovery needs which permission(s) or membership?
 
+Member of Domain Admin Group  
+Member of LDAP Admin Group  
+Read and Write Permissions  
 Read Only Permissions
 
 
 
-IMG-20231015-WA0085.jpg  
-Which authorizations are required in a recording safe to allow a group to view recordings’?
+IMG-20231015-WA0085.jpg
 
-| [
+**Which authorizations are required in a recording safe to allow a group to view recordings?**
 
-|  
-\ +  
-Retrieve accounts/files | ' | Required
+| **Authorizations**                   | **Status**    (select the right option) |
+|--------------------------------------|----------------|
+| Retrieve accounts/files              | Required/Not Required   |
+| List accounts/files                  | Required/Not Required   |
+| View audit                           | Required/Not Required       |
+| Access Safe without confirmation     | Required/Not Required   |
+| Create Folders                       | Required/Not Required   |
 
-List accounts/files Not Required:
+IMG-20231015-WA0086.jpg
 
-View audit
+A new HTML5 Gateway has been deployed in your organization.  
+From the PVWA, arrange the steps to configure a PSM host to use the HTML5 Gateway in the correct sequence.
 
-Access Safe without  
-a" ‘ Ohans aesveer lets  
-Confirmation
+**Unordered Options**
 
-Create Folders
-
-| Drag answer bare
-
-
-
-IMG-20231015-WA0086.jpg  
-Comment
-
-Anew HTML5 Gateway has been deployed in your organization
-
-Unordered Options
-
-| Administration Options
-
-Privileged Session Management
-
-ponnaured PSM Servers and select existing PSM  
-0s
-
-Connection Details
-
+Administration>Options  
+Privileged Session Management  
+Configured PSM Servers and select existing PSM  
+host  
+Connection Details  
 Add PSM gateway
-
-from the PVWA, arrange the steps to configure a PSM host to use the HTML5 Gateway in
-
-Ordered Response
-
-the correct sequence
-
-2
-
 
 
 IMG-20231015-WA0087.jpg  
-Windows events text recorder with automatic play-back
 
-A.
+Which item is an option for PSM recording customization?
 
-1. Windows events text recorder and universal keystrokes recording simultaneously  
-C. Universal keystrokes text recorder with windows events text recorder disabled  
-D.
-
+Windows events text recorder with automatic play-back  
+Windows events text recorder and universal keystrokes recording simultaneous  
+Universal keystrokes text recorder with windows events text recorder disabled  
 Custom audio recording for windows events
-
 
 IMG-20231015-WA0088.jpg  
 F
 
 Shdepoa  
-Which statement ts true about Setting the reconcile account at the platform level?
+Which statement is true about setting the reconcile account at the platform level?
 
-This is the only way to enable automatic reconciliation of account passwords
-
-CPM performance will be IMproved when the reconcile account ts set at the platform level
-
-B  
-c Asule can be used to specify the reconcile accuunt dynaineally of a specific reconcile account can be selected  
-D
-
-This configuration prevents the association from becoming broken if the re
-
-concile account 1s moved to a different safe
+This is the only way to enable automatic reconciliation of account passwords.  
+CPM performance Will be improved when the reconcile account is set at the platform level.  
+A rule can be used to specify the reconcile account dynamically or a specific reconcile account can be selected.  
+This configuration prevents the association from becoming broken if the reconcile account IS moved to a different safe.
 
 
 
 IMG-20231015-WA0089.jpg  
-CyberArk Defender - PAM - HEMA SURYA PI
 
 Where can you assign a Reconcile account? (Choose 2 }
 
-“OA in PVWAat the account level
-
-OB. in PVWA in the platform configuration  
-: oO Cc. in the Master policy of the PYWA
-
-OC D. at the Safe level
-
-Oe
-
+in PVWA at the account level  
+in PVWA in the platform configuration  
+in the Master policy of the PVVVA  
+at the Safe level  
 in the CPM settings
 
 
 
 IMG-20231015-WA0090.jpg  
-add accounts
 
+What are the minimum permissions to add multiple accounts from a file when using PVWA bulk-upload?  
+
+add accounts  
 rename accounts  
 update account content  
-update account properties
-
-view safe members
-
+update account properties  
+view safe members  
 add safes
 
-
+IMG-20231015-WA0091.jpg  
+Where can you find resources to learn more about the CyberArk blueprint? (choose 2)  
+CyberArk blueprint webpage  
+references with the identity security platform  
+product webinars  
+CyberArk university course
 
 IMG-20231015-WA0092.jpg  
-PVWAMonitor
 
+In a default CyberArk installation, which group must a user be a member of to view the "reports" page in PVWA?
+
+PVWAMonitor  
 ReportUsers  
-PVWaAReports
-
+PVWAReports  
 Operators
 
+IMG-20231015-WA0093.jpg
 
+Which parameters can be used to harden the Credential Files (CredFiles) while using the CreateCredFile Utility? (choose 3)
 
-IMG-20231015-WA0093.jpg  
-Which parameters can be used to harden the Credential Files (CredFiles
-
-OS Username  
+OS Usemame  
 Current machine IP  
-Current machine hostname
-
-Operating System Type (Linux:Windows. HP-UX)  
-Vault IP Address
-
+Current machine hostname  
+Operating System Type (LinuxIWindows/HP-UX)  
+Vault IP Address  
 Time Frame
-
-) while using CreateCredPile UMmny
-
 
 
 IMG-20231015-WA0094.jpg  
-CyberArk Defender - PAM - HEMA SURYA PRAKASH YARRAMSETTI
 
-You are concerned about the Windows Domain password changes occur Q during business hours  
-Which settings must be updated to ensure passwords are only rotated outside of business hours?
+You are concerned about the Windows Domain password changes occur Q during business hours. Which settings must be updated to ensure passwords are only rotated outside of business hours?
 
-In the platform policy
+In the platform policy > Automatic Password Management > Password Change > ToHour & FromHour  
+In the Master Policy > Account Change Window > ToHour & From Hour  
+Administration Settings > CPM Settings > ToHour & FromHour  
+On each individual account > Edit > Advanced > ToHour & FromHour
 
-Automatic Password Management = Password Change » ToHour & FromHour
-
-B in the Master Policy  
-Account Change Window = ToHour & From Hour
-
-~ € Admunistration Settings  
-CPM Settings > ToHour & FromHour
-
-- DB On each individual account  
-Edit > Advanced > ToHour & FromHour
-
-
-
+#todo #later  
 WhatsApp Image 2023-10-15 at 11.01.27_14ffa2af.jpg  
 Your organization has a requirement to allow only one user to “check out passwords” and connect through the PSM securely.  
 What needs to be configured in the Master policy to ensure this will happen?

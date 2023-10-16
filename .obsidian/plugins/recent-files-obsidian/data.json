@@ -5,6 +5,10 @@
       "path": "output-process.md"
     },
     {
+      "basename": "16-10-23 Monday",
+      "path": "DailyNote/16-10-23 Monday.md"
+    },
+    {
       "basename": "Session 7 Vault Prerequisites Services",
       "path": "Session 7 Vault Prerequisites Services.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Session 10 Log Files Debugging Levels",
       "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "16-10-23 Monday",
-      "path": "DailyNote/16-10-23 Monday.md"
     },
     {
       "basename": "06-09-23 Wednesday",
