@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "output-process",
+      "path": "output-process.md"
+    },
+    {
+      "basename": "17-10-23 Tuesday",
+      "path": "DailyNote/17-10-23 Tuesday.md"
+    },
+    {
       "basename": "Session 13 Break Glass Procedure",
       "path": "Session 13 Break Glass Procedure.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "Session 30 PSM 1",
       "path": "Session 30 PSM 1.md"
-    },
-    {
-      "basename": "output-process",
-      "path": "output-process.md"
     },
     {
       "basename": "16-10-23 Monday",
@@ -195,10 +199,6 @@
     {
       "basename": "password-string-pikapod",
       "path": "password-string-pikapod.md"
-    },
-    {
-      "basename": "obs-plugin-create",
-      "path": "PowerShell/script/obs-plugin-create.md"
     }
   ],
   "omittedPaths": [
