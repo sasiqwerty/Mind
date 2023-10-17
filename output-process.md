@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, October 16th 2023, 11:50:21 am
-date modified: Monday, October 16th 2023, 5:19:21 pm
+date modified: Monday, October 16th 2023, 11:16:27 pm
 ---
 IMG-20231015-WA0001.jpg  
 
@@ -132,12 +132,13 @@ This configuration prevents the association from becoming broken if the reconcil
 
 IMG-20231015-WA0012.jpg
 
-You have been asked to turn off the time access restrictions for a safe.Where is this setting found?
+Q :You have been asked to turn off the time access restrictions for a safe. Where is this setting found?  
+A : PrivateArkClient  
 
-PrivateArkClient  
-RestAPl  
-PVWA  
-Vault  
+1. PrivateArkClient  
+2. RestAPl  
+3. PVWA  
+4. Vault  
 
 
 IMG-20231015-WA0013.jpg  
@@ -203,18 +204,23 @@ Install the Vault Server Interface on a remote machine to avoid Interactive logo
 
 IMG-20231015-WA0019.jpg  
 
-To use PSM connections while in the PVVVA, what are the minimum safe permissions a user or group will need?
+Q : To use PSM connections while in the PVVVA, what are the minimum safe permissions a user or group will need?  
+A: (1) List Accounts, Use Accounts
 
-List Accounts, Use Accounts  
-List Accounts, Use Accounts, Retrieve Accounts  
-Use Accounts  
-List Accounts, Use Accounts, Retrieve Accounts, Access Safe without confirmation
+1. List Accounts, Use Accounts  
+2. List Accounts, Use Accounts, Retrieve Accounts  
+3. Use Accounts  
+4. List Accounts, Use Accounts, Retrieve Accounts, Access Safe without confirmation
 
 
 
 IMG-20231015-WA0020.jpg  
 
 What must you specify when configuring a discovery scan for UNIX? (Choose 2)  
+answer : CPM Scanner  
+list of machines to scan    
+
+Options 
 
 Vault Administrator  
 CPM Scanner  
@@ -237,7 +243,8 @@ installed location file corruption
 
 IMG-20231015-WA0022.jpg  
 
-What does the minvalidity parameter on a platform policy determine?
+Q : What does the minvalidity parameter on a platform policy determine?  
+A : time between a password retrieval and the account becoming eligible for a password change 
 
 time between a password retrieval and the account becoming eligible for a password change  
 timeout for users signed into the PVWA as configured in the global settings  
@@ -274,7 +281,7 @@ IMG-20231015-WA0025.jpg
 
 You are adding a new application in the Remote Access portal. Which authentication methods can you use to authenticate users to the PW/AQ (Choose 2)
 
-Password `  
+Password  
 OpenID  
 Certificate  
 SAML  
@@ -293,16 +300,16 @@ Administration>Configuration Options>Optjon9select Privilege Session Management>
 
 IMG-20231015-WA0027.jpg  
 
-A password compliance audit found
-1. One-time password access of 20 domain accounts that are members of Domain Admins group In Active Directory are not being enforced
-2. All the sessions of connecting to domain controllers are not being recorded by CyberArk PSM  
-What should you do to address these findings?
+**Question** : A password compliance audit found
+- One-time password access of 20 domain accounts that are members of Domain Admins group In Active Directory are not being enforced
+- All the sessions of connecting to domain controllers are not being recorded by CyberArk PSM  
+What should you do to address these findings?  
+**Answer** : (1) Edit the Master Policy and add two policy exceptions. enable "Enforce one-time password access', enable "Record and save session activity"
 
-
-Edit the Master Policy and add two policy exceptions. enable "Enforce one-time password access', enable "Record and save session activity"  
-Edit safe properties and add two policy exceptions. enable •Enforce one-time password access", enable "Record and save session activity'  
-Edit CPM Settings and add two policy exceptions enable "Enforce one-time password access", enable "Record and save session activity"  
-Contact the Windows Administrators and request them to add two policy exceptions at Active Directory Level. enable "Enforce one-time password access", enable "Record and save session activity"  
+1. Edit the Master Policy and add two policy exceptions. enable "Enforce one-time password access', enable "Record and save session activity"  
+2. Edit safe properties and add two policy exceptions. enable •Enforce one-time password access", enable "Record and save session activity'  
+3. Edit CPM Settings and add two policy exceptions enable "Enforce one-time password access", enable "Record and save session activity"  
+4. Contact the Windows Administrators and request them to add two policy exceptions at Active Directory Level. enable "Enforce one-time password access", enable "Record and save session activity"  
 
 
 IMG-20231015-WA0028.jpg
@@ -347,7 +354,8 @@ Privilege Account Matrix (PAM) XML-based
 IMG-20231015-WA0032.jpg  
 CyberArk Defender - PAM -
 
-Which statement is correct concerning accounts that are discovered, but cannot be added to the Vault by an automated onboarding rule?
+Which statement is correct concerning accounts that are discovered, but cannot be added to the Vault by an automated onboarding rule?  
+Ans : They are added to the Pending Accounts list.
 
 They are added to the Pending Accounts list.  
 They cannot be onboarded to the Password Vault.  
@@ -356,7 +364,8 @@ They are not part of the Discovery Process.
 
 
 IMG-20231015-WA0033.jpg  
-You are onboarding an account that is not supported out of the box. What should you do first to obtain a platform to import?
+Q : You are onboarding an account that is not supported out of the box. What should you do first to obtain a platform to import?  
+A : Create a service ticket in the customer portal explaining the requirements of the custom platform.  
 
 Create a service ticket in the customer portal explaining the requirements of the custom platform.  
 Search common community portals like stackoverflow, reddit, github for an existing platform.  
@@ -386,8 +395,8 @@ CPM
 
 IMG-20231015-WA0036.jpg  
 
-Which Vault authorization does a user need to have assigned to able to generate the "Entitlement Report" from the reports page in PVWA? (Choose 2)
-
+Q: Which Vault authorization does a user need to have assigned to able to generate the "Entitlement Report" from the reports page in PVWA? (Choose 2)  
+A : (1,2) Manage Users,Audit Users  
 Manage Users  
 Audit Users  
 Read Activity  
@@ -506,7 +515,12 @@ CyberArk University Course
 
 
 IMG-20231015-WA0050.jpg  
-A recently-hired colleague onboarded five new Local Accounts that are used for standalone Windows Servers. After attempting to connect to the servers from PVWA, the colleague noticed that the "Connect" button was greyed out for all five new accounts. What can you do to help your colleague resolve this issue? (Choose 2.)
+A recently-hired colleague onboarded five new Local Accounts that are used for standalone Windows Servers. After attempting to connect to the servers from PVWA, the colleague noticed that the "Connect" button was greyed out for all five new accounts. What can you do to help your colleague resolve this issue? (Choose 2.)  
+ans : - Verify that the address field is populated with an IP or FQDN of each server.
+- Verify that the correct PSM connection component appears within account platform settings.
+
+Options
+
 - Verify that the address field is populated with an IP or FQDN of each server.
 - Verify that the correct PSM connection component appears within account platform settings.
 - Verify that the address field is blank and that the correct PSM connection component appears within account platform settings.
@@ -609,17 +623,19 @@ Master Policy > Privileged Access
 Administration > Options > Connection Components
 
 IMG-20231015-WA0060.jpg  
-When the CPM connects to a database, which interface is most commonly used?
+Q: When the CPM connects to a database, which interface is most commonly used?  
+A : (2) ODBC
 
-Kerberos  
-ODBC  
-VBScript  
-Sybase
+1. Kerberos  
+2. ODBC  
+3. VBScript  
+4. Sybase
 
 
 IMG-20231015-WA0061.jpg  
 
-What is the correct process to install a custom platform from the CyberArk Marketplace?
+question : What is the correct process to install a custom platform from the CyberArk Marketplace?  
+ans : Download the platform from the Marketplace and import it using fhe PVWA
 
 Locate the custom platform in the Marketplace and click Import  
 Download the platform from the Marketplace and import it using fhe PVWA  
@@ -632,14 +648,15 @@ IMG-20231015-WA0062.jpg
 
 How do you create a cold storage backup?
 
-On the DR Vault, install PARephcate according to the Installation guide, configure the logon Ini file, and define the Schedule tasks for full and Incremental backups.  
+On the DR Vault, install PAReplicate.exe according to the Installation guide, configure the logon Ini file, and define the Schedule tasks for full and Incremental backups.  
 Install the Vault Backup utility on a different machine from the Enterprise Password Vault server and tngger the full backup  
 Configure the backup options in the PVWA  
 On the DR Vault, configure the cold storage backup path In TSParm.ini file,
 
 
 IMG-20231015-WA0063.jpg  
-To manage automated onboarding rules, a CyberArk user must be a member ot which groupl?
+Q : To manage automated onboarding rules, a CyberArk user must be a member ot which groups?  
+Ans : Vault Admins
 
 Vault Admins  
 PasswordManagers  
@@ -667,7 +684,8 @@ In PrivateArk, click Tools > Onboarding Rules
 In PVWA7 click Accounts > Onboarding Rules
 
 IMG-20231015-WA0066.jpg  
-When onboarding multiple accounts from the Pending Accounts list, which associated setting must be the same across the selected accounts?  
+Q: When onboarding multiple accounts from the Pending Accounts list, which associated setting must be the same across the selected accounts?  
+A : Platform
 
 Platform  
 Connection Component  
@@ -683,8 +701,10 @@ REST API Scripts
 CyberArk DNA Map  
 Get-LocalUser Powershell cmdlet
 
-IMG-20231015-WA0068.jpg  
-**You have been asked to secure a set of shared accounts in CyberArk whose passwords will need to be used by end users. The account owner wants to be able to track who was using an account at any given moment. Which security configuration should you recommend?**
+IMG-20231015-WA0068.jpg
+  
+**You have been asked to secure a set of shared accounts in CyberArk whose passwords will need to be used by end users. The account owner wants to be able to track who was using an account at any given moment. Which security configuration should you recommend?**  
+Ans : Configure both one-time passwords and exclusive access for the appropriate platform in Master Policy.
 
 - **A.** Configure one-time passwords for the appropriate platform in Master Policy.
 - **B.** Configure shared account mode on the appropriate safe.
@@ -693,7 +713,7 @@ IMG-20231015-WA0068.jpg
 
 IMG-20231015-WA0069.jpg  
 
-Which processes reduce the risk of credential theftO (Choose 2)
+Which processes reduce the risk of credential theft (Choose 2)
 
 require dual control password access approval  
 require password change every X days  
@@ -744,10 +764,10 @@ IMG-20231015-WA0073.jpg
 
 
 IMG-20231015-WA0074.jpg  
-Which usage can be added as a service account platform?
-
+Q : Which usage can be added as a service account platform?  
+A : IISApplication Pools  
 KerberosTokens  
--IISApplication Pools  
+IISApplication Pools  
 PowerShell Libraries  
 LooselyConnected Devices
 
@@ -822,10 +842,12 @@ Manage Safe
 
 IMG-20231015-WA0081.jpg
 
-When should vault keys be rotated?
-
+When should vault keys be rotated?  
+ans : when it is copied to file systems outside the vault
+  
 when it is copied to file systems outside the vault  
 whenever a CyberArk user leaves the organization  
+annually  
 when migrating to a new data center
 
 
@@ -979,140 +1001,19 @@ oD. Enforce check-in/check-out exclusive access = active, Record and save sessio
 
 
 WhatsApp Image 2023-10-15 at 11.01.27_5bf82ef3.jpg  
-The Privileged Access Management solution provides an out-of-the-box target platform to manage SSH keys. called UNIX Via SSH Keys.  
-” How are these keys managed?
+The Privileged Access Management solution provides an out-of-the-box target platform to manage SSH keys. called UNIX Via SSH Keys. How are these keys managed?
 
-OA CyberArk stores Private keys in the Vault and updates Public keys on target systems
-
-QB CyberArk stores Public keys in the Vault and updates Private keys on target systems
-
-EOC, CyberArk does not store Public or Private keys and instead uses a reconcile account to create keys on demand
-
-OD. CyberArk stores both Private and Public keys and can update target systems with either key
+CyberArk stores Private keys in the Vault and updates Public keys on target systems  
+CyberArk stores Public keys in the Vault and updates Private keys on target systems  
+CyberArk does not store Public or Private keys and instead uses a reconcile account to create keys on demand  
+CyberArk stores both Private and Public keys and can update target systems with either key
 
 
 
 WhatsApp Image 2023-10-15 at 11.01.27_ea51b6cf.jpg  
-What can you do to ensure each com
+Privileged Access Management solution provides an out4Df-the-box target platform to manage SSH keys called UNIX Via SSH keys. How are these keys managed ?
 
-xe) A.  
-© B.  
-“OC
-
-OD
-
-PONEAL Sever Ss operat onal?
-
-Logon to PVWA with v1 Ui navigat
-
-eto Heath,
-
-4 and validate earch ¢ omponent serv.
-
-$ Conner  
-Ping each component server to
-
-StS
-
-Use the PrivateArk cient to cor
-
-‘ver_and vaildale all the services are fun
-
-mwnAg  
-Install the Vault Server interface one
-
-femote maci
-
-ne tC avond interactive logan to the Vauit OS and review the ITAL
-
-rough the Vault Server interface
-
-
-
-WhatsApp Image 2023-10-15 at 11.01.28_9d7b7b19.jpg  
-CyberArk Defender - PAM - Dattatraya B Ingale
-
-What must you specify when contouring a dist overy Seat for NIK?! (sanse 21
-
-tA Vault Adminstuaty  
-B CPM Scanbe:  
-me foot password for ean h machine  
-tL! D hst of machines to scan
-
-CLE safe for discovered accounts
-
-
-
-WhatsApp Image 2023-10-15 at 11.01.28_aeb1356e.jpg  
-yberArk Defender - PAM - Dattatraya B Ingale
-
-According to CyberArk, which issues most commonly cause Installed components to display 4 discorinected in the System Health Dashboard? (Choose 2
-
-Qa network instabiities:outages
-
-QB vault license expiry  
-oc credential de-sync  
-ao browser compatibility issues
-
-| O E. installed location file corruption
-
-
-
-WhatsApp Image 2023-10-15 at 11.01.28_d6d6e70f.jpg  
-COR  
-OB.  
-boc  
-=O D.
-
-List Accounts. Use Accounts  
-List Accounts. Use Accounts  
-Use Accounts
-
-List Accounts. Use Accounts
-
-E. To use PSM connections while in the PVWA what are the minimum safe permissions a user or group will need?
-
-Retrieve Accounts
-
-Retrieve Accounts, Access Safe without confirmation
-
-
-
-WhatsApp Image 2023-10-15 at 11.03.04_13280e20.jpg  
-Dg
-
-Drag
-
-Drag answer fete
-
-Recovery Private Key
-
-Recovery Publi Key
-
-SSH Kays
-
-Wisnaaan nn
-
-
-
-WhatsApp Image 2023-10-15 at 11.05.11_dba56cfd.jpg  
-t Recorcnng  
-Which authorizations are required in a recording safe to allow a group to view recordings? :
-
-
-
-WhatsApp Image 2023-10-15 at 11.05.12_2d037e76.jpg  
-Which authorizations are require
-
-d in a tecording sate to allow a group to view recordings?
-
-Recording
-
-Retrieve accounts/files Required  
-List accounts/files Required  
-View audit Required
-
-Access Safe without  
-confirmation
-
-Create Folders
+CyberArk stores Private keys in the Vault and updates Public keys on target systems.  
+CyberArk stores Public keys in the Vault and updates Private keys on target systems.  
+CyberArk does not store Public or Private keys and instead uses a reconcile account to create keys on demand.  
+CyberArk stores both Private and Public keys and can update target systems With either key

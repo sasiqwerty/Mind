@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output-process.md",
+                "file": "Session 13 Break Glass Procedure.md",
                 "mode": "source",
                 "source": false
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "output-process.md",
+                "file": "Session 13 Break Glass Procedure.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "output-process.md",
+                "file": "Session 13 Break Glass Procedure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +227,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "output-process.md"
+                "file": "Session 13 Break Glass Procedure.md"
               }
             }
           },
@@ -247,7 +247,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "output-process.md"
+                "file": "Session 13 Break Glass Procedure.md"
               }
             }
           }
@@ -283,23 +283,25 @@
   },
   "active": "3026250a5484a5f1",
   "lastOpenFiles": [
+    "Session 12 MasterCD Operator CD Other Topics.md",
+    "Session 10 Log Files Debugging Levels.md",
+    "Session 8 Vault Service Dependencies DBPARM ini file.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "Session 30 PSM 1.md",
+    "output-process.md",
+    "output-process.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231016171345.png",
     "output-process.html",
     "DailyNote/16-10-23 Monday.md",
-    "Session 7 Vault Prerequisites Services.md",
-    "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "Session 9 Vault Configuration Files.md",
-    "Session 10 Log Files Debugging Levels.md",
     "DailyNote/06-09-23 Wednesday.md",
     "credfile creation common process.md",
     "output-till30 testdraft.md",
     "Cyberark/Core Concepts/Components/Vault/dbparm ini file.md",
-    "output-process.md",
     "testing-OCR.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231016131748.png",
     "~$tput-till30 testdraft.docx",
     "output-till30 testdraft.docx",
-    "Session 30 PSM 1.md",
     "TelegramNotes/Ready Player One - 20231014130358172.mobi",
     "PSM Shadow User.md",
     "DailyNote/14-10-23 Saturday.md",
@@ -313,7 +315,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171744.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171728.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171236.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171004.png",
     "Install and Config PSM.md",
     "Session 32 PSM 3.md",
     "Session 31 PSM 2.md",
@@ -328,7 +329,6 @@
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
     "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
     "Cyberark/Files/11WS-PAM-Install-Vault Availability (DR).pdf",
-    "Cyberark/Files/10WS-PAM-Install-Securing CyberArk with CyberArk.pdf",
     "Untitled.canvas",
     "Cyberark/Doubts/clear expired safe history.canvas",
     "Cyberark/Doubts/doubt related to DAC.canvas",
