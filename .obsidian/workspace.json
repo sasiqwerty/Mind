@@ -65,7 +65,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "output-process.md",
+                "file": "Session 9 Vault Configuration Files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0124a07c50e765a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Agreement Deed.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +116,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -187,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "output-process.md",
+                "file": "Agreement Deed.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "output-process.md",
+                "file": "Agreement Deed.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "output-process.md"
+                "file": "Agreement Deed.md"
               }
             }
           },
@@ -247,7 +259,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "output-process.md"
+                "file": "Agreement Deed.md"
               }
             }
           }
@@ -281,21 +293,26 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "3026250a5484a5f1",
+  "active": "0124a07c50e765a2",
   "lastOpenFiles": [
-    "DailyNote/17-10-23 Tuesday.md",
-    "Session 13 Break Glass Procedure.md",
-    "Session 12 MasterCD Operator CD Other Topics.md",
+    "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-18 at 06.04.17_e6ff3af3.jpg",
+    "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 21.03.04_3b8a3a16.jpg",
+    "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 20.59.43_b53216e0.jpg",
+    "Session 9 Vault Configuration Files.md",
+    "Agreement Deed.md",
     "Session 10 Log Files Debugging Levels.md",
     "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "Session 7 Vault Prerequisites Services.md",
-    "Session 30 PSM 1.md",
+    "DailyNote/18-10-23 Wednesday.md",
     "output-process.md",
+    "DailyNote/17-10-23 Tuesday.md",
+    "Session 13 Break Glass Procedure.md",
+    "Session 12 MasterCD Operator CD Other Topics.md",
+    "Session 30 PSM 1.md",
     "output-process.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231016171345.png",
     "output-process.html",
     "DailyNote/16-10-23 Monday.md",
-    "Session 9 Vault Configuration Files.md",
     "DailyNote/06-09-23 Wednesday.md",
     "credfile creation common process.md",
     "output-till30 testdraft.md",
@@ -315,15 +332,10 @@
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2uKlW.webp",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171744.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171728.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171236.png",
     "Install and Config PSM.md",
     "Session 32 PSM 3.md",
     "Session 31 PSM 2.md",
     "DailyNote/09-10-23 Monday.md",
-    "DailyNote/12-10-23 Thursday.md",
-    "conv-file.md",
-    "PSM-PrivateArk Client Connection.md",
     "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",

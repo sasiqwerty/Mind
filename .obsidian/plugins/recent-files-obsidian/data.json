@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Agreement Deed",
+      "path": "Agreement Deed.md"
+    },
+    {
+      "basename": "Session 9 Vault Configuration Files",
+      "path": "Session 9 Vault Configuration Files.md"
+    },
+    {
+      "basename": "Session 10 Log Files Debugging Levels",
+      "path": "Session 10 Log Files Debugging Levels.md"
+    },
+    {
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "18-10-23 Wednesday",
+      "path": "DailyNote/18-10-23 Wednesday.md"
+    },
+    {
       "basename": "output-process",
       "path": "output-process.md"
     },
@@ -17,28 +41,12 @@
       "path": "Session 12 MasterCD Operator CD Other Topics.md"
     },
     {
-      "basename": "Session 10 Log Files Debugging Levels",
-      "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
-    },
-    {
       "basename": "Session 30 PSM 1",
       "path": "Session 30 PSM 1.md"
     },
     {
       "basename": "16-10-23 Monday",
       "path": "DailyNote/16-10-23 Monday.md"
-    },
-    {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
     },
     {
       "basename": "06-09-23 Wednesday",
@@ -191,14 +199,6 @@
     {
       "basename": "pvwa-manual-hardening",
       "path": "pvwa-manual-hardening.md"
-    },
-    {
-      "basename": "event-viewer logs",
-      "path": "event-viewer logs.md"
-    },
-    {
-      "basename": "password-string-pikapod",
-      "path": "password-string-pikapod.md"
     }
   ],
   "omittedPaths": [
