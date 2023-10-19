@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "notepad",
+      "path": "notepad/notepad.md"
+    },
+    {
+      "basename": "20-10-23 Friday",
+      "path": "DailyNote/20-10-23 Friday.md"
+    },
+    {
       "basename": "output-till30 testdraft",
       "path": "output-till30 testdraft.md"
     },
@@ -27,10 +35,6 @@
     {
       "basename": "20 Python Scripts with Code to Automate Your Work",
       "path": "20 Python Scripts with Code to Automate Your Work.md"
-    },
-    {
-      "basename": "notepad",
-      "path": "notepad/notepad.md"
     },
     {
       "basename": "output-process",
@@ -195,10 +199,6 @@
     {
       "basename": "pvwa-credfile-creation",
       "path": "pvwa-credfile-creation.md"
-    },
-    {
-      "basename": "cpm-notes",
-      "path": "cpm-notes.md"
     }
   ],
   "omittedPaths": [

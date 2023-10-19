@@ -18,8 +18,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e3872f96c748155d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notepad/notepad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notepad/notepad.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "notepad/notepad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "notepad/notepad.md"
+              }
             }
           },
           {
@@ -157,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "notepad/notepad.md"
+              }
             }
           }
         ],
@@ -190,8 +209,9 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "08c7cfa68241de02",
+  "active": "e3872f96c748155d",
   "lastOpenFiles": [
+    "DailyNote/20-10-23 Friday.md",
     "output-till30 testdraft.md",
     "credfile creation common process.md",
     "Session 30 PSM 1.md",
@@ -233,7 +253,6 @@
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV 1.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2uKlW.webp",
-    "Install and Config PSM.md",
     "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
