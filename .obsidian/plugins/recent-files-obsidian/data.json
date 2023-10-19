@@ -1,20 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Remote Control Client",
-      "path": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md"
+      "basename": "output-till30 testdraft",
+      "path": "output-till30 testdraft.md"
+    },
+    {
+      "basename": "credfile creation common process",
+      "path": "credfile creation common process.md"
+    },
+    {
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
+    },
+    {
+      "basename": "PSM Shadow User",
+      "path": "PSM Shadow User.md"
+    },
+    {
+      "basename": "14-10-23 Saturday",
+      "path": "DailyNote/14-10-23 Saturday.md"
+    },
+    {
+      "basename": "Session 9 Vault Configuration Files",
+      "path": "Session 9 Vault Configuration Files.md"
+    },
+    {
+      "basename": "20 Python Scripts with Code to Automate Your Work",
+      "path": "20 Python Scripts with Code to Automate Your Work.md"
+    },
+    {
+      "basename": "notepad",
+      "path": "notepad/notepad.md"
+    },
+    {
+      "basename": "output-process",
+      "path": "output-process.md"
     },
     {
       "basename": "19-10-23 Thursday",
       "path": "DailyNote/19-10-23 Thursday.md"
     },
     {
-      "basename": "Agreement Deed",
-      "path": "Agreement Deed.md"
+      "basename": "Remote Control Client",
+      "path": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md"
     },
     {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
+      "basename": "Agreement Deed",
+      "path": "Agreement Deed.md"
     },
     {
       "basename": "Session 10 Log Files Debugging Levels",
@@ -33,10 +65,6 @@
       "path": "DailyNote/18-10-23 Wednesday.md"
     },
     {
-      "basename": "output-process",
-      "path": "output-process.md"
-    },
-    {
       "basename": "17-10-23 Tuesday",
       "path": "DailyNote/17-10-23 Tuesday.md"
     },
@@ -49,10 +77,6 @@
       "path": "Session 12 MasterCD Operator CD Other Topics.md"
     },
     {
-      "basename": "Session 30 PSM 1",
-      "path": "Session 30 PSM 1.md"
-    },
-    {
       "basename": "16-10-23 Monday",
       "path": "DailyNote/16-10-23 Monday.md"
     },
@@ -61,28 +85,12 @@
       "path": "DailyNote/06-09-23 Wednesday.md"
     },
     {
-      "basename": "credfile creation common process",
-      "path": "credfile creation common process.md"
-    },
-    {
-      "basename": "output-till30 testdraft",
-      "path": "output-till30 testdraft.md"
-    },
-    {
       "basename": "dbparm ini file",
       "path": "Cyberark/Core Concepts/Components/Vault/dbparm ini file.md"
     },
     {
       "basename": "testing-OCR",
       "path": "testing-OCR.md"
-    },
-    {
-      "basename": "14-10-23 Saturday",
-      "path": "DailyNote/14-10-23 Saturday.md"
-    },
-    {
-      "basename": "PSM Shadow User",
-      "path": "PSM Shadow User.md"
     },
     {
       "basename": "13-10-23 Friday",
@@ -141,10 +149,6 @@
       "path": "Components and their Logs-services-config data.md"
     },
     {
-      "basename": "20 Python Scripts with Code to Automate Your Work",
-      "path": "20 Python Scripts with Code to Automate Your Work.md"
-    },
-    {
       "basename": "User Management",
       "path": "User Management.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "cpm-notes",
       "path": "cpm-notes.md"
-    },
-    {
-      "basename": "pvwa-install notes",
-      "path": "pvwa-install notes.md"
     }
   ],
   "omittedPaths": [

@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, July 31st 2023, 3:33:10 pm
-date modified: Monday, August 21st 2023, 10:11:23 am
+date modified: Thursday, October 19th 2023, 7:01:51 pm
 ---
 The service is generally used because it is not safe for people to directly log into the [[Vault]] server as their actions are not recorded.  
 Remote connection is used to log in and complete tasks, this way we can ensure that everything is properly monitored and accounted for.
@@ -128,7 +128,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -158,7 +157,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -187,7 +185,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -217,7 +214,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -246,7 +242,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -279,7 +274,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -366,7 +360,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -394,7 +387,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -599,7 +591,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyG-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                         <tr class="TableStyle-RowsX-Body-Alternate" data-mc-pattern="1">
@@ -657,7 +648,6 @@ ask for this file
 						Default Value
 					</td>
                                                                             <td class="TableStyle-RowsX-BodyA-Column1-Regular">
-						-
 					</td>
                                                                         </tr>
                                                                     </tbody>

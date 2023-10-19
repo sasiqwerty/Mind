@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, September 4th 2023, 10:11:55 am
-date modified: Monday, September 4th 2023, 10:21:44 am
+date modified: Thursday, October 19th 2023, 7:02:15 pm
 ---
 In this article, we’ll explore 20 Python scripts along with their code that can help you automate various tasks and boost your productivity. Whether you’re a developer, data analyst, or just someone looking to simplify their workflow, these scripts have got you covered.
 
