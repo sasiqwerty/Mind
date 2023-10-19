@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/20-10-23 Friday.md",
+                "file": "notepad/notepad.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/20-10-23 Friday.md",
+                "file": "notepad/notepad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/20-10-23 Friday.md"
+                "file": "notepad/notepad.md"
               }
             }
           },
@@ -177,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/20-10-23 Friday.md"
+                "file": "notepad/notepad.md"
               }
             }
           }
@@ -211,10 +210,10 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "27d5c834a01147d0",
+  "active": "e3872f96c748155d",
   "lastOpenFiles": [
-    "notepad/notepad.md",
     "DailyNote/20-10-23 Friday.md",
+    "notepad/notepad.md",
     "output-till30 testdraft.md",
     "credfile creation common process.md",
     "Session 30 PSM 1.md",
