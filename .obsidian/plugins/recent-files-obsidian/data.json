@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Remote Control Client",
+      "path": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md"
+    },
+    {
+      "basename": "19-10-23 Thursday",
+      "path": "DailyNote/19-10-23 Thursday.md"
+    },
+    {
       "basename": "Agreement Deed",
       "path": "Agreement Deed.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "pvwa-install notes",
       "path": "pvwa-install notes.md"
-    },
-    {
-      "basename": "extract-delete-script",
-      "path": "extract-delete-script.md"
-    },
-    {
-      "basename": "pvwa-manual-hardening",
-      "path": "pvwa-manual-hardening.md"
     }
   ],
   "omittedPaths": [

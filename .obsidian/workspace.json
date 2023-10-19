@@ -77,7 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agreement Deed.md",
+                "file": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md",
                 "mode": "source",
                 "source": false
               }
@@ -199,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agreement Deed.md",
+                "file": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -216,7 +216,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Agreement Deed.md",
+                "file": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -239,7 +239,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Agreement Deed.md"
+                "file": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md"
               }
             }
           },
@@ -259,7 +259,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Agreement Deed.md"
+                "file": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md"
               }
             }
           }
@@ -295,11 +295,12 @@
   },
   "active": "0124a07c50e765a2",
   "lastOpenFiles": [
+    "DailyNote/19-10-23 Thursday.md",
+    "Agreement Deed.md",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-18 at 06.04.17_e6ff3af3.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 21.03.04_3b8a3a16.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 20.59.43_b53216e0.jpg",
     "Session 9 Vault Configuration Files.md",
-    "Agreement Deed.md",
     "Session 10 Log Files Debugging Levels.md",
     "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "Session 7 Vault Prerequisites Services.md",
@@ -331,7 +332,6 @@
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV 1.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2uKlW.webp",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231013171744.png",
     "Install and Config PSM.md",
     "Session 32 PSM 3.md",
     "Session 31 PSM 2.md",
