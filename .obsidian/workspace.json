@@ -8,31 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08c7cfa68241de02",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "surfing-view",
-              "state": {
-                "url": "https://www.google.co.in/"
-              },
-              "pinned": true
-            }
-          },
-          {
             "id": "e3872f96c748155d",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "notepad/notepad.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,6 +200,7 @@
   },
   "active": "e3872f96c748155d",
   "lastOpenFiles": [
+    "notepad/notepad.md",
     "DailyNote/20-10-23 Friday.md",
     "output-till30 testdraft.md",
     "credfile creation common process.md",
@@ -219,7 +209,6 @@
     "DailyNote/14-10-23 Saturday.md",
     "Session 9 Vault Configuration Files.md",
     "20 Python Scripts with Code to Automate Your Work.md",
-    "notepad/notepad.md",
     "output-process.md",
     "notepad",
     "DailyNote/19-10-23 Thursday.md",
