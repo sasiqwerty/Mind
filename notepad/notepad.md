@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, October 19th 2023, 7:02:14 pm
-date modified: Friday, October 20th 2023, 3:38:32 am
+date modified: Friday, October 20th 2023, 3:38:44 am
 ---
 
 ## 20-10-23 Friday
@@ -31,6 +31,11 @@ You're curious about what topics are okay to write with ChatGPT and if it can be
 You express concern over YouTube's addictive nature and the quality of its content.
 - 🤔 **Thoughts**: This is a common concern, given YouTube's algorithm designed to maximize user engagement. It might be beneficial to curate your viewing habits for a more quality experience.
 
-
 ## 2023-10-20 03:38:40
+
 testing
+
+
+## 2023-10-20 03:39:41
+was reading about break glazing, what is it and how does it affect racing this is from the new movie grand turismo 2023
+seems like an intresting watch i will see it when I have time
