@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, October 19th 2023, 7:02:14 pm
-date modified: Friday, October 20th 2023, 3:45:48 am
+date modified: Friday, October 20th 2023, 10:17:29 pm
 ---
 
 ## Prompt
@@ -40,7 +40,11 @@ You express concern over YouTube's addictive nature and the quality of its conte
 1. **Break Glazing in Racing:** I was reading about "brake glazing." It's a phenomenon in racing where the brakes get too hot, causing a glazed surface on the brake pads. This reduces their effectiveness and can lead to overheating issues in racing cars. It affects racing performance by compromising braking efficiency, and teams have to manage it to ensure safety and competitive edge.
 2. **Grand Turismo 2023 Movie:** I came across information about the new movie "Grand Turismo 2023." It seems like an interesting watch, and I'm looking forward to seeing it when I have some free time.
 
-
 ## 2023-10-20 04:52:24
-what do we call the point of time when you are not doing anything productve and your brain has no direction but dont want to sleep
+
+what do we call the point of time when you are not doing anything productve and your brain has no direction but dont want to sleep  
 what is the solution when the mind is in this state? take a break and try to do what? its something I have to understand maybe
+
+
+## 2023-10-20 22:32:03
+this is a test, we are trying to add notes

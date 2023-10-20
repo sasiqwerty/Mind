@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notepad/notepad.md",
+                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notepad/notepad.md",
+                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notepad/notepad.md",
+                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notepad/notepad.md"
+                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "notepad/notepad.md"
+                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md"
               }
             }
           }
@@ -198,8 +198,10 @@
   },
   "active": "0d690c5f49e2e019",
   "lastOpenFiles": [
-    "DailyNote/20-10-23 Friday.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "vault-related.md",
     "notepad/notepad.md",
+    "DailyNote/20-10-23 Friday.md",
     "output-till30 testdraft.md",
     "credfile creation common process.md",
     "Session 30 PSM 1.md",
@@ -217,7 +219,6 @@
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 20.59.43_b53216e0.jpg",
     "Session 10 Log Files Debugging Levels.md",
     "Session 8 Vault Service Dependencies DBPARM ini file.md",
-    "Session 7 Vault Prerequisites Services.md",
     "DailyNote/18-10-23 Wednesday.md",
     "DailyNote/17-10-23 Tuesday.md",
     "Session 13 Break Glass Procedure.md",
@@ -235,7 +236,6 @@
     "TelegramNotes/Ready Player One - 20231014130358172.mobi",
     "Session-Management-Architecture.png (1233×719).md",
     "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-14-002920.svg",
-    "DailyNote/13-10-23 Friday.md",
     "Cyberark/Core Concepts/Core Concepts img/RE2uHD0.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV 1.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV.webp",

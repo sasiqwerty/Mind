@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "notepad",
-      "path": "notepad/notepad.md"
-    },
-    {
       "basename": "20-10-23 Friday",
       "path": "DailyNote/20-10-23 Friday.md"
+    },
+    {
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "vault-related",
+      "path": "vault-related.md"
+    },
+    {
+      "basename": "notepad",
+      "path": "notepad/notepad.md"
     },
     {
       "basename": "output-till30 testdraft",
@@ -55,14 +67,6 @@
     {
       "basename": "Session 10 Log Files Debugging Levels",
       "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
     },
     {
       "basename": "18-10-23 Wednesday",
@@ -195,10 +199,6 @@
     {
       "basename": "cpm-credfile-creation",
       "path": "cpm-credfile-creation.md"
-    },
-    {
-      "basename": "pvwa-credfile-creation",
-      "path": "pvwa-credfile-creation.md"
     }
   ],
   "omittedPaths": [
