@@ -1,6 +1,18 @@
 {
   "bookmarks": [
     {
+      "id": "468810371",
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com/",
+      "description": "ChatGPT is an AI-powered language model developed by OpenAI, capable of generating human-like text based on context and past conversations.",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1697753340000,
+      "modified": 1697753340000
+    },
+    {
       "id": "-318218889",
       "name": "Google",
       "url": "https://www.google.co.in/",
