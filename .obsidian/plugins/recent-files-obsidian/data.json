@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "notepad",
+      "path": "notepad/notepad.md"
+    },
+    {
       "basename": "20-10-23 Friday",
       "path": "DailyNote/20-10-23 Friday.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "vault-related",
       "path": "vault-related.md"
-    },
-    {
-      "basename": "notepad",
-      "path": "notepad/notepad.md"
     },
     {
       "basename": "output-till30 testdraft",

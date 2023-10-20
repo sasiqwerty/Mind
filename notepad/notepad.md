@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, October 19th 2023, 7:02:14 pm
-date modified: Friday, October 20th 2023, 10:17:29 pm
+date modified: Friday, October 20th 2023, 10:32:31 pm
 ---
 
 ## Prompt
@@ -42,9 +42,7 @@ You express concern over YouTube's addictive nature and the quality of its conte
 
 ## 2023-10-20 04:52:24
 
-what do we call the point of time when you are not doing anything productve and your brain has no direction but dont want to sleep  
+what do we call the point of time when you are not doing anything productive and your brain has no direction but dont want to sleep  
 what is the solution when the mind is in this state? take a break and try to do what? its something I have to understand maybe
 
 
-## 2023-10-20 22:32:03
-this is a test, we are trying to add notes

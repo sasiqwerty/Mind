@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md",
+                "file": "notepad/notepad.md",
                 "mode": "source",
                 "source": false
               }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md",
+                "file": "notepad/notepad.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md",
+                "file": "notepad/notepad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+                "file": "notepad/notepad.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+                "file": "notepad/notepad.md"
               }
             }
           }
@@ -198,10 +198,10 @@
   },
   "active": "0d690c5f49e2e019",
   "lastOpenFiles": [
+    "DailyNote/20-10-23 Friday.md",
     "Session 7 Vault Prerequisites Services.md",
     "vault-related.md",
     "notepad/notepad.md",
-    "DailyNote/20-10-23 Friday.md",
     "output-till30 testdraft.md",
     "credfile creation common process.md",
     "Session 30 PSM 1.md",
