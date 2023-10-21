@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "notepad",
-      "path": "notepad/notepad.md"
+      "basename": "def-new-ocr",
+      "path": "def-new-ocr.md"
+    },
+    {
+      "basename": "21-10-23 Saturday",
+      "path": "DailyNote/21-10-23 Saturday.md"
     },
     {
       "basename": "20-10-23 Friday",
       "path": "DailyNote/20-10-23 Friday.md"
+    },
+    {
+      "basename": "notepad",
+      "path": "notepad/notepad.md"
     },
     {
       "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
@@ -191,14 +199,6 @@
     {
       "basename": "ldap-session23",
       "path": "ldap-session23.md"
-    },
-    {
-      "basename": "pvwa-install-vbox",
-      "path": "pvwa-install-vbox.md"
-    },
-    {
-      "basename": "cpm-credfile-creation",
-      "path": "cpm-credfile-creation.md"
     }
   ],
   "omittedPaths": [

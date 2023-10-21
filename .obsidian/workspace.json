@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notepad/notepad.md",
+                "file": "DailyNote/21-10-23 Saturday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "092f2e0885beaa86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "def-new-ocr.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notepad/notepad.md",
+                "file": "def-new-ocr.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notepad/notepad.md",
+                "file": "def-new-ocr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notepad/notepad.md"
+                "file": "def-new-ocr.md"
               }
             }
           },
@@ -162,7 +175,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "notepad/notepad.md"
+                "file": "def-new-ocr.md"
               }
             }
           }
@@ -196,8 +209,11 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "0d690c5f49e2e019",
+  "active": "092f2e0885beaa86",
   "lastOpenFiles": [
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231021235913.png",
+    "DailyNote/21-10-23 Saturday.md",
+    "def-new-ocr.md",
     "DailyNote/20-10-23 Friday.md",
     "Session 7 Vault Prerequisites Services.md",
     "vault-related.md",
@@ -228,13 +244,10 @@
     "output-process.html",
     "DailyNote/16-10-23 Monday.md",
     "DailyNote/06-09-23 Wednesday.md",
-    "Cyberark/Core Concepts/Components/Vault/dbparm ini file.md",
-    "testing-OCR.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231016131748.png",
     "~$tput-till30 testdraft.docx",
     "output-till30 testdraft.docx",
     "TelegramNotes/Ready Player One - 20231014130358172.mobi",
-    "Session-Management-Architecture.png (1233×719).md",
     "Cyberark/Core Concepts/Core Concepts img/mermaid-diagram-2023-10-14-002920.svg",
     "Cyberark/Core Concepts/Core Concepts img/RE2uHD0.webp",
     "Cyberark/Core Concepts/Core Concepts img/RE2ytYV 1.webp",
