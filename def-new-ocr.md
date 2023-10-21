@@ -2,8 +2,11 @@
 aliases: 
 tags: 
 date created: Saturday, October 21st 2023, 8:30:27 pm
-date modified: Sunday, October 22nd 2023, 1:12:11 am
+date modified: Sunday, October 22nd 2023, 3:45:26 am
 ---
+
+## Start
+
 - Your customer has 5 main data centers with one PVWA in each Centre under different URL's. How can you make this setup fault tolerant?  
 	- This setup is already fault tolerant  
 	- install more PVWA in each datacenter  
@@ -310,810 +313,314 @@ date modified: Sunday, October 22nd 2023, 1:12:11 am
 	- (B) PVWA, PSM
 	- (C) CPM, PVWA, PSM
 	- (D) CPM, PSM  
-Q68 : Match the built in Vault user with the correct definition  
-#later 
-
-62cdebe6180af89ba336df341a67eb17-23.jpg  
-Question 68-Match the builtin Vault user with the coge�t de(iMetion  
-(A) This user appears on the highest al set hierarchy and has all the possible
-
-permissions.As such, it can create and ether users on any level on the User's  
-hiererchy >  
-(B) This user appears at the user hierarchy,enabling it to view all the users in
-
-to keep track of activity in ang User requirements > iz
-
-(C) This user is an set that cannot be lagged onto and carries out internal  
-tasks,such as aut ly Clgaring expired user and safe history > J
-
-(D) This use available Safe mamber authorizations except authorize password  
-requests. Thimyser hSs complete system cantrol,manages a full recovery when necessary and
-
-cannot Prom any sata |
-
-Er  
-CYHER  
-rm PLaSses
-
-Q69 A new HTMLS Gateway has been deployed in your organization
-
-Ss . cvneR  
-CLASSES  
-ay TMILS Gateway has been deployed in your organization.
-
-you configure the PSM to use the HTMLS Gateway?
-
-the safe. The user can prod s of Safe activities and user activities which enablas it  
-:  
-alt
-
-Question
-
-{B} Administration >Options>Privileged Session Management>Add Configured PSM  
-Gateway Servers
-
-{C) Administration >Options>Privilegad Session Management>Add PSM Gateway  
-{D} Administration >Options>Privilagad Session Management=Connestion Details
-
-Question 70-4 Vault Administrator team member can log in to CyberArk,but for some reason,is not  
-given Vault Admin rights. Where can you check to verify that the Yault Admins directory mapping  
-points to the correct AD group?
-
-Q70 70-A Vault Administrator team member can log in to CyberArk. but for some reason, is not  
-given Vault Admin rights where can you check to verify that the vault admins directory mapping  
-pints to the correct AD group?
-
-{B) PVWA>User Provisioning>LDAP Integrations Map Name  
-{Cc} PYWA>Administration=LDAP Integration> Mappings  
-{0} PYWA->=Administration=LDAP Integration > AD groups
-
-Q71 in the PrivateArk Client, How do you add an LDAP group to a CyberArk Group?
-
-
-62cdebe6180af89ba336df341a67eb17-24.jpg  
-Question 71-In the privateArk Client,how do you add an LDAP group to a CyberArk group?
-
-(B) Select Update on the LDAP Group, and then click Add> LDAP Group  
-(C) Select Member of the CyberArk Group, and then Click Add >LDAP Group  
-(D} Select Member of the LDAP group and then Click Add>LDAP Group
-
-af
-
-Q72 What are the basic network requirements to deply a CPM server?
-
-Question 72-What are the basic network requirements to deploy a CPM server? C ,  
-(B) Port 1858 only ( L�)  
-(C) All ports to the vault a
-
-(D) Port UDP/1858 to vault and all required ports to targets and Pane fhe PSM
-
-Q73 � You have been asked to identify up or down status of Vault Services
-
-Question 73-You have been asked to identify up or down status of ae  
-Which CyberArk utility can you use to accomplish this task?
-
-(A) Vault Replicator for  
-(B) PAS Reporter \\  
-(D) Syslog 4
-
-Q74 Which is Mandatory for a PVWA installation? A DNS entry for the PVWA URL must be created
-
-~ |  
-Question 74-Which is mandatory for a P' on?A Owns Entry for the PYWA url must be  
-created  
-(A) A company signed TLS cgrtr must be imported into the server
-
-(C) Data Execution Pye� must be disabled
-
-
-62cdebe6180af89ba336df341a67eb17-25.jpg  
-Q76 You are helping a customer prepare a Windows Server for PSM installation what is required for  
-a successful installation?
-
-Question 76-You are helping a customer prepare a Windows Server for PSM Installation.  
-What is required for a successful installation?  
-(A) Windows 2012 KB4558843 rv
-
-CYBER
-
-es =f
-
-(C} Windows 2016 KB4558843  
-(D) Remote Desktop Services (RDS) Session Broker
-
-Q78 In addition to bit rate and estimated total duration of recordings per day. What is needed to  
-determine the amount of storage required for PSM recordings.
-
-Question 78-In addition to bit rate and estimated total duration of recordings per day,w, & to
-
-determine the amount of storage required for PSM recordings?
-
-{B) Number of PSMs = CG
-
-(C) Number of users Se) �
-
-{D) Number of targets
-
--~
-
-1. CyberArk user XYZ is trying to connect to the Target Linux server 192.168.1.164 using a domain  
-account MCC/linuxuser01 on domain mycyberclassess.com PSM for SSH server 192.168.65.145.  
-What is the correct syntax?
-
-Question 79-CyberArk user XYZ is trying to connect to the Target� x Wer 192.168.1.164 using a  
-domain account MCC/linuxuser01 on domain mycyberclagseg.c g PSM for SSH server  
-192.168.65.145. What is the correct syntax?  
-(A) ssh xyz@linuxuser0i@myc lass@e.com@192.168.1.164@192. 168.65.145  
-(B) sshxyz@linuxuser01@mi rclasSes.com@192.168.1.164@192.168.65.145
-
-(D) ssh xyz@linuxus erclasses.com@192.168.1.164(@192.168.65.145
-
-1. Which component must be installed on the vault if distributed vaults is used with PSM?
-
-(B) Disaster Rec,  
-(C) Remote C  
-(D) Distribut
-
-nv  
-Cymer  
-CLASSES
-
-Question 80-Which component mus mS on the vault if distributed vaults is used with PSM?  
-Fe  
-i)
-
-
-
-62cdebe6180af89ba336df341a67eb17-26.jpg  
-82) Which tools are used during a CPM renaming process
-
-Question 82-Which tools are used during a CPM renaming process (Choose 2)  
-Mr
-
-ee art
-
-(C) CPM/nDomain_Hardening.ps1 CLASSES  
-(D) PMTerminal.exe  
-(E) Date Execution Prevention
-
-1. If a customer has one data center and requires high availability, how many PVWAs should be  
-deplyed?
-
-Question 83-If a customer has one data center and requires high availability,how many PVWAs should
-
-be deployed?  
-(A) Two  
-{B) One PVWA Cluster 7  
-(C}_ One fn,
-
-1. In addition to disabling Windows services or feature not needed for PVWA operations, which  
-tasks does PVWA_Hardeing.ps1 perform when run?
-
-Question 84-In Addition to disabling Windows services or features not needed for PYWA  
-operations,which tasks does PYWA_Hardening.ps1 perform when run?  
-(A) performs IIS hardening;imports the CyberArk INF configuration
-
-(C) Performs IIS hardening;renames the local Administrator Account  
-(D) Configures Windows Firewall;removes all installation files - CQ)
-
-1. Refer to the exhibit- A customer is building a development environment in the Amazon Public  
-Cloud through Amazon Web Services
-
-
-62cdebe6180af89ba336df341a67eb17-27.jpg  
-What is an ideal specification for the vault if it will only hold less than 1000 accounts?
-
-~~  
-Question 85- Refer to the exhibit- A customer is building a development enviganmeNwathe Amazon  
-Public Cloud through Amazon Web Services S .
-
-EC2 instance | vCPU Memory (GB) QC
-
-T2.micro | 1 1 | General Purpose
-
-T3.medium i 4 General Purpose  
-CS large 2 4 fal \ Computer Optimized
-
-What is an ideal specification for the vault if it will og� hold less than 1000 accounts?
-
-(A) t2.micro ge,
-
-(B) T3.medium NO HY  
-CYBER
-
-a SEs
-
-(D) C5.large
-
-Vault servers and standalone DR Vault servers 2
-
-Small Medium Large Very large  
-{<1,000 managed (1,000-20,000 managed (20,000 - 100,000 managed {more than 100,000 managed  
-passwords) passwords) passwords) passwords)
-> mSilarge + mS.xlarge + mBxlarge * mSxlarge
-
-- 250GB storage * S00GB storage
-
-1. A customer is deploying PVWAs in Amazon Web Services Punlic Cloud. Which load Balancing  
-option does CyberArk recomment?
-
-Question 86 -A customer is deploying PYWAs in Amazon Web Services Public Cloud. Which load  
-Balancing option does CyberArk recommend?
-
-(A} network load balancer  
-(C) HTTPS load balancer cusses  
-(D} Public standard load balancer
-
-1. Due to network activity, My Cyber Classes PrivateArk Server become active on the DR Vault  
-while the private vault was also running normally. All the components continues to point to the  
-Primary Vault. Which steps should you perform to restore DR replication to normal?
-
-
-62cdebe6180af89ba336df341a67eb17-28.jpg  
-Question 87 -Due to network activity,My Cyber Classes PrivateArk Server become active on tye DR  
-Vault while the private vault was also running nermally.All the components continued to oO  
-Primary Vault.Which steps should you perform ta restore DR replication to normal?
-
-(Aj Replicate data from DR Vault to primary Vault >Shutdown Private. GY nOR  
-Vault=Start Replication on DR Vault
-
-(C) Shutdown PrivateArk Server on Primary Vault>Replicat R Vault ta  
-primary Vault +S hutdown PrivateArk Server on DR Vault=Sta ie,
-
-(D} Shutdown PrivateArk Server on DR Vault>Replic GS DR Vault ta primary  
-Vault >Shutdown PrivateArk Server on DR Voult-Start Rag on DR Vault
-
-1. Which authentication method does PSM for SSH support?  
-i OQ�  
-Question 88 -Which authentication methods P �or SSH support?  
-(A) CyberArk password,LD. IUS'SAML
-
-(B) LDAP,Windows Authen' SH Keys  
-Password CLASSES  
-ft
-
-(C) RADIUS, Oracle  
-89) To ensure all session are being recorded, a CyberArk Administrator goes to the master policy  
-and makes configuratuon changes.
-
-Question 89 -To ens ig are being recorded, a CyberArk Administrator goes to the
-
-master policy and makes gigtic&changes.  
-What configuration is cori  
-{A} Reg re privileged session monitoring and isolatiansinactive: Record save  
-Kn Bctivity=active  
-Require privileged session monitoring and isclation=inactive; Record save  
-sion activity=inactive
-
-& (D} Require privileged session monitoring and isolatian=active; Recard save  
-session activity=inactive
-
-1. Refer to the exhibit To Enable PKI Authentication for PYWA(Version 10 and above), which web  
-server config file must be updated and appended with displayed settings?
-
-Question 90- Refer to the exhibit  
-To Enable PKI Authentication for PYWA(Version 10 and above),which web server contig file must be  
-updated and appended with displayed settings?
-
-location path="Default WebSite/PasswordVault/api/auth/pki/logan �>  
-�system. WebServer>  
-<Security>
-
-
-62cdebe6180af89ba336df341a67eb17-29.jpg  
-<access sslFlags="Ssl,$sl NegotiateCert,SslRequireCert/>
-
-</Security>
-</system. WebServer>
-<flocation>
-
-(B) CAinetpub\adminscripts\web.canfig  
-{C} PasswordVault\CustomAuthenticationDLs\CyberArk.Authentication.CustomPKIPN.dll
-
-(Dj CAinetoub\wwewroot\PasswardVault\Eny
-
-1. To use PSM Connections while in the PVWA, what are the minimum safe permissions a user a
-
-group will need?
-
-Question $1-Ta use PSM Connectio aA. .. PYWA what are the minimum safe permissions 4  
-user or group will need?
-
-CYBER  
-(B} List Accoygis,| ounts,Retrieve Accounts SLASHES  
-(C} Use Acctint  
-(D) Lis coun Use Accaunts,Retrieve Accourts,Access Sate without Confirmatian
-
-1. Which is a valid combination of primary and secondary layers of a authentication to a  
-company�s two factor authentication policy?
-
-Question 93-Which is a valid combination of primary and secondary prey tericoion toa
-
-company's twa factor authentication policy?
-
-{A} RSA SecurelD Authentication (in PVW, My Diwissin  
-(B} CyberArk Authentication and RADIUS t ada
-
-iC} Oracle SSO(In PVWA) and SAML Au icagi
-
-ry
-
-1. A customer wants to inplement as multi-cloud strategy for a vault deployment.
-
-Question 94 -A customer wants to implem� EA Mtoud strategy for a vault deployment.  
-Which architecture should you recommen?  
-{A} Primary Vault in AVS tin Azure.Both Primary and DAR Vault integrate with  
-AWS Key management ne  
-(B} Primary Vaubgei  
-Azure Key Vault
-
-.DOR Vault in AWS.Both Primary and DR Vault integrate with
-
-aultin Azure,DR Vault in AWS.Neither will integrate with Cloud native key  
-systems. The Server key will reside on the operating system.
-
-1. You have been asked to configure SNMP remote monitoring for your organization�s vault  
-servers. In the PARAgent.ini which parameter specifies the destination of the Vault SNMP traps?
-
-
-62cdebe6180af89ba336df341a67eb17-30.jpg  
-Question $5-You have been asked to configure SNMP remate monitoring far your organization's vault  
-servers. In the PARAgent.ini which parameter specifies the destination of the Vault SNMP traps?
-
-{A} SNMPHostIP rs
-
-(B) SNMPTrapPort cases
-
-(Cc) SNMPCommunity
-
-{D) SNMPVersion
-
-220120-073626.log .a| fitace 40 2 [>] PARAGENT sample.n &  
-[Main]  
-"RemcteadminFort=9022  
-"RemotettationIPAddress=1.1.1.1,1.1.1.2  
-| "UserCredentialsPato="Wi\Pragram Files\PrivateArk\ervez\PARAgent .p  
-onentliste"H:\Pregram Files\PzivateArk Server \PARVaile)  
-mtLog
-
-My Community"  
-"SNMPTrapsTrresocidCPu=200, 90,4, 30, YES  
-. �SAMPTrapsTeresnciddiskUsage=200, 65, 3,30, YES  
-*SNMPTrapsTrresnoidPhysicaiMemory=200,90, 3,30, YES
-
-1. Which component must be installed before the first CPM instllation?
-
-Question 96-Which component must be installed beforeape fj CPN pstallation?  
-(A) PTA A  
-{B} PSM �  
-�N  
-(D) EPM  
-_ �
-
-1. In a default CyberArk installation, which group must a user be a member of a view the  
-�reports� page in PVWA?
-
-Question 98- Inad It cy �Ark installation, which group must @ user be a member of a view the
-
-�reports� page |
-
-�ar
-
-D} Operators
-
-Reports in PVWA
-
-Reports can be generated in the Reports page in the PVWA by users who belong to the group thal is specifies in the
-
-ManageReporsGrowp param eter in the Reparts section of the Web Access Opriens In the System Configurarion page. By default, this 1s
-
-he FWA group.
-
-1. You are creating a new RestAPI user that utilizes CyberArk Authentication. What is the correct  
-process to provision this user?
-
-
-62cdebe6180af89ba336df341a67eb17-31.jpg  
-Question 99 -You are creating a new RestAPl user that utilizes CyberArk Authentication .  
-What is the correct process to provision this user?
-
-{B) PrivateArk Client>Tools>Administrative Tools >Directery Mapping=Add  
-iC) PVWA>User Provisioning>LDAP integration >Add mapping  
-{D) PYWA>LUser Provisioning >Users and Groups>New >User
-
-1. You want to generate a license capacity report. Which tool accomplishes this?
-
-Question 100-You want to generate a license capacity report.
-
-Which teol accomplishes this?  
-(A} Password Vault Web Access
-
-(C} DiagnosisDB Report  
-(D} �RestAPl
-
-1. For a digital Vault cluster in a high availability configuration, how do you determine if a node  
-is down?
-
-Question 101-For a digital Vault cluster in a high availability configuration, how do:  
-determine if a node is dawn? {
-
-(B} The shared storage array is offline Cc,  
-iC) An alertis generated in the Windows Event Log ,  
-iD) The Digital Vault cluster does not detect a node fail
-
-What does the Export Vault Data(EVD) utility do?
-
-1. You need to move a platform from using PMTermisnal to using Terminal Plugin  
-Controller(TPC).
-
-
-62cdebe6180af89ba336df341a67eb17-32.jpg  
-Question 102-You need to move a platform from using PI iro using Terminal Plugin
-
-Controller{T PC),  
-What must you do? X
-
-ereEn  
-CLASSES
-
-(B} Using Priya A the PasswordManager_Shared safe and then select open  
-Locate the ini fileNglatMyg to the platform you wish ta change.and double click  
-At the bott fihg e insert a line �UseTPC=True� Remove any lines that reference
-
-Regta for this change to take effect  
-rh pen the process file of the platform you wish to configure to use TPC  
-Qs he following parameter under the states section �use TPC =yes�  
-Itis not possible to change a platform from using PMTerminal to using TPC.  
-You must locate a new version of the platform that supports TPC and import the new platform  
-wover writing the existing platform.
-
-1. Users are unavle to launch Web Type Connection components from the PSM Server. Your  
-manager asked you to open the case with CyberArk Support. Which logs will helo the CyberArk  
-Support Team debug the issue?
-
-�  
-Question 103-Users are unable to launch Web Type Connection components M  
-Server. Your manager asked you to cpen the case with CyberArk Support. will help  
-the CyberArk Support Team debug the issue? (Choose 3)
-
-{B} = PSMDebug.log  
-(C} PSMTrace.log
-
-(E] PMCaonsale.log Cc >
-
-|  
-�
-
-Liver otk i cence
-
-SZ ape dcconet Patent  
-4 5]W error
-
-
-
-62cdebe6180af89ba336df341a67eb17-33.jpg  
-104) Which of the following properties are mandatory when adding accounts from a file?
-
-Question 104-Which of the following properti ep hdatory when adding accounts from a  
-fila? (Choose 3} X
-
-(D) Username  
-(E) Address G  
-(F) Hosta
-
-1. Which Automatic Remediation is configurable for a PTA detection of a �Suspected Credential  
-Theft�?
-
-~ 7  
-Question 105- with ona Remediation is configurable for a PTA detection of a  
-�Suspecte degtial Theft�?
-
-id to Pending
-
-1. A customer has two data centres and requires a single PVWA URL. Which deployment  
-provided the best performance and the most redundancy?  
-Question 107- A customer has two data centres and requires a single PYWA URL. Which deployment  
-provides the best performance and the most redundancy?  
-{A} Deploy two PVWAs behind a global traffic Manager
-
-{B} Deploy one PVWA only  
-ici Deploy two PVWAs in an active/standby made CLASES
-
-: . a  
-Reconcile Credentials clean
-
-Disable Accounts CLASSES
-
-
-62cdebe6180af89ba336df341a67eb17-34.jpg  
-108) Arrange the steps to install the password Vault Web Access(PVWA) in correct sequence
-
-Question 108-Arrange the steps to install the password Vault Web Access(PVWAJ in correct sequence
-
-Correct Ordered Response -
-
-7 on, 4
-
-1. Which SMTP address can be set on the notification settings page to re-invoke the ENE.setup  
-wizard after the initial vault installation?
-
-Question 108-Which SMTP address can he set on the cane oder to re-invoke the
-
-ENE.setup wizard after the initial vault installation? NO  
-(A255. 255.255.255 � )
-
-(B)8.8.8.8  
-(C}192,168,1.1
-
-Enable the ENE
-
-After insta ling the Wault Une ENE must be enabled =� that ycu wt be able to receive email rouficauions about the vault actin: es.
-
-Mare!
-
-After the �SE has been vonFa_rad, thal rerunthe 2h E se: 4p  
-vaigarrul, in Mig yh setae Sellnngs
-
-1. Which file does the Vault installation Wizard Prompt you for during the vault install?
-
-.  
-Question 110-WWig Fy oes the Vault installation Wizard Prompt you for during the yault install?
-
-a � 0 and License file wine  
-ator CD and Vault Certificate CLASSES
-
-aster CD and DBparam.ini
-
-
-
-62cdebe6180af89ba336df341a67eb17-35.jpg  
-111) Your customer, My Cyber Classes, wants to store the safes data in Drive D instead of Drive C.
-
-Question 111-Your customer ,My Cyber Classes, wants to store the safes data in Drive D instead of  
-Drive C.
-
-(B) OBParm. ini ne  
-(Cc) Vaultini SLASSES  
-(0) User ini
-
-TSParm. ini
-
-The TaParm.ini �ile, ir the ServervConf install ation falder. conta the 1st of directories that can store Safes datahases.
-
-1. In a rule using �Privileged Session Analysis and Responses� in PTA, which session options are  
-available to configure as responses to activities?
-
-Question 112-In a rule using �Privileged Session Analysis and Responses� in PTA, which session  
-options are available to configure as responses to activities?
-
-(B} Suspend,Terminate,Lack Account rs
-
-(C} Pause, Terminate, None cm,  
-(D} Suspend,Terminate
-
-Session response
-
-Serermine [i Session response. =tver None. Suspend, cr Terminate. tr the suopin ous $255107 arty Ty,
-
-The cefanll rey pane is Mone
-
-
-
-62cdebe6180af89ba336df341a67eb17-36.jpg  
-113) Which configuration file & Vault utility are used to migrate the server key to an HSM?
-
-Question 113 - Which configuration file & Vault utility are used to migrate the server key to an HSM?
-
-(A) DBParm.ini & CAVaulitManagaer.exe  
-(B) Vaultkeys.ini & CAVauitManagaer.exe  
-(C) DBParm.ini & Changeserverkeys.exe  
-(D) Vauitkeys.ini & Changeserverkeys.exe
-
-4 In DBP armani, cow
-
-1. What is the configuration file used by CPM scanner when scanning Unix/Linux Machine?
-
-Question 714 � What is the configuration file used by CPM scanner when seanning Unix/Linux  
-Machine?  
-(A) UnixPrompts.ini  
-{B} Flink.exe  
-(C) DBParm.ini evn  
-{0} P�Config.xml
-
-Unix/Linux-specific configuration <
-
-Whan scanning UniuLinux devices, the CPM scanner uses various parameters tn theUnixPrompesini configuration file. This te
-
-sancer neral aon tld aunt. OF Fi = nC bers� ord Manage
-
-tit CACPMScannerexe. avd can be cm ged gccorging ip tte les Dre iechine
-
-1. A customer is moving from On-Premise to public cloud deployment, what is the best and  
-most cost-effective way to secure the server keys?
-
-
-62cdebe6180af89ba336df341a67eb17-37.jpg  
-and most cost-effective way to secure the server kag?
-
-Question 116- A customer is moving from uO deployment, what is the best
-
-{A) Install the Vault in the cloud the game you would in an On-premise environment.  
-Place the server key in a password folder on the operating system.
-
-(B) Install the Vault in the cloud thes fy that you would in an On-premise environment.
-
-Purchase a Ha � to secure the server key
-
-{B) Install the Vau achine Images and secure the server key with a Hardware
-
-security madel.
-
-1. In PVWA, you are attempting to play a recording mode a session by user mycyberclasses, but  
-there is no option to �FastForward� within the video. It plays and only allows you to skip between  
-commands instead. You are also unable to download the video. What could be the issue?
-
-Rare attempting to play a recording mode a session by user  
-re is no option ta �Fast Forward� within the video, It plays and only allows you  
-ands instead. You are also unable to download the video. What could ba the
-
-{B] The browser you are suing is out of date and needs to update to be supported
-
-{C) You don�t have view audit permission on safe where the account is stored
-
-{D) You need to update the recorder settings in the platform to enable secure capture every  
-10000ms or less.
-
-Questian 117-|
-
-issue?
-
-1. A newly created platform allows users to access a Linux endpoint. When users click to  
-connect, nothing happens which piece of platform is missing?
-
-Question 118- A newly created platform allows users to access a Linux endpoint. When users click to  
-connect, nothing happens which piece of platform is missing?
-
-{B) UnixPrompts.ini  
-(C) UnixProcess.ini  
-{D) PSM-RDP Connection component
-
-1. A new domain controller has been added to your domain. You need to ensure the CyberArk  
-Infrastructure can use the new domain controller for authentication, which location you must
-
-update?
-
-
-62cdebe6180af89ba336df341a67eb17-38.jpg  
-Question 119� A new domain controller has been added to your domain. You need to ensure the
-
-CyberArk Infrastructure can use the new domain controller far authentication, which location you  
-must update?
-
-{B) On Vault Server Windows\System3?\ete\Hosts and in PYWA Windaws\System3?tetc  
-{C) In Private Ark client under tools > Administrative tool > Directory Mapping  
-(D} On the Vault Server in the Certificate store and on PVWA Server in Certficatagig��s
-
-sts
-
-1. Arrange the steps to complete CPM Hardening for Out of Domain deployment in the correct  
-sequence:-
-
-correct sequence: -
-
-Correct Sequence arranged below >
-
-~*  
-Question 120 - Arrange the steps to complete CPM Hardening for Out of Domain �era in the
-
-cyere  
-CLASSES
-
-~ Harden the CPM server
-
-1. In the installatian media, in the InstallatonAutomazion folder (..  
-senpt.
-
-Se
-
-This Script C�ates 4 bog file that lists all the steps (hat were Gar cied dutisuccesstul or failed). For each step the log ncludes the walle before the  
-change and after the change.
-
-- The scripe lng is created the same folder as the script and is ee
-
-- The steps performed hy the senpt are explained b�low. in Y/enual wig eureei lat 27h
-
-This script also credles a log file that analyzes the changes made when the Hardening Im F file is imparted.
-
-- The log file i
-
-- after the script has finished running, gach customer should review this log to verify that ne errors occurred.
-
-- The steps perform ed wher th� Hardening INF file Is imported are explained below, in Manual inp uit Lut 374
-
-1. What is the last step to ensure that a stand-alone Vault is synchronized with Organization�s  
-NTP server?
-
-Question Oe last step ta ensure that a stand-alone Vault is synchronized with  
-izatiin's' Server?
-
-ar rithe Vault Application using PrivateArk Client  
-i tart the Organizations NTP Server
-
-(D} Restart the Vault event Notification Engine Service
-
-
-
-62cdebe6180af89ba336df341a67eb17-39.jpg  
-122) A customer wants to store PSM recordings for 100 days. They estomate they will have 10  
-Windows Sessions per day for 100 minutes each. How much storage is required for vault and  
-PAReplicate for the PSM Storage?
-
-Question 122- A customer wants to store PSM recordings for 100 days. They estimate they will have  
-10 Windows Sessions per day for 100 minutes each. How much storage is required for the vault and  
-PAReplicate for the PSM Storage?
-
-(B} 250 GB ene,  
-(C} 500 GB  
-{D) 5GB
-
-The PSM session's recording file sizes are:
-- Windows (and other GUI tools such as Oracle Toad and wSphere Client) - ~250KB/min
-
-� �SH (and other command line tools such as SQLPlus) - ~100KB/min
-
-eS == (100� 10"100"250) = 2,50.00,000kb
-
-= 25GB
-
-Dignal Storage
-
-cy
-
-2,50,00,000 clasaes
-
-Kilobyte Gigabyte
-
-multiply the digital storage value by 12.6
-
-1. You are logging intro CyberArk as Master User to recover an orphaned safe, which items are  
-required to login as master?
-
-
-62cdebe6180af89ba336df341a67eb17-40.jpg  
-Question 123 - You are logging inte CyberArk as Ma  
-items are required to login as master?
-
-p Ksegh recover an orphaned safe, which
-
-(B) Operator CD, Master Password, > Recess to PYWA Server, PVWA Access  
-(C} Operator CD, Master Passwa some Access to Vault Server, Recover.exe |  
-(D} Master CO, Master Passwp Access to PVWA, Recover.exe i
-
-1. A user requested to view a password secured by dual control & is unsure who to contact to  
-expediate the approval process. Vault Admin has been asked to look at account and identify who  
-can approve the request? What is the correct way to identify users & groups who can approve?
-
-ne  
-Question 124 - A user reque wa password secured by dual control & is unsure who to  
-contact to expedite the a ocass. Vault Admin has been asked to look at account and identify
-
-who can approve the req
-
-1. Which parameter must be identical for both the identity provider(idp) and PVWA?
-
-Questignet25 - Which parameter must be identical for both the identity providerlidp} and PYWA?
-
-(B} Idp �username� and �singleSignonServieURL� in PYWA saml.canfig file  
-(C} Idp �audience�and �ServiceProviderNam� in PYWA samlLcaonfig file  
-(D} Idp �secure hash alogorithm� and �certificate� in PVWA saml.config file
-
-� Enter the IdP identifier that enables the PVWA ta idenufy the IdP. Also known as the [EEE of  
-the ldP,
-
+- **Question 68:** Match the built-in Vault user with the correct definition:
+	- (A) This user appears on the highest level of the User hierarchy and has all the possible permissions. As such, it can create and manage other users on any level on the User's hierarchy → **Administrator**
+	- (B) This user appears at the top of the user hierarchy, enabling it to view all the users in the safe. The user can produce reports of Safe activities and user activities which enables it to keep track of activity in the Safe and User requirements → **Auditor**
+	- (C) This user is an internal user that cannot be logged onto and carries out internal tasks, such as automatically clearing expired user and safe history → **Batch**
+	- (D) This user has all available Safe member authorizations except authorize password requests. This user has complete system control, manages a full recovery when necessary and cannot be removed from any safe → **Master**
+- **Q69:** A new HTML5 Gateway has been deployed in your organization.  
+Where do you configure the PSM to use the HTML5 Gateway?
+	- (A) Administration > Options > Privileged Session Management > Configured PSM Servers > Connection Details > Add PSM Gateway
+	- (B) Administration > Options > Privileged Session Management > Add Configured PSM Servers
+	- (C) Administration > Options > Privileged Session Management > Add PSM Gateway
+	- (D) Administration > Options > Privileged Session Management > Connection Details
+- **Question 70:** A Vault Administrator team member can log in to CyberArk, but for some reason, is not given Vault Admin rights. Where can you check to verify that the Vault Admins directory mapping points to the correct AD group?
+	- (A) PVWA > User Provisioning > LDAP Integration > Mapping Criteria
+	- (B) PVWA > User Provisioning > LDAP Integration > Map Name
+	- (C) PVWA > Administration > LDAP Integration > Mapping groups
+	- (D) PVWA > Administration > LDAP Integration > AD groups  
+
+**Question 71:** In the privateArk Client, how do you add an LDAP group to a CyberArk group?
+- (A) **Select Update on the CyberArk group, and then click Add > LDAP Group**
+- (B) Select Update on the LDAP Group, and then click Add > LDAP Group
+- (C) Select Member of the CyberArk Group, and then Click Add > LDAP Group
+- (D) Select Member of the LDAP group and then Click Add > LDAP Group
+
+**Q72:** What are the basic network requirements to deploy a CPM server?
+- (A) **Port 1858 to vault and port 443 to PVWA**
+- (B) Port 1858 only
+- (C) All ports to the vault
+- (D) Port UDP/1858 to vault and all required ports to targets and port 389 to the PSM
+
+**Question 73:** You have been asked to identify up or down status of Vault services. Which CyberArk utility can you use to accomplish this task?
+- (A) Vault Replicator
+- (B) PAS Reporter
+- (C) **Remote Control Agent**
+- (D) Syslog
+
+**Question 74:** Which is mandatory for a PVWA installation? A DNS entry for the PVWA URL must be created.
+- (A) A company signed TLS certificate must be imported into the server
+- (B) **A vault administrative user must be used to register the PVWA**
+- (C) Data Execution Prevention must be disabled  
+
+**Question 76:** You are helping a customer prepare a Windows Server for PSM Installation. What is required for a successful installation?
+- (A) Windows 2012 KB4558843
+- (B) **Remote Desktop Services(RDS) Session Host Role**
+- (C) Windows 2016 KB4558843
+- (D) Remote Desktop Services (RDS) Session Broker
+
+**Question 78:** In addition to bit rate and estimated total duration of recordings per day, what is needed to determine the amount of storage required for PSM recordings?
+- (A) **retention period**
+- (B) Number of PSMs
+- (C) Number of users
+- (D) Number of targets
+
+**Question 79:** CyberArk user XYZ is trying to connect to the Target Linux server 192.168.1.164 using a domain account MCC/linuxuser01 on domain mycyberclasses.com PSM for SSH server 192.168.65.145. What is the correct syntax?
+- (A) ssh xyz@linuxuser01@mycyberclasses.com@192.168.1.164@192.168.65.145
+- (B) sshxyz@linuxuser01@mycyberclasses.com@192.168.1.164@192.168.65.145
+- (C) **ssh xyz@linuxuser01@192.168.1.164@192.168.65.145**
+- (D) ssh xyz@linuxuser01@mycyberclasses.com@192.168.1.164@192.168.65.145
+
+**Question 80:** Which component must be installed on the vault if distributed vaults is used with PSM?  
+	- (A) **RabbitMQ**  
+	- (B) Disaster Recovery  
+	- (C) Remote Control Client  
+	- (D) Distributed Vault Server
+
+- Which tools are used during a CPM renaming process  
+	    - API key Manager utility  
+	    - CreateCredFile Utility  
+	    - CPM/nDomain_Hardening.ps1 CLASSES  
+	    - PMTerminal.exe  
+	    - Date Execution Prevention
+- If a customer has one data center and requires high availability, how many PVWAs should be deployed?  
+	    - Two  
+	    - One PVWA Cluster 7  
+	    - One  
+	    - Two PVWA Cluster
+- In addition to disabling Windows services or feature not needed for PVWA operations, which tasks does PVWA_Hardeing.ps1 perform when run?  
+	    - performs IIS hardening; imports the CyberArk INF configuration  
+	    - Perform IIS hardening; Configure all group policy settings  
+	    - Performs IIS hardening; renames the local Administrator Account  
+	    - Configures Windows Firewall; removes all installation files  
+**Question 85:** Refer to the exhibit - A customer is building a development environment in the Amazon Public Cloud through Amazon Web Services.
+
+| EC2 instance | vCPU | Memory (GB) | Purpose            |
+|--------------|------|-------------|--------------------|
+| T2.micro     | 1    | 1           | General Purpose    |
+| T3.medium    | 2    | 4           | General Purpose    |
+| **M5.large**     | 2    | 8           | General Purpose    |
+| C5.large     | 2    | 4           | Computer Optimized |                                  
+What is an ideal specification for the vault if it will only hold less than 1000 accounts?  
+	- (A) t2.micro  
+	- (B) T3.medium  
+	- (C) **M5.large**  
+	- (D) C5.large
+- A customer is deploying PVWAs in Amazon Web Services Public Cloud. Which load Balancing option does CyberArk recommend?  
+	    network load balancer  
+	    Classic Load Balancer  
+	    HTTPS load balancer cusses  
+	    Public standard load balancer  
+ - Due to network activity, My Cyber Classes PrivateArk Server become active on the DR Vault  while the private vault was also running normally. All the components continues to point to the  Primary Vault. Which steps should you perform to restore DR replication to normal?  
+	    - Replicate data from DR Vault to primary Vault >Shutdown Private server on DR Vault >Start Replication on DR Vault  
+	    - Shutdown PrivateArk Server on DRVault>Start Replication on DR Vault  
+	    - Shutdown PrivateArk Server on Primary Vault>Replicate Data from DR Vault to PrimaryVault>Shutdown PrivateArk Server on DRVault>Start Replication on DR Vault  
+	    - Shutdown PrivateArk Server on DRVault>Replicate Data from DR Vault to PrimaryVault>Shutdown PrivateArk Server on DRVault>Start Replication on DR Vault
+- Which authentication method does PSM for SSH support?  
+	    - CyberArk password, LDAP, RADIUS, SAML  
+	    - LDAP,Windows Authentication, SSH Keys  
+	    - RADIUS, Oracle ,SSO,CyberArk Password  
+	    - CyberArk Password, LDAP, Radius
+- To ensure all session are being recorded, a CyberArk Administrator goes to the master policy and makes configuration changes.  
+	    - Reg re privileged session monitoring and isolation—inactive; Record save session activity=active  
+	    - Require privileged session monitoring and isolation—inactive; Record save session activity—inactive  
+	    - Require privileged session monitoring and save session activity—active; Record save session activity=active  
+	    - Require privileged session monitoring and isolation—active; Record save session activity—inactive  
+ - Refer to the exhibit To Enable PKI Authentication for PYWA(Version 10 and above), which web server config file must be updated and appended with displayed settings?  
+	    - %WinDir%\System32\Inet\Serv\Config\Applicationhost.config  
+	    - C:\inetpub\adminscripts\web.config  
+	    - PasswordVault\CustomAuthenticationDLs\CyberArk.Authentication.CustomPKIPN.dll  
+	    - C:\inetpub\wwwroot\PasswordVault\Env  
+ - To use PSM Connections while in the PVWA, what are the minimum safe permissions a user a group will need?  
+	    - List Accounts, Use Accounts  
+	    - List Accounts ,,Retrieve Accounts  
+	    - Use Accounts  
+	    - List Accounts, Use Accounts, Retrieve Accounts, Access Safe without Confirmation
+
+  
+
+- Which is a valid combination of primary and secondary layers of a authentication to a  company s two factor authentication policy?  
+    - RSA SecurelD Authentication (in PVWA) and LDAP Authentication.  
+    - CyberArk Authentication and RADIUS Authentication  
+    - Oracle SSO(In PVWA) and SAML Authentication  
+    - LDAP Authentication and RADIUS Authentication
+- A customer wants to implement as multi-cloud strategy for a vault deployment. Which architecture should you recommend?  
+    - Primary Vault in AWS, DR Vault in Azure. Both Primary and DR Vault integrate with  
+    - AWS Key management service  
+    - Primary Vault in Azure, DR Vault in AWS.  Both Primary and DR Vault integrate with  
+    - Azure Key management service  
+    - Primary Vault in AWS, DR Vault in Azure. The primary vault will be integrated with Azure Key management service, while the Dr Vault will be integrated with Azure Key Vault.  
+    - Primary Vault in Azure, DR Vault in AWS. Neither will integrate will Cloud Native key management systems. The server will reside on the Operating system
+- You have been asked to configure SNMP remote monitoring for your organization s vault servers. In the PARAgent.ini which parameter specifies the destination of the Vault SNMP traps?  
+    - SNMPHostIP  
+    - SNMPTrapPort  
+    - SNMPCommunity  
+    - SNMPVersion
+- Which component must be installed before the first CPM instllation?  
+    - PTA  
+    - PSM  
+    - PVWA  
+    - EPM  
+- In a default CyberArk installation, which group must a user be a member of a view the reports  page in PVWA?  
+    - PVWA Monitor  
+    - Report Users  
+    - PVWA Reports  
+    - Operators
+- You are creating a new RestAPI user that utilizes CyberArk Authentication. What is the correct process to provision this user?  
+    - PrivateArk Client>Tools>Administrative Tools >Users &Groups> New> User  
+    - PrivateArk Client>Tools>Administrative Tools >Directory Mapping=Add  
+    - PVWA>User Provisioning>LDAP integration >Add mapping  
+    - PVWA>User Provisioning >Users and Groups>New >User
+- You want to generate a license capacity report. Which tool accomplishes this?  
+    - Password Vault Web Access  
+    - PrivateArk Client  
+    - DiagnosisDB Report  
+    - RestAPl
+- For a digital Vault cluster in a high availability configuration, how do you determine if a node is down?  
+    - The heartbeat is no longer detected on Private Network  
+    - The shared storage array is offline  
+    - An alert is generated in the Windows Event Log  
+    - The Digital Vault cluster does not detect a node failure.
+- What does the Export Vault Data(EVD) utility do?  
+**Question 102:** You need to move a platform from using PMTerminal to using Terminal Plugin Controller (TPC). What must you do?
+
+- (A) **Within PVWA**  
+    - Click `Administration > Platform Management`  
+    - Select the platform, and then click `Edit`  
+    - In the left pane, click `Automatic password management > CPM Plug-in`  
+    - Set the `ExeName` parameter value to `CyberArk.TPC.exe`  
+- (B) Using PrivateArk, select the `PasswordManager_Shared` safe and then select open. Locate the ini file relating to the platform you wish to change, and double click. At the bottom of the file, insert a line "`UseTPC=True`". Remove any lines that reference "PMTerminal" and save. Return the ini file to safe. Restart CPM for this change to take effect.  
+- (C) Open the process file of the platform you wish to configure to use TPC. Add the following parameter under the platforms section "use TPC =yes". It is not possible to change a state from using PMTerminal to using TPC. You must locate a new version of the platform that supports TPC and import the new platform over writing the existing platform.
+
+- Users are unable to launch Web Type Connection components from the PSM Server. Your manager asked you to Open the case with CyberArk Support. Which logs will help the CyberArk Support Team debug the issue? (Choose 3)  
+    - PSM Console.log  
+    - PSMDebug.log  
+    - PSMTrace.log  
+    - <Session_ID>.Component.log  
+    - PM.Console.log  
+    - ITA.log
+- Which of the following properties are mandatory when adding accounts from a file?(Choose 3}  
+    - Safe Name  
+    - Platform ID  
+    - All required properties specified in the Platform  
+    - Username  
+    - Address  
+    - Hostname
+- Which Automatic Remediation is configurable for a PTA detection of a  Suspected Credential Theft ?  
+    - Add to Pending  
+    - Rotate Credentials  
+    - Reconcile Credentials  
+    - Disable Accounts
+- A customer has two data centers and requires a single PVWA URL. Which deployment provided the best performance and the most redundancy?  
+    - Deploy two PVWAs behind a global traffic Manager  
+    - Deploy one PVWA only  
+    - Deploy two PVWAs in an active/standby mode.  
+    - Deploy two PVWAs using DNS RoundRobin
+- Arrange the steps to install the password Vault Web Access(PVWA) in correct sequence. Correct Ordered Response -  
+    - lRun the PVWA_Prerequisites.psI file as an administrator  
+    - Run the PVWAInstallation.psI script as Administrator  
+    - Run the PVWARegisterComponent.ps1.script with Vault password  
+    - Run the PVWA Hardening.psl.script in PowerShell as Administrator
+- Which SMTP address can be set on the notification settings page to re-invoke the ENE.setup wizard after the initial vault installation?  
+    - (255. 255.255.255   )  
+    - 8.8.8.8  
+    - 192,168,1.1  
+    - 1.1.1.1  
+Question 110 : Which file does the Vault installation Wizard Prompt you for during the vault install?  
+- Operator CD and License file  
+- Master CD and License file  
+- Operator CD and Vault Certificate  
+- Master CD and DBparam.ini
+
+**Question 111:** Your customer, My Cyber Classes, wants to store the safes data in Drive D instead of Drive C.
+- (A) **TSParm.ini**
+- (B) DBParm.ini
+- (C) Vault.ini
+- (D) User.ini
+
+**Question 112:** In a rule using “Privileged Session Analysis and Responses” in PTA, which session options are available to configure as responses to activities?
+- (A) **Suspend,Terminate,None**
+- (B) Suspend,Terminate,Lock Account
+- (C) Pause,Terminate,None
+- (D) Suspend,Terminate
+
+**Question 113:** Which configuration file & Vault utility are used to migrate the server key to an HSM?
+- (A) **DBParm.ini & CAVaultManager.exe**
+- (B) Vaultkeys.ini & CAVaultManager.exe
+- (C) DBParm.ini & Changeserverkeys.exe
+- (D) Vaultkeys.ini & Changeserverkeys.exe
+
+**Question 114:** What is the configuration file used by CPM scanner when scanning Unix/Linux Machine?
+- (A) **UnixPrompts.ini**
+- (B) Plink.exe
+- (C) DBParm.ini
+- (D) PVConfig.xml
+
+**Question 116:** A customer is moving from On-Premise to public cloud deployment, what is the best and most cost-effective way to secure the server key?
+- (A) Install the Vault in the cloud the same way that you would in an On-premise environment. Place the server key in a password protected folder on the operating system.
+- (B) Install the Vault in the cloud the same way that you would in an On-premise environment. Purchase a Hardware Security Module to secure the server key.
+- (C) **Install the Vault using Amazon Machine Images and secure the server key using native cloud key management system.**
+- (D) Install the Vault using Amazon Machine Images and secure the server key with a Hardware security model.
+
+**Question 117:** In PVWA, you are attempting to play a recording mode a session by user mycyberclasses, but there is no option to “Fast Forward” within the video. It plays and only allows you to skip between commands instead. You are also unable to download the video. What could be the issue?
+- (A) **Recording is of PSM for SSH Session**
+- (B) The browser you are using is out of date and needs to update to be supported
+- (C) You don’t have view audit permission on safe where the account is stored
+- (D) You need to update the recorder settings in the platform to enable secure capture every 1000ms or less.
+
+**Question 118:** A newly created platform allows users to access a Linux endpoint. When users click to connect, nothing happens which piece of platform is missing?
+- (A) **PSM-SSH Connection Component**
+- (B) UnixPrompts.ini
+- (C) UnixProcess.ini
+- (D) PSM-RDP Connection component
+
+**Question 119:** A new domain controller has been added to your domain. You need to ensure the CyberArk Infrastructure can use the new domain controller for authentication, which location you must update?
+- (A) **On Vault Server \Windows\System32\etc\Hosts and in PVWA Application under Administration > LDAP Integration > Directories > Hosts**
+- (B) On Vault Server \Windows\System32\etc\Hosts and in PVWA \Windows\System32\etc\Hosts
+- (C) In Private Ark client under tools > Administrative tool > Directory Mapping
+- (D) On the Vault Server in the Certificate store and on PVWA Server in Certificate store.
+
+**Question 120:** Arrange the steps to complete CPM Hardening for Out of Domain deployment in the correct sequence:
+1. **Locate the CPM_hardening.ps1 scripts in the installation media**
+2. **Open Powershell as Administrator and run the script**
+3. **Review the script log called HardeningScript.log**
+4. **Review the script log called CYBR_Hardening_secedit.log**
+
+**Question 121:** What is the last step to ensure that a stand-alone Vault is synchronized with Organization’s NTP server?
+- (A) Restart the Vault Application using PrivateArk Client
+- (B) Restart the Organizations NTP Server
+- (C) **Restart the Vault Application using the PrivateArk Central Administration Console**
+- (D) Restart the Vault event Notification Engine Service  
+**Question 121** : A customer wants to store PSM recordings for 100 days. They estimate they will have 10 Windows Sessions per day for 100 minutes each. How much storage is required for vault and PAReplicate for the PSM Storage?
+- (A) 25 GB
+- (B) 250
+- (C) 500 GB
+- (D) 5GB  
+
+**Question 123:** You are logging into CyberArk as MasterUser to recover an orphaned safe, which items are required to login as master?
+- (A) **Master CD, Master Password, Console Access to Vault Server, Private Ark Client**
+- (B) Operator CD, Master Password, Console Access to PVWA Server, PVWA Access
+- (C) Operator CD, Master Password, Console Access to Vault Server, Recover.exe
+- (D) Master CD, Master Password, Console Access to PVWA, Recover.exe
+
+**Question 124:** A user requested to view a password secured by dual control & is unsure who to contact to expedite the approval process. Vault Admin has been asked to look at account and identify who can approve the request? What is the correct way to identify users & groups who can approve?
+- (A) PVWA > Administration > Platform Management > Ui & Workflow > Dual Control > Approver
+- (B) **PVWA > Policies > Access Control (Safes) > Safe Members > Workflow > Authorize Password Request**
+- (C) PVWA > Account list > Edit > Show passwords > Dual Control > Direct Managers
+- (D) PrivateArk > Admin tool > Users & groups > Auditors (Group Membership)
+
+**Question 125:** Which parameter must be identical for both the identity provider(idp) and PVWA?
+- (A) **Idp “EntityID” and “PartnerIdentityProvider Name” in PVWA Saml.config file**
+- (B) Idp “username” and “SingleSignOnServiceURL” in PVWA saml.config file
+- (C) Idp “audience” and “ServiceProviderName” in PVWA saml.config file
+- (D) Idp “secure hash algorithm” and “certificate” in PVWA saml.config file
 
 
 62cdebe6180af89ba336df341a67eb17-41.jpg  
 126) Match each PTA Alert category with the PTA sensors that collect the data for it:-
+--- 
+
+## Done till here
 
 Question 126 � Match each PTA Alert category with the PTA sensors that callect the data for it-
 

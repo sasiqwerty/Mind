@@ -5,6 +5,10 @@
       "path": "def-new-ocr.md"
     },
     {
+      "basename": "22-10-23 Sunday",
+      "path": "DailyNote/22-10-23 Sunday.md"
+    },
+    {
       "basename": "21-10-23 Saturday",
       "path": "DailyNote/21-10-23 Saturday.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "safes and users created after each install",
       "path": "safes and users created after each install.md"
-    },
-    {
-      "basename": "ldap-session23",
-      "path": "ldap-session23.md"
     }
   ],
   "omittedPaths": [
