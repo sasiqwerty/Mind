@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "25-10-23 Wednesday",
+      "path": "DailyNote/25-10-23 Wednesday.md"
+    },
+    {
       "basename": "def-new-ocr",
       "path": "def-new-ocr.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "pc-build",
       "path": "pc-build.md"
-    },
-    {
-      "basename": "safes and users created after each install",
-      "path": "safes and users created after each install.md"
     }
   ],
   "omittedPaths": [

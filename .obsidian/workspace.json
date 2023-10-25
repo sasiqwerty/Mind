@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "def-new-ocr.md",
+                "file": "DailyNote/25-10-23 Wednesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "def-new-ocr.md",
+                "file": "DailyNote/25-10-23 Wednesday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "def-new-ocr.md",
+                "file": "DailyNote/25-10-23 Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "def-new-ocr.md"
+                "file": "DailyNote/25-10-23 Wednesday.md"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "def-new-ocr.md"
+                "file": "DailyNote/25-10-23 Wednesday.md"
               }
             }
           }
@@ -211,9 +211,10 @@
   },
   "active": "092f2e0885beaa86",
   "lastOpenFiles": [
+    "def-new-ocr.md",
+    "DailyNote/25-10-23 Wednesday.md",
     "def-new-ocr.docx",
     "DailyNote/22-10-23 Sunday.md",
-    "def-new-ocr.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231021235913.png",
     "DailyNote/21-10-23 Saturday.md",
     "DailyNote/20-10-23 Friday.md",
@@ -256,7 +257,6 @@
     "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
     "~$m-logfiles-session21.docx",
     "Cyberark/Files/13WS-PAM-Install-EPV Configuration and Performance Tuning.pdf",
-    "Cyberark/Files/12WS-PAM-Install-Vault Availabilty (Cluster).pdf",
     "Untitled.canvas",
     "Cyberark/Doubts/clear expired safe history.canvas",
     "Cyberark/Doubts/doubt related to DAC.canvas",

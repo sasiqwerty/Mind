@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, October 21st 2023, 8:30:27 pm
-date modified: Sunday, October 22nd 2023, 4:56:02 am
+date modified: Wednesday, October 25th 2023, 8:12:10 am
 ---
 
 ## Start
@@ -432,7 +432,7 @@ Where do you configure the PSM to use the HTML5 Gateway?
 | T2.micro     | 1    | 1           | General Purpose    |
 | T3.medium    | 2    | 4           | General Purpose    |
 | **M5.large**     | 2    | 8           | General Purpose    |
-| C5.large     | 2    | 4           | Computer Optimized |                                                                                
+| C5.large     | 2    | 4           | Computer Optimized |                                                                                  
 What is an ideal specification for the vault if it will only hold less than 1000 accounts?  
 	- (A) t2.micro  
 	- (B) T3.medium  
