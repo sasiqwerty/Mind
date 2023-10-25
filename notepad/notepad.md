@@ -46,3 +46,14 @@ what do we call the point of time when you are not doing anything productive and
 what is the solution when the mind is in this state? take a break and try to do what? its something I have to understand maybe
 
 
+
+
+## 2023-10-23 06:26:36
+linux stuff in cyberark
+master policy practice and its topics dual control otp and check in check out
+
+
+## 2023-10-23 07:34:17
+playing the wrong hero, without thinking about the draft, draft fails and other reasons made me learn from my mistakes 
+i feel lost like my new self, i want to try again and see if i would fail
+a loss would teach me so much more 
