@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "home-media-server",
+      "path": "home-media-server.md"
+    },
+    {
       "basename": "25-10-23 Wednesday",
       "path": "DailyNote/25-10-23 Wednesday.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Virtual Box Guide",
       "path": "Virtual Box Guide.md"
-    },
-    {
-      "basename": "pc-build",
-      "path": "pc-build.md"
     }
   ],
   "omittedPaths": [
