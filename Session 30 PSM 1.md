@@ -207,7 +207,6 @@ The connection flow describes the series of steps and interactions that occur fr
 
 ### Connection Flow Steps
 
-merge these two flows together, they are the same concept
  
 1. **Initiate Request & Logon**: IT personnel initiates the process by logging on through the Privileged Web Access (PWWA) using HTTPS. A request is initiated from the PVWA to the Vault.
 2. **Connect via RDP**: The Vault sends a message to the PSM server, informing it to expect an RDP (Remote Desktop Protocol) connection. Once authenticated, the IT personnel connects using RDP encapsulated over HTTPS.
