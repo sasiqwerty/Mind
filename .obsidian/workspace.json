@@ -86,6 +86,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ebb1bc2a9c5f59b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/31-10-23 Tuesday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -275,8 +287,9 @@
   },
   "active": "929556c9dc08217f",
   "lastOpenFiles": [
-    "Session 30 PSM 2.md",
+    "DailyNote/31-10-23 Tuesday.md",
     "Session 31 PSM 3.md",
+    "Session 30 PSM 2.md",
     "DailyNote/30-10-23 Monday.md",
     "Topics that need practice.md",
     "Session 30 PSM 1.md",
@@ -303,7 +316,6 @@
     "output-process.md",
     "notepad",
     "DailyNote/19-10-23 Thursday.md",
-    "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-18 at 06.04.17_e6ff3af3.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 21.03.04_3b8a3a16.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 20.59.43_b53216e0.jpg",

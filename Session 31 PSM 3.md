@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, October 30th 2023, 9:24:59 am
-date modified: Monday, October 30th 2023, 11:28:18 am
+date modified: Tuesday, October 31st 2023, 12:04:47 pm
 ---
 
 ## Introduction
@@ -43,7 +43,27 @@ date modified: Monday, October 30th 2023, 11:28:18 am
 
 ## Enable Debugging
 
-Enabling debug mode will apply the change to all the PSMs in the VIP/Load balancer, its advisable to complete the debug task as quickly as possible and disable debug as the messages generated would increase the load on the servers and in some cases also the vault.
+- We have to set the debug level from the [[Password Vault Web Access|PVWA]], this setting applies to all the [[Privileged Session Manager|PSM]]s in the load balancer. 
+	- Server Settings > TraceLevels = 1,2,3,4,5,6,7  
+	- Recorder Settings > TraceLevels= 1,2  
+	- Connection Client Settings > TraceLevels = 1,2
+- Enabling debug mode will apply the change to all the PSMs in the VIP/Load balancer, its advisable to complete the debug task as quickly as possible and disable debug as the messages generated would increase the load on the servers and in some cases also the vault.  
+
+### Levels
+
+TraceLevels indicate:  
+0 - None.  
+1 - Exceptions only. Each error in the system will be sent to the trace file, whether  
+it is recoverable or not.  
+2 - Controller trace. Includes the initialization of the PSMServer, recovery  
+procedure and configuration.  
+3 - Listener trace. Each session identified by the listener is reported, whether it is  
+handled or not.  
+4 - Session trace. Includes all the work done for a session (authentication and  
+impersonation, password retrieval, activation of components, etc.).  
+5 - Uploader trace.  
+6 - CASOS errors trace (Vault errors trace).  
+7 - CASOS debug and activity trace.
 
 ## PSM Folder Structure
 

@@ -5,6 +5,10 @@
       "path": "Session 31 PSM 3.md"
     },
     {
+      "basename": "31-10-23 Tuesday",
+      "path": "DailyNote/31-10-23 Tuesday.md"
+    },
+    {
       "basename": "Session 30 PSM 2",
       "path": "Session 30 PSM 2.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "dead-cells unlock blueprints",
       "path": "dead-cells unlock blueprints.md"
-    },
-    {
-      "basename": "linkshelf-token",
-      "path": "linkshelf-token.md"
     }
   ],
   "omittedPaths": [
