@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "929556c9dc08217f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Session 31 PSM 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
             "id": "3b34139c93dd4b95",
             "type": "leaf",
             "pinned": true,
@@ -67,14 +81,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session 30 PSM 1.md",
-                "mode": "preview",
+                "file": "DailyNote/30-10-23 Monday.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -157,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session 30 PSM 1.md",
+                "file": "Session 31 PSM 3.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session 30 PSM 1.md",
+                "file": "Session 31 PSM 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +211,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session 30 PSM 1.md"
+                "file": "Session 31 PSM 3.md"
               }
             }
           },
@@ -217,8 +231,16 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Session 30 PSM 1.md"
+                "file": "Session 31 PSM 3.md"
               }
+            }
+          },
+          {
+            "id": "05b414d2f8fd809f",
+            "type": "leaf",
+            "state": {
+              "type": "tokei",
+              "state": {}
             }
           }
         ],
@@ -226,7 +248,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,12 +273,16 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "42be69a6083c1d18",
+  "active": "929556c9dc08217f",
   "lastOpenFiles": [
-    "DailyNote/28-10-23 Saturday.md",
     "Session 30 PSM 2.md",
+    "Session 31 PSM 3.md",
+    "DailyNote/30-10-23 Monday.md",
     "Topics that need practice.md",
     "Session 30 PSM 1.md",
+    "DailyNote/28-10-23 Saturday.md",
+    "study plan for i&c course.md",
+    "work-checklist.md",
     "DailyNote/21-10-23 Saturday.md",
     "DailyNote/25-10-23 Wednesday.md",
     "home-media-server.md",
@@ -278,13 +304,9 @@
     "notepad",
     "DailyNote/19-10-23 Thursday.md",
     "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md",
-    "Agreement Deed.md",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-18 at 06.04.17_e6ff3af3.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 21.03.04_3b8a3a16.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 20.59.43_b53216e0.jpg",
-    "Session 10 Log Files Debugging Levels.md",
-    "Session 8 Vault Service Dependencies DBPARM ini file.md",
-    "DailyNote/18-10-23 Wednesday.md",
     "output-process.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231016171345.png",
     "output-process.html",

@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Sunday, October 1st 2023, 3:24:25 pm
-date modified: Wednesday, October 4th 2023, 5:05:38 pm
+date modified: Monday, October 30th 2023, 9:39:25 am
 ---
 
 ## Study Plan Checklist

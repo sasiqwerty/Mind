@@ -1,0 +1,17 @@
+{
+  "timeFormat": "HH:mm",
+  "showDate": true,
+  "dateFormat": "DDD",
+  "showTimeZone": true,
+  "timeZonePairs": [
+    {
+      "name": "",
+      "offset": ""
+    }
+  ],
+  "timezoneFormat": "HH:mm EEE",
+  "weekStart": "sunday",
+  "fiscalYearStart": 1,
+  "showWeekAndQuarter": false,
+  "reverseTimezoneOrder": false
+}

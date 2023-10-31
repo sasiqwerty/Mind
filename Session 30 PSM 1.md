@@ -3,7 +3,7 @@ aliases:
 tags:
   - IC-CyberArk
 date created: Friday, October 13th 2023, 3:10:06 pm
-date modified: Saturday, October 14th 2023, 3:40:45 am
+date modified: Monday, October 30th 2023, 8:51:40 am
 ---
 [Session 30 PSM 1 - YouTube](https://www.youtube.com/watch?v=YYrePkmOxMc)
 
