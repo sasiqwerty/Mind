@@ -98,6 +98,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "676ecc61ce912130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/31-10-23 Tuesday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 2
@@ -287,12 +299,12 @@
   },
   "active": "929556c9dc08217f",
   "lastOpenFiles": [
+    "Session 30 PSM 2.md",
+    "Session 30 PSM 1.md",
     "DailyNote/31-10-23 Tuesday.md",
     "Session 31 PSM 3.md",
-    "Session 30 PSM 2.md",
     "DailyNote/30-10-23 Monday.md",
     "Topics that need practice.md",
-    "Session 30 PSM 1.md",
     "DailyNote/28-10-23 Saturday.md",
     "study plan for i&c course.md",
     "work-checklist.md",
