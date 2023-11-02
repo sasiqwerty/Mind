@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "02-11-23 Thursday",
+      "path": "DailyNote/02-11-23 Thursday.md"
+    },
+    {
       "basename": "Topics that need practice",
       "path": "Topics that need practice.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "DR Drill for Listening",
       "path": "Cyberark/DR Drill/DR Drill for Listening.md"
-    },
-    {
-      "basename": "02-11-23 Thursday",
-      "path": "DailyNote/02-11-23 Thursday.md"
     },
     {
       "basename": "conv-file",
@@ -103,10 +107,6 @@
     {
       "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
       "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
     },
     {
       "basename": "vault-related",
