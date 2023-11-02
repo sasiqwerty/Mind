@@ -117,14 +117,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session 7 Vault Prerequisites Services.md",
+                "file": "DailyNote/02-11-23 Thursday.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -207,7 +207,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session 7 Vault Prerequisites Services.md",
+                "file": "Session 32 PSM 4 (CPM and Others ).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +224,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session 7 Vault Prerequisites Services.md",
+                "file": "Session 32 PSM 4 (CPM and Others ).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +247,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session 7 Vault Prerequisites Services.md"
+                "file": "Session 32 PSM 4 (CPM and Others ).md"
               }
             }
           },
@@ -267,7 +267,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Session 7 Vault Prerequisites Services.md"
+                "file": "Session 32 PSM 4 (CPM and Others ).md"
               }
             }
           },
@@ -309,16 +309,16 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "32bd252dafca8731",
+  "active": "25353c3a991e8aba",
   "lastOpenFiles": [
+    "Session 31 PSM 3.md",
+    "Session 32 PSM 4 (CPM and Others ).md",
     "DailyNote/02-11-23 Thursday.md",
     "Topics that need practice.md",
     "Vault Installation - CyberArk.md",
-    "Session 32 PSM 4 (CPM and Others ).md",
     "Real World info.md",
     "Cyberark/DR Drill/disaster recovery drill.md",
     "Session 32 PSM 3.md",
-    "Session 31 PSM 3.md",
     "Session 30 PSM 2.md",
     "Cyberark/DR Drill/DR Drill for Listening.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
