@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, November 1st 2023, 3:14:25 pm
-date modified: Wednesday, November 1st 2023, 5:35:49 pm
+date modified: Thursday, November 2nd 2023, 1:00:27 pm
 ---
 
 ## Locking Down a User's Interface in PrivateArk
@@ -97,3 +97,35 @@ To manage the password for the built-in CyberArk Administrator user, configure t
 Remember that the account type being onboarded is an 'Application' type, even though it’s for managing the CyberArk Administrator user.
 
 After this, Vault administrators will need to access the Vault or a PSM Connection Component to retrieve the Administrator password whenever necessary.
+
+## Connect with PSM-PrivateArk Client
+
+- Configure the PSM to support the PSM-PrivateArk Client Connection Component. The PrivateArk Client must be installed on the PSM server, as instructed during the PSM Installation section of this guide. The PrivateArk Client must also be configured in Global Configuration mode, which enables you to define Vault definitions that will be available to users of the PSM-PrivateArk Client Connection Component.  
+- Sign in to the PSM server Comp01C as Admin02 and run the PrivateArk Client from the desktop. Do not login to the Vault.  
+- Ensure that at least one vault server is defined, as shown in the graphic. If not, select the File, New, Server menu option and define a new vault using 10.0.10.1 for the Name, and Address fields.  
+- Ensure that Authentication method = PrivateArk authentication  
+- Go to Tools > Administrative Tools > Export Configuration Data.  
+- Browse to your Desktop folder and select “Export Global Configuration Data” and click OK. Close the PrivateArk Client.  
+- Rename the file to GlobalSettings.ini.  
+- Right click on GlobalSettings.ini file and choose Properties > Security tab. Select “Edit…, Add…” and assign default (RX) permissions for the local Comp01C\PSMShadowUsers group.  
+- Use the PAConfig.exe utility to change the configuration to Global Configuration. Open Windows Powershell (Admin) in folder “C:\Program Files (x86)\PrivateArk\Client” and run the following command: `PAConfig.exe /inifile c:\Users\Admin02\Desktop\GlobalSettings.ini`  
+- Restart the server.  
+- Sign in to the PSM server Comp01C as Admin02 and add the Private Ark client executable as an authorized application in the Applocker configuration.  
+- Using File Explorer navigate to c:\Program Files (x86)\CyberArk\PSM\Hardening. (PSM Hardening hides local drives to users. In the address bar, type “c:\” to display the local drive.)  
+- Edit the file PSMConfigureApplocker.xml using Notepad++.  
+- Find the “Generic Client support” section at the bottom. Copy the “Generic client sample” line. Paste this line anywhere without comments.  
+- Update the new line as show below.  
+- `<Application Name=”PrivateArk Client” Type=”Exe” Path="C:\Program Files (x86)\PrivateArk\Client\Arkui.exe” Method=”Hash” />`
+- Save the file.
+- Objective: Apply the Applocker rules by executing the PSMConfigureApplocker.ps1 script
+- Execute the following 3 commands.
+```powershell
+Get-ExecutionPolicy
+Set-ExecutionPolicy Bypass -Scope Process
+.\psmconfigureapplocker.ps1
+```
+- Sign in to the PVWA from Comp01A or Comp01B.  
+	- Enable RDP over SSL (see “Use RDP over SSL” on page 103) for the PSM-PrivateArkClient connection component.  
+	- Test both members of the load balanced pool of PSM servers  
+	- Update the CyberArk Vault platform to take advantage of the load balanced PSM configuration. 
+- Attempt to connect to the Vault using Administrator and the PSM-PrivateArkClient connection component.

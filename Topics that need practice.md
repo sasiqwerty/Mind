@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, October 28th 2023, 8:23:27 am
-date modified: Monday, October 30th 2023, 9:41:06 am
+date modified: Thursday, November 2nd 2023, 2:37:48 pm
 ---
 
 ## Topics
@@ -15,3 +15,5 @@ date modified: Monday, October 30th 2023, 9:41:06 am
 - [[PrivateArk Client]] [[Reports]]
 - [[Cyberark/PTA/Privileged Threat Analytics|PTA]] videos, create the file and its notes
 - work on this file : tabulate it [Where can I find the logs for each CyberArk component? (site.com)](https://cyberark.my.site.com/s/article/Where-do-I-find-the-logs)
+- [Reports in PVWA | CyberArk Docs](https://docs.cyberark.com/PAS/12.6/en/Content/PASIMP/ReportsInPVWA.htm)
+- [Reports | CyberArk Docs](https://docs.cyberark.com/PAS/latest/en/Content/PASIMP/Reports.htm)

@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Topics that need practice",
+      "path": "Topics that need practice.md"
+    },
+    {
+      "basename": "Vault Installation - CyberArk",
+      "path": "Vault Installation - CyberArk.md"
+    },
+    {
       "basename": "Session 32 PSM 4 (CPM and Others )",
       "path": "Session 32 PSM 4 (CPM and Others ).md"
     },
     {
-      "basename": "conv-file",
-      "path": "conv-file.md"
+      "basename": "Real World info",
+      "path": "Real World info.md"
     },
     {
-      "basename": "Topics that need practice",
-      "path": "Topics that need practice.md"
+      "basename": "disaster recovery drill",
+      "path": "Cyberark/DR Drill/disaster recovery drill.md"
+    },
+    {
+      "basename": "Session 32 PSM 3",
+      "path": "Session 32 PSM 3.md"
+    },
+    {
+      "basename": "Session 31 PSM 3",
+      "path": "Session 31 PSM 3.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
+    },
+    {
+      "basename": "DR Drill for Listening",
+      "path": "Cyberark/DR Drill/DR Drill for Listening.md"
+    },
+    {
+      "basename": "02-11-23 Thursday",
+      "path": "DailyNote/02-11-23 Thursday.md"
+    },
+    {
+      "basename": "conv-file",
+      "path": "conv-file.md"
     },
     {
       "basename": "31-10-23 Tuesday",
@@ -25,16 +57,8 @@
       "path": "DailyNote/28-10-23 Saturday.md"
     },
     {
-      "basename": "Session 31 PSM 3",
-      "path": "Session 31 PSM 3.md"
-    },
-    {
       "basename": "01-11-23 Wednesday",
       "path": "DailyNote/01-11-23 Wednesday.md"
-    },
-    {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
     },
     {
       "basename": "Session 30 PSM 1",
@@ -173,32 +197,8 @@
       "path": "Install and Config PSM.md"
     },
     {
-      "basename": "Session 32 PSM 3",
-      "path": "Session 32 PSM 3.md"
-    },
-    {
       "basename": "Session 31 PSM 2",
       "path": "Session 31 PSM 2.md"
-    },
-    {
-      "basename": "09-10-23 Monday",
-      "path": "DailyNote/09-10-23 Monday.md"
-    },
-    {
-      "basename": "12-10-23 Thursday",
-      "path": "DailyNote/12-10-23 Thursday.md"
-    },
-    {
-      "basename": "PSM-PrivateArk Client Connection",
-      "path": "PSM-PrivateArk Client Connection.md"
-    },
-    {
-      "basename": "Information about",
-      "path": "Information about.md"
-    },
-    {
-      "basename": "Telegram",
-      "path": "TelegramNotes/Telegram.md"
     }
   ],
   "omittedPaths": [

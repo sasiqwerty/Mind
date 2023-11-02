@@ -224,9 +224,19 @@
           "type": "file",
           "ctime": 1698638110084,
           "path": "Session 31 PSM 3.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1698909350608,
+          "path": "Session 32 PSM 4 (CPM and Others ).md"
         }
       ],
       "title": "IC Cyberark"
+    },
+    {
+      "type": "file",
+      "ctime": 1698907814350,
+      "path": "Cyberark/DR Drill/disaster recovery drill.md"
     },
     {
       "type": "file",
@@ -238,6 +248,18 @@
       "type": "file",
       "ctime": 1697440404788,
       "path": "output-process.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1698913175574,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1698913183099,
+          "path": "Vault Installation - CyberArk.md"
+        }
+      ],
+      "title": "Installs"
     }
   ]
 }
