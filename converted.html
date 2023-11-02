@@ -2,84 +2,82 @@
 <p>aliases: 
 tags: 
 date created: Thursday, August 31st 2023, 1:36:15 pm
-date modified: Thursday, October 5th 2023, 9:05:39 pm</p>
+date modified: Wednesday, November 1st 2023, 2:54:08 pm</p>
 <hr />
-<h2>Procedure to Apply the Vault License</h2>
-<p>There are two distinct methods to apply the Vault license:</p>
-<h3>1. Application through PrivateArk Client (Before License Expiry)</h3>
-<ul>
-<li>Launch the PrivateArk client with administrative privileges (including permissions to rename and upload files).</li>
-<li>Backup the existing license file by saving it to a preferred location.</li>
-<li>Import the new license into the <strong>system safe</strong> within the PrivateArk client.</li>
-<li>Note: This procedure is applicable only if there is remaining time on the current license. If the license has already expired, this method is infeasible.</li>
-</ul>
-<h3>2. Manual File Replacement (After License Expiry)</h3>
-<ul>
-<li>Navigate to the server directory within the PrivateArk folder.</li>
-<li>Proceed to the 'conf' sub-directory.</li>
-<li>Backup the existing license file.</li>
-<li>Replace the old license file with the new one in the 'conf' directory.</li>
-<li>After updating, restart the PrivateArk service to apply the new license.</li>
-<li>Caution: This approach is a contingency measure, to be employed only if the license has expired and there was no preemptive action taken.</li>
-</ul>
-<h3>Log File Management</h3>
-<h4>Directory</h4>
-<ul>
-<li>The log files can be found in the directory: <code>Program files(x86) &gt; PrivateArk &gt; Server &gt; Logs</code>.</li>
-</ul>
-<h4>Main Vault Log - ITAlog.log</h4>
-<ul>
-<li>This is a comprehensive log file documenting all vault activities.</li>
-<li><strong>Log Structure</strong>: Each log entry has <code>Date | Time | Message</code>.</li>
-<li><strong>Message Tags</strong>:</li>
-<li><strong>I</strong>: Represents informational messages.</li>
-<li><strong>W</strong>: Stands for warning messages.</li>
-<li><strong>S</strong>: Indicates system-related messages.</li>
-<li><strong>E</strong>: Denotes error messages.</li>
-<li><strong>Accessibility Tip</strong>: To view recent logs, users should scroll to the end of the file.</li>
-</ul>
-<h3>Vault Trace Logs</h3>
-<h4>Introduction</h4>
-<ul>
-<li>The vault comprises of internal users. Each vault component has a designated internal user.</li>
-<li>Components communicate with the vault on port 1858. Such communications are logged as transactions in trace logs.</li>
-</ul>
-<h4>Log File Details</h4>
-<ul>
-<li>Each trace log has a maximum size of 200MB.</li>
-<li>Logs progress in order from <code>tracelog0</code> up to <code>tracelog4</code>.</li>
-<li>When a log file reaches its size limit, logging continues in the next log file.</li>
-<li>After <code>tracelog4</code> is filled, it's archived.</li>
-<li>To enable or disable logging, adjust the <code>EnableTrace = Yes</code> setting in the respective ini files, typically used during debugging.</li>
-<li><strong>Note</strong>: The specific circumstances under which trace is enabled needs further clarification.</li>
-</ul>
-<h4>Backing Up Logs</h4>
-<ul>
-<li>While it's ideal to stop the vault to backup logs, it's not always practical. Active log files used by the vault cannot be renamed or altered.</li>
-</ul>
-<h3>Debugging in Vault</h3>
-<h4>Enabling Debug Level</h4>
-<ul>
-<li>Access the administration tab within the server central administration console.</li>
-<li>Turn on the debug level and choose to set it dynamically.</li>
-<li>Refer to CyberArk's documentation to find and enter the relevant debugging codes.</li>
-</ul>
-<h4>Debugging Process</h4>
-<ul>
-<li>The objective of debugging is to reproduce and analyze issues:</li>
-<li><strong>Reproducible Issue</strong>: An issue that can be consistently recreated.</li>
-<li><strong>Non-Reproducible Issue</strong>: An issue that appears irregularly.</li>
-<li>Activating debugging captures detailed log messages, aiding in issue diagnosis.</li>
-<li><strong>Caution</strong>: Extensive debugging might overload the vault due to the volume of log traffic, potentially triggering restarts or failovers. Ensure to turn off debugging after troubleshooting.</li>
-</ul>
-<h4>Methods to Enable Debugging</h4>
+<h2>Easy-to-Read Instructions for Configuring PSM Server and Related Settings</h2>
+<h3>Summary</h3>
+<p>The following steps guide you through signing in to your PSM Server, adjusting certificates, editing group policy, and updating configurations on your PVWA.</p>
+<h3>Detailed Steps</h3>
 <ol>
-<li><strong>Dynamically through the Administration Tab</strong>: This method is temporary and lasts until the next vault restart.</li>
-<li><strong>Via dbparm.ini File</strong>: Modify this file to include the <code>DebugLevel</code> setting for a more permanent change. However, this method requires a vault restart.</li>
-</ol>
-<h3>CAVaultManager.exe</h3>
+<li><strong>Log in to PSM Server</strong></li>
+<li>
+<p>Use your Domain Administrator credentials.</p>
+</li>
+<li>
+<p><strong>Access Server Manager</strong></p>
+</li>
+<li>
+<p>Look for <code>Remote Desktop Services</code> in the left menu.</p>
+</li>
+<li>
+<p><strong>Edit Deployment Properties</strong></p>
+</li>
+<li>Navigate to <code>Tasks &gt; Edit Deployment Properties</code>.</li>
+<li>In the new window, go to <code>Certificates</code>.</li>
+<li>
+<p>Select <code>Choose a different certificate</code> and locate your <code>.pfx</code> file.</p>
 <ul>
-<li>To gather logs, use the application command: <code>CAVaultManager.exe CollectLogs</code>.</li>
-<li>This command compiles all logs relevant to the vault, along with system details.</li>
-<li>The primary log associated with the vault is <code>vaultDB.log</code>, which tracks all vault transactions and messages.</li>
+<li>Note: The real environment uses <code>.cer</code>, so you'll need to convert it to <code>.pfx</code>.</li>
 </ul>
+</li>
+<li>
+<p><strong>Upload Certificate</strong></p>
+</li>
+<li>Open the <code>.pfx</code> file.</li>
+<li>Enter your password.</li>
+<li>Tick the box saying "Allow the certificate to be added to the Trusted Root..."</li>
+<li>
+<p>Confirm with <code>OK</code>.</p>
+</li>
+<li>
+<p><strong>Local Group Policy</strong></p>
+</li>
+<li>Open the Group Policy editor.</li>
+<li>
+<p>Navigate through the following path:
+     <code>Computer Configuration &gt; Administrative Templates &gt; Windows Components &gt; Remote Desktop Services &gt; Remote Desktop Session Host &gt; Security</code></p>
+</li>
+<li>
+<p><strong>Set Encryption Level</strong></p>
+</li>
+<li>Open <code>Set client connection encryption level</code>.</li>
+<li>Enable it and set it to <code>High Level</code>.</li>
+<li>Confirm with <code>OK</code>.</li>
+<li>
+<p><strong>Note</strong>: This applies to native RDP encryption, which is not recommended over SSL.</p>
+</li>
+<li>
+<p><strong>Set Security Layer</strong></p>
+</li>
+<li>Open <code>Require use of specific security layer for remote (RDP) connections</code>.</li>
+<li>Enable it and set the layer to <code>SSL</code>.</li>
+<li>
+<p>Confirm with <code>OK</code>.</p>
+</li>
+<li>
+<p><strong>Login to PVWA</strong></p>
+</li>
+<li>Use <code>vaultadmin01</code> credentials.</li>
+<li>Go to:
+     <code>ADMINISTRATION &gt; Configuration Options &gt; Options &gt; Privileged Session Management &gt; Configured PSM Servers &gt; PSMServer &gt; Connection Details &gt; Server</code></li>
+<li>
+<p>Change the <code>Address</code> attribute to the FQDN matching the COMPOIC server certificate.</p>
+</li>
+<li>
+<p><strong>Update Component Parameters in PVWA</strong></p>
+</li>
+<li>Navigate to:
+     <code>ADMINISTRATION &gt; Configuration Options &gt; Options &gt; Connection Components &gt; PSM-SSH &gt; Component Parameters</code></li>
+<li>The property name should be <code>authentication level: i</code> and its value should be <code>1</code>.</li>
+</ol>
+<p>For the configuration to work as expected, ensure you follow these steps in the given order.</p>

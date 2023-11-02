@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Session 31 PSM 3",
-      "path": "Session 31 PSM 3.md"
+      "basename": "Session 32 PSM 4 (CPM and Others )",
+      "path": "Session 32 PSM 4 (CPM and Others ).md"
     },
     {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
+      "basename": "conv-file",
+      "path": "conv-file.md"
     },
     {
-      "basename": "Session 30 PSM 1",
-      "path": "Session 30 PSM 1.md"
+      "basename": "Topics that need practice",
+      "path": "Topics that need practice.md"
     },
     {
       "basename": "31-10-23 Tuesday",
@@ -21,12 +21,24 @@
       "path": "DailyNote/30-10-23 Monday.md"
     },
     {
-      "basename": "Topics that need practice",
-      "path": "Topics that need practice.md"
-    },
-    {
       "basename": "28-10-23 Saturday",
       "path": "DailyNote/28-10-23 Saturday.md"
+    },
+    {
+      "basename": "Session 31 PSM 3",
+      "path": "Session 31 PSM 3.md"
+    },
+    {
+      "basename": "01-11-23 Wednesday",
+      "path": "DailyNote/01-11-23 Wednesday.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
+    },
+    {
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
     },
     {
       "basename": "study plan for i&c course",
@@ -177,10 +189,6 @@
       "path": "DailyNote/12-10-23 Thursday.md"
     },
     {
-      "basename": "conv-file",
-      "path": "conv-file.md"
-    },
-    {
       "basename": "PSM-PrivateArk Client Connection",
       "path": "PSM-PrivateArk Client Connection.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Telegram",
       "path": "TelegramNotes/Telegram.md"
-    },
-    {
-      "basename": "LDAP Integration",
-      "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
-    },
-    {
-      "basename": "dead-cells unlock blueprints",
-      "path": "dead-cells unlock blueprints.md"
     }
   ],
   "omittedPaths": [

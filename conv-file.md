@@ -2,31 +2,66 @@
 aliases: 
 tags: 
 date created: Thursday, August 31st 2023, 1:36:15 pm
-date modified: Thursday, October 12th 2023, 8:40:17 pm
+date modified: Wednesday, November 1st 2023, 2:54:08 pm
 ---
 
-## **Introduction To PSM-PrivateArk Client Connection Configuration**
+## Easy-to-Read Instructions for Configuring PSM Server and Related Settings
 
-CyberArk's PSM-PrivateArk Client Connection ensures rigorous oversight of PrivateArk Client operations, especially those initiated by the Vault Admin. This concise guide delineates the steps for configuring this vital security feature, prioritizing transparency and traceability within the PrivateArk ecosystem.
+### Summary
 
-## **PSM-PrivateArk Client Connection Configuration**
+The following steps guide you through signing in to your PSM Server, adjusting certificates, editing group policy, and updating configurations on your PVWA.
 
-| Step | Description                                                                                                                 | Action/Location                                                                                             |
-|------|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 1    | **Prerequisite**: Install PrivateArkClient on the PSM server                                                                | -                                                                                                           |
-| 2    | Onboard Vault Admin user (`Administrator`) in PVWA manually                                                                 | System type: `Application`<br>Platform: `CyberArk Vault`<br>Safe: Select any<br>Server IP: Provide Vault IP |
-| 3    | Create a vault server in the PrivateArk Client                                                                              | Name: Vault server IP address<br>Server address: Provide<br>Auth method: `PrivateArk Authentication`        |
-| 4    | Export Configuration Data                                                                                                  | Tools→Administrator Tools→Export Configuration Data→Save to desktop & rename to `GlobalSettings.ini`       |
-| 5    | Set permissions for `GlobalSettings.ini`                                                                                   | Right-click → Properties → Security → Edit → Add `PSMShadowUsers` group → Provide Read & Execute Permission |
-| 6    | Execute Vault Configuration data                                                                                           | Navigate to `PAConfig.exe` → cmd/powershell (admin) → Run `PAConfig.exe /inifile <path to GlobalSetting.ini>` |
-| 7    | Edit `PSMConfigAppLocker.xml` and add PrivateArk Client application path                                                     | Path: `C:/Program Files(X86)/PrivateArk/Client/Arkuit.exe` (Open in notepad/notepad++ in admin mode)       |
-| 8    | Execute `PSMConfigAppLocker.ps1` script                                                                                     | Open powershell (Ensure `Set-Execution Policy` is set) → Run script                                        |
-| 9    | Test the setup                                                                                                             | PVWA→Accounts → Select `administrator` account → Click on 'Connect'(PSM-PrivateArk Client)                 |    
+### Detailed Steps
 
-### Flowchart
+1. **Log in to PSM Server**
+   - Use your Domain Administrator credentials.
 
-![[mermaid-diagram-2023-10-12-203954.svg]]
+2. **Access Server Manager**
+   - Look for `Remote Desktop Services` in the left menu.
 
-### **Summary**:
+3. **Edit Deployment Properties**
+   - Navigate to `Tasks > Edit Deployment Properties`.
+   - In the new window, go to `Certificates`.
+   - Select `Choose a different certificate` and locate your `.pfx` file.
+     - Note: The real environment uses `.cer`, so you'll need to convert it to `.pfx`.
 
-The PSM-PrivateArk Client Connection is a configuration setup that facilitates the isolation, monitoring, and recording of activities performed on the PrivateArk Client, especially by the Vault Admin user. This configuration ensures the Vault activities are logged and transparent. The process involves several stages, from onboarding the Vault Admin user to executing specific scripts and ensuring the proper permissions and paths are set. The configuration can be applied to other CyberArk components in a similar manner.
+4. **Upload Certificate**
+   - Open the `.pfx` file.
+   - Enter your password.
+   - Tick the box saying "Allow the certificate to be added to the Trusted Root..."
+   - Confirm with `OK`.
+
+5. **Local Group Policy**
+   - Open the Group Policy editor.
+   - Navigate through the following path:
+     ```
+     Computer Configuration > Administrative Templates > Windows Components > Remote Desktop Services > Remote Desktop Session Host > Security
+     ```
+  
+6. **Set Encryption Level**
+   - Open `Set client connection encryption level`.
+   - Enable it and set it to `High Level`.
+   - Confirm with `OK`.
+   - **Note**: This applies to native RDP encryption, which is not recommended over SSL.
+
+7. **Set Security Layer**
+   - Open `Require use of specific security layer for remote (RDP) connections`.
+   - Enable it and set the layer to `SSL`.
+   - Confirm with `OK`.
+
+8. **Login to PVWA**
+   - Use `vaultadmin01` credentials.
+   - Go to:
+     ```
+     ADMINISTRATION > Configuration Options > Options > Privileged Session Management > Configured PSM Servers > PSMServer > Connection Details > Server
+     ```
+   - Change the `Address` attribute to the FQDN matching the COMPOIC server certificate.
+
+9. **Update Component Parameters in PVWA**
+   - Navigate to:
+     ```
+     ADMINISTRATION > Configuration Options > Options > Connection Components > PSM-SSH > Component Parameters
+     ```
+   - The property name should be `authentication level: i` and its value should be `1`.
+
+For the configuration to work as expected, ensure you follow these steps in the given order.
