@@ -81,7 +81,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session 32 PSM 4 (CPM and Others ).md",
+                "file": "DailyNote/03-11-23 Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,8 +123,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session 32 PSM 4 (CPM and Others ).md",
+                "file": "Session 30 PSM 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -224,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session 32 PSM 4 (CPM and Others ).md",
+                "file": "Session 30 PSM 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session 32 PSM 4 (CPM and Others ).md"
+                "file": "Session 30 PSM 1.md"
               }
             }
           },
@@ -267,7 +266,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Session 32 PSM 4 (CPM and Others ).md"
+                "file": "Session 30 PSM 1.md"
               }
             }
           },
@@ -309,9 +308,11 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "25353c3a991e8aba",
+  "active": "06fdc97315775f75",
   "lastOpenFiles": [
+    "Session 30 PSM 2.md",
     "Session 31 PSM 3.md",
+    "DailyNote/03-11-23 Friday.md",
     "Session 32 PSM 4 (CPM and Others ).md",
     "DailyNote/02-11-23 Thursday.md",
     "Topics that need practice.md",
@@ -319,7 +320,6 @@
     "Real World info.md",
     "Cyberark/DR Drill/disaster recovery drill.md",
     "Session 32 PSM 3.md",
-    "Session 30 PSM 2.md",
     "Cyberark/DR Drill/DR Drill for Listening.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
     "conv-file.md",
@@ -342,7 +342,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231021235913.png",
     "DailyNote/20-10-23 Friday.md",
     "Session 7 Vault Prerequisites Services.md",
-    "vault-related.md",
     "notepad",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-18 at 06.04.17_e6ff3af3.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 21.03.04_3b8a3a16.jpg",

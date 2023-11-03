@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Session 32 PSM 4 (CPM and Others )",
-      "path": "Session 32 PSM 4 (CPM and Others ).md"
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
     },
     {
       "basename": "Session 31 PSM 3",
       "path": "Session 31 PSM 3.md"
+    },
+    {
+      "basename": "03-11-23 Friday",
+      "path": "DailyNote/03-11-23 Friday.md"
+    },
+    {
+      "basename": "Session 32 PSM 4 (CPM and Others )",
+      "path": "Session 32 PSM 4 (CPM and Others ).md"
     },
     {
       "basename": "02-11-23 Thursday",
@@ -37,10 +49,6 @@
       "path": "Session 32 PSM 3.md"
     },
     {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
-    },
-    {
       "basename": "DR Drill for Listening",
       "path": "Cyberark/DR Drill/DR Drill for Listening.md"
     },
@@ -63,10 +71,6 @@
     {
       "basename": "01-11-23 Wednesday",
       "path": "DailyNote/01-11-23 Wednesday.md"
-    },
-    {
-      "basename": "Session 30 PSM 1",
-      "path": "Session 30 PSM 1.md"
     },
     {
       "basename": "study plan for i&c course",
@@ -195,10 +199,6 @@
     {
       "basename": "Install and Config PSM",
       "path": "Install and Config PSM.md"
-    },
-    {
-      "basename": "Session 31 PSM 2",
-      "path": "Session 31 PSM 2.md"
     }
   ],
   "omittedPaths": [
