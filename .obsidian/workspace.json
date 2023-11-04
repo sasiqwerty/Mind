@@ -4,139 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "bb18d722cf60ab71",
+        "id": "f113aea98069e1e1",
         "type": "tabs",
         "children": [
           {
-            "id": "06fdc97315775f75",
+            "id": "9c80f6478a600f87",
             "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session 30 PSM 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "84d1ed9c99e8d7e4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session 30 PSM 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "929556c9dc08217f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Session 31 PSM 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3b34139c93dd4b95",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Topics that need practice.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "34fb804ab2edd930",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conv-file.md",
-                "mode": "source",
-                "source": false
               }
             }
           },
           {
-            "id": "25353c3a991e8aba",
+            "id": "1fe3d38ce36b6c3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/03-11-23 Friday.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "cfbb2a638a976091",
+            "id": "589ffaa51b4b4739",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vault Installation - CyberArk.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35b7dff2c3431408",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Real World info.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32bd252dafca8731",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/02-11-23 Thursday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9054f9b88bb7c54b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/03-11-23 Friday.md",
+                "file": "PSMP - Installation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -219,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/03-11-23 Friday.md",
+                "file": "PSMP - Installation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -236,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/03-11-23 Friday.md",
+                "file": "PSMP - Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/03-11-23 Friday.md"
+                "file": "PSMP - Installation.md"
               }
             }
           },
@@ -279,7 +183,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/03-11-23 Friday.md"
+                "file": "PSMP - Installation.md"
               }
             }
           },
@@ -321,22 +225,26 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "9054f9b88bb7c54b",
+  "active": "589ffaa51b4b4739",
   "lastOpenFiles": [
-    "Session 30 PSM 1.md",
-    "Session 30 PSM 2.md",
-    "Session 31 PSM 3.md",
-    "DailyNote/03-11-23 Friday.md",
-    "Session 32 PSM 4 (CPM and Others ).md",
-    "DailyNote/02-11-23 Thursday.md",
     "Topics that need practice.md",
-    "Vault Installation - CyberArk.md",
+    "PSMP - Installation.md",
+    "Session 8 Vault Service Dependencies DBPARM ini file.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "DailyNote/04-11-23 Saturday.md",
+    "DailyNote/02-11-23 Thursday.md",
     "Real World info.md",
+    "Vault Installation - CyberArk.md",
+    "DailyNote/03-11-23 Friday.md",
+    "conv-file.md",
+    "Session 31 PSM 3.md",
+    "Session 30 PSM 2.md",
+    "Session 30 PSM 1.md",
+    "Session 32 PSM 4 (CPM and Others ).md",
     "Cyberark/DR Drill/disaster recovery drill.md",
     "Session 32 PSM 3.md",
     "Cyberark/DR Drill/DR Drill for Listening.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
-    "conv-file.md",
     "DailyNote/31-10-23 Tuesday.md",
     "DailyNote/30-10-23 Monday.md",
     "DailyNote/28-10-23 Saturday.md",
@@ -349,12 +257,8 @@
     "DailyNote/21-10-23 Saturday.md",
     "DailyNote/25-10-23 Wednesday.md",
     "home-media-server.md",
-    "def-new-ocr.md",
     "def-new-ocr.docx",
-    "DailyNote/22-10-23 Sunday.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231021235913.png",
-    "DailyNote/20-10-23 Friday.md",
-    "Session 7 Vault Prerequisites Services.md",
     "notepad",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-18 at 06.04.17_e6ff3af3.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2023-10-16 at 21.03.04_3b8a3a16.jpg",
