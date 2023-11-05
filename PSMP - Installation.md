@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, November 4th 2023, 2:13:17 pm
-date modified: Saturday, November 4th 2023, 4:46:13 pm
+date modified: Saturday, November 4th 2023, 6:44:47 pm
 ---
 The standard PSM for SSH installation installs the PSM for SSH  server and registers the server to the Vault.
 
@@ -139,3 +139,6 @@ On all Linux-based operating systems, NSCD is a daemon that provides a cache for
 	- locally in the server, services are created.
 	- PSM SSH Proxy and PSMP ADBridge are the services created after the PSMP is created
 - `service psmpsrv status` to check the status of running services
+	- `service psmpsrv start` and `service psmpsrv stop`
+	- `cat /var/tmp/psmp_install.log` this is used to check the log
+	- hardening is part of the installation. 

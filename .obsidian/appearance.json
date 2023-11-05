@@ -1,8 +1,8 @@
 {
   "accentColor": "#8197a2",
-  "baseFontSize": 22,
+  "baseFontSize": 25,
   "cssTheme": "Atom",
-  "textFontFamily": "Inter",
+  "textFontFamily": "Fira Sans,Inter",
   "monospaceFontFamily": "Cascadia Code",
   "interfaceFontFamily": "Inter",
   "nativeMenus": false,
