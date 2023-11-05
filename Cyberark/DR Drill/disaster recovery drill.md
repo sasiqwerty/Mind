@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, August 12th 2023, 7:19:08 am
-date modified: Thursday, November 2nd 2023, 12:44:01 pm
+date modified: Sunday, November 5th 2023, 4:47:39 pm
 ---
 
 ## DR Drill
@@ -41,15 +41,10 @@ Here's a brief overview:
   
   - **Passive**: If `failovermode` is set to "passive", the `PADR.exe` tool will not automatically promote a replica to become the primary. Instead, manual intervention is required to promote a replica.
 
-It's essential to choose the right mode based on your organization's disaster recovery strategy and requirements. The decision between active and passive modes often depends on factors like the desired level of automation, the confidence in automated processes, and the availability of skilled personnel to handle manual interventions during a disaster.
-
-Always refer to the official CyberArk documentation and consult with CyberArk experts when configuring and using the `PADR.exe` utility and its associated settings.  
-
 ## Full Replication
 
 In the context of CyberArk's `PADR.exe` utility and its associated `padr.ini` configuration file, the properties `NextBinaryLogNumberToStartAt` and `LastDataRep1icationTimestamp` are related to the replication and recovery processes. They help ensure data consistency and integrity during disaster recovery operations, especially in environments where replication is used.
 
-Here's a brief overview of these properties:
 
 1. **NextBinaryLogNumberToStartAt**: 
    - This property refers to the binary log sequence number from which the `PADR.exe` utility should start the recovery process.

@@ -229,6 +229,21 @@
           "type": "file",
           "ctime": 1698909350608,
           "path": "Session 32 PSM 4 (CPM and Others ).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1699182054457,
+          "path": "Integrations and Authentication - CyberArk.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1699183890161,
+          "path": "CyberArk Vault Backup.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1699183120963,
+          "path": "Disaster Recovery.md"
         }
       ],
       "title": "IC Cyberark"
@@ -260,6 +275,11 @@
         }
       ],
       "title": "Installs"
+    },
+    {
+      "type": "file",
+      "ctime": 1699182773143,
+      "path": "what to talk.md"
     }
   ]
 }

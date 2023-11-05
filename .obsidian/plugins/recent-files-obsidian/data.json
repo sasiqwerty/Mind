@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "disaster recovery drill",
+      "path": "Cyberark/DR Drill/disaster recovery drill.md"
+    },
+    {
+      "basename": "Disaster Recovery",
+      "path": "Disaster Recovery.md"
+    },
+    {
+      "basename": "CyberArk Vault Backup",
+      "path": "CyberArk Vault Backup.md"
+    },
+    {
+      "basename": "Integrations and Authentication - CyberArk",
+      "path": "Integrations and Authentication - CyberArk.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "LDAP Integration",
+      "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
+    },
+    {
+      "basename": "Session 11 Vault DB Safes Default Users",
+      "path": "Session 11 Vault DB Safes Default Users.md"
+    },
+    {
+      "basename": "Real World info",
+      "path": "Real World info.md"
+    },
+    {
+      "basename": "05-11-23 Sunday",
+      "path": "DailyNote/05-11-23 Sunday.md"
+    },
+    {
+      "basename": "DR Drill for Listening",
+      "path": "Cyberark/DR Drill/DR Drill for Listening.md"
+    },
+    {
+      "basename": "what to talk",
+      "path": "what to talk.md"
+    },
+    {
       "basename": "PSMP - Installation",
       "path": "PSMP - Installation.md"
     },
@@ -17,16 +61,8 @@
       "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
     },
     {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
-    },
-    {
       "basename": "02-11-23 Thursday",
       "path": "DailyNote/02-11-23 Thursday.md"
-    },
-    {
-      "basename": "Real World info",
-      "path": "Real World info.md"
     },
     {
       "basename": "Vault Installation - CyberArk",
@@ -57,16 +93,8 @@
       "path": "Session 32 PSM 4 (CPM and Others ).md"
     },
     {
-      "basename": "disaster recovery drill",
-      "path": "Cyberark/DR Drill/disaster recovery drill.md"
-    },
-    {
       "basename": "Session 32 PSM 3",
       "path": "Session 32 PSM 3.md"
-    },
-    {
-      "basename": "DR Drill for Listening",
-      "path": "Cyberark/DR Drill/DR Drill for Listening.md"
     },
     {
       "basename": "31-10-23 Tuesday",
@@ -171,34 +199,6 @@
     {
       "basename": "18-10-23 Wednesday",
       "path": "DailyNote/18-10-23 Wednesday.md"
-    },
-    {
-      "basename": "17-10-23 Tuesday",
-      "path": "DailyNote/17-10-23 Tuesday.md"
-    },
-    {
-      "basename": "Session 13 Break Glass Procedure",
-      "path": "Session 13 Break Glass Procedure.md"
-    },
-    {
-      "basename": "Session 12 MasterCD Operator CD Other Topics",
-      "path": "Session 12 MasterCD Operator CD Other Topics.md"
-    },
-    {
-      "basename": "16-10-23 Monday",
-      "path": "DailyNote/16-10-23 Monday.md"
-    },
-    {
-      "basename": "06-09-23 Wednesday",
-      "path": "DailyNote/06-09-23 Wednesday.md"
-    },
-    {
-      "basename": "dbparm ini file",
-      "path": "Cyberark/Core Concepts/Components/Vault/dbparm ini file.md"
-    },
-    {
-      "basename": "testing-OCR",
-      "path": "testing-OCR.md"
     }
   ],
   "omittedPaths": [
