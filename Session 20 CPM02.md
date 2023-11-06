@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, September 28th 2023, 3:52:23 pm
-date modified: Saturday, October 7th 2023, 8:57:36 am
+date modified: Sunday, November 5th 2023, 11:10:14 pm
 ---
 **20:54 28-09-23 Thursday**  
 Link - [Session 20 CPM 2 - YouTube](https://www.youtube.com/watch?v=1K07sGrUukg)

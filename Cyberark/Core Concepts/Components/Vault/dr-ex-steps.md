@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Sunday, August 13th 2023, 4:10:51 pm
-date modified: Sunday, August 13th 2023, 4:11:59 pm
+date modified: Sunday, November 5th 2023, 7:03:18 pm
 ---
 
 ## Disaster Recovery
@@ -33,10 +33,10 @@ As noted above, the implementation team has already installed the PrivateArk Ser
 3. Next, power on the 08-DR server. Remember, it will take a moment for the machine to start.
 4. Sign into Windows on the DR server as Administrator.
 5. Open the file explorer and navigate to C:\Program Files (x86)\PrivateArk\PADR\Conf. Double click on the padr.ini file to edit it with Notepad
-6. Change the EnableFailover setting to Yes and delete the last two lines of the file (if present). This will trigger a full replication when we restart the Disaster Recovery service, ensuring we have the most up-to-date data.
+6. Change the `EnableFailover` setting to `Yes` and delete the last two lines of the file (if present). This will trigger a full replication when we restart the Disaster Recovery service, ensuring we have the most up-to-date data.
 7. Save the file and exit Notepad.
 
-Notice FailoverMode is currently set to No. Do NOT change this setting. It will automatically change later when we test the failover process.
+Notice `FailoverMode` is currently set to No. Do NOT change this setting. It will automatically change later when we test the failover process.
 
   
 
@@ -218,7 +218,7 @@ In the last section of this exercise, we will set the DR server back to DR mode.
 
 - Then, start the CyberArk Vault Disaster Recovery service on DR (10.0.14.1).
 
-- Check the tail running on the padr.log file on the DR server (10.0.14.1) and confirm that a full replication process started and that the replication (from the Primary Vault to the DR Vault) has ended succesfuly.
+- Check the tail running on the padr.log file on the DR server (10.0.14.1) and confirm that a full replication process started and that the replication (from the Primary Vault to the DR Vault) has ended successfully.
 
   
 

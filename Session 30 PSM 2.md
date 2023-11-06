@@ -2,14 +2,14 @@
 aliases: 
 tags: 
 date created: Saturday, October 28th 2023, 8:02:20 am
-date modified: Monday, October 30th 2023, 9:17:51 am
+date modified: Sunday, November 5th 2023, 10:13:06 pm
 ---
 
 ## PSM Introduction
 
 - **Cyber-Ark Privileged Session Manager** is the only service under PSM.  
 - Restarting this service will cause the ongoing connections to close and stop working and it will cause an interruption, this kind of action should be informed prior. Its a very serious problem. This should be done during non business hours. 
-- Server reboots are performed, this will cause the service to stop. It has to be kept in mind.
+- when server reboots are performed, this will cause the service to stop.
 - To perform any activity it has to be taken out of VIP/Load balancer before performing a change.
 
 ### Active Connections

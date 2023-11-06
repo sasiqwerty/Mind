@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, October 4th 2023, 5:05:45 pm
-date modified: Sunday, November 5th 2023, 4:48:51 pm
+date modified: Monday, November 6th 2023, 12:01:03 am
 ---
 [CyberArk Vault Structure | CyberArk Docs](https://docs.cyberark.com/PAS/latest/en/Content/PASIMP/CyberArk-Vault-Structure.htm?tocpath=Administrator%7CComponents%7CDigital%20Vault%7CAdvanced%20Digital%20Vault%20Environment%7CCyberArk%20Vault%20Structure%7C_____0)  
 [[listen-session07]]
@@ -43,7 +43,7 @@ Below are the essential prerequisites for the Vault installation:
 | **Small (< 1,000 passwords)**                | Quad core (Intel compatible)     | 8GB  | 2X 80GB SATA/SAS hot-swappable  | RAID Controller, 1Gb Network adapter, DVD ROM, Optional: Additional storage for PSM |
 | **Mid-range (1,000-20,000 passwords)**       | 2X Quad core (Intel compatible)  | 16GB | 2X 80GB SATA/SAS hot-swappable  | RAID Controller, 1Gb Network adapter, DVD ROM, Optional: Additional storage for PSM |
 | **Large (20,000 – 100,000 passwords)**       | 2X Eight core (Intel compatible) | 32GB | 2X 250GB SAS (15K RPM)          | RAID Controller, 1Gb Network adapter, DVD ROM, Optional: Additional storage for PSM |
-| **Very Large (> 100,000 passwords)**         | 4X Eight core (Intel compatible) | 64GB | 2X 500GB SAS (15K RPM)          | RAID Controller, 1Gb Network adapter, DVD ROM, Optional: Additional storage for PSM |                                                                                                                                                                                                    
+| **Very Large (> 100,000 passwords)**         | 4X Eight core (Intel compatible) | 64GB | 2X 500GB SAS (15K RPM)          | RAID Controller, 1Gb Network adapter, DVD ROM, Optional: Additional storage for PSM |                                                                                                                                                                                                                      
 Ensure you have all these prerequisites in place before proceeding with the installation of the Vault.  
 
 ### Third Party Apps

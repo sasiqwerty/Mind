@@ -1,40 +1,164 @@
 {
   "recentFiles": [
     {
-      "basename": "disaster recovery drill",
-      "path": "Cyberark/DR Drill/disaster recovery drill.md"
+      "basename": "Topics that need practice",
+      "path": "Topics that need practice.md"
     },
     {
-      "basename": "Disaster Recovery",
-      "path": "Disaster Recovery.md"
+      "basename": "Just in Time Access  - Instructions",
+      "path": "Just in Time Access  - Instructions.md"
     },
     {
-      "basename": "CyberArk Vault Backup",
-      "path": "CyberArk Vault Backup.md"
+      "basename": "Reports",
+      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md"
     },
     {
-      "basename": "Integrations and Authentication - CyberArk",
-      "path": "Integrations and Authentication - CyberArk.md"
+      "basename": "PSMP - Installation",
+      "path": "PSMP - Installation.md"
+    },
+    {
+      "basename": "Session 20 CPM02",
+      "path": "Session 20 CPM02.md"
+    },
+    {
+      "basename": "Components and their Logs-services-config data",
+      "path": "Components and their Logs-services-config data.md"
+    },
+    {
+      "basename": "CyberArk in a Nutshell",
+      "path": "CyberArk in a Nutshell.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
+    },
+    {
+      "basename": "Refresh period and Vault ID",
+      "path": "Cyberark/Core Concepts/Components/Vault/Refresh period and Vault ID.md"
     },
     {
       "basename": "Session 7 Vault Prerequisites Services",
       "path": "Session 7 Vault Prerequisites Services.md"
     },
     {
-      "basename": "LDAP Integration",
-      "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "session 14 PVWA 1",
+      "path": "session 14 PVWA 1.md"
+    },
+    {
+      "basename": "Session 17 PVWA Logs Files Configuration Files",
+      "path": "Session 17 PVWA Logs Files Configuration Files.md"
+    },
+    {
+      "basename": "Session 16 PVWA Credfile Creation",
+      "path": "Session 16 PVWA Credfile Creation.md"
+    },
+    {
+      "basename": "Session 31 PSM 3",
+      "path": "Session 31 PSM 3.md"
+    },
+    {
+      "basename": "Disaster Recovery",
+      "path": "Disaster Recovery.md"
+    },
+    {
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
+    },
+    {
+      "basename": "session 21 CPM03 logfiles",
+      "path": "session 21 CPM03 logfiles.md"
+    },
+    {
+      "basename": "session 19 CPM01",
+      "path": "session 19 CPM01.md"
+    },
+    {
+      "basename": "DR - format the notes",
+      "path": "Cyberark/Core Concepts/Components/Vault/DR - format the notes.md"
+    },
+    {
+      "basename": "FailOver FailBack and FailOverMode",
+      "path": "Cyberark/Core Concepts/Components/Vault/FailOver FailBack and FailOverMode.md"
+    },
+    {
+      "basename": "Interview Questions - Everything",
+      "path": "Interview Questions - Everything.md"
+    },
+    {
+      "basename": "sir notes clean later",
+      "path": "sir notes clean later.md"
+    },
+    {
+      "basename": "session 15 PVWA 2",
+      "path": "session 15 PVWA 2.md"
+    },
+    {
+      "basename": "Session 12 MasterCD Operator CD Other Topics",
+      "path": "Session 12 MasterCD Operator CD Other Topics.md"
+    },
+    {
+      "basename": "Session 9 Vault Configuration Files",
+      "path": "Session 9 Vault Configuration Files.md"
+    },
+    {
+      "basename": "disaster recovery drill",
+      "path": "Cyberark/DR Drill/disaster recovery drill.md"
+    },
+    {
+      "basename": "Integrations and Authentication - CyberArk",
+      "path": "Integrations and Authentication - CyberArk.md"
+    },
+    {
+      "basename": "Installation Location of CyberArk Files",
+      "path": "Installation Location of CyberArk Files.md"
+    },
+    {
+      "basename": "CyberArk Vault Backup",
+      "path": "CyberArk Vault Backup.md"
+    },
+    {
+      "basename": "Session 13 Break Glass Procedure",
+      "path": "Session 13 Break Glass Procedure.md"
     },
     {
       "basename": "Session 11 Vault DB Safes Default Users",
       "path": "Session 11 Vault DB Safes Default Users.md"
     },
     {
-      "basename": "Real World info",
-      "path": "Real World info.md"
+      "basename": "Session 10 Log Files Debugging Levels",
+      "path": "Session 10 Log Files Debugging Levels.md"
+    },
+    {
+      "basename": "vault 7 layers - security",
+      "path": "vault 7 layers - security.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Cyberark/Ports.md"
+    },
+    {
+      "basename": "dr-ex-steps",
+      "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
     },
     {
       "basename": "05-11-23 Sunday",
       "path": "DailyNote/05-11-23 Sunday.md"
+    },
+    {
+      "basename": "Important Terms - DR Drill",
+      "path": "Cyberark/Core Concepts/Components/Vault/Important Terms - DR Drill.md"
+    },
+    {
+      "basename": "LDAP Integration",
+      "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
+    },
+    {
+      "basename": "Real World info",
+      "path": "Real World info.md"
     },
     {
       "basename": "DR Drill for Listening",
@@ -45,20 +169,8 @@
       "path": "what to talk.md"
     },
     {
-      "basename": "PSMP - Installation",
-      "path": "PSMP - Installation.md"
-    },
-    {
       "basename": "04-11-23 Saturday",
       "path": "DailyNote/04-11-23 Saturday.md"
-    },
-    {
-      "basename": "Topics that need practice",
-      "path": "Topics that need practice.md"
-    },
-    {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
     },
     {
       "basename": "02-11-23 Thursday",
@@ -77,18 +189,6 @@
       "path": "conv-file.md"
     },
     {
-      "basename": "Session 31 PSM 3",
-      "path": "Session 31 PSM 3.md"
-    },
-    {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
-    },
-    {
-      "basename": "Session 30 PSM 1",
-      "path": "Session 30 PSM 1.md"
-    },
-    {
       "basename": "Session 32 PSM 4 (CPM and Others )",
       "path": "Session 32 PSM 4 (CPM and Others ).md"
     },
@@ -99,106 +199,6 @@
     {
       "basename": "31-10-23 Tuesday",
       "path": "DailyNote/31-10-23 Tuesday.md"
-    },
-    {
-      "basename": "30-10-23 Monday",
-      "path": "DailyNote/30-10-23 Monday.md"
-    },
-    {
-      "basename": "28-10-23 Saturday",
-      "path": "DailyNote/28-10-23 Saturday.md"
-    },
-    {
-      "basename": "01-11-23 Wednesday",
-      "path": "DailyNote/01-11-23 Wednesday.md"
-    },
-    {
-      "basename": "study plan for i&c course",
-      "path": "study plan for i&c course.md"
-    },
-    {
-      "basename": "work-checklist",
-      "path": "work-checklist.md"
-    },
-    {
-      "basename": "21-10-23 Saturday",
-      "path": "DailyNote/21-10-23 Saturday.md"
-    },
-    {
-      "basename": "25-10-23 Wednesday",
-      "path": "DailyNote/25-10-23 Wednesday.md"
-    },
-    {
-      "basename": "home-media-server",
-      "path": "home-media-server.md"
-    },
-    {
-      "basename": "def-new-ocr",
-      "path": "def-new-ocr.md"
-    },
-    {
-      "basename": "22-10-23 Sunday",
-      "path": "DailyNote/22-10-23 Sunday.md"
-    },
-    {
-      "basename": "20-10-23 Friday",
-      "path": "DailyNote/20-10-23 Friday.md"
-    },
-    {
-      "basename": "notepad",
-      "path": "notepad/notepad.md"
-    },
-    {
-      "basename": "vault-related",
-      "path": "vault-related.md"
-    },
-    {
-      "basename": "output-till30 testdraft",
-      "path": "output-till30 testdraft.md"
-    },
-    {
-      "basename": "credfile creation common process",
-      "path": "credfile creation common process.md"
-    },
-    {
-      "basename": "PSM Shadow User",
-      "path": "PSM Shadow User.md"
-    },
-    {
-      "basename": "14-10-23 Saturday",
-      "path": "DailyNote/14-10-23 Saturday.md"
-    },
-    {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
-    },
-    {
-      "basename": "20 Python Scripts with Code to Automate Your Work",
-      "path": "20 Python Scripts with Code to Automate Your Work.md"
-    },
-    {
-      "basename": "output-process",
-      "path": "output-process.md"
-    },
-    {
-      "basename": "19-10-23 Thursday",
-      "path": "DailyNote/19-10-23 Thursday.md"
-    },
-    {
-      "basename": "Remote Control Client",
-      "path": "Cyberark/Core Concepts/Components/Vault/Remote Control Client.md"
-    },
-    {
-      "basename": "Agreement Deed",
-      "path": "Agreement Deed.md"
-    },
-    {
-      "basename": "Session 10 Log Files Debugging Levels",
-      "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "18-10-23 Wednesday",
-      "path": "DailyNote/18-10-23 Wednesday.md"
     }
   ],
   "omittedPaths": [

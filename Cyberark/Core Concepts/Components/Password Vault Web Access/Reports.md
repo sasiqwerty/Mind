@@ -2,18 +2,18 @@
 aliases: 
 tags: 
 date created: Tuesday, August 1st 2023, 7:28:18 am
-date modified: Wednesday, August 30th 2023, 7:01:16 am
+date modified: Monday, November 6th 2023, 12:35:59 am
 ---
 
 ## [[Password Vault Web Access]] Reports
 
 1. Operational reports Report  
-	1. Privileged Accounts Inventory  
-	2. Applications Inventory  
+	1. Privileged Accounts Inventory : Provides information about all the privileged accounts in the system, based on different filters. Users who have the following authorizations can generate this report
+	2. Applications Inventory : Provides information about the application IDs in the system, based on different filters.
 2. Audit/Compliance reports  
-3. Privileged Accounts Compliance Status  
-	1. Entitlement
-	2. Activity Log
+	1. Privileged Accounts Compliance Status : Accounts compliance and management status.
+	2. Entitlement : Users’ entitlement rights in PAM - Self-Hosted.
+	3. Activity Log : Activities performed in the Vault.
 
 ![[Pasted image 20230801082453.png]]  
 

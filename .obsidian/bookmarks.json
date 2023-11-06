@@ -48,11 +48,6 @@
         },
         {
           "type": "file",
-          "ctime": 1695714139017,
-          "path": "Installation Location of CyberArk Files.md"
-        },
-        {
-          "type": "file",
           "ctime": 1695417703195,
           "path": "session 21 CPM03 logfiles.md"
         },
@@ -244,9 +239,24 @@
           "type": "file",
           "ctime": 1699183120963,
           "path": "Disaster Recovery.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1699191083788,
+          "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1695714139017,
+          "path": "Installation Location of CyberArk Files.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1699196387836,
+          "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md"
         }
       ],
-      "title": "IC Cyberark"
+      "title": "ICA Cyberark"
     },
     {
       "type": "file",

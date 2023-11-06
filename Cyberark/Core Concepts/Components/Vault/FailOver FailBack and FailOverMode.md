@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Sunday, August 13th 2023, 11:15:05 pm
-date modified: Sunday, August 13th 2023, 11:15:20 pm
+date modified: Sunday, November 5th 2023, 6:58:17 pm
 ---
 CyberArk is a leading security solution that focuses on privileged access management. In the context of CyberArk and many other IT systems, the terms "FailOverMode", "FailBack", and "FailOver" relate to high availability and disaster recovery mechanisms. Here's a brief overview of these terms:
 

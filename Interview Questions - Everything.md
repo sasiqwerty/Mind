@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, August 28th 2023, 5:58:37 pm
-date modified: Monday, October 9th 2023, 9:41:47 pm
+date modified: Sunday, November 5th 2023, 7:54:24 pm
 ---
 
 ## What is CyberArk and why is it Important?
@@ -129,7 +129,7 @@ The most recent version of CyberArk as of this data is version 12.1. Below are i
 1. **Support for Multi-Factor Authentication (MFA)**:
    - Azure and AWS PSM connectors now accommodate cloud console login using IAM user credentials enforced with MFA.
 
-1. **Application Access Manager - Credential Providers**:
+2. **Application Access Manager - Credential Providers**:
    - The Credential Provider supports Centos 8 and AIX 7.2 TL5.
    - The new Credential Provider for z/OS version offers bug fixes and a revised end-user license agreement.
    - Updated components include Java Provider, C SDK, and Java SDK.

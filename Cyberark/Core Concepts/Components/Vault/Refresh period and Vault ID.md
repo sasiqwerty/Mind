@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, August 9th 2023, 3:35:16 pm
-date modified: Friday, August 11th 2023, 10:53:23 am
+date modified: Monday, November 6th 2023, 12:03:10 am
 ---
 
 ## What is Refresh Period in PVWA ? What it Does and what is it Purpose?

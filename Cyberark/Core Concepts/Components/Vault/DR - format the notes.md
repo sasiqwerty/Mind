@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, August 12th 2023, 8:27:04 pm
-date modified: Sunday, August 13th 2023, 3:58:34 pm
+date modified: Sunday, November 5th 2023, 6:56:12 pm
 ---
 
 ## Manual Fail Back Steps:
@@ -40,7 +40,7 @@ Start the DR service at DR Vault.
 10. Enable DR_Failback User
 11. Do the Manual Failback
 	1. Reverse Replication
-	1. Manual Failback
+	2. Manual Failback
 12. Check if any issues identified.
 13. Connect to CPM
 14. Check the health page in PVWA.

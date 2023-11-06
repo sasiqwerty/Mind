@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, August 12th 2023, 7:19:08 am
-date modified: Sunday, November 5th 2023, 4:47:39 pm
+date modified: Sunday, November 5th 2023, 7:04:18 pm
 ---
 
 ## DR Drill
@@ -67,7 +67,7 @@ In CyberArk's replication mechanism, both `NextBinaryLogNumberToStartAt` and `La
    - **Nature**: It's more of a pointer or marker in the binary log. The binary log in database systems typically records changes made to the data, which can be used for replication and recovery.
    - **Usage**: When replication is initiated, the system checks this number to determine which changes need to be sent to the replica (or slave) Vault. Only changes that occurred after this log number will be replicated.
 
-2. **LastDataRep1icationTimestamp**:
+2. **LastDataReplicationTimestamp**:
    - **Purpose**: This parameter indicates the timestamp of the last successful data replication. It provides a chronological reference for when the last replication occurred.
    - **Nature**: It's a timestamp, typically indicating a date and time.
    - **Usage**: This timestamp can be used for monitoring and auditing purposes. Administrators can check this timestamp to determine when the last successful replication took place. If the timestamp is too old, it might indicate issues with the replication process that need to be addressed.
