@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Topics that need practice",
-      "path": "Topics that need practice.md"
+      "basename": "Integrations and Authentication - CyberArk",
+      "path": "Integrations and Authentication - CyberArk.md"
     },
     {
-      "basename": "Just in Time Access  - Instructions",
-      "path": "Just in Time Access  - Instructions.md"
+      "basename": "CyberArk in a Nutshell",
+      "path": "CyberArk in a Nutshell.md"
+    },
+    {
+      "basename": "credfile creation common process",
+      "path": "credfile creation common process.md"
+    },
+    {
+      "basename": "Session 31 PSM 3",
+      "path": "Session 31 PSM 3.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
+    },
+    {
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
+    },
+    {
+      "basename": "Session 32 PSM 4 (CPM and Others )",
+      "path": "Session 32 PSM 4 (CPM and Others ).md"
     },
     {
       "basename": "Reports",
@@ -17,28 +37,56 @@
       "path": "PSMP - Installation.md"
     },
     {
+      "basename": "Ports",
+      "path": "Cyberark/Ports.md"
+    },
+    {
+      "basename": "Disaster Recovery",
+      "path": "Disaster Recovery.md"
+    },
+    {
+      "basename": "disaster recovery drill",
+      "path": "Cyberark/DR Drill/disaster recovery drill.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "DR - format the notes",
+      "path": "Cyberark/Core Concepts/Components/Vault/DR - format the notes.md"
+    },
+    {
       "basename": "Session 20 CPM02",
       "path": "Session 20 CPM02.md"
+    },
+    {
+      "basename": "Topics that need practice",
+      "path": "Topics that need practice.md"
     },
     {
       "basename": "Components and their Logs-services-config data",
       "path": "Components and their Logs-services-config data.md"
     },
     {
-      "basename": "CyberArk in a Nutshell",
-      "path": "CyberArk in a Nutshell.md"
+      "basename": "Installations",
+      "path": "Installations.md"
     },
     {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
+      "basename": "CyberArk Full Notes",
+      "path": "Cyberark/CyberArk Full Notes.md"
+    },
+    {
+      "basename": "06-11-23 Monday",
+      "path": "DailyNote/06-11-23 Monday.md"
+    },
+    {
+      "basename": "Just in Time Access  - Instructions",
+      "path": "Just in Time Access  - Instructions.md"
     },
     {
       "basename": "Refresh period and Vault ID",
       "path": "Cyberark/Core Concepts/Components/Vault/Refresh period and Vault ID.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
     },
     {
       "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
@@ -57,28 +105,12 @@
       "path": "Session 16 PVWA Credfile Creation.md"
     },
     {
-      "basename": "Session 31 PSM 3",
-      "path": "Session 31 PSM 3.md"
-    },
-    {
-      "basename": "Disaster Recovery",
-      "path": "Disaster Recovery.md"
-    },
-    {
-      "basename": "Session 30 PSM 1",
-      "path": "Session 30 PSM 1.md"
-    },
-    {
       "basename": "session 21 CPM03 logfiles",
       "path": "session 21 CPM03 logfiles.md"
     },
     {
       "basename": "session 19 CPM01",
       "path": "session 19 CPM01.md"
-    },
-    {
-      "basename": "DR - format the notes",
-      "path": "Cyberark/Core Concepts/Components/Vault/DR - format the notes.md"
     },
     {
       "basename": "FailOver FailBack and FailOverMode",
@@ -105,14 +137,6 @@
       "path": "Session 9 Vault Configuration Files.md"
     },
     {
-      "basename": "disaster recovery drill",
-      "path": "Cyberark/DR Drill/disaster recovery drill.md"
-    },
-    {
-      "basename": "Integrations and Authentication - CyberArk",
-      "path": "Integrations and Authentication - CyberArk.md"
-    },
-    {
       "basename": "Installation Location of CyberArk Files",
       "path": "Installation Location of CyberArk Files.md"
     },
@@ -135,10 +159,6 @@
     {
       "basename": "vault 7 layers - security",
       "path": "vault 7 layers - security.md"
-    },
-    {
-      "basename": "Ports",
-      "path": "Cyberark/Ports.md"
     },
     {
       "basename": "dr-ex-steps",
@@ -179,26 +199,6 @@
     {
       "basename": "Vault Installation - CyberArk",
       "path": "Vault Installation - CyberArk.md"
-    },
-    {
-      "basename": "03-11-23 Friday",
-      "path": "DailyNote/03-11-23 Friday.md"
-    },
-    {
-      "basename": "conv-file",
-      "path": "conv-file.md"
-    },
-    {
-      "basename": "Session 32 PSM 4 (CPM and Others )",
-      "path": "Session 32 PSM 4 (CPM and Others ).md"
-    },
-    {
-      "basename": "Session 32 PSM 3",
-      "path": "Session 32 PSM 3.md"
-    },
-    {
-      "basename": "31-10-23 Tuesday",
-      "path": "DailyNote/31-10-23 Tuesday.md"
     }
   ],
   "omittedPaths": [
