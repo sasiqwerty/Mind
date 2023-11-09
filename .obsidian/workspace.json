@@ -87,14 +87,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Integrations and Authentication - CyberArk.md",
+                "file": "DailyNote/08-11-23 Wednesday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "834d5292c1c7508f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Session 10 Log Files Debugging Levels.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -177,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Integrations and Authentication - CyberArk.md",
+                "file": "Session 10 Log Files Debugging Levels.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -194,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Integrations and Authentication - CyberArk.md",
+                "file": "Session 10 Log Files Debugging Levels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Integrations and Authentication - CyberArk.md"
+                "file": "Session 10 Log Files Debugging Levels.md"
               }
             }
           },
@@ -237,7 +249,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Integrations and Authentication - CyberArk.md"
+                "file": "Session 10 Log Files Debugging Levels.md"
               }
             }
           },
@@ -254,8 +266,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -280,34 +291,34 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "ead1f960ff76a647",
+  "active": "834d5292c1c7508f",
   "lastOpenFiles": [
+    "Session 9 Vault Configuration Files.md",
+    "Session 8 Vault Service Dependencies DBPARM ini file.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "Installations.md",
+    "Cyberark/Ports.md",
+    "Cyberark/Basics/Windows Server/Lightweight Directory Access Protocol.md",
+    "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md",
+    "Cyberark/DR Drill/disaster recovery drill.md",
     "CyberArk in a Nutshell.md",
+    "Session 30 PSM 2.md",
+    "DailyNote/08-11-23 Wednesday.md",
+    "Integrations and Authentication - CyberArk.md",
     "credfile creation common process.md",
     "Session 31 PSM 3.md",
-    "Session 30 PSM 2.md",
     "Session 30 PSM 1.md",
     "Session 32 PSM 4 (CPM and Others ).md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md",
     "PSMP - Installation.md",
-    "Cyberark/Ports.md",
     "Disaster Recovery.md",
-    "Cyberark/DR Drill/disaster recovery drill.md",
-    "Integrations and Authentication - CyberArk.md",
-    "Session 7 Vault Prerequisites Services.md",
     "Cyberark/Core Concepts/Components/Vault/DR - format the notes.md",
     "Session 20 CPM02.md",
     "Topics that need practice.md",
     "Components and their Logs-services-config data.md",
-    "Installations.md",
     "Cyberark/CyberArk Full Notes.md",
     "DailyNote/06-11-23 Monday.md",
     "Just in Time Access  - Instructions.md",
-    "Cyberark/Core Concepts/Components/Vault/Refresh period and Vault ID.md",
-    "Session 8 Vault Service Dependencies DBPARM ini file.md",
-    "session 14 PVWA 1.md",
-    "Session 17 PVWA Logs Files Configuration Files.md",
-    "Session 16 PVWA Credfile Creation.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",

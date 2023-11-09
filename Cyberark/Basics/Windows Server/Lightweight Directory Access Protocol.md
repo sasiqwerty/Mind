@@ -1,15 +1,18 @@
 ---
 aliases: LDAP, Lightweight Directory Access Protocol
 tags: concept
+date created: Thursday, October 12th 2023, 5:31:10 am
+date modified: Wednesday, November 8th 2023, 3:45:18 am
 ---
 #learn
-### What is LDAP (Lightweight Directory Access Protocol)?
+
+## What is LDAP (Lightweight Directory Access Protocol)?
 
 LDAP (Lightweight Directory Access Protocol) is a software [protocol](https://www.techtarget.com/searchnetworking/definition/protocol) for enabling anyone to locate data about organizations, individuals and other resources such as files and devices in a network -- whether on the public internet or a corporate [intranet](https://www.techtarget.com/whatis/definition/intranet). LDAP is a "lightweight" version of Directory Access Protocol (DAP), which is part of X.500, a standard for directory services in a network. LDAP is considered lightweight because it uses a smaller amount of code than other protocols.
 
 A directory tells the user where in the network something is located. On [TCP/IP](https://www.techtarget.com/searchnetworking/definition/TCP-IP) networks -- including the internet -- the domain name system ([DNS](https://www.techtarget.com/searchnetworking/definition/domain-name-system)) is the directory system used to relate the domain name to a specific network address, which is a unique location on the network. However, the user may not know the domain name. LDAP allows a user to search for an individual without knowing where they're located, although additional information will help with the search.
 
-### Uses of LDAP
+## Uses of LDAP
 
 The most common use of LDAP is to provide a central place for authentication, meaning it stores usernames and passwords. LDAP can then be used in different applications or services to validate users with a plugin. For example, LDAP can be used to validate usernames and passwords with [Docker](https://www.techtarget.com/searchitoperations/definition/Docker-image), [Jenkins](https://www.techtarget.com/searchsoftwarequality/definition/Jenkins), [Kubernetes](https://www.techtarget.com/searchitoperations/definition/Google-Kubernetes), OpenVPN and Linux Samba servers. System administrators can also use LDAP single sign-on to control access to an LDAP database.
 
@@ -27,7 +30,7 @@ If an organization is having trouble deciding when to use LDAP, they should cons
 - the organization has a lot of smaller data entries; or
 - the organization wants all smaller pieces of data in one centralized location, and there doesn't need to be an extreme amount of organization between the data.
 
-### Levels of LDAP Directory
+## Levels of LDAP Directory
 
 An LDAP configuration is organized in a simple "tree" hierarchy consisting of the following levels:
 
@@ -39,7 +42,7 @@ An LDAP configuration is organized in a simple "tree" hierarchy consisting of th
 
 An LDAP directory can be distributed among many servers. Each server can have a replicated version of the total directory that is synchronized periodically. An LDAP server is called a Directory System Agent (DSA). An LDAP server that receives a request from a user takes responsibility for the request, passing it to other DSAs as necessary while ensuring a single coordinated response for the user.
 
-### LDAP and Active Directory
+## LDAP and Active Directory
 
 Lightweight Directory Access Protocol is the protocol that [Exchange Server](https://www.techtarget.com/searchwindowsserver/definition/Microsoft-Exchange-Server) uses to communicate with Active Directory. To really understand what LDAP is and what it does, it is important to understand the basic concept behind Active Directory as it relates to Exchange.
 
@@ -52,9 +55,9 @@ LDAP uses a relatively simple, string-based query to extract information from Ac
 
 - [Difference between LDAP and OAuth 2 - GeeksforGeeks](https://www.geeksforgeeks.org/difference-between-ldap-and-oauth-2/)
  
+
 ## Process
 
 #application 
 - LDAP Port Number for the connection is 389
 - LDAPS (LDAP over TLS/SSL) Port Number for the connection is 636
-- 

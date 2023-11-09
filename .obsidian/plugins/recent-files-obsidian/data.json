@@ -1,12 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Integrations and Authentication - CyberArk",
-      "path": "Integrations and Authentication - CyberArk.md"
+      "basename": "Session 10 Log Files Debugging Levels",
+      "path": "Session 10 Log Files Debugging Levels.md"
+    },
+    {
+      "basename": "Session 9 Vault Configuration Files",
+      "path": "Session 9 Vault Configuration Files.md"
+    },
+    {
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "Installations",
+      "path": "Installations.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Cyberark/Ports.md"
+    },
+    {
+      "basename": "Lightweight Directory Access Protocol",
+      "path": "Cyberark/Basics/Windows Server/Lightweight Directory Access Protocol.md"
+    },
+    {
+      "basename": "dr-ex-steps",
+      "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
+    },
+    {
+      "basename": "disaster recovery drill",
+      "path": "Cyberark/DR Drill/disaster recovery drill.md"
     },
     {
       "basename": "CyberArk in a Nutshell",
       "path": "CyberArk in a Nutshell.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
+    },
+    {
+      "basename": "08-11-23 Wednesday",
+      "path": "DailyNote/08-11-23 Wednesday.md"
+    },
+    {
+      "basename": "Integrations and Authentication - CyberArk",
+      "path": "Integrations and Authentication - CyberArk.md"
     },
     {
       "basename": "credfile creation common process",
@@ -15,10 +59,6 @@
     {
       "basename": "Session 31 PSM 3",
       "path": "Session 31 PSM 3.md"
-    },
-    {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
     },
     {
       "basename": "Session 30 PSM 1",
@@ -37,20 +77,8 @@
       "path": "PSMP - Installation.md"
     },
     {
-      "basename": "Ports",
-      "path": "Cyberark/Ports.md"
-    },
-    {
       "basename": "Disaster Recovery",
       "path": "Disaster Recovery.md"
-    },
-    {
-      "basename": "disaster recovery drill",
-      "path": "Cyberark/DR Drill/disaster recovery drill.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
     },
     {
       "basename": "DR - format the notes",
@@ -69,10 +97,6 @@
       "path": "Components and their Logs-services-config data.md"
     },
     {
-      "basename": "Installations",
-      "path": "Installations.md"
-    },
-    {
       "basename": "CyberArk Full Notes",
       "path": "Cyberark/CyberArk Full Notes.md"
     },
@@ -87,10 +111,6 @@
     {
       "basename": "Refresh period and Vault ID",
       "path": "Cyberark/Core Concepts/Components/Vault/Refresh period and Vault ID.md"
-    },
-    {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
     },
     {
       "basename": "session 14 PVWA 1",
@@ -133,10 +153,6 @@
       "path": "Session 12 MasterCD Operator CD Other Topics.md"
     },
     {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
-    },
-    {
       "basename": "Installation Location of CyberArk Files",
       "path": "Installation Location of CyberArk Files.md"
     },
@@ -153,16 +169,8 @@
       "path": "Session 11 Vault DB Safes Default Users.md"
     },
     {
-      "basename": "Session 10 Log Files Debugging Levels",
-      "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
       "basename": "vault 7 layers - security",
       "path": "vault 7 layers - security.md"
-    },
-    {
-      "basename": "dr-ex-steps",
-      "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
     },
     {
       "basename": "05-11-23 Sunday",
@@ -191,14 +199,6 @@
     {
       "basename": "04-11-23 Saturday",
       "path": "DailyNote/04-11-23 Saturday.md"
-    },
-    {
-      "basename": "02-11-23 Thursday",
-      "path": "DailyNote/02-11-23 Thursday.md"
-    },
-    {
-      "basename": "Vault Installation - CyberArk",
-      "path": "Vault Installation - CyberArk.md"
     }
   ],
   "omittedPaths": [
