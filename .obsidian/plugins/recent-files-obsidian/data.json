@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "interview-questions-all",
+      "path": "interview-questions-all.md"
+    },
+    {
+      "basename": "09-11-23 Thursday",
+      "path": "DailyNote/09-11-23 Thursday.md"
+    },
+    {
       "basename": "Session 10 Log Files Debugging Levels",
       "path": "Session 10 Log Files Debugging Levels.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "DR Drill for Listening",
       "path": "Cyberark/DR Drill/DR Drill for Listening.md"
-    },
-    {
-      "basename": "what to talk",
-      "path": "what to talk.md"
-    },
-    {
-      "basename": "04-11-23 Saturday",
-      "path": "DailyNote/04-11-23 Saturday.md"
     }
   ],
   "omittedPaths": [

@@ -99,14 +99,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Session 10 Log Files Debugging Levels.md",
+                "file": "DailyNote/09-11-23 Thursday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c050b11d79fa187",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "interview-questions-all.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -189,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Session 10 Log Files Debugging Levels.md",
+                "file": "interview-questions-all.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +218,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Session 10 Log Files Debugging Levels.md",
+                "file": "interview-questions-all.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +241,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Session 10 Log Files Debugging Levels.md"
+                "file": "interview-questions-all.md"
               }
             }
           },
@@ -249,7 +261,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Session 10 Log Files Debugging Levels.md"
+                "file": "interview-questions-all.md"
               }
             }
           },
@@ -291,8 +303,11 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "834d5292c1c7508f",
+  "active": "2c050b11d79fa187",
   "lastOpenFiles": [
+    "DailyNote/09-11-23 Thursday.md",
+    "interview-questions-all.md",
+    "Session 10 Log Files Debugging Levels.md",
     "Session 9 Vault Configuration Files.md",
     "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "Session 7 Vault Prerequisites Services.md",
@@ -316,9 +331,6 @@
     "Session 20 CPM02.md",
     "Topics that need practice.md",
     "Components and their Logs-services-config data.md",
-    "Cyberark/CyberArk Full Notes.md",
-    "DailyNote/06-11-23 Monday.md",
-    "Just in Time Access  - Instructions.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
