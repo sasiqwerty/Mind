@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "interview-questions-all",
-      "path": "interview-questions-all.md"
+      "basename": "plan-factorio",
+      "path": "plan-factorio.md"
+    },
+    {
+      "basename": "15-11-23 Wednesday",
+      "path": "DailyNote/15-11-23 Wednesday.md"
     },
     {
       "basename": "09-11-23 Thursday",
       "path": "DailyNote/09-11-23 Thursday.md"
+    },
+    {
+      "basename": "08-11-23 Wednesday",
+      "path": "DailyNote/08-11-23 Wednesday.md"
+    },
+    {
+      "basename": "Session 31 PSM 3",
+      "path": "Session 31 PSM 3.md"
+    },
+    {
+      "basename": "PSMP - Installation",
+      "path": "PSMP - Installation.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Cyberark/Ports.md"
+    },
+    {
+      "basename": "credfile creation common process",
+      "path": "credfile creation common process.md"
+    },
+    {
+      "basename": "CyberArk in a Nutshell",
+      "path": "CyberArk in a Nutshell.md"
+    },
+    {
+      "basename": "Session 30 PSM 2",
+      "path": "Session 30 PSM 2.md"
+    },
+    {
+      "basename": "interview-questions-all",
+      "path": "interview-questions-all.md"
     },
     {
       "basename": "Session 10 Log Files Debugging Levels",
@@ -29,10 +65,6 @@
       "path": "Installations.md"
     },
     {
-      "basename": "Ports",
-      "path": "Cyberark/Ports.md"
-    },
-    {
       "basename": "Lightweight Directory Access Protocol",
       "path": "Cyberark/Basics/Windows Server/Lightweight Directory Access Protocol.md"
     },
@@ -45,28 +77,8 @@
       "path": "Cyberark/DR Drill/disaster recovery drill.md"
     },
     {
-      "basename": "CyberArk in a Nutshell",
-      "path": "CyberArk in a Nutshell.md"
-    },
-    {
-      "basename": "Session 30 PSM 2",
-      "path": "Session 30 PSM 2.md"
-    },
-    {
-      "basename": "08-11-23 Wednesday",
-      "path": "DailyNote/08-11-23 Wednesday.md"
-    },
-    {
       "basename": "Integrations and Authentication - CyberArk",
       "path": "Integrations and Authentication - CyberArk.md"
-    },
-    {
-      "basename": "credfile creation common process",
-      "path": "credfile creation common process.md"
-    },
-    {
-      "basename": "Session 31 PSM 3",
-      "path": "Session 31 PSM 3.md"
     },
     {
       "basename": "Session 30 PSM 1",
@@ -79,10 +91,6 @@
     {
       "basename": "Reports",
       "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md"
-    },
-    {
-      "basename": "PSMP - Installation",
-      "path": "PSMP - Installation.md"
     },
     {
       "basename": "Disaster Recovery",
@@ -191,14 +199,6 @@
     {
       "basename": "LDAP Integration",
       "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
-    },
-    {
-      "basename": "Real World info",
-      "path": "Real World info.md"
-    },
-    {
-      "basename": "DR Drill for Listening",
-      "path": "Cyberark/DR Drill/DR Drill for Listening.md"
     }
   ],
   "omittedPaths": [
