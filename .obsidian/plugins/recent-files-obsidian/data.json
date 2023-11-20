@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "16-11-23 Thursday",
+      "path": "DailyNote/16-11-23 Thursday.md"
+    },
+    {
+      "basename": "tailscale key",
+      "path": "tailscale key.md"
+    },
+    {
       "basename": "plan-factorio",
       "path": "plan-factorio.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "05-11-23 Sunday",
       "path": "DailyNote/05-11-23 Sunday.md"
-    },
-    {
-      "basename": "Important Terms - DR Drill",
-      "path": "Cyberark/Core Concepts/Components/Vault/Important Terms - DR Drill.md"
-    },
-    {
-      "basename": "LDAP Integration",
-      "path": "Cyberark/Basics/Windows Server/LDAP Integration.md"
     }
   ],
   "omittedPaths": [
