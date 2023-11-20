@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Real World info",
+      "path": "Real World info.md"
+    },
+    {
+      "basename": "skills in cyberark",
+      "path": "skills in cyberark.md"
+    },
+    {
+      "basename": "20-11-23 Monday",
+      "path": "DailyNote/20-11-23 Monday.md"
+    },
+    {
       "basename": "16-11-23 Thursday",
       "path": "DailyNote/16-11-23 Thursday.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Session 13 Break Glass Procedure",
       "path": "Session 13 Break Glass Procedure.md"
-    },
-    {
-      "basename": "Session 11 Vault DB Safes Default Users",
-      "path": "Session 11 Vault DB Safes Default Users.md"
-    },
-    {
-      "basename": "vault 7 layers - security",
-      "path": "vault 7 layers - security.md"
-    },
-    {
-      "basename": "05-11-23 Sunday",
-      "path": "DailyNote/05-11-23 Sunday.md"
     }
   ],
   "omittedPaths": [

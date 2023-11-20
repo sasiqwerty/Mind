@@ -11,11 +11,28 @@
             "id": "555ad87bd7f2661a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/20-11-23 Monday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ecbdd8918be72046",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Real World info.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Real World info.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Real World info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Real World info.md"
+              }
             }
           },
           {
@@ -153,7 +174,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Real World info.md"
+              }
             }
           },
           {
@@ -194,8 +217,10 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "555ad87bd7f2661a",
+  "active": "ecbdd8918be72046",
   "lastOpenFiles": [
+    "skills in cyberark.md",
+    "DailyNote/20-11-23 Monday.md",
     "DailyNote/16-11-23 Thursday.md",
     "tailscale key.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
@@ -221,7 +246,6 @@
     "Integrations and Authentication - CyberArk.md",
     "Session 30 PSM 1.md",
     "Session 32 PSM 4 (CPM and Others ).md",
-    "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
