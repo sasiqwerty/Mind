@@ -25,14 +25,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Real World info.md",
+                "file": "Session 16 PVWA Credfile Creation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00aa32d2ecad3218",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c56b8a4feff21800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pre-req.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Real World info.md",
+                "file": "pre-req.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Real World info.md",
+                "file": "pre-req.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Real World info.md"
+                "file": "pre-req.md"
               }
             }
           },
@@ -175,7 +195,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Real World info.md"
+                "file": "pre-req.md"
               }
             }
           },
@@ -217,10 +237,13 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "ecbdd8918be72046",
+  "active": "c56b8a4feff21800",
   "lastOpenFiles": [
-    "skills in cyberark.md",
+    "pre-req.md",
+    "Session 16 PVWA Credfile Creation.md",
+    "Topics that need practice.md",
     "DailyNote/20-11-23 Monday.md",
+    "skills in cyberark.md",
     "DailyNote/16-11-23 Thursday.md",
     "tailscale key.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
@@ -243,9 +266,6 @@
     "Cyberark/Basics/Windows Server/Lightweight Directory Access Protocol.md",
     "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md",
     "Cyberark/DR Drill/disaster recovery drill.md",
-    "Integrations and Authentication - CyberArk.md",
-    "Session 30 PSM 1.md",
-    "Session 32 PSM 4 (CPM and Others ).md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
