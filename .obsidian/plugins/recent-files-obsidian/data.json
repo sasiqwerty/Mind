@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "pre-req",
-      "path": "pre-req.md"
+      "basename": "resume-cyberark",
+      "path": "resume-cyberark.md"
+    },
+    {
+      "basename": "pre-req cyberark job reddy anna",
+      "path": "pre-req cyberark job reddy anna.md"
+    },
+    {
+      "basename": "Topics that need practice",
+      "path": "Topics that need practice.md"
     },
     {
       "basename": "Session 16 PVWA Credfile Creation",
       "path": "Session 16 PVWA Credfile Creation.md"
     },
     {
-      "basename": "Topics that need practice",
-      "path": "Topics that need practice.md"
+      "basename": "27-11-23 Monday",
+      "path": "DailyNote/27-11-23 Monday.md"
     },
     {
       "basename": "20-11-23 Monday",
@@ -191,14 +199,6 @@
     {
       "basename": "Session 12 MasterCD Operator CD Other Topics",
       "path": "Session 12 MasterCD Operator CD Other Topics.md"
-    },
-    {
-      "basename": "Installation Location of CyberArk Files",
-      "path": "Installation Location of CyberArk Files.md"
-    },
-    {
-      "basename": "CyberArk Vault Backup",
-      "path": "CyberArk Vault Backup.md"
     }
   ],
   "omittedPaths": [
