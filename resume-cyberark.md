@@ -2,10 +2,26 @@
 aliases: 
 tags: 
 date created: Monday, November 27th 2023, 11:23:41 am
-date modified: Monday, November 27th 2023, 12:11:31 pm
+date modified: Monday, November 27th 2023, 1:35:52 pm
 ---
+This is rough draft containing the information  
 
-## Summary
+
+Expected package : 9.5 LPA  
+Current package : 6.5 LPA
+
+## About Me
+
+An IT professional with expertise in PAM, IAM, and security across Windows and Linux. Aiming to advance my knowledge and apply it to create secure business solutions. Passionate about tackling complex security challenges. Committed to ensuring data integrity and system protection.
+
+## Education
+
+| Institution                         | Qualification/Certification            | Duration         |
+|-------------------------------------|----------------------------------------|------------------|
+| Sathyabama University               | B.Tech                    | Aug 2015 - Apr 2020 |
+| BioMed Informatics Medwin Hospitals | Advanced P.G. Diploma                  | Jun 2020 - Sep 2020 |
+| Sri Chaitanya College of Education  | Intermediate                           | 2012 - 2014      |
+| Vikasa Vidya Vanam                  | High School  | 2011 - 2012      |
 
 ### Summary
 
@@ -23,8 +39,6 @@ date modified: Monday, November 27th 2023, 12:11:31 pm
    - Working knowledge in Active Directory.
    - Scripting knowledge for automating tasks in windows.
    - Provided Level 2 support and participated in 24x7 rotational shifts.
-
-This summary reflects a comprehensive skill set in CyberArk, underpinned by a strong foundation in IT and specific expertise in system integration, security, and administration.
 
 ## Software Skills
 

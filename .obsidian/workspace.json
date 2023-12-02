@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resume-cyberark.md",
+                "file": "DailyNote/27-11-23 Monday.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -247,13 +248,13 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "555ad87bd7f2661a",
+  "active": "36aa54f4d6364660",
   "lastOpenFiles": [
+    "DailyNote/27-11-23 Monday.md",
     "pre-req cyberark job reddy anna.md",
     "resume-cyberark.md",
     "Topics that need practice.md",
     "Session 16 PVWA Credfile Creation.md",
-    "DailyNote/27-11-23 Monday.md",
     "DailyNote/20-11-23 Monday.md",
     "resume-cyberark.docx",
     "pre-req.md",
