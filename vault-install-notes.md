@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, August 31st 2023, 8:57:24 pm
-date modified: Thursday, August 31st 2023, 8:58:44 pm
+date modified: Monday, December 4th 2023, 11:21:10 pm
 ---
 
 ## Installation and Configuration Course
@@ -25,12 +25,9 @@ the order was changed as the CPM needs APIs of PVWA, so if we install the PVWA a
 
 ## Installation
 
-pvwa and cpm can be installed together?
-
-psm servers not installed together in a single server
-
-psmp is installed in a linux server
-
+pvwa and cpm can be installed together?  
+psm servers not installed together in a single server  
+psmp is installed in a linux server  
 vault is installed in a non-domain joined server
 
 ### Vault Software Can Be Downloaded from

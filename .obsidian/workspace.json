@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/27-11-23 Monday.md",
+                "file": "study plan for i&c course.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,14 +77,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/03-12-23 Sunday.md",
+                "file": "Cyberark/Lab/add safe member.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +145,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/03-12-23 Sunday.md",
+                "file": "study plan for i&c course.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/03-12-23 Sunday.md",
+                "file": "study plan for i&c course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/03-12-23 Sunday.md"
+                "file": "study plan for i&c course.md"
               }
             }
           },
@@ -226,7 +226,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/03-12-23 Sunday.md"
+                "file": "study plan for i&c course.md"
               }
             }
           },
@@ -268,37 +268,37 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "22a5aba504de7b9b",
+  "active": "555ad87bd7f2661a",
   "lastOpenFiles": [
-    "DailyNote/03-12-23 Sunday.md",
-    "talking points.md",
-    "DailyNote/02-12-23 Saturday.md",
-    "notes fact.md",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
-    "resume-cyberark.md",
     "DailyNote/27-11-23 Monday.md",
-    "pre-req cyberark job reddy anna.md",
-    "Topics that need practice.md",
-    "Session 16 PVWA Credfile Creation.md",
-    "DailyNote/20-11-23 Monday.md",
-    "resume-cyberark.docx",
-    "pre-req.md",
-    "skills in cyberark.md",
-    "DailyNote/16-11-23 Thursday.md",
-    "tailscale key.md",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
-    "plan-factorio.md",
-    "DailyNote/15-11-23 Wednesday.md",
-    "DailyNote/09-11-23 Thursday.md",
-    "DailyNote/08-11-23 Wednesday.md",
+    "Cyberark/Lab/add safe member.md",
+    "vault-compiled.md",
+    "Cyberark/Core Concepts/Components/Vault/Vault and Client - Different Versions why.md",
+    "session 14 PVWA 1.md",
+    "session 15 PVWA 2.md",
+    "Real World info.md",
+    "Cyberark/Core Concepts/Components/Privileged Session Manager/PSM-LoadBalancer.md",
+    "Session 32 PSM 4 (CPM and Others ).md",
     "Session 31 PSM 3.md",
-    "PSMP - Installation.md",
-    "Cyberark/Ports.md",
-    "credfile creation common process.md",
-    "CyberArk in a Nutshell.md",
     "Session 30 PSM 2.md",
-    "interview-questions-all.md",
+    "Session 30 PSM 1.md",
+    "session 22 CPM Manual Hardening.md",
+    "session 21 CPM03 logfiles.md",
+    "Session 20 CPM02.md",
+    "session 19 CPM01.md",
+    "Session 18 PVWA Manual Hardening.md",
+    "Session 17 PVWA Logs Files Configuration Files.md",
+    "Session 16 PVWA Credfile Creation.md",
+    "Session 13 Break Glass Procedure.md",
+    "Session 12 MasterCD Operator CD Other Topics.md",
+    "Session 11 Vault DB Safes Default Users.md",
+    "Session 9 Vault Configuration Files.md",
     "Session 10 Log Files Debugging Levels.md",
+    "Session 8 Vault Service Dependencies DBPARM ini file.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
+    "resume-cyberark.docx",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",

@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, July 25th 2023, 8:10:55 pm
-date modified: Monday, August 28th 2023, 1:00:30 pm
+date modified: Monday, December 4th 2023, 11:02:14 pm
 ---
 In CyberArk, a Safe is a logical container that stores privileged accounts and their passwords. Safes can be used to organize accounts according to your organization's requirements, such as by department, operating system, or application. They can also be used to control access to accounts, by granting different permissions to different users.
 

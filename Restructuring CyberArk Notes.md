@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, October 7th 2023, 10:15:00 am
-date modified: Saturday, October 7th 2023, 10:18:22 am
+date modified: Monday, December 4th 2023, 11:25:34 pm
 ---
 
 ## Compile the Notes Based on Components

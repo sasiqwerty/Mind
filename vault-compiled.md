@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, September 11th 2023, 7:08:52 am
-date modified: Wednesday, October 4th 2023, 5:07:04 pm
+date modified: Tuesday, December 5th 2023, 12:00:53 am
 ---
 [CyberArk Vault Structure | CyberArk Docs](https://docs.cyberark.com/PAS/latest/en/Content/PASIMP/CyberArk-Vault-Structure.htm?tocpath=Administrator%7CComponents%7CDigital%20Vault%7CAdvanced%20Digital%20Vault%20Environment%7CCyberArk%20Vault%20Structure%7C_____0)
 

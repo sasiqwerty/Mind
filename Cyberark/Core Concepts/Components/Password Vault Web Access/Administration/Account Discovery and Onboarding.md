@@ -2,7 +2,7 @@
 aliases: onboard, onboarding
 tags: 
 date created: Tuesday, July 25th 2023, 9:56:27 am
-date modified: Thursday, August 3rd 2023, 3:52:03 pm
+date modified: Monday, December 4th 2023, 11:08:46 pm
 ---
 Account onboarding in CyberArk is the process of adding a new account to the CyberArk vault. This process typically includes the following steps:
 

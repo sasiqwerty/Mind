@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Sunday, August 13th 2023, 7:21:39 pm
-date modified: Sunday, August 13th 2023, 7:22:30 pm
+date modified: Monday, December 4th 2023, 11:58:58 pm
 ---
 CyberArk's PrivateArk client and the Digital Vault (often just referred to as the "Vault") can sometimes be on different versions due to several reasons:
 
