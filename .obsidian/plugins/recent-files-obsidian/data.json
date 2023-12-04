@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "03-12-23 Sunday",
+      "path": "DailyNote/03-12-23 Sunday.md"
+    },
+    {
       "basename": "talking points - interview reddy anna said",
       "path": "talking points - interview reddy anna said.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "FailOver FailBack and FailOverMode",
       "path": "Cyberark/Core Concepts/Components/Vault/FailOver FailBack and FailOverMode.md"
-    },
-    {
-      "basename": "Interview Questions - Everything",
-      "path": "Interview Questions - Everything.md"
     }
   ],
   "omittedPaths": [
