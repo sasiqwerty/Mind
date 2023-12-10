@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "study plan for i&c course.md",
+                "file": "Session 12 MasterCD Operator CD Other Topics.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "study plan for i&c course.md",
+                "file": "Session 12 MasterCD Operator CD Other Topics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "study plan for i&c course.md",
+                "file": "Session 12 MasterCD Operator CD Other Topics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "study plan for i&c course.md"
+                "file": "Session 12 MasterCD Operator CD Other Topics.md"
               }
             }
           },
@@ -226,7 +226,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "study plan for i&c course.md"
+                "file": "Session 12 MasterCD Operator CD Other Topics.md"
               }
             }
           },
@@ -270,6 +270,13 @@
   },
   "active": "555ad87bd7f2661a",
   "lastOpenFiles": [
+    "Session 11 Vault DB Safes Default Users.md",
+    "Session 10 Log Files Debugging Levels.md",
+    "Session 9 Vault Configuration Files.md",
+    "Session 8 Vault Service Dependencies DBPARM ini file.md",
+    "Session 7 Vault Prerequisites Services.md",
+    "DailyNote/05-12-23 Tuesday.md",
+    "study plan for i&c course.md",
     "DailyNote/27-11-23 Monday.md",
     "Cyberark/Lab/add safe member.md",
     "vault-compiled.md",
@@ -289,13 +296,6 @@
     "Session 18 PVWA Manual Hardening.md",
     "Session 17 PVWA Logs Files Configuration Files.md",
     "Session 16 PVWA Credfile Creation.md",
-    "Session 13 Break Glass Procedure.md",
-    "Session 12 MasterCD Operator CD Other Topics.md",
-    "Session 11 Vault DB Safes Default Users.md",
-    "Session 9 Vault Configuration Files.md",
-    "Session 10 Log Files Debugging Levels.md",
-    "Session 8 Vault Service Dependencies DBPARM ini file.md",
-    "Session 7 Vault Prerequisites Services.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
     "resume-cyberark.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",

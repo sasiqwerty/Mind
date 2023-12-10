@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Session 12 MasterCD Operator CD Other Topics",
+      "path": "Session 12 MasterCD Operator CD Other Topics.md"
+    },
+    {
+      "basename": "Session 11 Vault DB Safes Default Users",
+      "path": "Session 11 Vault DB Safes Default Users.md"
+    },
+    {
+      "basename": "Session 10 Log Files Debugging Levels",
+      "path": "Session 10 Log Files Debugging Levels.md"
+    },
+    {
+      "basename": "Session 9 Vault Configuration Files",
+      "path": "Session 9 Vault Configuration Files.md"
+    },
+    {
+      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
+      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+    },
+    {
+      "basename": "Session 7 Vault Prerequisites Services",
+      "path": "Session 7 Vault Prerequisites Services.md"
+    },
+    {
+      "basename": "05-12-23 Tuesday",
+      "path": "DailyNote/05-12-23 Tuesday.md"
+    },
+    {
       "basename": "study plan for i&c course",
       "path": "study plan for i&c course.md"
     },
@@ -83,30 +111,6 @@
     {
       "basename": "Session 13 Break Glass Procedure",
       "path": "Session 13 Break Glass Procedure.md"
-    },
-    {
-      "basename": "Session 12 MasterCD Operator CD Other Topics",
-      "path": "Session 12 MasterCD Operator CD Other Topics.md"
-    },
-    {
-      "basename": "Session 11 Vault DB Safes Default Users",
-      "path": "Session 11 Vault DB Safes Default Users.md"
-    },
-    {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
-    },
-    {
-      "basename": "Session 10 Log Files Debugging Levels",
-      "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
     },
     {
       "basename": "Components and their Logs-services-config data",
@@ -195,10 +199,6 @@
     {
       "basename": "talking points - interview reddy anna said",
       "path": "talking points - interview reddy anna said.md"
-    },
-    {
-      "basename": "pre-req cyberark job reddy anna",
-      "path": "pre-req cyberark job reddy anna.md"
     }
   ],
   "omittedPaths": [
