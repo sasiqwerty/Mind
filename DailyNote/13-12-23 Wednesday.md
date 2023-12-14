@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, July 31st 2023, 9:13:43 am
-date modified: Wednesday, December 13th 2023, 9:00:22 pm
+date modified: Wednesday, December 13th 2023, 9:01:19 pm
 ---
 
 ## Plan for the Day

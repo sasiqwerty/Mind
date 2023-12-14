@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, August 28th 2023, 1:00:51 pm
-date modified: Monday, December 4th 2023, 11:02:29 pm
+date modified: Wednesday, December 13th 2023, 9:53:22 pm
 ---
 
 ## Safes and Safe Members
@@ -72,7 +72,7 @@ Safes that are created in the PVWA are based on default properties. For more inf
     
     The Safe is created in the Vault, and the Safe Details page appears.
     
-    | |   |  
+    | | |  
     |---|---|  
     ||Reports Safes and PSM Recording Safes are created automatically with the Auto-purge is enabled setting, which means that files in these Safes will automatically be purged after the Object History Retention Period defined in the Safe properties. In addition, these Safes cannot be managed by the CPM.|
     

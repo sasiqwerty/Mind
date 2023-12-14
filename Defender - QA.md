@@ -1,0 +1,99 @@
+---
+aliases: 
+tags: 
+date created: Wednesday, December 13th 2023, 9:01:19 pm
+date modified: Wednesday, December 13th 2023, 10:57:44 pm
+---
+- Which accounts can be selected for use in the Windows discovery process? (Choose 2)
+	- C. the Vault Administrator  
+	- E. the PasswordManager user
+	- **Explanation** : The CPM Scanner service scans Windows and Unix machines for new and modified accounts and their dependencies. The discovered accounts are displayed in the Pending Accounts feed for review.
+- Your organization requires all passwords be rotated every 90 days. Where can you set this requirement?
+	- A. Master Policy
+	- **Explanation** : The Master Policy offers a centralized overview of the security and compliance policy of privileged accounts in your organization while allowing you to configure compliance driven rules that are defined as the baseline for your enterprise. It is configured out-of-the-box and can be used immediately after implementation, providing an intuitive, simplified user experience and enhanced bottom-line insight for administrators, IT personnel, managers and auditor
+- You created a new platform by duplicating the out-of-box Linux through the SSH platform. Without any change, which Text Recorder Type(s) will the new platform support? (Choose 2.) #doubt
+	- A. SSH Text Recorder
+	- B. Universal Keystrokes Text Recorder
+- What is required to Manage loosely connected devices?
+	- **B.** EPM
+	- CyberArk Endpoint Privilege Manager (EPM) enforces least privilege and enables organizations to block and contain attacks on endpoint computers, reducing the risk of information being stolen or encrypted and held for ransom. A combination of privilege security, application control and credential theft prevention reduces the risk of malware infection.
+	- One of the challenges in privileged account security is managing privileged accounts on devices that are not often connected to the network. For example, the local built-in administrators on laptops that can be disconnected from the network for long periods of time, making it difficult for the security and operational teams to enforce security policies.
+	- PAM - Self-Hosted uses CyberArk Endpoint Privilege Manager (EPM) to rotate credentials of accounts on Windows and macOS devices that are not always connected to the enterprise network. These devices are called loosely connected devices.
+	- This solution does not manage local accounts with dependencies (usages) or local accounts that belong to an account group.
+	- [Introduction | CyberArk Docs](https://docs.cyberark.com/EPM/Latest/en/Content/Intro/Introduction.htm)
+	- [Manage loosely connected devices | CyberArk Docs](https://docs.cyberark.com/PAS/13.0/en/Content/PASIMP/LooselyConnectedDevices.htm)
+- Where can reconcile and/or logon accounts be linked to an account? (Choose 2)
+	- Account settings
+	- Platform settings
+	- A platform defines shared characteristics for multiple accounts. It defines the technical settings for these accounts, such as:
+		- Account properties
+		- Credential management policies and timeframe. For example, how frequently a password will be changed or verified.
+		- The rules that must be applied when a new random password is generated. These rules must match the password rules on the remote machine where the password will be used, so that the password will be accepted during the password change operation as well as during log on.
+		- Session management. For example, how connection is established.
+		- Linked accounts
+		- Mail notifications
+		- Workflows
+- Which dependent accounts does the CPM support out-of-the-box?
+	- B. Windows Services  
+	- C. Windows Scheduled Tasks  
+	- E. Windows Registry
+	- Dependent Accounts : [Manage dependent accounts | CyberArk Docs](https://docs.cyberark.com/PAS/13.0/en/Content/PASIMP/Managing-Service-Accounts.htm)
+		- Dependent accounts are accounts that represent resources, such as Windows Services or Windows Scheduled Tasks. These resources or dependent accounts are accessed from a target machine and require the same credentials as the target machine. Dependent accounts may also be referred to as usages or service accounts.
+		- When changing a password, the CPM synchronizes the target account password with all other occurrences of that password in any related dependent accounts.
+		- The following diagram shows the procedure for how the CPM changes and synchronizes passwords in accounts on Windows services.
+		- ![[Pasted image 20231213214336.png]]
+- In addition to add accounts and update account contents, which additional permission on the safe is required to add a Single account? #important 
+	- C. Update Account Properties #doubt 
+- Which parameters can be used to harden the Credential Files (CredFiles) while using CreateCredFile Utility? (Choose 3 ) [CreateCredFile utility | CyberArk Docs](https://docs.cyberark.com/PAS/12.6/en/Content/PASIMP/CreateCredFile-Utility.htm#CreateCr2)
+	- A. OS Username  
+	- B. Current machine IP  
+	- C. Current machine hostname
+- Where can a user with the appropriate permissions generate a report? (Choose 2)
+	- A. PWVA > Reports  
+	- B. PrivateArk Client
+- When should vault keys be rotated?
+	- when it is copied to file systems outside the vault. #later
+- True or False #later #doubt #important 
+	- A. This is the only way to enable automatic reconciliation of account passwords. (False)
+	- B. CPM performance will be improved when the reconcile account is set at the platform level. (True)  
+	- C. A rule can be used to specify the reconcile account dynamically or a specific reconcile account can be selected. (True)
+	- D. This configuration prevents the association from becoming broken if the reconcile account is moved to a different safe. (False)
+- You have been asked to turn off the time access restrictions for a safe. Where is this setting found?
+	- A. PrivateArk Client #later #find
+- What are valid ways to invite vendors using the Remote Access portal? (Choose 2.) #later #dontknow
+	- Use the vendor invitation form.
+	- Use the self-service invitation URL.
+- Match the connection component to the corresponding OS/Function.
+- ![[Pasted image 20231213222243.png]]
+- The Privileged Access Management solution provides an out-of-the-box target platform to manage SSH keys, called UNIX Via SSH Keys. How are these keys managed?
+	- CyberArk stores Private keys in the Vault and updates Public keys on target systems
+	- ![[Pasted image 20231213223304.png]]
+- Your organization has a requirement to allow only one user to "check out passwords" and connect through the PSM securely. What needs to be configured in the Master policy to ensure this will happen?
+	- Enforce check-in/check-out exclusive access = active; Require privileged session monitoring and isolation = active
+- What can you do to ensure each component server is operational?
+	- Logon to PVWA with v10 UI, navigate to Health check and validate each component server is connected to the Vault.  
+	- Ping each component server to ensure connectivity #check
+- To use PSM connections while in the PVVVA, what are the minimum safe permissions a user or group will need?
+	- List Accounts, Use Accounts
+- What must you specify when configuring a discovery scan for UNIX? (Choose 2)
+	- CPM Scanner
+	- list of machines to scan
+- According to CyberArk, which Issues most commonly cause installed components to display as disconnected in the System Health Dashboard? (Choose 2)
+	- network instabilities/outages
+	- credential de-sync
+- What does the minvalidity parameter on a platform policy determine?
+	- time between a password retrieval and the account becoming eligible for a password change
+- Which tools can you use to identify the machines and accounts that create the highest risk and are exposed to lateral movement? (Choose 2)
+	- CyberArk DNA Report
+	- CyberArk DNA Map
+	- CyberArk Discovery & Audit (DNA) is a powerful tool – available at no charge – that scans systems on your network to uncover accounts, credentials and misconfigurations that can create risk. Following a scan, CyberArk DNA generates a detailed report that IT auditors and decision makers can use to evaluate the status of privileged accounts in the organization and identify areas of risk. The tool is an agentless, lightweight executable, designed to expose the magnitude of the privileged account security challenge in on-premises and cloud-based environments
+- In your organization the "click to connect" button is not active by default. How can this feature be activated?
+	- Policies > Master Policy > Allow EPV transparent connections > Active
+- You are adding a new application in the Remote Access portal. Which authentication methods can you use to authenticate users to the PVWA (Choose 2) #doubt #veryimportant #dontknow
+	- Password  
+	- OpenID  
+	- Certificate  
+	- SAML  
+	- OTP
+- Due to corporate storage constraints, you have been asked to disable session monitoring and recording for 500 testing accounts used for your lab environment. How do you accomplish this?
+	- Master Policy>select Session Management>add Exceptions to the platform(s)>disable Session Monitoring and Recording policies
