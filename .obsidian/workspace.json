@@ -35,7 +35,8 @@
               "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Defender - QA.md",
+                "file": "defender-questions that you might mess up.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Defender - QA.md",
+                "file": "defender-questions that you might mess up.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Defender - QA.md"
+                "file": "defender-questions that you might mess up.md"
               }
             }
           },
@@ -178,7 +179,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Defender - QA.md"
+                "file": "defender-questions that you might mess up.md"
               }
             }
           },
@@ -220,12 +221,13 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "899b098456b8b9bc",
+  "active": "7a9e4ed7cdc4e996",
   "lastOpenFiles": [
-    "defender-questions that you might mess up.md",
-    "Defender - QA.md",
-    "DailyNote/19-12-23 Tuesday.md",
     "factorio plans.md",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231219162803.png",
+    "DailyNote/19-12-23 Tuesday.md",
+    "Defender - QA.md",
+    "defender-questions that you might mess up.md",
     "Installation Location of CyberArk Files.md",
     "DailyNote/14-12-23 Thursday.md",
     "output-process.md",
@@ -251,14 +253,12 @@
     "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "Session 7 Vault Prerequisites Services.md",
     "DailyNote/05-12-23 Tuesday.md",
-    "study plan for i&c course.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
     "resume-cyberark.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101114244.png",
     "def-new-ocr.docx",
     "notepad",
     "output-process.docx",

@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, December 19th 2023, 8:48:29 am
-date modified: Tuesday, December 19th 2023, 8:50:27 am
+date modified: Tuesday, December 19th 2023, 5:47:50 pm
 ---
 
 ## Mega Base Ideas
@@ -12,3 +12,7 @@ date modified: Tuesday, December 19th 2023, 8:50:27 am
 	- this needs to be fixed
 
 ## Test the Train Max Throughput
+
+## How to Make a Rocket
+
+![[Pasted image 20231219162803.png]]

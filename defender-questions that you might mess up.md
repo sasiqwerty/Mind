@@ -22,4 +22,31 @@ date modified: Tuesday, December 19th 2023, 2:19:33 pm
 - Question : The privileged access management solution provides an out of the box target platform to manage SSH keys and its called UNIX via SSH keys. How are these keys stored?
 	- The correct option is "Cyberark stores private keys in the vault and updates public keys on the target systems."
 - Your Organization has a requirement to allow only one user to "check out passwords" and through PSM securely. What needs to be configured in the master policy to ensure that this will happen?
-	- The correct option is : 
+	- The correct option is : Enforce Check in/check out exclusive access should be active and the require privileged session monitoring and isolation should be enabled.
+- What can you do to ensure each component server is operational?
+	- We have to use the v10 interface and in the health check page and validate that each server is operational.
+- To use PSM connections while in PVWA, what are the minimum safe permissions a user or a group will need?
+	- List accounts and use accounts permissions.
+- What must you specify when configuring the discovery scan for UNIX?
+	- CPM scanner and list of machines to scan.
+- What are the common causes of installed components to display as disconnected?
+	-  Network instability issues and Credential De-sync
+- What does the `minvalidity` parameter on a platform determine?
+	- A time between a password retrieval and the account becoming eligible for password change.
+- What are the tools to identify machines and accounts that create the highest risk and are exposed to lateral movement?
+	- Cyberark DNA report and MAP.
+- Click to connect is not enabled by default. How to active this feature?
+	- Navigate to policies and select master policy. There you will find an option to enable Allow EPV transparent connections.
+- When adding new applications to remote access portal the authentication methods used for PVWA are password and OTP.
+- How to disable session monitoring and recording for a group of accounts?
+	- Navigate to master policy and select session management, add an exception to the platform to disable session monitoring and recording policies.
+- A password compliance audit has found out that for a few domain admin accounts one time password access is not enabled, and the sessions are not recorded. To solve this problem we have to create two exceptions at the master policy to that platform, for exclusive access and recording and monitoring policies.
+- To enable full control over the invitation process, one has to be a vendor manager after being invited to the Remote Access Portal.
+- When running a "Privileged Account Inventory" Report through the reports page in PVWA on a specific safe to show the complete inventory information one has to have list accounts and view safe members permissions.
+- To ensure non-repudiation has to enable exclusive access and one time password in master policy.
+- To identify the most powerful accounts in the organization one has to use Discovery and Audit also called DNA and Privileged Account Matrix (PAM) which is based on XML
+- Accounts that discovered but that are not added to the vault by an automated onboarding rule are added to pending accounts list for review and manual upload.
+- When onboarding an account that is not supported out of the box one has to create a service ticket in the customer portal explaining the requirements.
+- Universal Keystrokes text recorder with windows events text recorder disabled is an option for PSM recording customization.
+- Safe and Platform are the mandatory fields when onboarding pending accounts.
+- 
