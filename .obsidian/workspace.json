@@ -10,13 +10,29 @@
           {
             "id": "899b098456b8b9bc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "factorio plans.md",
+                "file": "Defender - QA.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7a9e4ed7cdc4e996",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "defender-questions that you might mess up.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
             }
           }
         ]
@@ -102,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "factorio plans.md",
+                "file": "Defender - QA.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "factorio plans.md",
+                "file": "Defender - QA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "factorio plans.md"
+                "file": "Defender - QA.md"
               }
             }
           },
@@ -162,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "factorio plans.md"
+                "file": "Defender - QA.md"
               }
             }
           },
@@ -206,6 +222,8 @@
   },
   "active": "899b098456b8b9bc",
   "lastOpenFiles": [
+    "defender-questions that you might mess up.md",
+    "Defender - QA.md",
     "DailyNote/19-12-23 Tuesday.md",
     "factorio plans.md",
     "Installation Location of CyberArk Files.md",
@@ -216,7 +234,6 @@
     "DailyNote/02-12-23 Saturday.md",
     "DailyNote/27-11-23 Monday.md",
     "Session 16 PVWA Credfile Creation.md",
-    "Defender - QA.md",
     "DailyNote/13-12-23 Wednesday.md",
     "Cyberark/Basics/Windows Server/Active Directory.md",
     "Cyberark/Basics/Linux Fundementals/New User - Linux Server.md",
@@ -235,7 +252,6 @@
     "Session 7 Vault Prerequisites Services.md",
     "DailyNote/05-12-23 Tuesday.md",
     "study plan for i&c course.md",
-    "vault-compiled.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
     "resume-cyberark.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
