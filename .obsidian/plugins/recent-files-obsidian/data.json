@@ -1,20 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Active Directory",
-      "path": "Cyberark/Basics/Windows Server/Active Directory.md"
+      "basename": "factorio plans",
+      "path": "factorio plans.md"
     },
     {
-      "basename": "New User - Linux Server",
-      "path": "Cyberark/Basics/Linux Fundementals/New User - Linux Server.md"
-    },
-    {
-      "basename": "Zero Trust",
-      "path": "Cyberark/Basics/Windows Server/Zero Trust.md"
-    },
-    {
-      "basename": "Defender - QA",
-      "path": "Defender - QA.md"
+      "basename": "19-12-23 Tuesday",
+      "path": "DailyNote/19-12-23 Tuesday.md"
     },
     {
       "basename": "Installation Location of CyberArk Files",
@@ -37,12 +29,40 @@
       "path": "Cyberark/Lab/add safe member.md"
     },
     {
-      "basename": "Docs-Safe",
-      "path": "Cyberark/Core Concepts/Components/Vault/Docs-Safe.md"
+      "basename": "02-12-23 Saturday",
+      "path": "DailyNote/02-12-23 Saturday.md"
+    },
+    {
+      "basename": "27-11-23 Monday",
+      "path": "DailyNote/27-11-23 Monday.md"
+    },
+    {
+      "basename": "Session 16 PVWA Credfile Creation",
+      "path": "Session 16 PVWA Credfile Creation.md"
+    },
+    {
+      "basename": "Defender - QA",
+      "path": "Defender - QA.md"
     },
     {
       "basename": "13-12-23 Wednesday",
       "path": "DailyNote/13-12-23 Wednesday.md"
+    },
+    {
+      "basename": "Active Directory",
+      "path": "Cyberark/Basics/Windows Server/Active Directory.md"
+    },
+    {
+      "basename": "New User - Linux Server",
+      "path": "Cyberark/Basics/Linux Fundementals/New User - Linux Server.md"
+    },
+    {
+      "basename": "Zero Trust",
+      "path": "Cyberark/Basics/Windows Server/Zero Trust.md"
+    },
+    {
+      "basename": "Docs-Safe",
+      "path": "Cyberark/Core Concepts/Components/Vault/Docs-Safe.md"
     },
     {
       "basename": "10-12-23 Sunday",
@@ -79,10 +99,6 @@
     {
       "basename": "study plan for i&c course",
       "path": "study plan for i&c course.md"
-    },
-    {
-      "basename": "27-11-23 Monday",
-      "path": "DailyNote/27-11-23 Monday.md"
     },
     {
       "basename": "vault-compiled",
@@ -149,10 +165,6 @@
       "path": "Session 17 PVWA Logs Files Configuration Files.md"
     },
     {
-      "basename": "Session 16 PVWA Credfile Creation",
-      "path": "Session 16 PVWA Credfile Creation.md"
-    },
-    {
       "basename": "Session 13 Break Glass Procedure",
       "path": "Session 13 Break Glass Procedure.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "disaster recovery drill",
       "path": "Cyberark/DR Drill/disaster recovery drill.md"
-    },
-    {
-      "basename": "Restructuring CyberArk Notes",
-      "path": "Restructuring CyberArk Notes.md"
-    },
-    {
-      "basename": "Vault Installation - CyberArk",
-      "path": "Vault Installation - CyberArk.md"
-    },
-    {
-      "basename": "what to talk",
-      "path": "what to talk.md"
     }
   ],
   "omittedPaths": [
