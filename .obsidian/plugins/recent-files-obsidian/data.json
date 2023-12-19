@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Active Directory",
+      "path": "Cyberark/Basics/Windows Server/Active Directory.md"
+    },
+    {
+      "basename": "New User - Linux Server",
+      "path": "Cyberark/Basics/Linux Fundementals/New User - Linux Server.md"
+    },
+    {
+      "basename": "Zero Trust",
+      "path": "Cyberark/Basics/Windows Server/Zero Trust.md"
+    },
+    {
       "basename": "Defender - QA",
       "path": "Defender - QA.md"
+    },
+    {
+      "basename": "Installation Location of CyberArk Files",
+      "path": "Installation Location of CyberArk Files.md"
+    },
+    {
+      "basename": "14-12-23 Thursday",
+      "path": "DailyNote/14-12-23 Thursday.md"
     },
     {
       "basename": "output-process",
@@ -161,10 +181,6 @@
       "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
     },
     {
-      "basename": "Installation Location of CyberArk Files",
-      "path": "Installation Location of CyberArk Files.md"
-    },
-    {
       "basename": "Reports",
       "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "what to talk",
       "path": "what to talk.md"
-    },
-    {
-      "basename": "vault-install-notes",
-      "path": "vault-install-notes.md"
-    },
-    {
-      "basename": "Backup and Restore",
-      "path": "Cyberark/Written Notes/Backup and Restore.md"
-    },
-    {
-      "basename": "Topics that need practice",
-      "path": "Topics that need practice.md"
-    },
-    {
-      "basename": "Account Discovery and Onboarding",
-      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md"
     }
   ],
   "omittedPaths": [

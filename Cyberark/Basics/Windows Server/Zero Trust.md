@@ -1,4 +1,10 @@
-#learn 
+---
+aliases: 
+tags: 
+date created: Thursday, October 12th 2023, 5:31:10 am
+date modified: Thursday, December 14th 2023, 10:10:25 pm
+---
+#learn  
 Zero trust is a philosophy and practice of network data security that assumes every user, device and service that attempts to connect to an organization’s network is hostile until proven otherwise. The fundamental principle of zero trust is to secure an organization’s data wherever it might live, allowing only legitimate users and entities access to relevant resources and assets.
 
 The modern data landscape includes cloud or SaaS deployments, data centers, remote workforces, mobile devices and a myriad of apps, which can no longer be protected by traditional security strategies. Allowing data and workloads to live, operate and be accessed in this expanded attack surface leaves many organizations increasingly susceptible to a host of security vulnerabilities and access issues. This problem was only compounded by industry-wide responses to COVID-19, in which companies moved quickly to support an all-remote work environment.  
@@ -7,7 +13,7 @@ In 2020, attackers exploited software created by the company SolarWinds as a con
 
 Zero trust is not a specific security architecture, a product or software solution but rather a methodology for secure access that requires an organization to rethink their security strategy and network architecture. The key to understanding a zero trust network is understanding who is making access requests and from which device the request originates — then mapping that request to access policies per application or asset.
 
-## What are the core principles of the zero trust model? 
+## What Are the Core Principles of the Zero Trust Model?
 
 To be successful, a zero trust framework entails several core underlying principles, including:
 
@@ -17,7 +23,7 @@ To be successful, a zero trust framework entails several core underlying princip
 - **Authenticate and authorize every device, user and network flow**: A zero trust model authorizes and authenticates user access by least-privilege access on a per-session basis.
 - **Implement policies that are dynamic and calculated from as many data sources as possible**: End-to-end data analytics should be established, providing monitoring and [threat detection](https://www.splunk.com/en_us/data-insider/threat-intelligence.html) across the entire architecture, including cloud environments, which support both IT and security operations requirements.
 
-## What is a zero trust architecture? 
+## What is a Zero Trust Architecture?
 
 A zero trust architecture, or ZTA, is a cybersecurity architecture based on the principles of zero trust, designed to prevent data breaches, cyber attacks and unauthorized access of sensitive data while limiting internal lateral movement of attackers or malicious insiders.
 
@@ -32,19 +38,19 @@ The [American Council for Technology and Industry Advisory Council (ACT-IAC)](h
 - **Automation**: [Security automation, orchestration and response (SOAR)](https://www.splunk.com/en_us/data-insider/what-is-soar.html) allow organizations to automate tasks across products through workflows and for interactive end-user oversight.
 - **Analytics**: Visibility and analytics tools like [security information and event management (SIEM)](https://www.splunk.com/en_us/data-insider/what-is-siem.html), advanced [security analytics](https://www.splunk.com/en_us/data-insider/what-is-cybersecurity-analytics.html), and [user and entity behavior analytics (UEBA)](https://www.splunk.com/en_us/data-insider/user-behavior-analytics-ueba.html) allow security experts to observe what’s happening and orient their defenses accordingly.
 
-## Why is a zero trust framework important? 
+## Why is a Zero Trust Framework Important?
 
 Historically, [cybersecurity](https://www.splunk.com/en_us/data-insider/what-is-cybersecurity.html) used to revolve around building a hardened perimeter, and then layer security tools like moats and walls around a castle. This concept made sense when cyberthreats only emerged from outside, and assets lived on premises.
 
 Today’s new ecosystem — cloud, remote workforces and mobile devices — fails to conform to traditional security strategies. Instead, it greatly expands the attack surface by allowing data and workloads to live, operate and be accessed from almost anywhere. Zero trust addresses these challenges by starting with the assumption that all networks are compromised until proven otherwise.
 
-## What issues does zero trust address? 
+## What Issues Does Zero Trust Address?
 
 Zero trust addresses the security challenges an organization faces when it stores data in multiple locations — both on-premises and in private and public cloud environments — and allows wide access to these resources by employees, providers, contractors, suppliers, partners and other authorized users and their personal devices.
 
 For example, imagine an employee who is authorized to use their organization’s case management system from a newly assigned device. The employee makes a request from that device and is granted access. Eventually, they download software from an unauthorized source — possibly something as simple as a printer driver. Because the device is continuously monitored in a zero trust strategy, the update is flagged. This newly added component has altered the configuration — and therefore the trust score — of the device in question. When the employee attempts to connect to the system, their access might be denied, or downgraded, depending on their new trust score and associated policy. In this way, applying multiple factors (in this case, the combined scores of the user, device and resource) helps security teams dynamically reduce risk to enterprise resources. A zero trust system has the ability to factor in changing conditions for continuous evaluation, and continuous protection.
 
-## What is a zero trust implementation? 
+## What is a Zero Trust Implementation?
 
 As organizations look to adopt a zero trust strategy, it’s essential that they monitor, detect and investigate security incidents relating to zero trust controls and policies — specifically the protections in place for users, systems, applications and data.
 
@@ -64,11 +70,11 @@ A zero trust implementation includes:
 
 **Collection**: Collecting basic security logs and other machine data from your environment.
 
-## What are the benefits of zero trust? 
+## What Are the Benefits of Zero Trust?
 
 A zero trust model can significantly improve an organization’s security posture and minimize operational overhead by eliminating the sole reliance on perimeter-based protection. Instead of following traditional methods, zero trust establishes a certain level of trust at each access point — effectively securing user identity, assets and resources. This doesn’t mean getting rid of perimeter security and traditional security policies, however. Rather, it’s an organizational shift in approach when it comes to protecting core assets.
 
-## What are the challenges of zero trust? 
+## What Are the Challenges of Zero Trust?
 
 Until recently, individually authenticating every object requesting access to a network posed a significant challenge to user experience for most organizations. Certain technologies lacked the necessary integration capabilities, limiting an organization’s ability to centrally and holistically monitor the overall security of their organization’s resources, creating further fragmentation and requiring a detailed implementation by security engineers.
 
@@ -76,7 +82,7 @@ Now there are multiple technologies available that revolve around access control
 
 In addition to the technological challenges, establishing a zero trust methodology or implementing zero trust solutions can seem daunting, but while the approach may sound like a total change, it does not require a “rip and replace” upgrade of any systems. In fact, the change to zero trust can be accomplished incrementally with changes to policies and access controls.
 
-## How do you get started with zero trust? 
+## How Do You Get Started with Zero Trust?
 
 Implementing a zero trust architecture depends on many variables based on your current network setup. A comprehensive guide to getting started is beyond the scope of this document. But here are some key steps you can take to help you prepare.
 
@@ -96,9 +102,9 @@ Secondly, understanding the posture of protected assets — as well as the syste
 
 On top of all this, attack surface management solutions can help with overall security posture — specifically focusing efforts on optimizing security controls and ensuring end-to-end visibility. If we know we have gaps in our controls, we can look to mitigate or implement enhanced monitoring.
 
-## The Bottom Line: Zero Trust is an essential culture shift 
+## The Bottom Line: Zero Trust is an Essential Culture Shift
 
 IT organizations have for the most part been lucky as they’ve moved sensitive and valuable data to the cloud, with only a small percentage experiencing damaging attacks. The uptick of remote work environments due to COVID-19 and the SolarWinds attack showed how vulnerable open networks can be. Regardless of the challenges around introducing a new mindset, culture and set of related practices, organizations need to understand the concept of zero trust so they can see how, where and why they remain vulnerable.
 
-#website
+#website  
 [What is Zero Trust? Zero Trust Security Model Explained | Splunk](https://www.splunk.com/en_us/data-insider/what-is-zero-trust.html)

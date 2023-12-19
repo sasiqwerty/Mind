@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, December 13th 2023, 9:01:19 pm
-date modified: Wednesday, December 13th 2023, 10:57:44 pm
+date modified: Thursday, December 14th 2023, 10:05:56 pm
 ---
 - Which accounts can be selected for use in the Windows discovery process? (Choose 2)
 	- C. the Vault Administrator  
@@ -97,3 +97,131 @@ date modified: Wednesday, December 13th 2023, 10:57:44 pm
 	- OTP
 - Due to corporate storage constraints, you have been asked to disable session monitoring and recording for 500 testing accounts used for your lab environment. How do you accomplish this?
 	- Master Policy>select Session Management>add Exceptions to the platform(s)>disable Session Monitoring and Recording policies
+- A password compliance audit found, What should you do to address these findings?
+	- One-time password access of 20 domain accounts that are members of Domain Admins group In Active Directory are not being enforced
+	- All the sessions of connecting to domain controllers are not being recorded by CyberArk PSM
+	- Answer : Edit the Master Policy and add two policy exceptions. enable "Enforce one-time password access', enable "Record and save session activity"
+- A company has multiple business units that have their own set of vendors. Each business unit has a distinct role to manage vendor access. The business units want to have full control over the Invitation process for their set of vendors. After inviting the user to the Remote Access portal, which permissions should be delegated? #doubt #asklater 
+	- Vendor Manager
+- You are running a "Privileged Accounts Inventory" Report through the Reports page in PVWA on a specific safe, To show complete account inventory information, which permission/s are needed on that safe?
+	- List Accounts, View Safe Members
+- Which master policy settings ensure non-repudiation? 
+	- `(Nonrepudiation ensures that no party can deny that it sent or received a message via encryption and/or digital signatures or approved some information. It also cannot deny the authenticity of its signature on a document.)`
+	- Enforce check-in/check-out exclusive access and enforce one-time password access.
+- You need to identity the most powerful accounts in your organization to prepare for the initial PAM onboarding process. Which tools or features can be used to locate and onboard these accounts? (Choose 2.)
+	- Discovery and Audit (DNA)
+	- Privilege Account Matrix (PAM) XML-based
+- Which statement is correct concerning accounts that are discovered, but cannot be added to the Vault by an automated onboarding rule?
+	- They are added to the Pending Accounts list and can be reviewed and manually uploaded.
+- You are onboarding an account that is not supported out of the box. What should you do first to obtain a platform to import?
+	- Create a service ticket in the customer portal explaining the requirements of the custom platform.
+	- Visit the CyberArk marketplace and search for a platform that meets your needs. ( #doubt )
+- Which item is an option for PSM recording customization? #dontknow #later 
+	- Universal keystrokes text recorder with windows events text recorder disabled
+- What are the mandatory fields when onboarding from Pending Accounts? (Choose 2.) #doubt #verify
+	- Safe
+	- Platform
+- Which Vault authorization does a user need to have assigned to able to generate the "Entitlement Report" from the reports page in PVWA? (Choose 2) #verify 
+	- Manage Users
+	- Audit Users
+- What are the minimum permissions to add multiple accounts from a file when using PVWA bulk-upload?
+	- add accounts  
+	- update account content  
+	- update account properties
+- A user needs to view recorded sessions through the PVWA. Without giving auditor access, which safes does a user need access to view PSM recordings? (Choose 2) #verify 
+	- A. Recordings safe  
+	- B. Safe the account is in
+- A user requested access to view a password secured by dual control and IS unsure who to contact to expedite the approval process The Vault Admin has been asked to look at the account and identify who can approve their request. What is the correct location to Identify users or groups who can approve? #verify 
+	- PVWA Policies > Access Control (Safes) Select the safe > Safe Members > Workflow > Authorize Password Requests
+- In PVWA you are attempting to play a recording made of a session by user jsmith. but there is no option to "Fast Forward" within the video, It plays and only allows you to skip between commands instead. You are also unable to download the Video What could be the cause?
+	- Recording is of a PSM for SSH session
+- You are configuring CyberArk to use HTML5 gateways exclusively for PSM connections. In the PVWA, where do you set Default Connection Method to HTML5? #verify 
+	- Options > Privileged Session Management
+- Match each key to its recommended storage location.
+	- ![[Pasted image 20231214212532.png]]
+- Which processes reduce the risk of credential theft? (Choose 2.)
+	- require dual control password access approval
+	- enforce one-time password access
+- What are common ways that organizations leverage the CyberArk Blueprint for Identity Security Success? (Choose 3.) #verify #dontknow 
+	- A. to understand the identity attack chain  
+	- D. to assess an organization's security posture  
+	- F. to secure their human identities
+- You are creating a shared safe for the help desk. What must be considered regarding the naming convention?
+	- Ensure the naming convention does not exceed 28 characters.  
+	- Combine environments, owners and platforms to minimize the total number of safes created.
+- You are onboarding 5000 UNIX root accounts for rotation by the CPM. You discover that the CPM is unable to login directly with the root account and will need to use a secondary account. How can this be configured to allow for password management using least privilege?
+	- Configure the UNIX platform to use the correct logon account
+- Where can you find resources to learn more about the CyberArk Blueprint? (Choose 2) #verify #dontknow 
+	- CyberArk Blueprint Webpage
+	- Product Webinars
+- A recently-hired colleague onboarded five new Local Accounts that are used for standalone Windows Servers. After attempting to connect to the servers from PVWA, the colleague noticed that the "Connect" button was greyed out for all five new accounts. What can you do to help your colleague resolve this issue? (Choose 2.)
+	- Verify that the address field is populated with an IP or FQDN of each server.
+	- Verify that the correct PSM connection component appears within account platform settings.
+- You receive this error:  
+- "Error in changepass to user domainuser on domain server`[domain]`.(winRc=5) Access is denied." Which could be the cause?
+	- The account does not have sufficient permissions to change its own password.
+- Which configuration file is used by the CPM scanner when scanning UNIX/Linux devices? #verify 
+	- UnixPrompts-ini
+- Which built-in report from the reports page in PVWA displays the number of days until a password is due to expire?
+	- Privileged Accounts Compliance Status
+- What is the easiest way to duplicate an existing platform?
+	- From the PWA, navigate to the platforms page, select an existing platform that is similar to the new target account platform and then click Duplicate, name the new platform.
+- Which CyberArk utility allows you to create lists of Master Policy Settings, owners and safes for output to .txt files or MSSQL databases?
+	- Export Vault Data
+- You need to enable the PSM for all platforms. Where do you perform this task?
+	- Master Policy > Session Management
+- When the CPM connects to a database, which interface is most commonly used? #verify 
+	- ODBC
+- What is the correct process to install a custom platform from the CyberArk Marketplace?
+	- Download the platform from the Marketplace and import it using the PVWA
+- How do you create a cold storage backup? #verify 
+	- Install the Vault Backup utility on a different machine from the Enterprise Password Vault server and trigger the full backup
+- To manage automated onboarding rules, a CyberArk user must be a member to which groups?
+	- Vault Admins
+- You want to create a new onboarding rule. Where do you accomplish this?
+	- In PVWA click Accounts > Onboarding Rules
+- When onboarding multiple accounts from the Pending Accounts list, which associated setting must be the same across the selected accounts
+	- Platform
+- You have been asked to secure a set of shared accounts in CyberArk whose passwords will need to be used by end users. The account owner wants to be able to track who was using an account at any given moment. Which security configuration should you recommend?
+	- Configure both one-time passwords and exclusive access for the appropriate platform in Master Policy
+- Which setting in the Master Policy controls whether PSM is enabled and sessions will be recorded?
+	- Require privileged session monitoring and isolation = active; Record and save session activity = active
+- To change the safe where recordings are kept for a specific platform, which setting must you update in the platform configuration?
+	- SessionRecorderSafe
+- Which usage can be added as a service account platform?
+	- IISApplication Pools
+- When an account is unable to change its own password, how can you ensure that password reset with the reconcile account is performed each time instead of a change?
+	- Set the parameter RCAllowManualReconciliation to Yes.
+- You have been given the requirement that certain accounts cannot have their passwords updated during business hours. How can you set up a configuration to meet this requirement?
+	- Add an exception to the Master Policy to allow the action for this platform during the permitted time.
+- Which statement about the Master Policy best describes the differences between one-time password and exclusive access functionality?
+	- Exclusive access allows only one person to check-out an account at a time. One-time password schedules an account for a password change after the MinValidityPeriod period expires.
+- The Active Directory User configured for Windows Discovery needs which permission(s) or membership?
+	- Member of Domain Admin Group
+- Which authorizations are required in a recording safe to allow a group to view recordings?
+	- Ans:  Required: Retrieve accounts/files, List accounts/files, View audit  
+	- Not Required: Access Safe without confirmation, Create Folders
+- A new HTML5 Gateway has been deployed in your organization. From the PVWA, arrange the steps to configure a PSM host to use the HTML5 Gateway in the correct sequence.
+	- A. Administration>Options  
+	- B. Privileged Session Management  
+	- C. Configured PSM Servers and select existing PSM host  
+	- D. Connection Details  
+	- E. Add PSM gateway
+- Where can you assign a Reconcile account? (Choose 2 )
+	- A. in PVWA at the account level  
+	- B. in PVWA in the platform configuration
+- . In a default CyberArk installation, which group must a user be a member of to view the "reports" page in PVWA?
+	- PVWAMonitor
+- You are concerned about the Windows Domain password changes occur during business hours. Which settings must be updated to ensure passwords are only rotated outside of business hours? #verify 
+	- In the platform policy > Automatic Password Management > Password Change > ToHour & FromHour
+
+## Same Question?
+
+its 65 and 72
+
+- You have been given the requirement that certain accounts cannot have their passwords updated during business hours. How can you set up a configuration to meet this requirement?
+
+A. Change settings on the CPM configuration safe so that access is permitted after business hours only.  
+B. Update the password change parameters of the platform to match the permitted time frame.  
+C. Disable automatic CPM management for all accounts that are assigned to this platform.  
+D. Add an exception to the Master Policy to allow the action for this platform during the permitted time.

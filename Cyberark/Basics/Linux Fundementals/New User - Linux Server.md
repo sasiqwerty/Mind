@@ -2,7 +2,7 @@
 aliases: new user linux
 tags: 
 date created: Monday, July 31st 2023, 3:21:02 pm
-date modified: Friday, September 29th 2023, 12:21:31 am
+date modified: Thursday, December 14th 2023, 10:10:47 pm
 ---
 To create a new privileged user in a Linux server, you can follow these steps. I'll assume you have administrative or root access to the server:
 
