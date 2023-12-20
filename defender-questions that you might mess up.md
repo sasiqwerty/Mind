@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, December 19th 2023, 1:32:24 pm
-date modified: Tuesday, December 19th 2023, 2:19:33 pm
+date modified: Tuesday, December 19th 2023, 6:30:09 pm
 ---
 - Question : In addition to add accounts and update account contents, which additional permission on the safe is required to add a Single account?  
 	- The correct Option is Update account properties
@@ -30,7 +30,7 @@ date modified: Tuesday, December 19th 2023, 2:19:33 pm
 - What must you specify when configuring the discovery scan for UNIX?
 	- CPM scanner and list of machines to scan.
 - What are the common causes of installed components to display as disconnected?
-	-  Network instability issues and Credential De-sync
+	- Network instability issues and Credential De-sync
 - What does the `minvalidity` parameter on a platform determine?
 	- A time between a password retrieval and the account becoming eligible for password change.
 - What are the tools to identify machines and accounts that create the highest risk and are exposed to lateral movement?
@@ -49,4 +49,3 @@ date modified: Tuesday, December 19th 2023, 2:19:33 pm
 - When onboarding an account that is not supported out of the box one has to create a service ticket in the customer portal explaining the requirements.
 - Universal Keystrokes text recorder with windows events text recorder disabled is an option for PSM recording customization.
 - Safe and Platform are the mandatory fields when onboarding pending accounts.
-- 
