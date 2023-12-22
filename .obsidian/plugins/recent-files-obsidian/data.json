@@ -5,6 +5,10 @@
       "path": "defender-questions that you might mess up.md"
     },
     {
+      "basename": "20-12-23 Wednesday",
+      "path": "DailyNote/20-12-23 Wednesday.md"
+    },
+    {
       "basename": "19-12-23 Tuesday",
       "path": "DailyNote/19-12-23 Tuesday.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "dr-ex-steps",
       "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
-    },
-    {
-      "basename": "Reports",
-      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Reports.md"
     }
   ],
   "omittedPaths": [
