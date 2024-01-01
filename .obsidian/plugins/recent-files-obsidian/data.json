@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "22-12-23 Friday",
+      "path": "DailyNote/22-12-23 Friday.md"
+    },
+    {
       "basename": "defender-questions that you might mess up",
       "path": "defender-questions that you might mess up.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Disaster Recovery",
       "path": "Disaster Recovery.md"
-    },
-    {
-      "basename": "dr-ex-steps",
-      "path": "Cyberark/Core Concepts/Components/Vault/dr-ex-steps.md"
     }
   ],
   "omittedPaths": [

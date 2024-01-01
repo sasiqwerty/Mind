@@ -34,9 +34,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1a72ad01180eb6cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/22-12-23 Friday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "defender-questions that you might mess up.md",
+                "file": "DailyNote/22-12-23 Friday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "defender-questions that you might mess up.md",
+                "file": "DailyNote/22-12-23 Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "defender-questions that you might mess up.md"
+                "file": "DailyNote/22-12-23 Friday.md"
               }
             }
           },
@@ -179,7 +191,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "defender-questions that you might mess up.md"
+                "file": "DailyNote/22-12-23 Friday.md"
               }
             }
           },
@@ -221,10 +233,11 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "7a9e4ed7cdc4e996",
+  "active": "1a72ad01180eb6cd",
   "lastOpenFiles": [
-    "DailyNote/20-12-23 Wednesday.md",
     "defender-questions that you might mess up.md",
+    "DailyNote/22-12-23 Friday.md",
+    "DailyNote/20-12-23 Wednesday.md",
     "DailyNote/19-12-23 Tuesday.md",
     "factorio plans.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231219162803.png",
@@ -253,7 +266,6 @@
     "Session 9 Vault Configuration Files.md",
     "Session 8 Vault Service Dependencies DBPARM ini file.md",
     "Session 7 Vault Prerequisites Services.md",
-    "DailyNote/05-12-23 Tuesday.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
     "resume-cyberark.docx",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
