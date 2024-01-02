@@ -5,6 +5,10 @@
       "path": "Lab Set Up Basics.md"
     },
     {
+      "basename": "02-01-24 Tuesday",
+      "path": "DailyNote/02-01-24 Tuesday.md"
+    },
+    {
       "basename": "HR Interview Round",
       "path": "HR Interview Round.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Components and their Logs-services-config data",
       "path": "Components and their Logs-services-config data.md"
-    },
-    {
-      "basename": "Installations",
-      "path": "Installations.md"
     }
   ],
   "omittedPaths": [
