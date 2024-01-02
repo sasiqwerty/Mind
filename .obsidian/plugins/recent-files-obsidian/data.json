@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Lab Set Up Basics",
+      "path": "Lab Set Up Basics.md"
+    },
+    {
+      "basename": "HR Interview Round",
+      "path": "HR Interview Round.md"
+    },
+    {
+      "basename": "01-01-24 Monday",
+      "path": "DailyNote/01-01-24 Monday.md"
+    },
+    {
       "basename": "22-12-23 Friday",
       "path": "DailyNote/22-12-23 Friday.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Installations",
       "path": "Installations.md"
-    },
-    {
-      "basename": "Integrations and Authentication - CyberArk",
-      "path": "Integrations and Authentication - CyberArk.md"
-    },
-    {
-      "basename": "CyberArk Vault Backup",
-      "path": "CyberArk Vault Backup.md"
-    },
-    {
-      "basename": "Disaster Recovery",
-      "path": "Disaster Recovery.md"
     }
   ],
   "omittedPaths": [

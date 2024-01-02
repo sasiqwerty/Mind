@@ -41,14 +41,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/22-12-23 Friday.md",
+                "file": "DailyNote/01-01-24 Monday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da11ce548d89935a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HR Interview Round.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95cc4da92ae64d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lab Set Up Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
+      },
+      {
+        "id": "6d1ee5de9208bb52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41dff4ac7d960d55",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://www.virtualbox.org/manual/UserManual.html#network-manager-nat-network-tab"
+              },
+              "pinned": true
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/22-12-23 Friday.md",
+                "file": "Lab Set Up Basics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +190,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/22-12-23 Friday.md",
+                "file": "Lab Set Up Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +213,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/22-12-23 Friday.md"
+                "file": "Lab Set Up Basics.md"
               }
             }
           },
@@ -191,7 +233,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/22-12-23 Friday.md"
+                "file": "Lab Set Up Basics.md"
               }
             }
           },
@@ -233,10 +275,19 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "1a72ad01180eb6cd",
+  "active": "95cc4da92ae64d14",
   "lastOpenFiles": [
-    "defender-questions that you might mess up.md",
+    "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.46_c340da25.jpg",
+    "Lab Set Up Basics.md",
+    "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.19_3e9a089b.jpg",
+    "HR Interview Round.md",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184311.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184113.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184009.png",
+    "DailyNote/01-01-24 Monday.md",
     "DailyNote/22-12-23 Friday.md",
+    "defender-questions that you might mess up.md",
     "DailyNote/20-12-23 Wednesday.md",
     "DailyNote/19-12-23 Tuesday.md",
     "factorio plans.md",
@@ -262,16 +313,7 @@
     "DailyNote/10-12-23 Sunday.md",
     "Session 12 MasterCD Operator CD Other Topics.md",
     "Session 11 Vault DB Safes Default Users.md",
-    "Session 10 Log Files Debugging Levels.md",
-    "Session 9 Vault Configuration Files.md",
-    "Session 8 Vault Service Dependencies DBPARM ini file.md",
-    "Session 7 Vault Prerequisites Services.md",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231202183932.png",
     "resume-cyberark.docx",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231116040032.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105162549.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231105133625.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231101172333.png",
     "def-new-ocr.docx",
     "notepad",
     "output-process.docx",
