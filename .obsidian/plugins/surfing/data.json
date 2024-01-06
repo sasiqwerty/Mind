@@ -43,17 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "41dff4ac7d960d55",
-      "parent": 0,
-      "droppable": true,
-      "text": "Oracle® VM VirtualBox®",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
