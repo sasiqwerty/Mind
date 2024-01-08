@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "most imp",
+      "path": "most imp.md"
+    },
+    {
+      "basename": "06-01-24 Saturday",
+      "path": "DailyNote/06-01-24 Saturday.md"
+    },
+    {
       "basename": "02-01-24 Tuesday",
       "path": "DailyNote/02-01-24 Tuesday.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Session 17 PVWA Logs Files Configuration Files",
       "path": "Session 17 PVWA Logs Files Configuration Files.md"
-    },
-    {
-      "basename": "Session 13 Break Glass Procedure",
-      "path": "Session 13 Break Glass Procedure.md"
-    },
-    {
-      "basename": "Components and their Logs-services-config data",
-      "path": "Components and their Logs-services-config data.md"
     }
   ],
   "omittedPaths": [

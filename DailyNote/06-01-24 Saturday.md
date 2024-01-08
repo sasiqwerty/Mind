@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, July 31st 2023, 9:13:43 am
-date modified: Sunday, September 24th 2023, 6:12:19 pm
+date modified: Saturday, January 6th 2024, 5:25:37 pm
 ---
 
 ## Plan for the Day
@@ -12,3 +12,5 @@ date modified: Sunday, September 24th 2023, 6:12:19 pm
 ## What's on Your Mind?
 
 ## Doubts
+
+300 safes
