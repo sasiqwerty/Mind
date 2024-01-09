@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Interview Questions",
+      "path": "Interview Questions.md"
+    },
+    {
+      "basename": "ldap-session23",
+      "path": "ldap-session23.md"
+    },
+    {
+      "basename": "08-01-24 Monday",
+      "path": "DailyNote/08-01-24 Monday.md"
+    },
+    {
       "basename": "most imp",
       "path": "most imp.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Session 20 CPM02",
       "path": "Session 20 CPM02.md"
-    },
-    {
-      "basename": "session 19 CPM01",
-      "path": "session 19 CPM01.md"
-    },
-    {
-      "basename": "Session 18 PVWA Manual Hardening",
-      "path": "Session 18 PVWA Manual Hardening.md"
-    },
-    {
-      "basename": "Session 17 PVWA Logs Files Configuration Files",
-      "path": "Session 17 PVWA Logs Files Configuration Files.md"
     }
   ],
   "omittedPaths": [
