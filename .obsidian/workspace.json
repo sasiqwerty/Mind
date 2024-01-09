@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cc0cefced5563fa8",
+        "id": "1e745625d7544c8e",
         "type": "tabs",
         "children": [
           {
-            "id": "899b098456b8b9bc",
+            "id": "68a853b8a2bce794",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Defender - QA.md",
+                "file": "Interview Preparation for L1 L2 Role.md",
                 "mode": "source",
                 "source": false
               },
@@ -22,93 +22,42 @@
             }
           },
           {
-            "id": "7a9e4ed7cdc4e996",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "defender-questions that you might mess up.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1a72ad01180eb6cd",
+            "id": "4c52e37a471e1fde",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/01-01-24 Monday.md",
+                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "da11ce548d89935a",
+            "id": "f2ba569e5888ba4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HR Interview Round.md",
+                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "95cc4da92ae64d14",
+            "id": "4293aaa7da5f15d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/06-01-24 Saturday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc3d2b8faeadef90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ldap-session23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5bbb947bee037f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "033169d843a9f6a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/02-01-24 Tuesday.md",
+                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -191,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Questions.md",
+                "file": "Interview Preparation for L1 L2 Role.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Questions.md",
+                "file": "Interview Preparation for L1 L2 Role.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Questions.md"
+                "file": "Interview Preparation for L1 L2 Role.md"
               }
             }
           },
@@ -253,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Interview Questions.md"
+                "file": "Interview Preparation for L1 L2 Role.md"
               }
             }
           },
@@ -295,33 +244,37 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "5bbb947bee037f89",
+  "active": "68a853b8a2bce794",
   "lastOpenFiles": [
+    "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
+    "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
+    "Interview Preparation for L1 L2 Role.md",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109135046.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134824.png",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134815.png",
+    "DailyNote/02-01-24 Tuesday.md",
+    "DailyNote/09-01-24 Tuesday.md",
+    "ldap-session23.md",
+    "DailyNote/06-01-24 Saturday.md",
+    "HR Interview Round.md",
+    "DailyNote/01-01-24 Monday.md",
+    "defender-questions that you might mess up.md",
+    "Defender - QA.md",
+    "Interview Questions.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152201.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152009.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108150236.png",
-    "ldap-session23.md",
-    "Interview Questions.md",
     "DailyNote/08-01-24 Monday.md",
     "most imp.md",
-    "DailyNote/06-01-24 Saturday.md",
     "Lab Set Up Basics.md",
-    "DailyNote/02-01-24 Tuesday.md",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.46_c340da25.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.19_3e9a089b.jpg",
-    "HR Interview Round.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184311.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184113.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184009.png",
-    "DailyNote/01-01-24 Monday.md",
     "DailyNote/22-12-23 Friday.md",
-    "defender-questions that you might mess up.md",
     "DailyNote/20-12-23 Wednesday.md",
     "DailyNote/19-12-23 Tuesday.md",
     "factorio plans.md",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231219162803.png",
-    "Defender - QA.md",
     "Installation Location of CyberArk Files.md",
     "DailyNote/14-12-23 Thursday.md",
     "output-process.md",
@@ -329,10 +282,6 @@
     "Cyberark/Lab/add safe member.md",
     "DailyNote/02-12-23 Saturday.md",
     "DailyNote/27-11-23 Monday.md",
-    "Session 16 PVWA Credfile Creation.md",
-    "DailyNote/13-12-23 Wednesday.md",
-    "Cyberark/Basics/Windows Server/Active Directory.md",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20231214212532.png",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",

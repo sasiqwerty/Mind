@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, July 27th 2023, 5:29:24 pm
-date modified: Saturday, July 29th 2023, 1:39:28 pm
+date modified: Tuesday, January 9th 2024, 5:05:00 pm
 ---
 
 - What is the function of the in terms of storing and accessing users and accounts ? [[Active Directory]] #learn

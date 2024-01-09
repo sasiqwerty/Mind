@@ -1,32 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Interview Questions",
-      "path": "Interview Questions.md"
+      "basename": "Interview Preparation for L1 L2 Role",
+      "path": "Interview Preparation for L1 L2 Role.md"
     },
     {
-      "basename": "ldap-session23",
-      "path": "ldap-session23.md"
+      "basename": "Account Discovery and Onboarding",
+      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md"
     },
     {
-      "basename": "08-01-24 Monday",
-      "path": "DailyNote/08-01-24 Monday.md"
-    },
-    {
-      "basename": "most imp",
-      "path": "most imp.md"
-    },
-    {
-      "basename": "06-01-24 Saturday",
-      "path": "DailyNote/06-01-24 Saturday.md"
+      "basename": "Safe Management and Access Provisioning",
+      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md"
     },
     {
       "basename": "02-01-24 Tuesday",
       "path": "DailyNote/02-01-24 Tuesday.md"
     },
     {
-      "basename": "Lab Set Up Basics",
-      "path": "Lab Set Up Basics.md"
+      "basename": "09-01-24 Tuesday",
+      "path": "DailyNote/09-01-24 Tuesday.md"
+    },
+    {
+      "basename": "ldap-session23",
+      "path": "ldap-session23.md"
+    },
+    {
+      "basename": "06-01-24 Saturday",
+      "path": "DailyNote/06-01-24 Saturday.md"
     },
     {
       "basename": "HR Interview Round",
@@ -37,12 +37,32 @@
       "path": "DailyNote/01-01-24 Monday.md"
     },
     {
-      "basename": "22-12-23 Friday",
-      "path": "DailyNote/22-12-23 Friday.md"
-    },
-    {
       "basename": "defender-questions that you might mess up",
       "path": "defender-questions that you might mess up.md"
+    },
+    {
+      "basename": "Defender - QA",
+      "path": "Defender - QA.md"
+    },
+    {
+      "basename": "Interview Questions",
+      "path": "Interview Questions.md"
+    },
+    {
+      "basename": "08-01-24 Monday",
+      "path": "DailyNote/08-01-24 Monday.md"
+    },
+    {
+      "basename": "most imp",
+      "path": "most imp.md"
+    },
+    {
+      "basename": "Lab Set Up Basics",
+      "path": "Lab Set Up Basics.md"
+    },
+    {
+      "basename": "22-12-23 Friday",
+      "path": "DailyNote/22-12-23 Friday.md"
     },
     {
       "basename": "20-12-23 Wednesday",
@@ -55,10 +75,6 @@
     {
       "basename": "factorio plans",
       "path": "factorio plans.md"
-    },
-    {
-      "basename": "Defender - QA",
-      "path": "Defender - QA.md"
     },
     {
       "basename": "Installation Location of CyberArk Files",
@@ -183,22 +199,6 @@
     {
       "basename": "Session 30 PSM 2",
       "path": "Session 30 PSM 2.md"
-    },
-    {
-      "basename": "Session 30 PSM 1",
-      "path": "Session 30 PSM 1.md"
-    },
-    {
-      "basename": "session 22 CPM Manual Hardening",
-      "path": "session 22 CPM Manual Hardening.md"
-    },
-    {
-      "basename": "session 21 CPM03 logfiles",
-      "path": "session 21 CPM03 logfiles.md"
-    },
-    {
-      "basename": "Session 20 CPM02",
-      "path": "Session 20 CPM02.md"
     }
   ],
   "omittedPaths": [
