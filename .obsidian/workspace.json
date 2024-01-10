@@ -56,8 +56,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "816955071470df3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/09-01-24 Tuesday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ddac865ed51c742b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dynpro Interview Prep.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -140,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md",
+                "file": "Dynpro Interview Prep.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md",
+                "file": "Dynpro Interview Prep.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md"
+                "file": "Dynpro Interview Prep.md"
               }
             }
           },
@@ -202,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md"
+                "file": "Dynpro Interview Prep.md"
               }
             }
           },
@@ -244,16 +269,17 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "68a853b8a2bce794",
+  "active": "ddac865ed51c742b",
   "lastOpenFiles": [
+    "DailyNote/09-01-24 Tuesday.md",
+    "Dynpro Interview Prep.md",
+    "Interview Preparation for L1 L2 Role.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
-    "Interview Preparation for L1 L2 Role.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109135046.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134824.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134815.png",
     "DailyNote/02-01-24 Tuesday.md",
-    "DailyNote/09-01-24 Tuesday.md",
     "ldap-session23.md",
     "DailyNote/06-01-24 Saturday.md",
     "HR Interview Round.md",
@@ -281,7 +307,6 @@
     "credfile creation common process.md",
     "Cyberark/Lab/add safe member.md",
     "DailyNote/02-12-23 Saturday.md",
-    "DailyNote/27-11-23 Monday.md",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",
