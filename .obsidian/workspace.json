@@ -75,7 +75,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dynpro Interview Prep.md",
+                "file": "DailyNote/12-01-24 Friday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8b67531594fd113b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -165,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynpro Interview Prep.md",
+                "file": "DailyNote/12-01-24 Friday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynpro Interview Prep.md",
+                "file": "DailyNote/12-01-24 Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dynpro Interview Prep.md"
+                "file": "DailyNote/12-01-24 Friday.md"
               }
             }
           },
@@ -227,7 +239,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Dynpro Interview Prep.md"
+                "file": "DailyNote/12-01-24 Friday.md"
               }
             }
           },
@@ -271,8 +283,11 @@
   },
   "active": "ddac865ed51c742b",
   "lastOpenFiles": [
-    "DailyNote/09-01-24 Tuesday.md",
+    "Untitled 1.md",
+    "DailyNote/12-01-24 Friday.md",
+    "Untitled.md",
     "Dynpro Interview Prep.md",
+    "DailyNote/09-01-24 Tuesday.md",
     "Interview Preparation for L1 L2 Role.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
@@ -304,9 +319,6 @@
     "Installation Location of CyberArk Files.md",
     "DailyNote/14-12-23 Thursday.md",
     "output-process.md",
-    "credfile creation common process.md",
-    "Cyberark/Lab/add safe member.md",
-    "DailyNote/02-12-23 Saturday.md",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",

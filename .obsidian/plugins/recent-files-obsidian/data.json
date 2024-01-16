@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "12-01-24 Friday",
+      "path": "DailyNote/12-01-24 Friday.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.md"
+    },
+    {
+      "basename": "Untitled",
+      "path": "Untitled.md"
+    },
+    {
       "basename": "Dynpro Interview Prep",
       "path": "Dynpro Interview Prep.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Real World info",
       "path": "Real World info.md"
-    },
-    {
-      "basename": "PSM-LoadBalancer",
-      "path": "Cyberark/Core Concepts/Components/Privileged Session Manager/PSM-LoadBalancer.md"
-    },
-    {
-      "basename": "Session 32 PSM 4 (CPM and Others )",
-      "path": "Session 32 PSM 4 (CPM and Others ).md"
-    },
-    {
-      "basename": "Session 31 PSM 3",
-      "path": "Session 31 PSM 3.md"
     }
   ],
   "omittedPaths": [
