@@ -1,32 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "2kspm base backup",
-      "path": "2kspm base backup.md"
-    },
-    {
-      "basename": "16-01-24 Tuesday",
-      "path": "DailyNote/16-01-24 Tuesday.md"
-    },
-    {
-      "basename": "12-01-24 Friday",
-      "path": "DailyNote/12-01-24 Friday.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
-    },
-    {
       "basename": "Untitled",
       "path": "Untitled.md"
-    },
-    {
-      "basename": "Dynpro Interview Prep",
-      "path": "Dynpro Interview Prep.md"
-    },
-    {
-      "basename": "09-01-24 Tuesday",
-      "path": "DailyNote/09-01-24 Tuesday.md"
     },
     {
       "basename": "Interview Preparation for L1 L2 Role",
@@ -39,6 +15,34 @@
     {
       "basename": "Safe Management and Access Provisioning",
       "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md"
+    },
+    {
+      "basename": "09-01-24 Tuesday",
+      "path": "DailyNote/09-01-24 Tuesday.md"
+    },
+    {
+      "basename": "16-01-24 Tuesday",
+      "path": "DailyNote/16-01-24 Tuesday.md"
+    },
+    {
+      "basename": "17-01-24 Wednesday",
+      "path": "DailyNote/17-01-24 Wednesday.md"
+    },
+    {
+      "basename": "2kspm base backup",
+      "path": "2kspm base backup.md"
+    },
+    {
+      "basename": "12-01-24 Friday",
+      "path": "DailyNote/12-01-24 Friday.md"
+    },
+    {
+      "basename": "Untitled 1",
+      "path": "Untitled 1.md"
+    },
+    {
+      "basename": "Dynpro Interview Prep",
+      "path": "Dynpro Interview Prep.md"
     },
     {
       "basename": "02-01-24 Tuesday",
@@ -195,10 +199,6 @@
     {
       "basename": "Vault and Client - Different Versions why",
       "path": "Cyberark/Core Concepts/Components/Vault/Vault and Client - Different Versions why.md"
-    },
-    {
-      "basename": "session 14 PVWA 1",
-      "path": "session 14 PVWA 1.md"
     }
   ],
   "omittedPaths": [

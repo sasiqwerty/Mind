@@ -4,109 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "1e745625d7544c8e",
+        "id": "ba386b37a11dd1f7",
         "type": "tabs",
         "children": [
           {
-            "id": "68a853b8a2bce794",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Preparation for L1 L2 Role.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "4c52e37a471e1fde",
+            "id": "34ba50ca17474fb7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2ba569e5888ba4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4293aaa7da5f15d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "816955071470df3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/09-01-24 Tuesday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ddac865ed51c742b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/16-01-24 Tuesday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6c509d341a908c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2kspm base backup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8b67531594fd113b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2kspm base backup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2kspm base backup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2kspm base backup.md"
-              }
+              "state": {}
             }
           },
           {
@@ -250,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "2kspm base backup.md"
-              }
+              "state": {}
             }
           },
           {
@@ -293,18 +196,19 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "d6c509d341a908c9",
+  "active": "34ba50ca17474fb7",
   "lastOpenFiles": [
-    "DailyNote/16-01-24 Tuesday.md",
-    "2kspm base backup.md",
-    "DailyNote/12-01-24 Friday.md",
-    "Untitled 1.md",
     "Untitled.md",
-    "Dynpro Interview Prep.md",
-    "DailyNote/09-01-24 Tuesday.md",
     "Interview Preparation for L1 L2 Role.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
+    "DailyNote/09-01-24 Tuesday.md",
+    "DailyNote/16-01-24 Tuesday.md",
+    "DailyNote/17-01-24 Wednesday.md",
+    "2kspm base backup.md",
+    "DailyNote/12-01-24 Friday.md",
+    "Untitled 1.md",
+    "Dynpro Interview Prep.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109135046.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134824.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134815.png",
@@ -330,7 +234,6 @@
     "DailyNote/20-12-23 Wednesday.md",
     "DailyNote/19-12-23 Tuesday.md",
     "factorio plans.md",
-    "Installation Location of CyberArk Files.md",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",
