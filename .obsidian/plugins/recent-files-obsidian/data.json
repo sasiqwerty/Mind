@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2kspm base backup",
+      "path": "2kspm base backup.md"
+    },
+    {
+      "basename": "16-01-24 Tuesday",
+      "path": "DailyNote/16-01-24 Tuesday.md"
+    },
+    {
       "basename": "12-01-24 Friday",
       "path": "DailyNote/12-01-24 Friday.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "session 14 PVWA 1",
       "path": "session 14 PVWA 1.md"
-    },
-    {
-      "basename": "session 15 PVWA 2",
-      "path": "session 15 PVWA 2.md"
-    },
-    {
-      "basename": "Real World info",
-      "path": "Real World info.md"
     }
   ],
   "omittedPaths": [
