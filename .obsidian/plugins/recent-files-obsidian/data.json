@@ -1,24 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "17-01-24 Wednesday",
-      "path": "DailyNote/17-01-24 Wednesday.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
-    },
-    {
       "basename": "Interview Preparation for L1 L2 Role",
       "path": "Interview Preparation for L1 L2 Role.md"
     },
     {
-      "basename": "Account Discovery and Onboarding",
-      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md"
-    },
-    {
       "basename": "Safe Management and Access Provisioning",
       "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md"
+    },
+    {
+      "basename": "talking points - interview reddy anna said",
+      "path": "talking points - interview reddy anna said.md"
+    },
+    {
+      "basename": "Netlink - Job Interview",
+      "path": "Netlink - Job Interview.md"
+    },
+    {
+      "basename": "17-01-24 Wednesday",
+      "path": "DailyNote/17-01-24 Wednesday.md"
+    },
+    {
+      "basename": "18-01-24 Thursday",
+      "path": "DailyNote/18-01-24 Thursday.md"
+    },
+    {
+      "basename": "Account Discovery and Onboarding",
+      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md"
     },
     {
       "basename": "09-01-24 Tuesday",
@@ -191,14 +199,6 @@
     {
       "basename": "study plan for i&c course",
       "path": "study plan for i&c course.md"
-    },
-    {
-      "basename": "vault-compiled",
-      "path": "vault-compiled.md"
-    },
-    {
-      "basename": "Vault and Client - Different Versions why",
-      "path": "Cyberark/Core Concepts/Components/Vault/Vault and Client - Different Versions why.md"
     }
   ],
   "omittedPaths": [
