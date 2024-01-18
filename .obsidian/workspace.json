@@ -11,8 +11,12 @@
             "id": "34ba50ca17474fb7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/17-01-24 Wednesday.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DailyNote/17-01-24 Wednesday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DailyNote/17-01-24 Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DailyNote/17-01-24 Wednesday.md"
+              }
             }
           },
           {
@@ -155,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "DailyNote/17-01-24 Wednesday.md"
+              }
             }
           },
           {

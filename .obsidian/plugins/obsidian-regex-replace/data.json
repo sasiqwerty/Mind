@@ -1,8 +1,8 @@
 {
-  "findText": "-",
-  "replaceText": "",
-  "useRegEx": true,
-  "selOnly": true,
+  "findText": "?",
+  "replaceText": "-",
+  "useRegEx": false,
+  "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": true,
   "processTab": false,
