@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Friday, January 12th 2024, 2:16:47 pm
-date modified: Thursday, January 18th 2024, 9:32:09 am
+date modified: Thursday, January 18th 2024, 10:23:10 pm
 ---
 
 ## JD Break down
@@ -48,8 +48,6 @@ The role emphasizes a strong background in cybersecurity, specifically in PAM an
 ## Talking Points
 
 ### CyberArk Infrastructure Breakdown
-
-Here's a simplified breakdown of the CyberArk implementation infrastructure, formatted into tables for clarity.
 
 #### General Infrastructure Overview
 
@@ -103,9 +101,12 @@ We have a personal account which has access to Admin accounts so we login to Cyb
 
 #### Health Check
 
-We perform daily health checks and ensure that all the servers are up and running and the connected components are working as intended any deviation is reported.  
-I have a written a small script in powershell using Test-NetConnection that automates this process, and pings all the servers and gives the FQDN of the server once the ping test is complete. It will also give back the list of servers that its not able to ping making testing easier and less confusing.  
-I am planning to automate this script by adding a service user login to the [[Windows Task Scheduler|Task Scheduler]] and ensuring that this script runs in the background and sends an email automatically to the intended user. This part is still development I only tested this in my VMs.
+1. **Daily Health Checks**: We conduct daily health checks to ensure all servers are operational and that connected components function correctly. Any deviations or issues are promptly reported.
+2. **Automated Script in PowerShell**: I developed a PowerShell script using `Test-NetConnection`. This script automates the process by pinging all servers and providing their Fully Qualified Domain Names (FQDNs) upon completion of the ping test.
+3. **Error Identification**: The script efficiently identifies servers that are unreachable, listing them separately. This feature simplifies the testing process and reduces confusion in identifying connectivity issues.
+4. **Future Automation Plans**: My goal is to further automate this process. The plan involves integrating the script with the Windows Task Scheduler using a service user account. This integration will enable the script to run in the background without manual intervention.
+5. **Automated Email Notifications**: Once fully automated, the script will send email notifications directly to the relevant users, informing them of the health check results. This feature is aimed at enhancing real-time monitoring and reporting.
+6. **Current Development Status**: Currently, this automation feature is in the development stage. I have been testing it in my Virtual Machines (VMs) to refine its functionality and ensure reliability before deploying it in the production environment.
 
 #### Onboarding of Accounts
 
@@ -139,3 +140,7 @@ Key Highlights:
 - **Global Presence:** Netlink has an extensive global footprint, with operations in 46 countries. This includes 13 sales offices, 11 operational centers, 6 delivery centers, and 3 data centers, reflecting the company's extensive reach and capability to serve a global clientele.
 
 In summary, Netlink Software stands out for its exceptional team, significant and consistent growth, and a broad international presence, all underpinned by its commitment to delivering immediate and impactful business results to its clients.
+
+names are very important.  
+types of database accounts that can be onboarded.  
+work on 

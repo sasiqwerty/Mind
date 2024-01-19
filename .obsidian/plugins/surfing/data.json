@@ -43,5 +43,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "e1c903ccf17e47cd",
+      "parent": 0,
+      "droppable": true,
+      "text": "Reports in PrivateArk",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }

@@ -2,18 +2,58 @@
 aliases: 
 tags: 
 date created: Tuesday, January 9th 2024, 1:43:36 pm
-date modified: Thursday, January 18th 2024, 10:10:46 am
+date modified: Thursday, January 18th 2024, 10:20:24 pm
 ---
 
-## Infrastructure Breakdown
+## CyberArk Infrastructure Breakdown
 
-- Vault and a DR Vault.  
-	- DR Vault has a dedicated CPM server that can immediately take over in case of failure. Everything is preconfigured, as the settings cannot be set after the disaster.
-- We have 3 CPMs serving the end user, 2 are configured and ready for deployment with minimum business impact.
-- 16 PSMs in a load balancer but they are in two different data centers for robustness and redundancy.
-- there are 300 safes and roughly the same number of platforms.
+### General Infrastructure Overview
 
-## [[Account Discovery and Onboarding|onboarding]]
+| Component            | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| Server Distribution  | 70% on-premises, 30% in the cloud (for testing and validation)               |
+| Authentication       | CyberArk with LDAPS (port 636), also unencrypted port 389 available          |
+| Failover Standards   | Adheres to fail back and fail over standards to protect data integrity      |
+| Accounts & Safes     | Approximately 70,000 accounts, 300 safes, and similar number of platforms   |
+
+### Vault Configuration
+
+| Component | Description                                                                         |
+|-----------|-------------------------------------------------------------------------------------|
+| Main Vault| Located on-premises                                                                 |
+| DR Vault  | In a different location for Disaster Recovery (DR)                                  |
+| CPM for DR| Dedicated Central Policy Manager (CPM) connected for DR failover                   |
+| DR Drill  | Performed quarterly with full system backup prior to the drill                     |
+
+### Password Vault Web Access (PVWA)
+
+| Component    | Description                                                                      |
+|--------------|----------------------------------------------------------------------------------|
+| PVWA Count   | 6 PVWAs, with additional 2 on standby for emergencies                            |
+| Load Balancer| F1 load balancer, distributed across 2 data centers in a round-robin configuration|
+| Cloud PVWAs  | Additional PVWAs in the cloud for resilience testing                             |
+
+### Central Policy Manager (CPM)
+
+| Component | Description                                                |
+|-----------|------------------------------------------------------------|
+| CPM Count | 3 active CPMs, 2 backup CPMs, and 1 connected to DR Vault  |
+
+### Privileged Session Manager (PSM)
+
+| Component | Description                                                                                     |
+|-----------|-------------------------------------------------------------------------------------------------|
+| PSM Count | 16 PSMs connected to F1 load balancer, operating in a round-robin fashion for session management|
+
+### Privileged Session Manager for SSH (PSMP)
+
+| Component | Description                                      |
+|-----------|--------------------------------------------------|
+| PSMP Count| 4 installed PSMPs, with 1 additional for backup  |
+
+This table format simplifies the understanding of the CyberArk implementation, focusing on the key components and their roles in the infrastructure.
+
+## [[Account Discovery and Onboarding]]
 
 ### Overview
 
@@ -75,7 +115,134 @@ There are in total 4 ways of onboarding accounts into [[CyberArk]]
 3. When onboarding multiple accounts, ensure that the platform is common to all.
 4. Ensure that the account is onboarding to an active platform.
 
-## Authentication Methods in Infra
+## PVWA Reports
+
+### Report Types
+
+Based on the CyberArk documentation for version 12.6, here's more information about the five types of reports that can be generated in the Password Vault Web Access (PVWA):
+
+1. **Privileged Accounts Inventory**: This report provides comprehensive information about all privileged accounts in the system. It includes details such as the Safe where the account is stored, the folder, account name, platform ID, device type, username, address, group, dates of last access and modification, and other relevant information. It's useful for understanding the distribution and status of privileged accounts across your organization.
+
+2. **Applications Inventory**: This report offers information about application IDs in the system, covering aspects like the application ID, business owner, location in the Vault’s hierarchy, allowed machines, OS users, and paths from where the application can request a privileged account. It's crucial for managing and auditing applications that interact with privileged accounts.
+
+3. **Privileged Accounts Compliance Status**: This report focuses on the compliance and management status of accounts, providing insights into aspects like target system user name and address, Safe name, platform name, compliance status, non-compliance reasons, expiration due dates, change mode, and more. It helps in ensuring that privileged accounts adhere to internal and external compliance requirements.
+
+4. **Entitlement Report**: This report covers users’ entitlement rights in PAM - Self-Hosted. It includes details about the user or group, full name, group membership, location in the Vault hierarchy, user type, target platform name, system, account, Safe, object name, folder name, and permissions like read, use, change, among others. This report is essential for reviewing and managing user access rights and entitlements.
+
+5. **Activity Log**: The Activity Log report records activities performed in the Vault, including time, user, action, Safe, target account, platform, system, and additional details regarding the activity. This report is pivotal for audit trails and understanding user actions within the Vault.
+
+These reports are instrumental in managing, auditing, and ensuring compliance in environments where privileged access is critical. They provide deep insights into various aspects of privileged account management, from inventory and compliance to user entitlements and activity monitoring.
+
+Generating, configuring, and managing reports in the Password Vault Web Access (PVWA) in CyberArk involves a series of steps as described in the CyberArk documentation for version 12.6. Here is an overview of the process:  
+
+### Report Generation and Configuration
+
+#### Generating Reports
+
+1. **Accessing Report Generation**: Users who belong to the group specified in the `ManageReportsGroup` parameter (by default, the PVWAMonitor group) can generate reports in PVWA.
+2. **Selecting Report Type**: Click on `REPORTS` to access the My Reports page, then select `Generate Report`.
+3. **Configuring Report Filters**: Choose the report to generate and specify filters. These filters include general report filters and any additional criteria for the exact report needed.
+4. **Scheduling Reports**: You have the option to schedule reports for automatic and manual generation. Reports can be set to run weekly or monthly, with specific start times and frequencies.
+5. **Adding Subscribers**: Specify users who will have access to the generated report. You can also opt to send automatic notifications to these users when the report is ready.
+6. **Finishing Setup**: Complete the setup to generate the report, which will then be displayed in the Generated Reports tab on the My Reports page.
+
+#### Managing Reports
+
+1. **Accessing Generated Reports**: In the My Reports page, you can view and manage reports in the `Generated Reports` and `Report Definitions` tabs.
+2. **Performing Actions on Reports**: Options include saving reports in Excel or CSV formats, protecting reports from automatic deletion, deleting reports, hiding reports, and sending notifications with report links to other subscribers.
+3. **Protecting and Deleting Reports**: Protect reports to prevent automatic deletion, or manually delete reports that are no longer needed.
+4. **Editing and Deleting Report Definitions**: Edit the scheduling and subscribers of a report or delete report definitions that are no longer required.
+5. **Handling Reports in Multiple PVWA Deployments**: In environments with multiple PVWAs in different time zones, it's important to manage the CyberArk Scheduled Tasks services appropriately to ensure consistent report generation.
+
+#### Important Considerations
+
+- **User Authorization**: Reports contain only the information that the generating user is authorized to access.
+- **Report Parameters Configuration**: Report parameters can be configured in the Web Access Options of the System Configuration page.
+- **Report Status**: The status of each report (Pending, Running, Failed, Done) is displayed and can be monitored for successful generation and access.
+- **Access to Reports**: Users can view their own generated reports or reports they are subscribed to, depending on the access authorizations set in the Reports Safe.
+
+For detailed instructions and additional information, it is recommended to refer directly to the CyberArk documentation.
+
+## [[PrivateArk Client]] Reports
+
+According to the CyberArk documentation for version 12.6, the following reports can be generated in the PrivateArk Administrative Client:
+
+1. **Safes List**: This report provides a list of Safes and their properties, organized according to their location. It's useful for getting a quick overview of all the Safes in your system and their respective attributes.
+
+2. **Owners List**: This report lists the owners of specified Safes and their permissions. It is crucial for managing access rights and understanding who has control over different Safes.
+
+3. **Active/Non-active Safes**: This report identifies active or non-active Safes based on activities over a specified period. The status of a Safe is determined by the administrative or data-related tasks carried out in it. This report includes a list of these Safes along with some of their properties and is useful for monitoring Safe usage.
+
+4. **License Capacity Report**: This report details the licensed user types and objects in the Vault, the maximum number of licenses for each type or object, and the number of used licenses. It's essential for license management and ensuring compliance with licensing agreements.
+
+5. **Users List**: This report includes information about users’ activities in the Vault, including those who have been disabled. However, it does not include data-related activities. User Managers and the Auditor User can generate these reports, which are valuable for auditing and monitoring user activities within the Vault.
+
+6. **Active/Non-active Users**: This report lists active or non-active users, including disabled users, in the specified Vault over a given period. Active users are defined as those who have logged on to the Vault. This report is useful for tracking user engagement and identifying potentially inactive accounts.
+
+7. **Entitlement Report**: This report provides details on users’ entitlement rights in the Enterprise Password Vault (EPV). It includes each user’s effective access control and authorization level on each account they have access to in the EPV. This report is vital for access rights management and ensuring that users only have the access they require.
+
+To generate these reports, users need to select the report type from the 'Tools' menu, specify the information to include, set the period the report will cover, and choose the output format. Reports in Excel are displayed immediately, while text reports are saved to a specified location. 
+
+These reports are integral to managing, auditing, and ensuring the security and efficiency of the CyberArk environment.
+
+[Reports in PrivateArk | CyberArk Docs](https://docs.cyberark.com/PAS/12.6/en/Content/PASIMP/ReportsInPrivateArkClient.htm?TocPath=End%20user%7CReports%20and%20Audits%7C_____2)
+
+## Master Policy
+
+- The Master Policy offers a centralized overview of the security and compliance policy of privileged accounts in your organization while allowing you to configure compliance driven rules that are defined as the baseline for your enterprise. It is configured out-of-the-box and can be used immediately after implementation, providing an intuitive, simplified user experience and enhanced bottom-line insight for administrators, IT personnel, managers and auditors.
+- The Privileged Access Manager - Self-Hosted solution separates higher-level and compliance driven policy rules such as privileged access workflows, account management and session monitoring requirements from technical settings that determine how the policy will be carried out on each platform.
+- The Master Policy groups together sets of rules and offers better visibility and control over policy configurations and enforcement. Each policy rule has basic settings and, sometimes, advanced settings that are displayed when you select the rule, as well as context-sensitive help that explains each rule and its interdependency on other rules.
+- Although the Privileged Access Manager - Self-Hosted solution’s Master Policy can be applied to most privileged accounts in your organization, you can create rule exceptions to manage specific workflows. For example, you can define a dual control workflow for highly sensitive accounts on a specific platform that require permission from authorized users before they can be used, while access to other accounts in the organization does not require such confirmation.
+- The Master Policy defines basic system behavior for the entire lifecycle of privilege account management and access.
+
+| Concept | Description |
+| ---- | ---- |
+| Basic Policy Rules | Basic policy rules allow you to define specific aspects of privileged account management. These rules include several groups of policy rules for the access workflow, management of passwords, session monitoring and auditing. |
+| Advanced Policy [[Rules]] | Some policy rules have related advanced settings. For example, in the basic policy rules you can determine whether users will be allowed to transparently connect to target systems using ‘Click to Connect’. In the related advanced settings, you can determine whether users will also be able to view passwords. |
+| Exceptions | The Master Policy model introduces the ability to define Exceptions. These are policy rules that differ from the overall Master Policy for a specific scope of accounts, for example accounts associated with a specific platform. Each exception contains the basic policy rule as well as its related advanced settings. For example, the Master Policy may define that Dual Control is disabled in the organization. However, the Windows PCI production servers require Dual Control to be enabled because of their higher sensitivity. You can make this allowance by creating an exception to the Dual Control rule that enables Dual Control enforcement on the scope of Windows PCI production servers platform. |                                                                                                                      
+In the Platform Management settings, the IT administrator can configure technical settings defined by your organization’s environment and security policies to control how the system manages accounts on various platforms. Most of these settings have default values that do not need to be changed, but certain specific features need to be set according to your organizational requirements.
+
+The CyberArk Master Policy, as outlined in the CyberArk documentation for version 12.6, allows organizations to define baseline rules for managing accounts in their environment. Here is an overview of the key Master Policy rules:
+
+### 1. Privileged Access Workflows
+
+These rules define how access to privileged accounts is managed:
+   - **Require dual control password access approval**: Users need approval from authorized users before accessing passwords. This rule enhances oversight over who accesses passwords and for what purpose.
+   - **Enforce check-in/check-out exclusive access**: Allows users to check out an account, locking it so that no other users can retrieve it simultaneously. This ensures exclusive usage of the privileged account.
+   - **Enforce one-time password access**: Accounts can be retrieved for one-time use only, with the password changed after each use.
+   - **Allow EPV transparent connections ('Click to connect')**: Users can connect to remote devices without knowing the specific password, enhancing security and convenience.
+   - **Require users to specify reason for access**: Users must provide a reason for retrieving accounts, which can be either a free text reason or one of the predefined reasons.
+
+### 2. Password Management
+
+These rules govern how passwords are managed:
+   - **Require password change every X days**: Specifies the frequency for mandatory password changes.
+   - **Require password verification every X days**: Ensures that passwords are verified and possibly changed at regular intervals.
+
+### 3. Session Management
+
+Rules related to the recording and monitoring of privileged sessions:
+   - **Require privileged session monitoring and isolation**: This rule, when active, mandates the monitoring and isolation of all IT administrator privileged sessions on remote machines.
+   - **Record and save session activity**: All activities in each privileged session are recorded in text and/or video format for future auditing.
+
+#### 4. Audit
+
+This section includes rules for retaining Safe activity audits:
+   - **Activities audit retention period**: Controls the number of days that audits of activities in Safes are retained.
+
+These Master Policy rules are critical for ensuring the secure and compliant management of privileged accounts. They allow organizations to enforce consistent security practices across their entire privileged account landscape. By leveraging these rules, organizations can significantly enhance their security posture, particularly in terms of access control, password management, session monitoring, and audit trails.
+
+## [[Safe Management and Access Provisioning]]
+
+ 
+
+## [[Platform Management]]
+
+## Classic Interface
+
+[Classic Interface | CyberArk Docs](https://docs.cyberark.com/PAS/latest/en/Content/Landing%20Pages/LPVersion9Interface.htm?tocpath=End%20user%7CPrivileged%20accounts%7CClassic%20Interface%7C_____0)
+
+## Authentication Methods
 
 ### [[CyberArk]]
 
@@ -92,142 +259,3 @@ There are in total 4 ways of onboarding accounts into [[CyberArk]]
 ### SAML
 
 [SAML authentication | CyberArk Docs](https://docs.cyberark.com/PAS/11.1/en/Content/PAS%20INST/SAML-Authentication.htm)
-
-## [[Reports]] And Audits
-
-### PVWA
-
-[Reports in PVWA | CyberArk Docs](https://docs.cyberark.com/PAS/12.6/en/Content/PASIMP/ReportsInPVWA.htm?tocpath=End%20user%7CReports%20and%20Audits%7C_____1)  
-
-Reports can be generated in the Reports page in the PVWA by users who belong to the group that is specified in the ManageReportsGroup Parameter in the reports section of the web access option in the system configuration page by default its the PVWAMonitor group.
-
-The following reports are generated in the PVWA :
-
-#### Privileged Accounts Inventory
-
-- Provides information about all the privileged accounts in the system, based on different filters. Users who have the following authorizations can generate this report:
-- List accounts and View Safe members in the Safes that will be included in the report.
-- Users who do not have the View Safe members authorization will only be able to view complete information about their own activities.  
-
-| Column              | Description                                                                                 |
-|---------------------|---------------------------------------------------------------------------------------------|
-| Safe                | The name of the Safe where the privileged account is stored.                                |
-| Folder              | The name of the folder where the privileged account is stored.                              |
-|                     | This column is not displayed by default.                                                    |
-| Name                | The name of the privileged account.                                                         |
-|                     | This column is not displayed by default.                                                    |
-| PlatformId          | The ID of the platform that is associated with the privileged account.                      |
-| DeviceType          | The type of device that the privileged account is allocated to.                             |
-| Username            | The name of the user that is authorized to use the privileged account on the remote device. |
-| Address             | The address of the remote device where the privileged account is used.                      |
-| Group               | The group that the privileged account belongs to, if any.                                   |
-| LastAccessedDate    | The date when the privileged account was last accessed.                                     |
-| LastAccessedBy      | The name of the last human user who accessed the privileged account.                        |
-| LastModifiedDate    | The date when the privileged account was last modified by any user, human or component.     |
-| LastModifiedBy      | The name of the last human user who modified the privileged account.                        |
-| VerificationDate    | The last date when the privileged account was verified.                                     |
-| CheckoutDate        | The last date when the privileged account was checked out.                                  |
-| CheckedOutBy        | The name of the last user who checked out the privileged account.                           |
-| Age                 | The number of days since the password was created.                                          |
-| ChangeFailure       | Whether or not the password in the privileged account could be changed.                     |
-|                     | ‘Yes’ indicates that the password change failed                                             |
-| VerificationFailure | Whether or not the password in the privileged account could be verified.                    |
-|                     | ‘Yes’ indicates that the password change failed                                             |
-| MasterPassFolder    | The folder where the master account associated with the current usage is stored.            |
-|                     | This column is not displayed by default.                                                    |
-| MasterPassName      | The name of the master account associated with the current usage.                           |
-|                     | This column is not displayed by default.                                                    |
-| DisabledBy          | Whether the privileged account was disabled by a human user or by the CPM.                  |
-|                     | This column is not displayed by default.                                                    |
-| DisabledReason      | The reason why the privileged account was disabled.                                         |
-
-#### Applications Inventory
-
-Provides information about the application IDs in the system, based on different filters. Users who have the following authorizations in the Vault can generate this report: **Audit Users**  
-Users can generate this report for users in the same level or lower in the Vault hierarchy.
-
-| Column                  | Description                                                                                                                                                                                      |
-|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Default columns:        |                                                                                                                                                                                                  |
-| Application ID          | The unique ID of an application defined in the Vault.                                                                                                                                            |
-| Business owner          | The full name of the application’s business owner.                                                                                                                                               |
-| Location                | The location of the application in the Vault’s hierarchy.                                                                                                                                        |
-| Allowed machines        | A list of machines that are defined in the Vault for the listed application and from where the application can request a privileged account.                                                     |
-| OS User/s               | A list of OS users that are defined in the Vault for the listed application and can request a privileged account.                                                                                |
-| Path/s                  | A list of paths that are defined in the Vault for the listed application and from where the application can request a privileged account.                                                        |
-| Optional columns:       |                                                                                                                                                                                                  |
-| Application description | A description of the application requesting the privileged account.                                                                                                                              |
-| Business owner email    | The email address of the application’s business owner.                                                                                                                                           |
-| Business owner phone    | The phone number of the application’s business owner.                                                                                                                                            |
-| Disabled                | Whether or not the application’s Vault definition is disabled.                                                                                                                                   |
-|                         | If the application is disabled in the Vault, ‘Yes’ is displayed. If not, ‘No’ is displayed.                                                                                                      |
-| Hash                    | A list of unique hash values that has been created by the Secrets Manager Credential Providers utility to enable the application to authenticate to the Vault and retrieve a privileged account. |
-| Access permitted        | The date from when and until when the application is permitted to access the privileged account.                                                                                                 |
-| Expiration date         | The date when the application’s Vault definition expires.                                                                                                                                        |
-
-#### Privileged Accounts Compliance Status
-
-Accounts compliance and management status. Users who have the following authorizations can generate this report:
-
-The following permissions are required in the Safes that will be included in the report:  
-List passwords/files  
-View Audit or Confirm Safe request – in Safes that are configured for dual control  
-Membership in the following group: PVWAMonitor  
-To enable users to run this report for the entire system, add them as members to the following group: Auditors
-
-#### Entitlement Report
-
-#### Activity Log
-
-### [[PrivateArk Client]]
-
-[Reports in PrivateArk | CyberArk Docs](https://docs.cyberark.com/PAS/12.6/en/Content/PASIMP/ReportsInPrivateArkClient.htm?TocPath=End%20user%7CReports%20and%20Audits%7C_____2)
-
-## Master Policy
-
-The Master Policy offers a centralized overview of the security and compliance policy of privileged accounts in your organization while allowing you to configure compliance driven rules that are defined as the baseline for your enterprise. It is configured out-of-the-box and can be used immediately after implementation, providing an intuitive, simplified user experience and enhanced bottom-line insight for administrators, IT personnel, managers and auditors.
-
-The Privileged Access Manager - Self-Hosted solution separates higher-level and compliance driven policy rules such as privileged access workflows, account management and session monitoring requirements from technical settings that determine how the policy will be carried out on each platform.
-
-The Master Policy groups together sets of rules and offers better visibility and control over policy configurations and enforcement. Each policy rule has basic settings and, sometimes, advanced settings that are displayed when you select the rule, as well as context-sensitive help that explains each rule and its interdependency on other rules.
-
-Although the Privileged Access Manager - Self-Hosted solution’s Master Policy can be applied to most privileged accounts in your organization, you can create rule exceptions to manage specific workflows. For example, you can define a dual control workflow for highly sensitive accounts on a specific platform that require permission from authorized users before they can be used, while access to other accounts in the organization does not require such confirmation.
-
-The Master Policy defines basic system behavior for the entire lifecycle of privilege account management and access.
-
-| Concept | Description |
-| ---- | ---- |
-| Basic Policy Rules | Basic policy rules allow you to define specific aspects of privileged account management. These rules include several groups of policy rules for the access workflow, management of passwords, session monitoring and auditing. |
-| Advanced Policy [[Rules]] | Some policy rules have related advanced settings. For example, in the basic policy rules you can determine whether users will be allowed to transparently connect to target systems using ‘Click to Connect’. In the related advanced settings, you can determine whether users will also be able to view passwords. |
-| Exceptions | The Master Policy model introduces the ability to define Exceptions. These are policy rules that differ from the overall Master Policy for a specific scope of accounts, for example accounts associated with a specific platform. Each exception contains the basic policy rule as well as its related advanced settings. For example, the Master Policy may define that Dual Control is disabled in the organization. However, the Windows PCI production servers require Dual Control to be enabled because of their higher sensitivity. You can make this allowance by creating an exception to the Dual Control rule that enables Dual Control enforcement on the scope of Windows PCI production servers platform. |                                      
-In the Platform Management settings, the IT administrator can configure technical settings defined by your organization’s environment and security policies to control how the system manages accounts on various platforms. Most of these settings have default values that do not need to be changed, but certain specific features need to be set according to your organizational requirements.
-
-### Privileged Access Workflows
-
-| Workflow | Description |
-| ---- | ---- |
-| Require Dual Control Access Approval | Users require approval from authorized users before they can access passwords. |
-|  | Advanced Settings : Multiple User Approval, Direct Manager Approval, Number of Authorized users to confirm requests. |
-| Enforce Check-in/Check-out | Users can check out an account and lock it so that no other user can retrieve at the same time. After the user has used the password, they can check the password back into the vault. |
-| Enforce One Time password Access | Accounts can be retrieved for one time use only, and the password stored inside must be changed after each use before the account is released and can be used again. By default this rule is inactive. |
-| Allow EPV Transparent Connections ('Click to Connect') | users can connect to remote devices without needing to know or specify the required password. |
-| Require Users to specify reason for access | Users can only retrieve accounts after they specify a reason for access. |
-
-### Password Management
-
-| Password Settings | Description |
-| ---- | ---- |
-| Require Password Change every X days | The Master Policy determines how frequently passwords must be changed. By default, passwords are changed every 90 days. You can see when password changes are planned in the Compliance Report. |
-| Require Password Verification every X days | Passwords will be verified after the timeframe specified in the previous rule. They can be changed manually or replaced by a unique and highly secure password that is randomly generated by the Password Vault. By default, passwords are verified every 7 days. |
-
-### Session Management
-
-### Audit
-
-## [[Safe Management and Access Provisioning]]
-
-## [[Platform Management]]
-
-## Classic Interface
-
-[Classic Interface | CyberArk Docs](https://docs.cyberark.com/PAS/latest/en/Content/Landing%20Pages/LPVersion9Interface.htm?tocpath=End%20user%7CPrivileged%20accounts%7CClassic%20Interface%7C_____0)

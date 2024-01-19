@@ -70,9 +70,33 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "f821dbf40279417c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "856cece264e0787e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/18-01-24 Thursday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -154,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md",
+                "file": "Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -216,7 +240,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Interview Preparation for L1 L2 Role.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -258,14 +282,15 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "63dd60ba754b1ef7",
+  "active": "f821dbf40279417c",
   "lastOpenFiles": [
-    "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
-    "talking points - interview reddy anna said.md",
     "Netlink - Job Interview.md",
+    "talking points - interview reddy anna said.md",
+    "Untitled.md",
     "Interview Preparation for L1 L2 Role.md",
-    "DailyNote/17-01-24 Wednesday.md",
     "DailyNote/18-01-24 Thursday.md",
+    "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
+    "DailyNote/17-01-24 Wednesday.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
     "DailyNote/09-01-24 Tuesday.md",
     "DailyNote/16-01-24 Tuesday.md",
@@ -295,7 +320,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184311.png",
     "DailyNote/22-12-23 Friday.md",
-    "DailyNote/20-12-23 Wednesday.md",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",
