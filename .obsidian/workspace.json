@@ -77,19 +77,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "856cece264e0787e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/18-01-24 Thursday.md",
+                "file": "DailyNote/19-01-24 Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "DailyNote/19-01-24 Friday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "DailyNote/19-01-24 Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "DailyNote/19-01-24 Friday.md"
               }
             }
           },
@@ -240,7 +228,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Untitled.md"
+                "file": "DailyNote/19-01-24 Friday.md"
               }
             }
           },
@@ -284,11 +272,12 @@
   },
   "active": "f821dbf40279417c",
   "lastOpenFiles": [
+    "Untitled.md",
+    "DailyNote/19-01-24 Friday.md",
+    "DailyNote/18-01-24 Thursday.md",
     "Netlink - Job Interview.md",
     "talking points - interview reddy anna said.md",
-    "Untitled.md",
     "Interview Preparation for L1 L2 Role.md",
-    "DailyNote/18-01-24 Thursday.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
     "DailyNote/17-01-24 Wednesday.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
@@ -319,7 +308,6 @@
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.19_3e9a089b.jpg",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184311.png",
-    "DailyNote/22-12-23 Friday.md",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",

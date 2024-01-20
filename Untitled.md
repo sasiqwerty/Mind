@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Thursday, January 18th 2024, 10:20:24 pm
-date modified: Thursday, January 18th 2024, 10:23:21 pm
+date modified: Friday, January 19th 2024, 11:29:48 am
 ---
 
 ## Job Description: Cyber Ark & Defender
@@ -40,7 +40,7 @@ date modified: Thursday, January 18th 2024, 10:23:21 pm
 | 13  | Involvement in P2, P3, and P4 issues; resolving within SLA and performing root cause analysis.         |
 | 14  | Resetting passwords for domains in Active Directory and applications.                                  |
 | 15  | Providing remote assistance and support to IT staff in different regions and end-users.                |
-| 16  | Generating reports for daily production and providing weekly account level overview status.            |      
+| 16  | Generating reports for daily production and providing weekly account level overview status.            |        
 Here's a summary of each job responsibility related to CyberArk:
 
 1. **Onboarding and offboarding privileged accounts**: This involves adding and removing privileged accounts to CyberArk as per business requirements, ensuring they are assigned to the appropriate platform and safe.
