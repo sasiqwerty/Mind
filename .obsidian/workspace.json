@@ -77,14 +77,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/19-01-24 Friday.md",
+                "file": "DailyNote/20-01-24 Saturday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14fa6e80a8ca4c16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OLAC in detail.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -166,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/19-01-24 Friday.md",
+                "file": "OLAC in detail.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/19-01-24 Friday.md",
+                "file": "OLAC in detail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/19-01-24 Friday.md"
+                "file": "OLAC in detail.md"
               }
             }
           },
@@ -228,7 +240,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/19-01-24 Friday.md"
+                "file": "OLAC in detail.md"
               }
             }
           },
@@ -270,10 +282,12 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "f821dbf40279417c",
+  "active": "14fa6e80a8ca4c16",
   "lastOpenFiles": [
-    "Untitled.md",
+    "DailyNote/20-01-24 Saturday.md",
     "DailyNote/19-01-24 Friday.md",
+    "OLAC in detail.md",
+    "Untitled.md",
     "DailyNote/18-01-24 Thursday.md",
     "Netlink - Job Interview.md",
     "talking points - interview reddy anna said.md",
@@ -302,8 +316,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152009.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108150236.png",
     "DailyNote/08-01-24 Monday.md",
-    "most imp.md",
-    "Lab Set Up Basics.md",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.46_c340da25.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.19_3e9a089b.jpg",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",

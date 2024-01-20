@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "OLAC in detail",
+      "path": "OLAC in detail.md"
+    },
+    {
+      "basename": "20-01-24 Saturday",
+      "path": "DailyNote/20-01-24 Saturday.md"
+    },
+    {
       "basename": "19-01-24 Friday",
       "path": "DailyNote/19-01-24 Friday.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Session 9 Vault Configuration Files",
       "path": "Session 9 Vault Configuration Files.md"
-    },
-    {
-      "basename": "Session 8 Vault Service Dependencies DBPARM ini file",
-      "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
-    },
-    {
-      "basename": "Session 7 Vault Prerequisites Services",
-      "path": "Session 7 Vault Prerequisites Services.md"
     }
   ],
   "omittedPaths": [
