@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Netlink - Job Interview",
+      "path": "Netlink - Job Interview.md"
+    },
+    {
+      "basename": "17-01-24 Wednesday",
+      "path": "DailyNote/17-01-24 Wednesday.md"
+    },
+    {
+      "basename": "talking points - interview reddy anna said",
+      "path": "talking points - interview reddy anna said.md"
+    },
+    {
+      "basename": "Safe Management and Access Provisioning",
+      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md"
+    },
+    {
+      "basename": "Interview Preparation for L1 L2 Role",
+      "path": "Interview Preparation for L1 L2 Role.md"
+    },
+    {
+      "basename": "Session 30 PSM 1",
+      "path": "Session 30 PSM 1.md"
+    },
+    {
+      "basename": "Services in CyberArk",
+      "path": "Cyberark/Core Concepts/Components/Services/Services in CyberArk.md"
+    },
+    {
       "basename": "20-01-24 Saturday",
       "path": "DailyNote/20-01-24 Saturday.md"
+    },
+    {
+      "basename": "CyberArk in a Nutshell",
+      "path": "CyberArk in a Nutshell.md"
+    },
+    {
+      "basename": "21-01-24 Sunday",
+      "path": "DailyNote/21-01-24 Sunday.md"
     },
     {
       "basename": "OLAC in detail",
@@ -19,26 +55,6 @@
     {
       "basename": "18-01-24 Thursday",
       "path": "DailyNote/18-01-24 Thursday.md"
-    },
-    {
-      "basename": "Netlink - Job Interview",
-      "path": "Netlink - Job Interview.md"
-    },
-    {
-      "basename": "talking points - interview reddy anna said",
-      "path": "talking points - interview reddy anna said.md"
-    },
-    {
-      "basename": "Interview Preparation for L1 L2 Role",
-      "path": "Interview Preparation for L1 L2 Role.md"
-    },
-    {
-      "basename": "Safe Management and Access Provisioning",
-      "path": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md"
-    },
-    {
-      "basename": "17-01-24 Wednesday",
-      "path": "DailyNote/17-01-24 Wednesday.md"
     },
     {
       "basename": "Account Discovery and Onboarding",
@@ -183,22 +199,6 @@
     {
       "basename": "10-12-23 Sunday",
       "path": "DailyNote/10-12-23 Sunday.md"
-    },
-    {
-      "basename": "Session 12 MasterCD Operator CD Other Topics",
-      "path": "Session 12 MasterCD Operator CD Other Topics.md"
-    },
-    {
-      "basename": "Session 11 Vault DB Safes Default Users",
-      "path": "Session 11 Vault DB Safes Default Users.md"
-    },
-    {
-      "basename": "Session 10 Log Files Debugging Levels",
-      "path": "Session 10 Log Files Debugging Levels.md"
-    },
-    {
-      "basename": "Session 9 Vault Configuration Files",
-      "path": "Session 9 Vault Configuration Files.md"
     }
   ],
   "omittedPaths": [

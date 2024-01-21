@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, January 20th 2024, 1:54:30 pm
-date modified: Saturday, January 20th 2024, 1:55:01 pm
+date modified: Sunday, January 21st 2024, 7:44:25 pm
 ---
 1. **Classes and Objects Analogy**:
     - **Accounts as Objects**: In the context of a safe, each account can be thought of as an object. These objects (accounts) inherit their access control parameters from the safe (the class).

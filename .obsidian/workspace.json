@@ -4,99 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ba386b37a11dd1f7",
+        "id": "eaf8262755c72b8c",
         "type": "tabs",
         "children": [
           {
-            "id": "34ba50ca17474fb7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Netlink - Job Interview.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "ec25a2b9dc7ab1b2",
+            "id": "a3a236b2af9a35d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/17-01-24 Wednesday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1f96bc735faef47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "talking points - interview reddy anna said.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "269962be7954b270",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63dd60ba754b1ef7",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Preparation for L1 L2 Role.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "f821dbf40279417c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DailyNote/20-01-24 Saturday.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14fa6e80a8ca4c16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "OLAC in detail.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OLAC in detail.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OLAC in detail.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -217,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "OLAC in detail.md"
-              }
+              "state": {}
             }
           },
           {
@@ -239,9 +154,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "OLAC in detail.md"
-              }
+              "state": {}
             }
           },
           {
@@ -282,18 +195,22 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "14fa6e80a8ca4c16",
+  "active": "a3a236b2af9a35d2",
   "lastOpenFiles": [
+    "Netlink - Job Interview.md",
+    "DailyNote/17-01-24 Wednesday.md",
+    "talking points - interview reddy anna said.md",
+    "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
+    "Interview Preparation for L1 L2 Role.md",
+    "Session 30 PSM 1.md",
+    "Cyberark/Core Concepts/Components/Services/Services in CyberArk.md",
     "DailyNote/20-01-24 Saturday.md",
-    "DailyNote/19-01-24 Friday.md",
+    "CyberArk in a Nutshell.md",
+    "DailyNote/21-01-24 Sunday.md",
     "OLAC in detail.md",
+    "DailyNote/19-01-24 Friday.md",
     "Untitled.md",
     "DailyNote/18-01-24 Thursday.md",
-    "Netlink - Job Interview.md",
-    "talking points - interview reddy anna said.md",
-    "Interview Preparation for L1 L2 Role.md",
-    "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
-    "DailyNote/17-01-24 Wednesday.md",
     "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
     "DailyNote/09-01-24 Tuesday.md",
     "DailyNote/16-01-24 Tuesday.md",
@@ -309,13 +226,9 @@
     "DailyNote/06-01-24 Saturday.md",
     "HR Interview Round.md",
     "DailyNote/01-01-24 Monday.md",
-    "defender-questions that you might mess up.md",
-    "Defender - QA.md",
-    "Interview Questions.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152201.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152009.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108150236.png",
-    "DailyNote/08-01-24 Monday.md",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.46_c340da25.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.19_3e9a089b.jpg",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",
