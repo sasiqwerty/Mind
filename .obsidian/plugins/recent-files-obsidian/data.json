@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "22-01-24 Monday",
+      "path": "DailyNote/22-01-24 Monday.md"
+    },
+    {
       "basename": "21-01-24 Sunday",
       "path": "DailyNote/21-01-24 Sunday.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Docs-Safe",
       "path": "Cyberark/Core Concepts/Components/Vault/Docs-Safe.md"
-    },
-    {
-      "basename": "10-12-23 Sunday",
-      "path": "DailyNote/10-12-23 Sunday.md"
     }
   ],
   "omittedPaths": [
