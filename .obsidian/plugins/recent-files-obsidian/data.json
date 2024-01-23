@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "23-01-24 Tuesday",
+      "path": "DailyNote/23-01-24 Tuesday.md"
+    },
+    {
       "basename": "22-01-24 Monday",
       "path": "DailyNote/22-01-24 Monday.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Zero Trust",
       "path": "Cyberark/Basics/Windows Server/Zero Trust.md"
-    },
-    {
-      "basename": "Docs-Safe",
-      "path": "Cyberark/Core Concepts/Components/Vault/Docs-Safe.md"
     }
   ],
   "omittedPaths": [

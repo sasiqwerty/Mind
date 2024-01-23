@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/22-01-24 Monday.md",
+                "file": "DailyNote/23-01-24 Tuesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/22-01-24 Monday.md",
+                "file": "DailyNote/23-01-24 Tuesday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/22-01-24 Monday.md",
+                "file": "DailyNote/23-01-24 Tuesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/22-01-24 Monday.md"
+                "file": "DailyNote/23-01-24 Tuesday.md"
               }
             }
           },
@@ -163,7 +163,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/22-01-24 Monday.md"
+                "file": "DailyNote/23-01-24 Tuesday.md"
               }
             }
           },
@@ -207,8 +207,9 @@
   },
   "active": "a3a236b2af9a35d2",
   "lastOpenFiles": [
-    "DailyNote/21-01-24 Sunday.md",
     "DailyNote/22-01-24 Monday.md",
+    "DailyNote/23-01-24 Tuesday.md",
+    "DailyNote/21-01-24 Sunday.md",
     "Netlink - Job Interview.md",
     "DailyNote/17-01-24 Wednesday.md",
     "talking points - interview reddy anna said.md",
@@ -235,7 +236,6 @@
     "DailyNote/02-01-24 Tuesday.md",
     "ldap-session23.md",
     "DailyNote/06-01-24 Saturday.md",
-    "HR Interview Round.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152201.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152009.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108150236.png",
