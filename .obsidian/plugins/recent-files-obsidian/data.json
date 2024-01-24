@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Ports",
+      "path": "Cyberark/Ports.md"
+    },
+    {
+      "basename": "24-01-24 Wednesday",
+      "path": "DailyNote/24-01-24 Wednesday.md"
+    },
+    {
       "basename": "Session 30 PSM 1",
       "path": "Session 30 PSM 1.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "Active Directory",
       "path": "Cyberark/Basics/Windows Server/Active Directory.md"
-    },
-    {
-      "basename": "New User - Linux Server",
-      "path": "Cyberark/Basics/Linux Fundementals/New User - Linux Server.md"
-    },
-    {
-      "basename": "Zero Trust",
-      "path": "Cyberark/Basics/Windows Server/Zero Trust.md"
     }
   ],
   "omittedPaths": [

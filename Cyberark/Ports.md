@@ -2,12 +2,12 @@
 aliases: 
 tags: 
 date created: Monday, July 31st 2023, 5:25:40 pm
-date modified: Sunday, November 5th 2023, 7:47:45 pm
+date modified: Wednesday, January 24th 2024, 10:05:55 pm
 ---
 
 ## Introduction
 
-389Port numbers are used to identify specific network services and applications on a device, and their assignments are managed by IANA (Internet Assigned Numbers Authority) through the Service Name and Transport Protocol Port Number Registry.  
+Port numbers are used to identify specific network services and applications on a device, and their assignments are managed by IANA (Internet Assigned Numbers Authority) through the Service Name and Transport Protocol Port Number Registry.  
 ![[Pasted image 20230803185943.png]]
 
 ## Ports and Their Popularity
@@ -24,24 +24,36 @@ Registered Ports (1024-49151): Assigned to various applications and services by 
 
 Dynamic/Private Ports (49152-65535): Available for general use by applications, but not officially assigned by IANA
 
-## CyberArk [[Ports]]
+## Network Port Definitions for CyberArk Components
 
-Remote Admin Port - 9022  
-LDAP Integration Port - 389  
-LDAPS port - 636  
-CPM to Linux,Vmware hosts,Cisco devices :22  
-CPM to Windows Targets: 135 139 445  
-CPM to MYSQL:1521-1526 Range  
-CPM to Oracle:1433  
-Primary Vault to DR Vault:- 1858  
-Components to Vault:-1858  
-SSH + SFTP (but can be configured anywhere):-22  
-Telnet:-23  
-RDP:-3389  
-LDAP:-389 and 636  
-DNS:-53  
-RADIUS:-1812  
-SNMP:-161  
-SNMP Trap:-162  
-Network Trap(NTP):-123  
-CPM to Targets: 135 139 445 22 1433 1521 etc
+| Component / Target                 | Ports and Protocols Used                     | Description/Usage                           |
+|------------------------------------|----------------------------------------------|---------------------------------------------|
+| Vault                              | TCP/1858                                     | Default port for Vault                      |
+| Disaster Recovery Vault (DR Vault) | TCP/1858                                     | Communication with DR Vault                 |
+| Central Policy Manager (CPM)       | TCP/1858, TCP/443, TCP/22, TCP/135, TCP/139, TCP/445, TCP/1521-1526, TCP/1433 | Communication with various targets including Linux, VMware hosts, Cisco devices, Windows, MYSQL, Oracle |
+| Password Vault Web Access (PVWA)   | TCP/1858                                     | Default port for PVWA                       |
+| Privileged Session Manager (PSM)   | TCP/1858, TCP/443, TCP/22, TCP/23, TCP/3389  | Communication for SSH, SFTP, Telnet, RDP    |
+| PSM for SSH                        | TCP/1858, TCP/443, TCP/22                    | Communication for SSH, SFTP                 |
+| Credential Provider                | TCP/1858                                     | Default port for Credential Provider        |
+| OPM                                | TCP/1858                                     | Default port for OPM                        |
+| PTA                                | TCP/1858, UDP/1858, TCP/80, TCP/443          | Default port for PTA                        |
+| User (Administrator)               | TCP/1858, TCP/3389, TCP/80, TCP/443, TCP/3389| Admin communication                         |
+| SMTP Server                        | TCP/25                                       | Email communication                         |
+| PSM HTML5 Gateway                  | TCP/3389                                     | Gateway for PSM                             |
+| Remote Admin                       | TCP/9022                                     | Remote Administration                       |
+| LDAP Integration                   | TCP/389, TCP/636                             | LDAP and LDAPS integration                  |
+| CPM to Linux, VMware, Cisco        | TCP/22                                       | SSH communication                           |
+| CPM to Windows Targets             | TCP/135, TCP/139, TCP/445                    | Windows RPC and SMB communication           |
+| CPM to MYSQL                       | TCP/1521-1526                                | MYSQL communication range                   |
+| CPM to Oracle                      | TCP/1433                                     | Oracle communication                        |
+| Primary Vault to DR Vault          | TCP/1858                                     | Communication between Vaults                |
+| Components to Vault                | TCP/1858                                     | General Vault communication                 |
+| Telnet                             | TCP/23                                       | Telnet communication                        |
+| RDP                                | TCP/3389                                     | Remote Desktop Protocol                     |
+| DNS                                | TCP/53, UDP/53                               | Domain Name System                          |
+| RADIUS                             | UDP/1812                                     | RADIUS authentication                       |
+| SNMP                               | UDP/161                                      | Simple Network Management Protocol          |
+| SNMP Trap                          | UDP/162                                      | SNMP Trap                                   |
+| Network Time Protocol (NTP)        | UDP/123                                      | Time synchronization                        |
+
+This table combines information from the CyberArk documentation and the additional ports you listed. It provides a comprehensive overview of the network ports used in the CyberArk environment, including communication between various components and integration with other systems and protocols.
