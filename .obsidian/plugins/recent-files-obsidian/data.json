@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Ports",
-      "path": "Cyberark/Ports.md"
-    },
-    {
       "basename": "24-01-24 Wednesday",
       "path": "DailyNote/24-01-24 Wednesday.md"
+    },
+    {
+      "basename": "Viewfinity - What is it",
+      "path": "Viewfinity - What is it.md"
+    },
+    {
+      "basename": "Ports",
+      "path": "Cyberark/Ports.md"
     },
     {
       "basename": "Session 30 PSM 1",
@@ -195,10 +199,6 @@
     {
       "basename": "13-12-23 Wednesday",
       "path": "DailyNote/13-12-23 Wednesday.md"
-    },
-    {
-      "basename": "Active Directory",
-      "path": "Cyberark/Basics/Windows Server/Active Directory.md"
     }
   ],
   "omittedPaths": [

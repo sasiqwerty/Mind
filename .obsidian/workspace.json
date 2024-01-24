@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyberark/Ports.md",
+                "file": "DailyNote/24-01-24 Wednesday.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberark/Ports.md",
+                "file": "DailyNote/24-01-24 Wednesday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyberark/Ports.md",
+                "file": "DailyNote/24-01-24 Wednesday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyberark/Ports.md"
+                "file": "DailyNote/24-01-24 Wednesday.md"
               }
             }
           },
@@ -163,7 +163,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Cyberark/Ports.md"
+                "file": "DailyNote/24-01-24 Wednesday.md"
               }
             }
           },
@@ -207,6 +207,7 @@
   },
   "active": "a3a236b2af9a35d2",
   "lastOpenFiles": [
+    "Viewfinity - What is it.md",
     "DailyNote/24-01-24 Wednesday.md",
     "Session 30 PSM 1.md",
     "DailyNote/23-01-24 Tuesday.md",
@@ -235,7 +236,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134824.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134815.png",
     "DailyNote/02-01-24 Tuesday.md",
-    "ldap-session23.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152201.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152009.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108150236.png",
