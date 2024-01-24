@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/23-01-24 Tuesday.md",
+                "file": "Session 30 PSM 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/23-01-24 Tuesday.md",
+                "file": "Session 30 PSM 1.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/23-01-24 Tuesday.md",
+                "file": "Session 30 PSM 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/23-01-24 Tuesday.md"
+                "file": "Session 30 PSM 1.md"
               }
             }
           },
@@ -163,7 +163,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/23-01-24 Tuesday.md"
+                "file": "Session 30 PSM 1.md"
               }
             }
           },
@@ -207,8 +207,8 @@
   },
   "active": "a3a236b2af9a35d2",
   "lastOpenFiles": [
-    "DailyNote/22-01-24 Monday.md",
     "DailyNote/23-01-24 Tuesday.md",
+    "DailyNote/22-01-24 Monday.md",
     "DailyNote/21-01-24 Sunday.md",
     "Netlink - Job Interview.md",
     "DailyNote/17-01-24 Wednesday.md",
