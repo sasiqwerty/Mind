@@ -4,7 +4,7 @@ tags:
 date created: Wednesday, October 4th 2023, 5:05:50 pm
 date modified: Monday, October 16th 2023, 3:18:37 pm
 ---
-Very similar to [[Session 10 Log Files Debugging Levels]]
+Very similar to [[Session 10 Log Files Debugging Levels 1]]
 
 ## Procedure to Apply the Vault License
 

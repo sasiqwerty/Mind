@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, September 12th 2023, 4:05:13 pm
-date modified: Tuesday, September 12th 2023, 4:05:22 pm
+date modified: Saturday, January 27th 2024, 6:59:59 pm
 ---
 In Internet Information Services (IIS), an Application Pool (often abbreviated as App Pool) is a mechanism used to separate sets of IIS worker processes that share the same configuration and application boundaries. This separation provides a way to isolate different web applications, so that issues in one app pool won't affect the websites or applications running in another.
 

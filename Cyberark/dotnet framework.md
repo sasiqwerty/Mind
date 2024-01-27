@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, September 12th 2023, 4:01:19 pm
-date modified: Tuesday, September 12th 2023, 4:01:39 pm
+date modified: Saturday, January 27th 2024, 6:59:32 pm
 ---
 The .NET Framework is a platform developed by Microsoft for building and running software applications. It offers tools and libraries that make it easier for developers to create Windows applications. Here are the basics:
 

@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, September 13th 2023, 11:09:44 pm
-date modified: Thursday, September 14th 2023, 12:34:01 am
+date modified: Saturday, January 27th 2024, 7:00:01 pm
 ---
 The `chmod` command is used to set or modify the permissions on files and directories in Unix and Unix-like operating systems. The argument `755` specifies a particular set of permissions.
 

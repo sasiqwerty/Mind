@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, September 18th 2023, 8:36:32 pm
-date modified: Monday, September 18th 2023, 8:36:51 pm
+date modified: Saturday, January 27th 2024, 6:59:37 pm
 ---
 code to extract all zip files and deletes the zip files
 

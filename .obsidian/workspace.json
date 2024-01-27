@@ -8,18 +8,45 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3a236b2af9a35d2",
+            "id": "fd6ebf5472b93c2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/26-01-24 Friday.md",
+                "file": "Interviews/Interview Preparation for L1 L2 Role.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28b2a72b27902e1e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interviews/Interview Basics - Main.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "eb98477cb28ba906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CyberArk Components.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 211.51240158081055
+    "width": 329.5124969482422
   },
   "right": {
     "id": "e75d658a6f93a05f",
@@ -101,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/26-01-24 Friday.md",
+                "file": "Interviews/Interview Basics - Main.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/26-01-24 Friday.md",
+                "file": "Interviews/Interview Basics - Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/26-01-24 Friday.md"
+                "file": "Interviews/Interview Basics - Main.md"
               }
             }
           },
@@ -163,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/26-01-24 Friday.md"
+                "file": "Interviews/Interview Basics - Main.md"
               }
             }
           },
@@ -205,34 +232,39 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "a3a236b2af9a35d2",
+  "active": "28b2a72b27902e1e",
   "lastOpenFiles": [
-    "DailyNote/24-01-24 Wednesday.md",
-    "DailyNote/26-01-24 Friday.md",
-    "Viewfinity - What is it.md",
-    "Session 30 PSM 1.md",
-    "DailyNote/23-01-24 Tuesday.md",
-    "DailyNote/22-01-24 Monday.md",
-    "DailyNote/21-01-24 Sunday.md",
-    "Netlink - Job Interview.md",
-    "DailyNote/17-01-24 Wednesday.md",
-    "talking points - interview reddy anna said.md",
-    "Cyberark/Core Concepts/Components/Password Vault Web Access/Safe Management and Access Provisioning.md",
-    "Interview Preparation for L1 L2 Role.md",
-    "Cyberark/Core Concepts/Components/Services/Services in CyberArk.md",
-    "DailyNote/20-01-24 Saturday.md",
-    "CyberArk in a Nutshell.md",
-    "OLAC in detail.md",
-    "DailyNote/19-01-24 Friday.md",
-    "Untitled.md",
-    "DailyNote/18-01-24 Thursday.md",
-    "Cyberark/Core Concepts/Components/Password Vault Web Access/Administration/Account Discovery and Onboarding.md",
-    "DailyNote/09-01-24 Tuesday.md",
-    "DailyNote/16-01-24 Tuesday.md",
-    "2kspm base backup.md",
-    "DailyNote/12-01-24 Friday.md",
-    "Untitled 1.md",
-    "Dynpro Interview Prep.md",
+    "Interviews/Interview Basics - Main.md",
+    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240127191023.png",
+    "CyberArk Components.md",
+    "Cyberark/Account Onboarding - Linux.md",
+    "Interviews/Interview Preparation for L1 L2 Role.md",
+    "Interviews/Interview Questions and Answers.md",
+    "Cyberark/pvwa notes.md",
+    "pc-build.md",
+    "Cyberark/pvwa-manual-hardening.md",
+    "temp directory linux.md",
+    "Cyberark/notes - pta.md",
+    "Cyberark/pvwa related images.md",
+    "listen-session07.md",
+    "connect-machines.md",
+    "flashcards-learn.md",
+    "installation location-rough.md",
+    "Cyberark/safes and users created after each install.md",
+    "Cyberark/vault-related.md",
+    "Interviews/talking points - interview reddy anna said.md",
+    "Cyberark/Session 32 PSM 3.md",
+    "Cyberark/credfile creation common process.md",
+    "Cyberark/PSM Shadow User.md",
+    "Cyberark/Session 31 PSM 2.md",
+    "testing-OCR.md",
+    "~$tput-till30 testdraft.docx",
+    "Cyberark/User Credential Files.md",
+    "Cyberark/User Management.md",
+    "~$tput-process.docx",
+    "~$sume-cyberark.docx",
+    "~$f-new-ocr.docx",
+    "Untitled",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109135046.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134824.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134815.png",
@@ -242,17 +274,11 @@
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.46_c340da25.jpg",
     "Cyberark/Core Concepts/Core Concepts img/WhatsApp Image 2024-01-01 at 18.49.19_3e9a089b.jpg",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184446.png",
-    "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240101184311.png",
     "resume-cyberark.docx",
     "def-new-ocr.docx",
     "notepad",
     "output-process.docx",
     "output-process.html",
-    "~$tput-till30 testdraft.docx",
-    "output-till30 testdraft.docx",
-    "TelegramNotes/Ready Player One - 20231014130358172.mobi",
-    "TelegramNotes/Why We Sleep-1 - 20231012092152890.mobi",
-    "~$m-logfiles-session21.docx",
     "Untitled.canvas",
     "Cyberark/Doubts/clear expired safe history.canvas",
     "Cyberark/Doubts/doubt related to DAC.canvas",

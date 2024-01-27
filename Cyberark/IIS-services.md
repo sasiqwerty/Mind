@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, September 12th 2023, 4:02:32 pm
-date modified: Tuesday, September 12th 2023, 4:03:02 pm
+date modified: Saturday, January 27th 2024, 6:56:25 pm
 ---
 IIS, which stands for Internet Information Services, is a web server provided by Microsoft to host and manage websites, web applications, and services on Windows operating systems.
 

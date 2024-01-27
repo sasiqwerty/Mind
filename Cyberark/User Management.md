@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, September 30th 2023, 5:01:24 pm
-date modified: Saturday, September 30th 2023, 5:01:36 pm
+date modified: Saturday, January 27th 2024, 7:00:03 pm
 ---
 
 ## Configure Transparent User Management Using LDAP

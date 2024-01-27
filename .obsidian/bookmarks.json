@@ -22,17 +22,17 @@
         {
           "type": "file",
           "ctime": 1696154423426,
-          "path": "session 22 CPM Manual Hardening.md"
+          "path": "Cyberark/session 22 CPM Manual Hardening.md"
         },
         {
           "type": "file",
           "ctime": 1696154458024,
-          "path": "session 14 PVWA 1.md"
+          "path": "Cyberark/session 14 PVWA 1.md"
         },
         {
           "type": "file",
           "ctime": 1696154477180,
-          "path": "session 15 PVWA 2.md"
+          "path": "Cyberark/session 15 PVWA 2.md"
         }
       ],
       "title": "day1 morning"
@@ -44,22 +44,22 @@
         {
           "type": "file",
           "ctime": 1695730139268,
-          "path": "safes and users created after each install.md"
+          "path": "Cyberark/safes and users created after each install.md"
         },
         {
           "type": "file",
           "ctime": 1695417703195,
-          "path": "session 21 CPM03 logfiles.md"
+          "path": "Cyberark/session 21 CPM03 logfiles.md"
         },
         {
           "type": "file",
           "ctime": 1694813246966,
-          "path": "event-viewer logs.md"
+          "path": "Cyberark/event-viewer logs.md"
         },
         {
           "type": "file",
           "ctime": 1694808100850,
-          "path": "vault-related.md"
+          "path": "Cyberark/vault-related.md"
         },
         {
           "type": "group",
@@ -68,7 +68,7 @@
             {
               "type": "file",
               "ctime": 1695118173792,
-              "path": "pvwa-credfile-creation.md"
+              "path": "Cyberark/pvwa-credfile-creation.md"
             },
             {
               "type": "file",
@@ -78,7 +78,7 @@
             {
               "type": "file",
               "ctime": 1695133749828,
-              "path": "credfile creation common process.md"
+              "path": "Cyberark/credfile creation common process.md"
             }
           ],
           "title": "cred-file-creation"
@@ -118,97 +118,97 @@
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "index-cyberark-IC.md"
+          "path": "Cyberark/index-cyberark-IC.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 7 Vault Prerequisites Services.md"
+          "path": "Cyberark/Session 7 Vault Prerequisites Services.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 8 Vault Service Dependencies DBPARM ini file.md"
+          "path": "Cyberark/Session 8 Vault Service Dependencies DBPARM ini file.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 9 Vault Configuration Files.md"
+          "path": "Cyberark/Session 9 Vault Configuration Files 1.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 10 Log Files Debugging Levels.md"
+          "path": "Cyberark/Session 10 Log Files Debugging Levels 1.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 11 Vault DB Safes Default Users.md"
+          "path": "Cyberark/Session 11 Vault DB Safes Default Users.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 12 MasterCD Operator CD Other Topics.md"
+          "path": "Cyberark/Session 12 MasterCD Operator CD Other Topics 1.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 13 Break Glass Procedure.md"
+          "path": "Cyberark/Session 13 Break Glass Procedure 1.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "session 14 PVWA 1.md"
+          "path": "Cyberark/session 14 PVWA 1.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "session 15 PVWA 2.md"
+          "path": "Cyberark/session 15 PVWA 2.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 16 PVWA Credfile Creation.md"
+          "path": "Cyberark/Session 16 PVWA Credfile Creation.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 17 PVWA Logs Files Configuration Files.md"
+          "path": "Cyberark/Session 17 PVWA Logs Files Configuration Files.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 18 PVWA Manual Hardening.md"
+          "path": "Cyberark/Session 18 PVWA Manual Hardening.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "session 19 CPM01.md"
+          "path": "Cyberark/session 19 CPM01.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "Session 20 CPM02.md"
+          "path": "Cyberark/Session 20 CPM02.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "session 21 CPM03 logfiles.md"
+          "path": "Cyberark/session 21 CPM03 logfiles.md"
         },
         {
           "type": "file",
           "ctime": 1696436119491,
-          "path": "session 22 CPM Manual Hardening.md"
+          "path": "Cyberark/session 22 CPM Manual Hardening.md"
         },
         {
           "type": "file",
           "ctime": 1696443910685,
-          "path": "Installations.md"
+          "path": "Cyberark/Installations.md"
         },
         {
           "type": "file",
           "ctime": 1697192923455,
-          "path": "Session 30 PSM 1.md"
+          "path": "Cyberark/Session 30 PSM 1.md"
         },
         {
           "type": "file",
@@ -218,27 +218,27 @@
         {
           "type": "file",
           "ctime": 1698638110084,
-          "path": "Session 31 PSM 3.md"
+          "path": "Cyberark/Session 31 PSM 3.md"
         },
         {
           "type": "file",
           "ctime": 1698909350608,
-          "path": "Session 32 PSM 4 (CPM and Others ).md"
+          "path": "Cyberark/Session 32 PSM 4 (CPM and Others ).md"
         },
         {
           "type": "file",
           "ctime": 1699182054457,
-          "path": "Integrations and Authentication - CyberArk.md"
+          "path": "Cyberark/Integrations and Authentication - CyberArk.md"
         },
         {
           "type": "file",
           "ctime": 1699183890161,
-          "path": "CyberArk Vault Backup.md"
+          "path": "Cyberark/CyberArk Vault Backup.md"
         },
         {
           "type": "file",
           "ctime": 1699183120963,
-          "path": "Disaster Recovery.md"
+          "path": "Cyberark/Disaster Recovery.md"
         },
         {
           "type": "file",
@@ -248,7 +248,7 @@
         {
           "type": "file",
           "ctime": 1695714139017,
-          "path": "Installation Location of CyberArk Files.md"
+          "path": "Cyberark/Installation Location of CyberArk Files.md"
         },
         {
           "type": "file",
@@ -266,13 +266,13 @@
     {
       "type": "file",
       "ctime": 1696654240226,
-      "path": "Restructuring CyberArk Notes.md",
+      "path": "Cyberark/Restructuring CyberArk Notes.md",
       "title": "Restructuring CyberArk Notes"
     },
     {
       "type": "file",
       "ctime": 1697440404788,
-      "path": "output-process.md"
+      "path": "Cyberark/output-process.md"
     },
     {
       "type": "group",
@@ -281,7 +281,7 @@
         {
           "type": "file",
           "ctime": 1698913183099,
-          "path": "Vault Installation - CyberArk.md"
+          "path": "Cyberark/Vault Installation - CyberArk.md"
         }
       ],
       "title": "Installs"

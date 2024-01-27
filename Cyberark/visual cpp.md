@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, September 12th 2023, 4:04:18 pm
-date modified: Tuesday, September 12th 2023, 4:04:19 pm
+date modified: Saturday, January 27th 2024, 6:58:56 pm
 ---
 Visual C++ refers to Microsoft's implementation of the C and C++ compiler and associated tools for the Windows platform. It's a part of Microsoft Visual Studio, which is a comprehensive integrated development environment (IDE) for writing, debugging, and compiling software.
 

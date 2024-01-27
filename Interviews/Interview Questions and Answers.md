@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, July 31st 2023, 1:30:43 pm
-date modified: Friday, August 25th 2023, 12:15:55 pm
+date modified: Saturday, January 27th 2024, 6:50:51 pm
 ---
  
 What is you day to day activities ?  

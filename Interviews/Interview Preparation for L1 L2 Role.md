@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Tuesday, January 9th 2024, 1:43:36 pm
-date modified: Sunday, January 21st 2024, 10:56:41 pm
+date modified: Saturday, January 27th 2024, 7:03:19 pm
 ---
 
 ## CyberArk Infrastructure Breakdown
@@ -199,7 +199,7 @@ These reports are integral to managing, auditing, and ensuring the security and 
 | ---- | ---- |
 | Basic Policy Rules | Basic policy rules allow you to define specific aspects of privileged account management. These rules include several groups of policy rules for the access workflow, management of passwords, session monitoring and auditing. |
 | Advanced Policy [[Rules]] | Some policy rules have related advanced settings. For example, in the basic policy rules you can determine whether users will be allowed to transparently connect to target systems using ‘Click to Connect’. In the related advanced settings, you can determine whether users will also be able to view passwords. |
-| Exceptions | The Master Policy model introduces the ability to define Exceptions. These are policy rules that differ from the overall Master Policy for a specific scope of accounts, for example accounts associated with a specific platform. Each exception contains the basic policy rule as well as its related advanced settings. For example, the Master Policy may define that Dual Control is disabled in the organization. However, the Windows PCI production servers require Dual Control to be enabled because of their higher sensitivity. You can make this allowance by creating an exception to the Dual Control rule that enables Dual Control enforcement on the scope of Windows PCI production servers platform. |                                                                                                                          
+| Exceptions | The Master Policy model introduces the ability to define Exceptions. These are policy rules that differ from the overall Master Policy for a specific scope of accounts, for example accounts associated with a specific platform. Each exception contains the basic policy rule as well as its related advanced settings. For example, the Master Policy may define that Dual Control is disabled in the organization. However, the Windows PCI production servers require Dual Control to be enabled because of their higher sensitivity. You can make this allowance by creating an exception to the Dual Control rule that enables Dual Control enforcement on the scope of Windows PCI production servers platform. |                                                                                                                              
 In the Platform Management settings, the IT administrator can configure technical settings defined by your organization’s environment and security policies to control how the system manages accounts on various platforms. Most of these settings have default values that do not need to be changed, but certain specific features need to be set according to your organizational requirements.
 
 The CyberArk Master Policy, as outlined in the CyberArk documentation for version 12.6, allows organizations to define baseline rules for managing accounts in their environment. Here is an overview of the key Master Policy rules:

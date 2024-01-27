@@ -2,7 +2,7 @@
 aliases: snapshot
 tags: 
 date created: Thursday, August 31st 2023, 9:25:24 am
-date modified: Thursday, August 31st 2023, 9:25:45 am
+date modified: Saturday, January 27th 2024, 6:56:33 pm
 ---
 A VM (Virtual Machine) snapshot is a feature provided by virtualization software that captures the current state of a virtual machine. It is similar to taking a photograph of the VM at a specific point in time. This "photograph" includes:
 

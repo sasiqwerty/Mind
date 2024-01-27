@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Wednesday, August 16th 2023, 1:18:53 pm
-date modified: Thursday, August 17th 2023, 7:58:14 pm
+date modified: Saturday, January 27th 2024, 7:02:35 pm
 ---
 What is the function of PTA in [[CyberArk]] ?
 - [[Cyberark/PTA/Privileged Threat Analytics|PTA]] is a component of [[CyberArk]] 

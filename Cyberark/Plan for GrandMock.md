@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Monday, August 21st 2023, 10:15:32 am
-date modified: Monday, October 9th 2023, 9:41:35 pm
+date modified: Saturday, January 27th 2024, 6:56:31 pm
 ---
 #interview #defcon1
 1. What is the syllabus?
