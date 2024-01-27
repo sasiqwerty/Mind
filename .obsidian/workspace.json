@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNote/24-01-24 Wednesday.md",
+                "file": "DailyNote/26-01-24 Friday.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNote/24-01-24 Wednesday.md",
+                "file": "DailyNote/26-01-24 Friday.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNote/24-01-24 Wednesday.md",
+                "file": "DailyNote/26-01-24 Friday.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNote/24-01-24 Wednesday.md"
+                "file": "DailyNote/26-01-24 Friday.md"
               }
             }
           },
@@ -163,7 +163,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DailyNote/24-01-24 Wednesday.md"
+                "file": "DailyNote/26-01-24 Friday.md"
               }
             }
           },
@@ -207,8 +207,9 @@
   },
   "active": "a3a236b2af9a35d2",
   "lastOpenFiles": [
-    "Viewfinity - What is it.md",
     "DailyNote/24-01-24 Wednesday.md",
+    "DailyNote/26-01-24 Friday.md",
+    "Viewfinity - What is it.md",
     "Session 30 PSM 1.md",
     "DailyNote/23-01-24 Tuesday.md",
     "DailyNote/22-01-24 Monday.md",
@@ -235,7 +236,6 @@
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109135046.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134824.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240109134815.png",
-    "DailyNote/02-01-24 Tuesday.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152201.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108152009.png",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240108150236.png",
