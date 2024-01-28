@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "DR Drill for Listening",
+      "path": "Cyberark/DR Drill/DR Drill for Listening.md"
+    },
+    {
       "basename": "Interview Basics - Main",
       "path": "Interviews/Interview Basics - Main.md"
+    },
+    {
+      "basename": "28-01-24 Sunday",
+      "path": "DailyNote/28-01-24 Sunday.md"
     },
     {
       "basename": "CyberArk Components",
@@ -191,14 +199,6 @@
     {
       "basename": "Restructuring CyberArk Notes",
       "path": "Cyberark/Restructuring CyberArk Notes.md"
-    },
-    {
-      "basename": "Plan for GrandMock",
-      "path": "Cyberark/Plan for GrandMock.md"
-    },
-    {
-      "basename": "IIS-services",
-      "path": "Cyberark/IIS-services.md"
     }
   ],
   "omittedPaths": [
