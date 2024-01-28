@@ -2,8 +2,9 @@
 aliases: 
 tags: 
 date created: Sunday, October 1st 2023, 3:30:48 pm
-date modified: Sunday, November 5th 2023, 8:41:26 pm
+date modified: Sunday, January 28th 2024, 1:04:00 am
 ---
+[The Password Vault Web Access Environment | CyberArk Docs](https://docs.cyberark.com/PAS/10.10/en/Content/PAS%20INST/The-PVWA-Environment.htm)
 
 ## PVWA
 

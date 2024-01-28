@@ -9,6 +9,14 @@
       "path": "CyberArk Components.md"
     },
     {
+      "basename": "session 14 PVWA 1",
+      "path": "Cyberark/session 14 PVWA 1.md"
+    },
+    {
+      "basename": "27-01-24 Saturday",
+      "path": "DailyNote/27-01-24 Saturday.md"
+    },
+    {
       "basename": "Account Onboarding - Linux",
       "path": "Cyberark/Account Onboarding - Linux.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "IIS-services",
       "path": "Cyberark/IIS-services.md"
-    },
-    {
-      "basename": "vault 7 layers - security",
-      "path": "Cyberark/vault 7 layers - security.md"
-    },
-    {
-      "basename": "session 14 PVWA 1",
-      "path": "Cyberark/session 14 PVWA 1.md"
     }
   ],
   "omittedPaths": [

@@ -32,18 +32,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "eb98477cb28ba906",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CyberArk Components.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -234,9 +222,11 @@
   },
   "active": "28b2a72b27902e1e",
   "lastOpenFiles": [
+    "CyberArk Components.md",
+    "Cyberark/session 14 PVWA 1.md",
+    "DailyNote/27-01-24 Saturday.md",
     "Interviews/Interview Basics - Main.md",
     "Cyberark/Core Concepts/Core Concepts img/Pasted image 20240127191023.png",
-    "CyberArk Components.md",
     "Cyberark/Account Onboarding - Linux.md",
     "Interviews/Interview Preparation for L1 L2 Role.md",
     "Interviews/Interview Questions and Answers.md",
@@ -260,7 +250,6 @@
     "testing-OCR.md",
     "~$tput-till30 testdraft.docx",
     "Cyberark/User Credential Files.md",
-    "Cyberark/User Management.md",
     "~$tput-process.docx",
     "~$sume-cyberark.docx",
     "~$f-new-ocr.docx",
