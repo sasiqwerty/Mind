@@ -51,14 +51,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cyberark/DR Drill/DR Drill for Listening.md",
+                "file": "DailyNote/28-01-24 Sunday.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cyberark/DR Drill/DR Drill for Listening.md",
+                "file": "Interviews/Interview Basics - Main.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cyberark/DR Drill/DR Drill for Listening.md",
+                "file": "Interviews/Interview Basics - Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyberark/DR Drill/DR Drill for Listening.md"
+                "file": "Interviews/Interview Basics - Main.md"
               }
             }
           },
@@ -202,7 +202,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Cyberark/DR Drill/DR Drill for Listening.md"
+                "file": "Interviews/Interview Basics - Main.md"
               }
             }
           },
@@ -244,10 +244,10 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "936c39a77e4927a4",
+  "active": "28b2a72b27902e1e",
   "lastOpenFiles": [
-    "Interviews/Interview Basics - Main.md",
     "DailyNote/28-01-24 Sunday.md",
+    "Interviews/Interview Basics - Main.md",
     "CyberArk Components.md",
     "Cyberark/session 14 PVWA 1.md",
     "DailyNote/27-01-24 Saturday.md",

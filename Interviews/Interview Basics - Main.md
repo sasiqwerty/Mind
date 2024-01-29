@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, January 27th 2024, 7:03:18 pm
-date modified: Sunday, January 28th 2024, 7:29:01 pm
+date modified: Monday, January 29th 2024, 10:24:57 am
 ---
 
 ## 1. Ports for [[CyberArk]]
@@ -61,9 +61,63 @@ date modified: Sunday, January 28th 2024, 7:29:01 pm
 [Standard Ports and Protocols | CyberArk Docs](https://docs.cyberark.com/PAS/13.0/en/Content/PAS%20SysReq/Standard%20Ports%20and%20Protocols.htm?TocPath=Installation%7CSystem%20Requirements%7CStandard%20Ports%20and%20Protocols%7C_____0)  
 [Network requirements | CyberArk Docs](https://docs.cyberark.com/DPA/Latest/en/Content/Introduction/dpa_network-requirements.htm)  
 ![[Pasted image 20240127191023.png]]  
-2. [[Daily Activities in CyberArk]]  
-3. [[CyberArk Components]]  
+
+## 2. [[Daily Activities in CyberArk]]
+
+### Health Page
+
+To view the System Health dashboard, you must be in the VaultAdmins group and have at least Audit Users Vault authorization.  
+Accounts Unsuspension  
+Reports  
+Ticket Handling  
+Onboarding Accounts  
+Checking Vault Logs
+
+1. [[CyberArk Components]]  
 	1. https://docs.cyberark.com/PAS/13.0/en/Content/PASIMP/Introducing-the-Privileged-Account-Security-Solution-Intro.htm  
-4. [[Account Onboarding - Windows]]  
-5. [[Account Onboarding - Linux]]  
-6. [[Reports]]
+2. [[Account Onboarding - Windows]]  
+3. [[Account Onboarding - Linux]]
+
+## 6. Safes Permissions
+
+### Access
+
+| Permission        | Enables Safe Members to... |
+|-------------------|----------------------------|
+| **Use Accounts**  | Log on to remote machines via PSM or non-PSM (with 'Retrieve accounts') connections, access Accounts List and Details. |
+| **Retrieve Accounts** | View, copy, save, and open accounts/files; manage visibility and access based on platform and 'Manage Safe' authorizations. |
+| **List Accounts** | View lists of accounts or files within the Safe. |
+
+### Account Management
+
+| Permission                          | Enables Safe Members to... |
+|-------------------------------------|----------------------------|
+| **Add Accounts**                    | Add accounts in Safe, manage account groups/platforms, and automatically receive 'Update account properties' in PVWA. |
+| **Update Account Content**          | Change account values/files, undelete accounts, manage linked account copies, upload files to Vault. |
+| **Update Account Properties**       | Update account properties (not values), manage logon/reconcile accounts, associate platforms/groups, save remote connection details. |
+| **Initiate CPM Account Management** | Initiate CPM operations (change, verify, reconcile), manage passwords if 'Specify next account content' is authorized. |
+| **Specify Next Account Content**    | Specify content for next account value change by CPM, requires 'Initiate CPM account management operations'. |
+| **Rename Accounts**                 | Rename existing accounts in the Safe. |
+| **Delete Accounts**                 | Delete accounts and linked account copies in the Safe. |
+| **Unlock Accounts**                 | Unlock accounts/files locked by other users, relevant for enforced check-in/check-out policies. |
+
+### Workflow
+ 
+| Permission                      | Enables Safe Members to... |
+|---------------------------------|----------------------------|
+| **Authorize Account Request**   | Confirm account access requests for Safe members. Requires 'List accounts' to view request details. |
+| **Access Safe Without Confirmation** | Enter the Safe without needing confirmation, overriding properties requiring access confirmation. |
+
+### Advanced
+
+## [[Reports]]
+
+Reports can be generated in the Reports page in the PVWA by users who belong to the group that is specified in the ManageReportsGroup parameter in the Reports section of the Web Access Options in the System Configuration page. By default, this is the PVWAMonitor group.
+
+## Vendor Access
+
+You must be invited by an existing tenant so that you receive an invitation email with a link to Remote Access.
+
+CyberArk Mobile App  
+One-Time Tokens  
+Self-Service Invitation
