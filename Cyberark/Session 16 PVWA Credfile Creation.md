@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Sunday, October 1st 2023, 3:32:28 pm
-date modified: Monday, November 20th 2023, 11:47:17 am
+date modified: Monday, January 29th 2024, 10:06:29 pm
 ---
 
 ## **General Instructions** For Creating Cred Files
@@ -103,7 +103,7 @@ date modified: Monday, November 20th 2023, 11:47:17 am
 | **PVWATaskDefinitions**  | `PVWAAppUsers`: All authorizations.                                                                                 |
 | **PVWAPublicData**    | `Vault Admins`: All authorizations. Installer (default `Administrator`): All. `PVWAAppUsers`: Retrieve, List.        |
 | **SharedAuth_Internal** | `PVWAAppUsers`: List, Retrieve, Create, Update, Delete files, View owners, Create/Rename folders, Manage Safe owners.|
-
+.
 **Note**: Specific authorizations for each safe include actions such as List Files, Retrieve Files, View Audit, etc.
 
 ## Configuration Files

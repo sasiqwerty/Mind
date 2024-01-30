@@ -56,9 +56,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a7f665a5b74e8c5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DailyNote/29-01-24 Monday.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6acbab9d17220260",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyberark/Session 16 PVWA Credfile Creation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -120,7 +144,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -140,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interviews/Interview Basics - Main.md",
+                "file": "Cyberark/Session 16 PVWA Credfile Creation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interviews/Interview Basics - Main.md",
+                "file": "Cyberark/Session 16 PVWA Credfile Creation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interviews/Interview Basics - Main.md"
+                "file": "Cyberark/Session 16 PVWA Credfile Creation.md"
               }
             }
           },
@@ -202,7 +227,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Interviews/Interview Basics - Main.md"
+                "file": "Cyberark/Session 16 PVWA Credfile Creation.md"
               }
             }
           },
@@ -244,10 +269,11 @@
       "cmdr:Obsidian Git: List changed files": false
     }
   },
-  "active": "28b2a72b27902e1e",
+  "active": "6acbab9d17220260",
   "lastOpenFiles": [
-    "DailyNote/28-01-24 Sunday.md",
     "Interviews/Interview Basics - Main.md",
+    "DailyNote/28-01-24 Sunday.md",
+    "DailyNote/29-01-24 Monday.md",
     "CyberArk Components.md",
     "Cyberark/session 14 PVWA 1.md",
     "DailyNote/27-01-24 Saturday.md",
@@ -272,7 +298,6 @@
     "Cyberark/credfile creation common process.md",
     "Cyberark/PSM Shadow User.md",
     "Cyberark/Session 31 PSM 2.md",
-    "testing-OCR.md",
     "~$tput-till30 testdraft.docx",
     "~$tput-process.docx",
     "~$sume-cyberark.docx",

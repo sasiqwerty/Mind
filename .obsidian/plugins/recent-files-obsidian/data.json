@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "Session 16 PVWA Credfile Creation",
+      "path": "Cyberark/Session 16 PVWA Credfile Creation.md"
+    },
+    {
       "basename": "Interview Basics - Main",
       "path": "Interviews/Interview Basics - Main.md"
     },
     {
       "basename": "28-01-24 Sunday",
       "path": "DailyNote/28-01-24 Sunday.md"
+    },
+    {
+      "basename": "29-01-24 Monday",
+      "path": "DailyNote/29-01-24 Monday.md"
     },
     {
       "basename": "DR Drill for Listening",
@@ -191,14 +199,6 @@
     {
       "basename": "Enhancement Request System",
       "path": "Cyberark/Enhancement Request System.md"
-    },
-    {
-      "basename": "VM Snapshots",
-      "path": "Cyberark/VM Snapshots.md"
-    },
-    {
-      "basename": "Restructuring CyberArk Notes",
-      "path": "Cyberark/Restructuring CyberArk Notes.md"
     }
   ],
   "omittedPaths": [

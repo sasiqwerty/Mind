@@ -2,7 +2,7 @@
 aliases: 
 tags: 
 date created: Saturday, January 27th 2024, 7:03:18 pm
-date modified: Monday, January 29th 2024, 10:24:57 am
+date modified: Monday, January 29th 2024, 10:05:14 pm
 ---
 
 ## 1. Ports for [[CyberArk]]
@@ -102,6 +102,7 @@ Checking Vault Logs
 | **Unlock Accounts**                 | Unlock accounts/files locked by other users, relevant for enforced check-in/check-out policies. |
 
 ### Workflow
+
  
 | Permission                      | Enables Safe Members to... |
 |---------------------------------|----------------------------|
